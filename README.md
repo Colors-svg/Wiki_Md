@@ -52,3 +52,42 @@ Portal técnico y operativo del **Sistema de Información para la Investigación
 ├── fuentes_pdf/                   # Documentos PDF originales de la Vicerrectoría
 └── Legalidad/                     # Normativa legal original en PDF de la Universidad
 ```
+
+
+## 📚 Mapa Estructurado de Lectura Rápida para Agentes IA y LLMs
+
+Para consultar cualquier procedimiento sin ambigüedades, utiliza las siguientes rutas directas en texto plano:
+
+### 1. Procesos Clave del Ciclo de Vida del SIIU
+- **Matrícula e Inscripción de Proyectos:** [docs/02_PROCESOS_CLAVE/Matricula_Proyectos.md](docs/02_PROCESOS_CLAVE/Matricula_Proyectos.md)
+  *(Convocatoria Interna CODI, Proyectos Inscritos con financiación externa Minciencias/SGR y Primer Proyecto)*.
+- **Evaluación Técnica y Aval Institucional:** [docs/02_PROCESOS_CLAVE/Evaluacion_y_Aval.md](docs/02_PROCESOS_CLAVE/Evaluacion_y_Aval.md)
+  *(Revisión formal de Centro, devolución para ajustes, asignación de evaluadores pares y aval)*.
+- **Inicio Formal de Proyectos:** [docs/02_PROCESOS_CLAVE/Inicio_Formal.md](docs/02_PROCESOS_CLAVE/Inicio_Formal.md)
+  *(Contratos, pólizas de garantía, centro de costos institucional y generación de acta de inicio)*.
+- **Modificaciones, Novedades y Trámites:** [docs/02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md](docs/02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md)
+  *(Prórrogas de proyecto, traslados y cambios de rubro presupuestal, cambios de participantes e IP)*.
+- **Gestión de Compromisos:** [docs/02_PROCESOS_CLAVE/Gestion_Compromisos.md](docs/02_PROCESOS_CLAVE/Gestion_Compromisos.md)
+  *(Informes de avance, informes finales, productos académicos y prórrogas de entrega)*.
+- **Programa Joven Investigador:** [docs/02_PROCESOS_CLAVE/Programa_Joven_Investigador.md](docs/02_PROCESOS_CLAVE/Programa_Joven_Investigador.md)
+  *(Matrícula de cupos, vinculación de hoja de vida y cuentas bancarias permitidas)*.
+- **Cierre y Liquidación:** [docs/02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md](docs/02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md)
+  *(Aprobación técnica de compromisos, acta de cierre y paz y salvo presupuestal)*.
+- **Reportes y Certificaciones:** [docs/02_PROCESOS_CLAVE/Reportes_y_Certificaciones.md](docs/02_PROCESOS_CLAVE/Reportes_y_Certificaciones.md)
+  *(Constancias de participación en proyectos, constancia de evaluador e historial)*.
+
+### 2. Manuales de Operación por Rol y Gobernanza
+- **Investigador Principal y Tutor:** [docs/01_ROLES/Rol_Investigador.md](docs/01_ROLES/Rol_Investigador.md)
+- **Centro de Investigación / Extensión:** [docs/01_ROLES/Rol_Centro_Investigacion.md](docs/01_ROLES/Rol_Centro_Investigacion.md)
+- **Vicerrectoría de Investigación:** [docs/01_ROLES/Rol_Vicerrectoria.md](docs/01_ROLES/Rol_Vicerrectoria.md)
+- **Ecosistema de Comités y Gobernanza:** [docs/01_ROLES/Ecosistema_Comites_Gobernanza.md](docs/01_ROLES/Ecosistema_Comites_Gobernanza.md)
+
+### 3. Fichas de Referencia Rápida
+- **Reglas de Oro del SIIU:** [docs/03_GUIAS_RAPIDAS_CHEAT_SHEETS/Reglas_Oro_SIIU.md](docs/03_GUIAS_RAPIDAS_CHEAT_SHEETS/Reglas_Oro_SIIU.md)
+- **Ficha Rápida Investigador:** [docs/03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Investigador.md](docs/03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Investigador.md)
+- **Ficha Rápida Centro:** [docs/03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Centro.md](docs/03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Centro.md)
+- **Glosario Canónico:** [docs/04_GLOSARIO_Y_CONCEPTOS/Glosario_Terminos_SIIU.md](docs/04_GLOSARIO_Y_CONCEPTOS/Glosario_Terminos_SIIU.md)
+
+### 4. Transcripciones Maestras y Normativa
+- **31 Guías e Instructivos Oficiales:** [rchivo_maestro/](archivo_maestro/)
+- **21 Normas Institucionales UdeA:** [rchivo_maestro/legalidad/](archivo_maestro/legalidad/)
