@@ -328,6 +328,37 @@ En proyectos con componentes de riesgo ético, social o ambiental, el **SIIU** e
 
 ---
 
+### A. Comité Central de Ética en Investigación (CCEI)
+
+El **Comité Central de Ética en Investigación (CCEI)** es un organismo adscrito a la Vicerrectoría de Investigación que actúa con autonomía para velar por que los aspectos éticos de la investigación se reflejen en las normas y prácticas investigativas de la Universidad.
+
+- **Marco Normativo:** Reglamentado mediante la [:material-file-pdf-box: Resolución Rectoral 47765 del 15 de marzo de 2021](https://www.udea.edu.co/wps/wcm/connect/udea/04543468-66ad-4015-8850-ee4b36c0d86c/Resolucio%CC%81n+Rectora+47765.pdf?MOD=AJPERES&CVID=nK7Qn4c).
+- **Manual Operativo:** Consulta los procedimientos operativos del CCEI y de los distintos Comités de Ética y Bioética de la Universidad en el [:material-file-pdf-box: Manual para el funcionamiento de los Comités de Ética (2.ª versión ajustada)](https://www.udea.edu.co/wps/wcm/connect/udea/8598ab50-c33d-45cf-be1c-b105a884743b/Manual+operativo_Segundaversi%C3%B3n.Ajustada.pdf?MOD=AJPERES&CVID=oUqU4v2).
+- **Directrices Temáticas:** Revisa la [:material-file-pdf-box: Circular Única — Tópicos de Interés Ético-Bioético](https://www.udea.edu.co/wps/wcm/connect/udea/52644c75-4996-42c2-8572-c14c2e321ccc/Circular+%C3%9Anica+CCEI+-+FINAL.+Sept29.pdf?MOD=AJPERES&CVID=oeesmid).
+- **Contacto:** `direccionsiu@udea.edu.co`.
+
+### B. Permisos Ambientales, Colecta Biológica y Recursos Genéticos
+
+Cuando un proyecto involucra trabajo de campo con diversidad biológica o comunidades étnicas, el SIIU y la normativa nacional exigen tramitar los permisos correspondientes **antes de iniciar la recolección**:
+
+1. **Permiso Marco de Recolección de Especímenes de Especies Silvestres de la Diversidad Biológica con Fines de Investigación Científica No Comercial:**
+   Los docentes regulares que aún no estén incorporados al Permiso Marco y requieran realizar actividades de colecta deben solicitar su inclusión ante la Vicerrectoría de Investigación (`viceinvestigacionpa@udea.edu.co`), enviando:
+   - Nombre del grupo de investigación.
+   - Descripción de las actividades de recolección de especies que realiza el grupo.
+   - Nombre completo y número de cédula del investigador.
+   - Programa(s) académico(s) que el grupo apoya.
+2. **Contrato de Acceso a Recursos Genéticos y Productos Derivados:** Requerido cuando las actividades implican bioprospección o acceso a material genético (Circular 03 de 2019 y Circular 02 de 2016 de la VRI).
+3. **Consulta Previa:** Obligatoria cuando los proyectos se desarrollen en territorios o con participación directa de comunidades étnicas reconocidas.
+
+### C. Política de Conflicto de Intereses Financieros (FCOI)
+
+En proyectos financiados por entes externos nacionales o internacionales (incluyendo agencias sujetas al Código de Regulaciones Federales de EE. UU. — **42 CFR Parte 50, Subparte F**), la Universidad aplica la **Política de Gestión de Conflictos de Intereses Financieros** para identificar, eliminar o controlar amenazas a la integridad científica y a la protección de sujetos de investigación:
+
+- **Normativa:** [:material-file-pdf-box: Resolución Rectoral 49547 (Español)](https://www.udea.edu.co/wps/wcm/connect/udea/c6478f87-824e-479e-818a-2f365020e9b9/Resoluci%C3%B3n+Rectoral+49547+-+firmado.pdf?MOD=AJPERES&CVID=ojd.O8p) y [:material-file-pdf-box: Reglamentación FCOI UdeA](https://www.udea.edu.co/wps/wcm/connect/udea/3eacbb03-1660-42b2-a412-f16257bbf588/Reglamentaci%C3%B3n+Pol%C3%ADtica+de+Conflictos+de+Interes+Financieros+VF.pdf?MOD=AJPERES&CVID=ojd.7aW).
+- **Declaración Obligatoria:** Diligenciar el [:material-file-word-box: Formato de Declaración de Situaciones de Conflicto de Intereses](https://www.udea.edu.co/wps/wcm/connect/udea/3a7e9c6f-94a3-4661-beed-e6bccbd7d52b/Formato+DECLARACIO%CC%81N+DE+SITUACIONES+DE+CONFLICTO+DE+INTERESES+VerDic20.docx?MOD=AJPERES&CVID=okQM-1u) y cargarlo como soporte en el expediente del proyecto.
+
+---
+
 ## 3. Matriz de Trazabilidad: Estado del SIIU vs. Instancia Responsable
 
 | Estado en el SIIU | Instancia Responsable | Documento o Acto Asociado |
@@ -350,6 +381,94 @@ En proyectos con componentes de riesgo ético, social o ambiental, el **SIIU** e
 - Consulta el **[Rol del Investigador Principal](Rol_Investigador.md)** para conocer las rutas de radicación.
 - Consulta el **[Rol del Centro de Investigación](Rol_Centro_Investigacion.md)** para el trámite de revisiones y avales.
 - Consulta el **[Acuerdo Superior 204 de 2001](../05_MARCO_NORMATIVO/AS_204_2001_Sistema_Universitario_Investigacion.md)** para la estructura jurídica completa del SUI.
+
+------------------------------------------------------------
+## [DOCUMENTO]: Caso_Aplicado_Centro_Facultad.md
+*Ruta canónica original: `docs/01_ROLES/Caso_Aplicado_Centro_Facultad.md`*
+------------------------------------------------------------
+
+# Caso Aplicado de Unidad Académica: Centro de Investigaciones y Consultorías (CIC – FCE)
+
+Para ilustrar cómo opera en la práctica un Centro de Investigación dentro del ecosistema **SIIU** y bajo el marco del **Acuerdo Superior 204 de 2001**, se presenta el modelo operativo del **Centro de Investigaciones y Consultorías (CIC)** de la **Facultad de Ciencias Económicas (FCE)** de la Universidad de Antioquia.
+
+```mermaid
+flowchart TD
+    classDef centro fill:#026937,stroke:#35944B,stroke-width:2px,color:#FFFFFF;
+    classDef unidad fill:#111722,stroke:#137598,stroke-width:1.5px,color:#FFFFFF;
+    classDef prod fill:#111722,stroke:#8DC63F,stroke-width:1.5px,color:#FFFFFF;
+
+    CIC["<b>Centro de Investigaciones y Consultorías (CIC)</b><br/>Acuerdo de Facultad 86 de 2006 — Bloque 13"]:::centro
+
+    UP["<b>Unidad de Apoyo de Proyectos</b><br/>Guías de Investigación y Consultoría en SIIU"]:::unidad
+    GRUPOS["<b>9 Grupos Categorizados MinCiencias</b><br/>8 Categoría A + 1 Categoría A1"]:::unidad
+    CONS["<b>Portafolio de Asesorías y Consultorías</b><br/>Extensión y Transferencia Especializada"]:::unidad
+
+    CIC --> UP
+    CIC --> GRUPOS
+    CIC --> CONS
+
+    GRUPOS -. "Formación temprana" .-> SEM["<b>Semilleros de Investigación</b><br/>SIFI, GESTOR, Imark, SILES, Ángelo, entre otros"]:::prod
+    GRUPOS -. "Divulgación indexada" .-> REV["<b>Revistas y Borradores FCE</b><br/>Lecturas de Economía, Contaduría, Perfil de Coyuntura"]:::prod
+```
+
+---
+
+## 1. Arquitectura y Evolución del Centro (CIC)
+
+El **CIC** fue creado a finales de 2006 mediante el **Acuerdo de Facultad 86 de 2006**, integrando académica y administrativamente tres dependencias históricas de la Facultad:
+1. **Centro de Investigaciones Económicas (CIE)** (fundado en 1962).
+2. **Consultorio Contable** (agosto de 1983).
+3. **Centro de Investigaciones y Consultorías Administrativas (CICA)** (1983).
+
+### Unidad de Apoyo de Proyectos y Articulación con el SIIU
+A través de su **Unidad de Proyectos**, el CIC acompaña a los profesores de la Facultad en la formulación, ejecución y cierre de propuestas en el SIIU, disponiendo de dos protocolos diferenciados según la naturaleza misional de la iniciativa:
+- [:material-file-pdf-box: Guía de Investigación CIC](https://www.udea.edu.co/wps/wcm/connect/udea/e9ee9d70-5409-4611-94a7-4691d1c9a99e/guia-investigacion.pdf?MOD=AJPERES&CVID=lQufRjO) — Para propuestas de investigación científica, convocatorias CODI y proyectos sin financiación.
+- [:material-file-pdf-box: Guía de Consultoría CIC](https://www.udea.edu.co/wps/wcm/connect/udea/56c32b22-108c-46d6-8020-69cd0012fd3b/guia-consultoria.pdf?MOD=AJPERES&CVID=lQufJnZ) — Para contratos de asesoría, extensión especializada y transferencia tecnológica o empresarial.
+
+---
+
+## 2. Matriz de Grupos de Investigación y Semilleros Articulados
+
+El CIC coordina administrativamente **nueve (9) grupos de investigación activos**, todos categorizados en los niveles **A** y **A1** de MinCiencias, cada uno con semilleros asociados que nutren el programa de **Jóvenes Investigadores**:
+
+| Sigla | Nombre Oficial del Grupo | Departamento Adscrito | Categoría MinCiencias | Fundación | Coordinador(a) | Semilleros Asociados |
+| :--- | :--- | :--- | :---: | :---: | :--- | :--- |
+| **GES** | Grupo Economía de la Salud | Economía | **A1** | 1997 | Jairo Humberto Restrepo Zea | Semillero de Economía de la Salud |
+| **MACROECONOMIA** | Grupo de Macroeconomía Aplicada | Economía | **A** | 1984 | Wilman Arturo Gómez Muñoz | Semilleros Ángelo, Economía Clásica y Computacional |
+| **GER** | Grupo de Estudios Regionales | Economía | **A** | 1995 | Liliana Gallego Duque | Semillero de Estudios Regionales |
+| **MICROECONOMIA** | Grupo de Microeconomía Aplicada | Economía | **A** | 1999 | Carlos Andrés Vasco Correa | Semillero de Microeconomía Aplicada |
+| **GESTOR** | Grupo de Investigación en Gestión Organizacional | Ciencias Administrativas | **A** | 2001 | José Enrique Arias Pérez | Semillero GESTOR |
+| **COMPHOR** | Comportamiento Humano Organizacional | Ciencias Administrativas | **A** | 2002 | Héctor L. Bermúdez Restrepo | Semillero Gestión de lo Propio |
+| **GICCO** | Grupo de Investigaciones y Consultorías Contables | Ciencias Contables | **A** | 2004 | Hernán Carlos Bustamante García | Semilleros Financiero, SILES e Innovación FCE |
+| **IMARK** | Grupo de Investigación en Marketing | Ciencias Administrativas | **A** | 2008 | Beatriz Londoño Giraldo | Semillero Imark |
+| **GIFI** | Grupo de Investigación en Finanzas | Ciencias Administrativas | **A** | 2013 | Claudia Inés Sepúlveda Rivillas | Semillero SIFI (Finanzas) |
+
+---
+
+## 3. Ecosistema Editorial y Cumplimiento de Compromisos
+
+Para facilitar el cumplimiento de los compromisos académicos registrados en el **SIIU** (productos de nuevo conocimiento, documentos de trabajo y apropiación social), la Facultad articula sus proyectos con medios editoriales propios:
+
+- **Revistas Científicas Indexadas:**
+  - [*Lecturas de Economía*](https://revistas.udea.edu.co/index.php/lecturasdeeconomia)
+  - [*Contaduría Universidad de Antioquia*](https://revistas.udea.edu.co/index.php/cont)
+  - [*Perfil de Coyuntura Económica*](https://revistas.udea.edu.co/index.php/coyuntura)
+- **Documentos de Trabajo (*Working Papers*):** Serie [*Borradores del Departamento de Economía*](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/publicaciones), que permite socializar avances de proyectos de investigación en curso antes de su sometimiento a revistas internacionales.
+
+---
+
+## 4. Canales de Atención y Puntos de Contacto (Referencia CIC)
+
+- **Dirección del Centro (Investigación):** Ciudad Universitaria, Bloque 13, Piso 1, Oficinas 108 y 328A (`jcic.fce@udea.edu.co`).
+- **Coordinación de Asesorías y Consultorías:** Edificio de Extensión Universitaria, Calle 70 No. 52-72, Piso 4, Oficina 408 (`ciceconomicas@udea.edu.co` — Tel: `(+57-604) 219 5840` / `219 5842`).
+
+---
+
+## 5. Enlaces Relacionados en la Wiki
+
+- **[Rol del Centro de Investigación / Extensión](Rol_Centro_Investigacion.md):** Competencias operativas generales en el SIIU.
+- **[Ecosistema de Comités y Gobernanza](Ecosistema_Comites_Gobernanza.md):** Cómo interactúa el Comité Técnico del Centro con el Consejo de Facultad y el CODI.
+- **[Gestión de Compromisos en SIIU](../02_PROCESOS_CLAVE/Gestion_Compromisos.md):** Registro de productos bibliográficos y entregas finales.
 
 ================================================================================
 # 2. PROCESOS CLAVE DEL CICLO DE VIDA DEL SIIU
@@ -639,6 +758,101 @@ La Vicerrectoría de Investigación es la responsable de parametrizar las reglas
 ## :material-link: Próximo Paso en el Flujo
 Una vez aprobado el proyecto por el Comité o CODI:
 Consulta **[Inicio Formal](../02_PROCESOS_CLAVE/Inicio_Formal.md)**.
+
+------------------------------------------------------------
+## [DOCUMENTO]: Convocatorias_y_Fondos_CODI.md
+*Ruta canónica original: `docs/02_PROCESOS_CLAVE/Convocatorias_y_Fondos_CODI.md`*
+------------------------------------------------------------
+
+# Convocatorias, Fondos CODI y Circulares de Investigación
+
+El financiamiento interno de la investigación en la Universidad de Antioquia es administrado por el **Comité para el Desarrollo de la Investigación (CODI)** y ejecutado operativamente a través del **SIIU** bajo la coordinación de la **Vicerrectoría de Investigación (VRI)**. Esta guía integra las líneas de financiación interna vigentes, las condiciones de los fondos especiales y las circulares informativas clave emitidas entre 2021 y 2026.
+
+```mermaid
+flowchart TD
+    classDef central fill:#026937,stroke:#35944B,stroke-width:2px,color:#FFFFFF;
+    classDef fondo fill:#111722,stroke:#137598,stroke-width:1.5px,color:#FFFFFF;
+    classDef accion fill:#111722,stroke:#8DC63F,stroke-width:1.5px,color:#FFFFFF;
+
+    CODI["<b>CODI / Vicerrectoría de Investigación</b><br/>Financiamiento Interno y Fondos Especiales"]:::central
+
+    SOST["<b>Estrategia de Sostenibilidad (2026)</b><br/>Consolidación de Grupos Categorizados"]:::fondo
+    PRIMER["<b>Fondo Primer Proyecto</b><br/>Docentes Nóveles sin Financiación Previa"]:::fondo
+    CPC["<b>Fondos CPC y ASC</b><br/>Comunicación Pública y Apropiación Social"]:::fondo
+    JI["<b>Programa Joven Investigador</b><br/>Cupos CODI y Financiados por Proyectos"]:::fondo
+
+    CODI --> SOST
+    CODI --> PRIMER
+    CODI --> CPC
+    CODI --> JI
+
+    SOST -. "Matrícula en SIIU" .-> SIIU["<b>Flujo Operativo SIIU</b><br/>Aval de Centro → Evaluación → Acta de Inicio"]:::accion
+    PRIMER -. "Matrícula en SIIU" .-> SIIU
+    CPC -. "Según Tabla de Productos UdeA" .-> SIIU
+    JI -. "Convenio de Pasantía y CDP" .-> SIIU
+```
+
+---
+
+## 1. Convocatorias Internas y Fondos Especiales CODI
+
+### A. Estrategia para la Sostenibilidad y Consolidación de Grupos (2026)
+La Universidad de Antioquia y el CODI convocan a los grupos de investigación institucionales a presentar propuestas dentro de la **Convocatoria Estrategia para la sostenibilidad y consolidación de los grupos de investigación 2026**.
+
+- **Propósito:** Fortalecer la capacidad científica, la estabilidad operativa y el incremento de la producción académica de alto nivel en los grupos reconocidos de la Universidad.
+- **Operación en SIIU:** Las propuestas se radican en el módulo de convocatorias del SIIU, adjuntando el aval del Centro de Investigación correspondiente y los compromisos de producción científica asociados a la vigencia.
+
+### B. Fondo de Apoyo al Primer Proyecto
+Mecanismo diseñado para impulsar la trayectoria investigativa de profesores vinculados que formulan su primer proyecto ante el Sistema Universitario de Investigación (SUI).
+
+- **Normativa operativa:** Regulado originalmente mediante la [Circular N°1 del 3 de marzo de 2021](https://www.udea.edu.co/wps/wcm/connect/udea/a110d1cf-be4f-4adc-8007-ee5cd72819f4/Circular+1+de+2021+-+Fondo+Primer+Proyecto.pdf?MOD=AJPERES&CVID=nwsEvwY) y actualizado respecto a su estado de ejecución en la [Circular informativa 01 de 2025](https://www.udea.edu.co/wps/wcm/connect/udea/71323081-1d07-4e42-95b7-5083ec5e3e91/Circular012025_estado-ejecucion-fondo-apoyo-PPInvestigacion.pdf?MOD=AJPERES&CVID=pnnOY0k).
+
+### C. Fondos de Comunicación Pública de la Ciencia (CPC) y Apropiación Social del Conocimiento (ASC)
+El CODI dispone de fondos especiales orientados a fomentar la socialización, publicación de resultados, realización de eventos científicos y transferencia hacia públicos no especializados.
+
+- **Tipología financiable:** Los productos susceptibles de apoyo deben corresponder estrictamente a la tipología definida en la **Tabla de Aceptación de Productos vigente de la Universidad de Antioquia** como productos de **Apropiación Social del Conocimiento (ASC)** y **Comunicación Pública de la Ciencia (CPC)**.
+
+!!! warning "Eliminación de Apoyos de Traducción, Estilo y APC (Circular 02 de 2023)"
+    Mediante la [Circular Informativa 02 de 2023](https://www.udea.edu.co/wps/wcm/connect/udea/aa758391-23ff-4f6e-b812-33f7f74e3bc5/Circular_2_Eliminaci%C3%B3n_Fondos_+Apoyo_Investigaci%C3%B3n_09JUN23.pdf?MOD=AJPERES&CVID=oySx8Fj), la Vicerrectoría de Investigación informó la **eliminación** del Fondo de apoyo para la revisión de estilo, edición o traducción, así como de la modalidad de pago de *Article Processing Charges* (APC) dentro del Fondo de Democratización. Verifica siempre las fuentes alternativas de tu proyecto o Centro antes de comprometer pagos editoriales.
+
+---
+
+## 2. Compendio de Circulares Normativas y Operativas (VRI)
+
+Las siguientes circulares oficiales emitidas por la Vicerrectoría de Investigación establecen reglas vigentes de obligatorio cumplimiento para investigadores, tutores y gestores de Centros de Investigación en el SIIU:
+
+### Vigencias 2024 – 2026
+
+| Circular | Objeto / Directriz Operativa | Enlace Oficial |
+| :--- | :--- | :--- |
+| **Circular 00001 de 2026** | Cronograma oficial de vinculación y reportes de pago de **Jóvenes Investigadores 2026**. | [:material-file-pdf-box: Descargar PDF](https://www.udea.edu.co/wps/wcm/connect/udea/3c9af606-ebae-4aa9-bd4f-b1f052c56bee/Circular+01+del+2026_CronogramaJI.pdf?MOD=AJPERES&CVID=pL.E-QC) |
+| **Circular Informativa 01 de 2025** | Estado de la ejecución del **Fondo de apoyo al primer proyecto de investigación**. | [:material-file-pdf-box: Descargar PDF](https://www.udea.edu.co/wps/wcm/connect/udea/71323081-1d07-4e42-95b7-5083ec5e3e91/Circular012025_estado-ejecucion-fondo-apoyo-PPInvestigacion.pdf?MOD=AJPERES&CVID=pnnOY0k) |
+| **Circular Informativa 02 de 2025** | Extensión de la vigencia del listado de **revistas extranjeras homologadas de Publindex**. | [:material-file-pdf-box: Descargar PDF](https://www.udea.edu.co/wps/wcm/connect/udea/b4d785f0-c796-4939-b653-4a31a60104a0/Circular+0225_listado-revistas-homologadas-publindex.pdf?MOD=AJPERES&CVID=pnnLUdV) |
+| **Circular Informativa 01 de 2024** | Procedimiento para la **inscripción de proyectos sin financiación** en el sistema de investigación (SIIU). | [:material-file-pdf-box: Descargar PDF](https://www.udea.edu.co/wps/wcm/connect/udea/80a130a3-ab6a-47d2-b74d-c43ccc777b3e/Circular+2-Inscripci%C3%B3n+de+Proyectos+Feb23.pdf?MOD=AJPERES&CVID=oTDiX9Q) |
+| **Circular Informativa 02 de 2024** | Procedimiento general para la **inscripción de proyectos** en el sistema de investigación. | [:material-file-pdf-box: Descargar PDF](https://www.udea.edu.co/wps/wcm/connect/udea/a4598c93-4389-4051-b619-b7a0e39def85/Circular+2-Marzo6_Inscripci%C3%B3n+de+Proyectos+VRI.pdf?MOD=AJPERES&CVID=oUlAIez) |
+
+### Vigencias 2021 – 2023 (Lineamientos de Gestión, JI y Seguridad)
+
+| Circular | Objeto / Directriz Operativa | Enlace Oficial |
+| :--- | :--- | :--- |
+| **Circular Informativa 02 de 2023** | Eliminación del Fondo de apoyo para revisión de estilo/traducción y modalidad de pago de APC. | [:material-file-pdf-box: Descargar PDF](https://www.udea.edu.co/wps/wcm/connect/udea/aa758391-23ff-4f6e-b812-33f7f74e3bc5/Circular_2_Eliminaci%C3%B3n_Fondos_+Apoyo_Investigaci%C3%B3n_09JUN23.pdf?MOD=AJPERES&CVID=oySx8Fj) |
+| **Circular ARL (Vacaciones Colectivas)** | Recomendaciones para actividades académicas e investigativas y cobertura **ARL en período de vacaciones colectivas**. | [:material-file-pdf-box: Descargar PDF](https://www.udea.edu.co/wps/wcm/connect/udea/fd62135c-cccc-4fa0-8306-bc6d0f906012/Circular_ARL_2023.pdf?MOD=AJPERES&CVID=oxYPsAy) |
+| **Circular N°7 de 2022** | Formas de vincular estudiantes en formación de pregrado en proyectos de convocatorias internas CODI. | [:material-file-pdf-box: Descargar PDF](https://www.udea.edu.co/wps/wcm/connect/udea/ba096ed6-3c2d-4140-8f06-a129d3b734c2/Circular+Informativa+07+de+2023.pdf?MOD=AJPERES&CVID=ov7XRVy) |
+| **Circular N°1 de 2022** | Modificación a requisitos de Jóvenes Investigadores (Resolución Académica 3588). | [:material-file-word-box: Descargar Word](https://www.udea.edu.co/wps/wcm/connect/udea/1e959b66-f7bf-45af-8d61-01fdceb74138/Circular%2B1%2B2022+garant%C3%ADas%2BJI+RA+3588.docx?MOD=AJPERES&CVID=n.CDyQS) |
+| **Circular N°4 de 2021** | Trámite de convenios de pasantía de **Jóvenes Investigadores financiados con recursos de proyectos**. | [:material-file-pdf-box: Descargar PDF](https://www.udea.edu.co/wps/wcm/connect/udea/b473b926-2579-4845-8a5a-8ca97646495e/Circular+4+tra%CC%81mite+ji+por+proyecto+vf.pdf?MOD=AJPERES&CVID=nLAEZBO) |
+| **Circular N°5 de 2021** | Directrices de **Gestión Documental** para Centros de Investigación. | [:material-file-pdf-box: Descargar PDF](https://www.udea.edu.co/wps/wcm/connect/udea/37119481-0ce8-4cdc-90c7-9212fffc8a65/Circular_No_5_VRI_2021.pdf?MOD=AJPERES&CVID=nP4BKip) |
+| **Circular N°6 de 2021** | Gestión financiera de proyectos de investigación con recursos manejados en **cuentas bancarias exclusivas**. | [:material-file-pdf-box: Descargar PDF](https://www.udea.edu.co/wps/wcm/connect/udea/a069ee65-3679-4915-bd95-c9cc16b43714/Circular_No_6_VRI_2021.pdf?MOD=AJPERES&CVID=nP4BQhl) |
+
+!!! tip "Consulta el repositorio completo de Circulares"
+    Para revisar circulares históricas (2012–2020) o información actualizada de convocatorias abiertas, visita la sección de [Circulares de la Vicerrectoría de Investigación](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/gestion-investigacion/Contenido/asContenidosMenu/circulares) o comunícate al conmutador `(+57-604) 219 5190` (Bloque 16 / SIU).
+
+---
+
+## 3. Enlaces Relacionados en la Wiki
+
+- **[Matrícula de Proyectos en SIIU](Matricula_Proyectos.md):** Paso a paso para inscribir propuestas con y sin financiación.
+- **[Programa Joven Investigador](Programa_Joven_Investigador.md):** Registro de cupos, vinculación y prórrogas en el SIIU.
+- **[Catálogo Maestro de Formatos Oficiales](../03_GUIAS_RAPIDAS_CHEAT_SHEETS/Catalogo_Formatos_Oficiales.md):** Descarga directa de minutas, listas de chequeo y plantillas de seguimiento.
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: Inicio_Formal.md
@@ -1338,6 +1552,93 @@ El SIIU interactúa intensamente con ventanas modales y descargas automáticas d
 - El SIIU cuenta con un temporizador de seguridad de sesión.
 - Si estás redactando un texto largo en el **CKEditor**, redacta previamente en un procesador de texto local, luego copia y pega como **texto sin formato** (`Ctrl + Shift + V`), dale formato rápido y presiona **GUARDAR** de inmediato.
 - Evita dejar pestañas del SIIU abiertas e inactivas durante más de 15 minutos.
+
+------------------------------------------------------------
+## [DOCUMENTO]: Catalogo_Formatos_Oficiales.md
+*Ruta canónica original: `docs/03_GUIAS_RAPIDAS_CHEAT_SHEETS/Catalogo_Formatos_Oficiales.md`*
+------------------------------------------------------------
+
+# Catálogo Maestro de Formatos Oficiales Descargables
+
+Esta ficha consolida los enlaces institucionales directos hacia los **manuales de procedimiento, minutas, actas y plantillas oficiales** publicados por la **Vicerrectoría de Investigación (VRI)** en el portal de la Universidad de Antioquia, organizados por etapa del ciclo de vida del proyecto en el **SIIU**.
+
+!!! info "Origen Institucional y Vigencia"
+    Todos los enlaces apuntan directamente a los repositorios documentales oficiales del portal universitario (`portal.udea.edu.co` / `udea.edu.co/wps/wcm/connect/udea/...`). Verifica periódicamente si tu Centro de Investigación o convocatoria específica exige una versión particular.
+
+---
+
+## 1. Procedimientos de Registro y Avales Institucionales
+
+| Nombre del Documento | Uso Operativo / Etapa | Formato | Enlace Directo |
+| :--- | :--- | :---: | :--- |
+| **Manual Registro Proyectos — Avales Institucionales (V2, Ago 2023)** | Guía oficial para radicar proyectos que requieren aval institucional del Consejo de Facultad o VRI. | `PDF` | [:material-file-pdf-box: Descargar PDF](https://www.udea.edu.co/wps/wcm/connect/udea/df3e1692-559e-460d-8df8-e849481eaf8b/Manual+Registro+Proyectos+Avales+Institucionales_IP_V2_Ago2023.pdf?MOD=AJPERES&CVID=oIlYRsO) |
+| **Procedimiento para inscribir proyectos en el SUI** | Flujo formal para inscripción de propuestas en el Sistema Universitario de Investigación. | `PDF` | [:material-file-pdf-box: Descargar PDF](https://www.udea.edu.co/wps/wcm/connect/udea/ede17d51-513a-4aa4-8fe0-0ccbfdfcc98a/procedimiento-inscripcion-proyectos+%282%29+%281%29.pdf?MOD=AJPERES&CVID=oUk69uM) |
+| **Lista de chequeo de proyectos** | Verificación documental previa al envío al Centro de Investigación. | `Word` | [:material-file-word-box: Descargar Word](https://www.udea.edu.co/wps/wcm/connect/udea/ae2f8824-c9fc-45d0-b89e-cd2344329438/listachequeo1.docx?MOD=AJPERES&CVID=nmUQlE8) |
+| **Evaluación de proyectos de investigación (2022)** | Formato oficial utilizado por pares evaluadores. | `Excel` | [:material-file-excel-box: Descargar Excel](https://www.udea.edu.co/wps/wcm/connect/udea/9e7d74a3-9e2a-410b-89b4-56f97ce0b02f/Formato-Evaluaci%C3%B3n-Proyectos-2022.xlsx?MOD=AJPERES&CVID=okiq539) |
+
+---
+
+## 2. Actas de Inicio, Propiedad Intelectual y Finalización
+
+| Nombre del Documento | Uso Operativo / Etapa | Formato | Enlace Directo |
+| :--- | :--- | :---: | :--- |
+| **Acta de registro y de propiedad intelectual** | Formalización de titularidad, aportes y compromisos de PI al registrar el proyecto. | `Word` | [:material-file-word-box: Descargar Word](https://www.udea.edu.co/wps/wcm/connect/udea/a96da2e0-2e75-4698-8599-bc06809fabc4/acta+de+registro+y+de+propiedad+intelectual.docx?MOD=AJPERES&CVID=oo3lieD) |
+| **Modificación acta de inicio proyectos de investigación (adenda)** | Adenda formal para ajustar condiciones del acta de inicio. | `Word` | [:material-file-word-box: Descargar Word](https://www.udea.edu.co/wps/wcm/connect/udea/6f10f178-a131-44e5-bcc0-0e7149943869/modif_acta_inicio.doc.docx?MOD=AJPERES&CVID=l.--V9r) |
+| **Acta de inicio y compromiso — Estrategia de Sostenibilidad 2020-2021** | Modelo de acta de inicio específica para Estrategia de Sostenibilidad. | `PDF` | [:material-file-pdf-box: Descargar PDF](https://www.udea.edu.co/wps/wcm/connect/udea/7fcd0cc9-fd1d-4eb1-bf4c-68b70f86a9ad/formato-acta-de-inicio-2020-estrategia-sostenibiliadd2021.pdf?MOD=AJPERES&CVID=nvfSkvN) |
+| **Acta de inicio y compromiso — Estrategia de Consolidación 2018-2019** | Modelo de acta para grupos en Estrategia de Consolidación. | `Word` | [:material-file-word-box: Descargar Word](https://www.udea.edu.co/wps/wcm/connect/udea/d9891a14-a7ea-4fed-9161-5b812c1abb93/formato-acta-inicio-consolidacion2018-2019.docx?MOD=AJPERES&CVID=mGfAEbL&attachment=true&id=1557237049978) |
+| **Acta de finalización proyectos de investigación** | Soporte requerido para el cierre y liquidación en el SIIU. | `Word` | [:material-file-word-box: Descargar Word](https://www.udea.edu.co/wps/wcm/connect/udea/dd799871-6bb9-4bd7-84b9-0bd647cc3a3f/acta_finalizaci%C3%B3n1.docx?MOD=AJPERES&CVID=nmULgfn) |
+
+---
+
+## 3. Novedades, Prórrogas, Cambios de Rubro y Compromisos
+
+| Nombre del Documento | Uso Operativo / Etapa | Formato | Enlace Directo |
+| :--- | :--- | :---: | :--- |
+| **Solicitud de prórroga** | Plantilla oficial para solicitar extensión del plazo de ejecución del proyecto. | `Excel` | [:material-file-excel-box: Descargar Excel](https://www.udea.edu.co/wps/wcm/connect/udea/7a6fabd6-8ad3-42bc-b4ee-869441706b22/pr%C3%B3rroga.xlsx?MOD=AJPERES&CVID=l.--IeT) |
+| **Plazo cumplimiento compromisos** | Solicitud de ampliación de fecha límite para entrega de productos comprometidos. | `Excel` | [:material-file-excel-box: Descargar Excel](https://www.udea.edu.co/wps/wcm/connect/udea/ecfcaef1-b005-4ef6-841c-608fe98d42ad/plaz_cump_comp.xlsx?MOD=AJPERES&CVID=l.--.6Y) |
+| **Cambio de rubro** | Traslado presupuestal entre rubros aprobados dentro del proyecto. | `Excel` | [:material-file-excel-box: Descargar Excel](https://www.udea.edu.co/wps/wcm/connect/udea/a1d8fcdd-e52b-4fd5-acc6-acda6d40825a/cambio-rubro.xlsx?MOD=AJPERES&CVID=l.--QxO) |
+| **Homologación de compromisos** | Sustitución equivalente de productos académicos ante imposibilidad justificada. | `Excel` | [:material-file-excel-box: Descargar Excel](https://www.udea.edu.co/wps/wcm/connect/udea/5b36b725-6800-426d-b0a3-9732fe4731ad/homologaci%C3%B3n_comp.xlsx?MOD=AJPERES&CVID=l.--MvD) |
+
+### Informes de Cumplimiento de Compromisos (Estrategias CODI)
+
+| Nombre del Documento | Vigencia Aplicable | Formato | Enlace Directo |
+| :--- | :--- | :---: | :--- |
+| **Informe parcial y final — Estrategia de Sostenibilidad** | Vigencia 2018-2019 | `Excel (.xlsm)` | [:material-file-excel-box: Descargar Excel](https://www.udea.edu.co/wps/wcm/connect/udea/9a63979b-349e-450f-9520-d8254a6190d3/Plantilla-informe-sostenibilidad-2018-2019+%2817%29.xlsm?MOD=AJPERES&CVID=oePgUdW) |
+| **Informe parcial y final — Estrategia de Sostenibilidad** | Vigencia 2016-2017 | `Excel` | [:material-file-excel-box: Descargar Excel](https://www.udea.edu.co/wps/wcm/connect/udea/dcd41a8e-65a7-4871-80ac-035772523a78/PlantillaCumplimientoCompromisos-sostenibilidad16-17-v2.xlsx?MOD=AJPERES&CVID=lVNMgQl) |
+| **Informe parcial y final — Estrategia de Consolidación** | Consolidación de Grupos | `Excel` | [:material-file-excel-box: Descargar Excel](https://www.udea.edu.co/wps/wcm/connect/udea/18d07f4f-f984-4058-9f31-6eb7e7fa235c/Plantilla_Compromisos_consolidacion.xlsx?MOD=AJPERES&CVID=lXK2tPp) |
+| **Informe avance — Estrategia de Sostenibilidad** | Vigencia anterior a 2016 | `Word` | [:material-file-word-box: Descargar Word](https://www.udea.edu.co/wps/wcm/connect/udea/c7dfac3a-ab9a-41cd-858f-ce5a3be97af5/formato_inf_avance+sostenibilidad.docx?MOD=AJPERES&CVID=kVGiOLo) |
+| **Informe final — Estrategia de Sostenibilidad** | Vigencia anterior a 2016 | `Word` | [:material-file-word-box: Descargar Word](https://www.udea.edu.co/wps/wcm/connect/udea/0e5e695f-60a2-4413-8c51-b58d494fd117/formato_info_Final_est_sost.docx?MOD=AJPERES&CVID=kVFwyKD) |
+
+---
+
+## 4. Programa Joven Investigador (Financiados por Proyectos)
+
+Para vincular estudiantes mediante recursos propios de proyectos (cubriendo el 100 % de la pasantía), los Centros de Investigación tramitan los CDPs y remiten a la VRI (`apoyo.vin@udea.edu.co`, Tel: `(+57-604) 219 8193`) los siguientes formatos:
+
+| Nombre del Documento | Propósito | Formato | Enlace Directo |
+| :--- | :--- | :---: | :--- |
+| **Minuta de convenio JI financiados por proyectos (2023 v1)** | Minuta contractual oficial para pasantía financiada con proyecto. | `Word` | [:material-file-word-box: Descargar Word](https://www.udea.edu.co/wps/wcm/connect/udea/e970a0f9-8b04-4d86-a5dc-900b101a0c93/Formato+convenio+JI+PROYECTOS+2023+v1.docx?MOD=AJPERES&CVID=oCXX.m-) |
+| **Formato JI Hoja de vida** | Hoja de vida estandarizada del estudiante postulado. | `Word` | [:material-file-word-box: Descargar Word](https://www.udea.edu.co/wps/wcm/connect/udea/b6b15b4f-9039-4fcb-8214-9c559c790b15/Formato+hoja+de+vida+JI.docx?MOD=AJPERES&CVID=nMTO6ji) |
+| **Plantilla para la solicitud de convenios JI por proyecto** | Relación consolidada de cupos y respaldo presupuestal (CDP). | `Excel` | [:material-file-excel-box: Descargar Excel](https://www.udea.edu.co/wps/wcm/connect/udea/05ea8f62-18f1-4f3f-86c1-994d64afa9a6/plantilla+para+solicitar+ji+x+proyecto.xlsx?MOD=AJPERES&CVID=nMTN-9K) |
+
+---
+
+## 5. Ética, Integridad Científica y Conflicto de Intereses
+
+| Nombre del Documento | Normativa / Órgano | Formato | Enlace Directo |
+| :--- | :--- | :---: | :--- |
+| **Formato de Declaración de Situaciones de Conflicto de Intereses** | Política FCOI — Resolución Rectoral 49547 | `Word` | [:material-file-word-box: Descargar Word](https://www.udea.edu.co/wps/wcm/connect/udea/3a7e9c6f-94a3-4661-beed-e6bccbd7d52b/Formato+DECLARACIO%CC%81N+DE+SITUACIONES+DE+CONFLICTO+DE+INTERESES+VerDic20.docx?MOD=AJPERES&CVID=okQM-1u) |
+| **Manual Operativo de los Comités de Ética (2.ª versión ajustada)** | Comité Central de Ética en Investigación (CCEI) | `PDF` | [:material-file-pdf-box: Descargar PDF](https://www.udea.edu.co/wps/wcm/connect/udea/8598ab50-c33d-45cf-be1c-b105a884743b/Manual+operativo_Segundaversi%C3%B3n.Ajustada.pdf?MOD=AJPERES&CVID=oUqU4v2) |
+| **Circular Única CCEI — Tópicos de Interés Ético-Bioético** | Comité Central de Ética en Investigación (CCEI) | `PDF` | [:material-file-pdf-box: Descargar PDF](https://www.udea.edu.co/wps/wcm/connect/udea/52644c75-4996-42c2-8572-c14c2e321ccc/Circular+%C3%9Anica+CCEI+-+FINAL.+Sept29.pdf?MOD=AJPERES&CVID=oeesmid) |
+
+---
+
+## 6. Enlaces Relacionados en la Wiki
+
+- **[Convocatorias y Fondos CODI](../02_PROCESOS_CLAVE/Convocatorias_y_Fondos_CODI.md)**
+- **[Ecosistema de Comités y Gobernanza](../01_ROLES/Ecosistema_Comites_Gobernanza.md)**
+- **[Modificaciones y Trámites en Ejecución](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md)**
+- **[Cierre y Liquidación de Proyectos](../02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md)**
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: CheatSheet_Investigador.md
