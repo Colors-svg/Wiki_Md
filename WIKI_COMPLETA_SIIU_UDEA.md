@@ -1,9 +1,9 @@
-# COMPENDIO TOTAL Y CANÓNICO DE LA WIKI SIIU
+# COMPENDIO TOTAL Y CANÓNICO DE LA WIKI SIIU Y ECOSISTEMA DE INVESTIGACIÓN UDEA
 ## Sistema de Información para la Investigación Universitaria — Universidad de Antioquia
 
 > **Documento Consolidado Monolítico (All-in-One)**  
-> **Propósito:** Archivo único diseñado para ingesta directa de contexto completo por Agentes Inteligentes (Gemini, Claude, GPT), auditoría documental y lectura fuera de línea sin dependencias de red ni enlaces rotos.  
-> **Contenido Integrado:** Manuales de roles, 8 macroprocesos operativos, 31 guías e instructivos fidedignos transcritos íntegramente, síntesis didáctica y textos maestros de las 21 normas institucionales, mapas MOC y glosarios.
+> **Propósito:** Archivo único diseñado para ingesta directa de contexto completo por Agentes Inteligentes (Gemini, Claude, GPT), modelos LLM locales, auditoría documental exhaustiva y lectura offline sin dependencias externas.  
+> **Contenido Integrado:** Manuales de roles, 9 macroprocesos operativos, 31 guías e instructivos fidedignos transcritos íntegramente, 21 normas institucionales (síntesis y textos íntegros), gobernanza CODI y Cronograma 2026, catálogo de 18 formatos descargables, 66 circulares oficiales de la Vicerrectoría, arquitectura de la Facultad de Ciencias Económicas y CIC con sus 9 grupos MinCiencias, 20 comités, semilleros y revistas científicas.
 
 ---
 
@@ -250,9 +250,9 @@ Cada estado, aval, novedad o liquidación dentro del SIIU responde a competencia
 
 ```mermaid
 flowchart TD
-    classDef inst fill:#026937,stroke:#35944B,stroke-width:2px,color:#FFFFFF;
-    classDef comite fill:#111722,stroke:#137598,stroke-width:1.5px,color:#FFFFFF;
-    classDef accion fill:#111722,stroke:#8DC63F,stroke-width:1.5px,color:#FFFFFF;
+    classDef inst fill:#026937,stroke:#8DC63F,stroke-width:2px,color:#FFFFFF;
+    classDef comite fill:#0E7774,stroke:#3EBDAC,stroke-width:1.5px,color:#FFFFFF;
+    classDef accion fill:#137598,stroke:#8DC63F,stroke-width:1.5px,color:#FFFFFF;
 
     CSU["Consejo Superior Universitario<br><i>(Máxima Autoridad Normativa)</i>"]:::inst
     CODI["CODI — Comité para el Desarrollo de la Investigación<br><i>(Políticas, Fondos Centrales y Convocatorias)</i>"]:::inst
@@ -393,9 +393,9 @@ Para ilustrar cómo opera en la práctica un Centro de Investigación dentro del
 
 ```mermaid
 flowchart TD
-    classDef centro fill:#026937,stroke:#35944B,stroke-width:2px,color:#FFFFFF;
-    classDef unidad fill:#111722,stroke:#137598,stroke-width:1.5px,color:#FFFFFF;
-    classDef prod fill:#111722,stroke:#8DC63F,stroke-width:1.5px,color:#FFFFFF;
+    classDef centro fill:#026937,stroke:#8DC63F,stroke-width:2px,color:#FFFFFF;
+    classDef unidad fill:#0E7774,stroke:#3EBDAC,stroke-width:1.5px,color:#FFFFFF;
+    classDef prod fill:#137598,stroke:#8DC63F,stroke-width:1.5px,color:#FFFFFF;
 
     CIC["<b>Centro de Investigaciones y Consultorías (CIC)</b><br/>Acuerdo de Facultad 86 de 2006 — Bloque 13"]:::centro
 
@@ -770,9 +770,9 @@ El financiamiento interno de la investigación en la Universidad de Antioquia es
 
 ```mermaid
 flowchart TD
-    classDef central fill:#026937,stroke:#35944B,stroke-width:2px,color:#FFFFFF;
-    classDef fondo fill:#111722,stroke:#137598,stroke-width:1.5px,color:#FFFFFF;
-    classDef accion fill:#111722,stroke:#8DC63F,stroke-width:1.5px,color:#FFFFFF;
+    classDef central fill:#026937,stroke:#8DC63F,stroke-width:2px,color:#FFFFFF;
+    classDef fondo fill:#0E7774,stroke:#3EBDAC,stroke-width:1.5px,color:#FFFFFF;
+    classDef accion fill:#137598,stroke:#8DC63F,stroke-width:2px,color:#FFFFFF;
 
     CODI["<b>CODI / Vicerrectoría de Investigación</b><br/>Financiamiento Interno y Fondos Especiales"]:::central
 
@@ -1850,8 +1850,10 @@ flowchart LR
 
 # Preguntas Frecuentes (FAQ)
 
-> ¿Primera vez en el SIIU? Empieza aquí. Respuestas en menos de 2 minutos, sin jerga.
-> Si tu duda es legal, ve directo a [Módulo Legal](legal/index.md).
+<div class="wiki-hero" markdown="1">
+¿Primera vez en el SIIU o te salió un error? Aquí encuentras respuestas directas en menos de 2 minutos, sin jerga técnica.
+Si buscas el texto legal literal, ve directo al **[Módulo Legal](legal/index.md)**.
+</div>
 
 ---
 
@@ -1938,11 +1940,6384 @@ flowchart LR
 
 ---
 
+## 4. Fondos CODI, Formatos, Ética y Permisos
+
+### ¿Dónde descargo las minutas, actas y plantillas oficiales (Excel/Word)?
+1. Todas las plantillas vigentes están centralizadas en el **[Catálogo Maestro de Formatos Oficiales](03_GUIAS_RAPIDAS_CHEAT_SHEETS/Catalogo_Formatos_Oficiales.md)**.
+2. Allí encuentras enlaces directos del portal UdeA para prórrogas, cambios de rubro, listas de chequeo, actas de inicio/finalización y convenios de Jóvenes Investigadores.
+
+### ¿El CODI sigue financiando revisión de estilo, traducción o pago de APC?
+1. **No.** Mediante la Circular Informativa 02 de 2023 se eliminó el Fondo de apoyo para revisión de estilo, edición o traducción, y la modalidad de pago de APC del Fondo de Democratización.
+2. Consulta las líneas activas en **[Convocatorias y Fondos CODI](02_PROCESOS_CLAVE/Convocatorias_y_Fondos_CODI.md)**.
+
+### ¿Qué hago si mi proyecto recolecta especímenes biológicos silvestres?
+1. Si eres docente regular y no estás incluido en el **Permiso Marco de Recolección de Especímenes**, debes solicitar tu incorporación a la Vicerrectoría de Investigación (`viceinvestigacionpa@udea.edu.co`) antes de iniciar actividades de campo.
+2. Revisa los requisitos exactos en **[Ecosistema de Comités y Gobernanza](01_ROLES/Ecosistema_Comites_Gobernanza.md)**.
+
+### ¿Cuándo debo llenar el formato de Conflicto de Intereses Financieros (FCOI)?
+1. En proyectos con financiación externa nacional o internacional (especialmente agencias de EE. UU. bajo 42 CFR Parte 50, Subparte F) regulados por la Resolución Rectoral 49547.
+2. Descarga el formato Word en el **[Catálogo Maestro de Formatos Oficiales](03_GUIAS_RAPIDAS_CHEAT_SHEETS/Catalogo_Formatos_Oficiales.md)** y cárgalo como soporte en el expediente del proyecto.
+
+---
+
 !!! tip "¿No encontraste tu duda?"
-    Usa el buscador arriba (lupa) con una palabra clave: `prórroga`, `pop-up`, `Nequi`, `spin-off`, `hechos cumplidos`. Si vienes de un error del sistema, copia el mensaje exacto del error en el buscador.
+    Usa el buscador arriba (lupa) con una palabra clave: `prórroga`, `pop-up`, `Nequi`, `spin-off`, `hechos cumplidos`, `formato`, `APC`, `permiso marco`. Si vienes de un error del sistema, copia el mensaje exacto del error en el buscador.
 
 ================================================================================
-# 4. MAPAS DE CONTENIDO (MOC) Y CONCEPTOS
+# 4. INVESTIGACIÓN CENTRAL UDEA — CODI Y VICERRECTORÍA
+================================================================================
+
+
+
+------------------------------------------------------------
+## [DOCUMENTO]: index.md
+*Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/index.md`*
+------------------------------------------------------------
+
+# Investigación Central — UdeA (CODI, Formatos y Convocatorias)
+
+<div class="wiki-hero" markdown="1">
+Documentación oficial del portal central de la **Vicerrectoría de Investigación (VRI)** y el **Sistema Universitario de Investigación (SUI)**: gobernanza del CODI, catálogo de formatos oficiales descargables, convocatorias, permisos ambientales, ética e integridad científica.
+</div>
+
+---
+
+## Ejes Principales
+
+<div class="wiki-grid">
+  <a class="wiki-card" href="codi/">
+    <div class="wiki-card__title">CODI y Cronograma 2026</div>
+    <p class="wiki-card__desc">Acuerdo Superior 204 de 2001, funciones, integrantes nominales y calendario oficial CODI 2026.</p>
+  </a>
+  <a class="wiki-card" href="catalogo_formatos_descargables/">
+    <div class="wiki-card__title">Catálogo de 18 Formatos Oficiales</div>
+    <p class="wiki-card__desc">Descarga directa de actas de inicio, adendas, prórrogas, cambios de rubro e informes CODI.</p>
+  </a>
+  <a class="wiki-card" href="convocatorias_codi/">
+    <div class="wiki-card__title">Convocatorias y Fondos CODI</div>
+    <p class="wiki-card__desc">Sostenibilidad de grupos 2026, convocatorias externas y fondos CPC/ASC.</p>
+  </a>
+  <a class="wiki-card" href="programa_jovenes_investigadores/">
+    <div class="wiki-card__title">Jóvenes Investigadores</div>
+    <p class="wiki-card__desc">Lineamientos del programa, minutas de convenio por proyecto, hoja de vida y circular 01 de 2026.</p>
+  </a>
+  <a class="wiki-card" href="comite_central_etica/">
+    <div class="wiki-card__title">Ética, Permisos y FCOI</div>
+    <p class="wiki-card__desc">Comité Central de Ética (RR 47765), permisos de colecta biológica y conflicto de intereses.</p>
+  </a>
+  <a class="wiki-card" href="circulares_vicerrectoria/">
+    <div class="wiki-card__title">66 Circulares de Vicerrectoría</div>
+    <p class="wiki-card__desc">Histórico y directrices vigentes (2012–2026) sobre inscripción, ARL, Publindex y fondos.</p>
+  </a>
+</div>
+
+---
+
+## Gobierno, Normativa y Atención al Ciudadano
+
+- **Órganos de Dirección y Operación:** [Vicerrectoría de Investigación](vicerrectoria.md) · [Sede de Investigación Universitaria (SIU)](siu.md) · [Portal SIIU](siiu.md) · [Procedimientos y Formatos](procedimientos_formatos.md) · [Atención al Ciudadano](atencion_ciudadano.md).
+- **Normativa y Cumplimiento:** [Reglamento de Investigación](reglamento_investigacion.md) · [Permisos para Hacer Investigación](permisos_investigacion.md) · [Propiedad Intelectual](propiedad_intelectual.md) · [Política de Acceso Abierto](acceso_abierto.md) · [Conflicto de Intereses Financieros (FCOI)](conflicto_intereses_financieros.md).
+
+------------------------------------------------------------
+## [DOCUMENTO]: codi.md
+*Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/codi.md`*
+------------------------------------------------------------
+
+# Comité para el Desarrollo de la Investigación
+
+## Resumen Ejecutivo
+Comité para el Desarrollo de Investigación
+
+## Contenido Principal
+El Comité para el Desarrollo de la Investigación — CODI — está reglamentado en el Acuerdo Superior 204 de 2001 .
+
+### Funciones
+
+Algunas funciones de este comité son:
+
+- Asesorar al Rector, al Consejo Académico y al Consejo Superior Universitario, en asuntos relacionados con las políticas de investigación.
+
+- Impulsar la labor investigativa en la Universidad por medio de las convocatorias.
+
+- Presentar anualmente el Programa General de Desarrollo de la Investigación.
+
+- Procurar la articulación de la actividad investigativa con la docencia y la extensión.
+
+- Administrar los fondos del programa especial Sistema Universitario de Investigación, y aprobar, las partidas para la financiación de los diferentes proyectos y programas que demanden estos recursos.
+
+- Propiciar la relación sistemática de los investigadores con la sociedad.
+
+- Apoyar la difusión y publicación de la actividad investigativa.
+
+### Miembros del Comité
+
+| Nombre | Dependencia | Cargo/Calidad en que asiste |
+| --- | --- | --- |
+| Diana Marcela Garcés Valderrama | Vicerrectoría de Investigación | Vicerrectora de Investigación |
+| Wilson Bolívar Buriticá | Vicerrectoría de Docencia | Vicerrector de Docencia |
+| Adriana Patricia Echavarría Isaza | Facultad de Ciencias Exactas y Naturales | Decana Representante del Consejo Académico |
+| Julián Sierra Pérez | División de Innovación | Jefe |
+| Gloria Valencia Bustamante | Sede de Investigación Universitaria – SIU | Asistente de la Vicerrectoría de Investigación en funciones de la Dirección de la SIU |
+| Alejandro Pimienta Betancur | Grupo Recursos Estratégicos, Región y Dinámicas Socioambientales | Representante de los grupos A |
+| Maritza Andrea Trujillo Rodríguez | Grupo de investigación: Comunicación, Periodismo y Sociedad | Representante de los grupos B |
+| Claudia Cecilia Álvarez Franco | Grupo de investigación Salud de las Mujeres | Representante grupos de las demás categorías (grupos C, D y reconocidos) |
+| Mariana Peñuela Vásquez | Centro de Investigación Ambientales y de Ingeniería - CIA | Representante del área Ciencias Exactas y Naturales, Ingenierías y Economía |
+| Gloria Albany Hoyos Rodríguez | Centro de Investigación Instituto Universitario de Educación Física y Deporte | Representante del Área de la Salud |
+| Deicy Patricia Hurtado Galeano | Centro de investigaciones del Instituto de Estudios Políticos | Representante del Área de Ciencias Sociales, Humanidades y Artes |
+
+### Invitados al Comité
+
+| Nombre | Dependencia | Cargo/Calidad en que asiste |
+| --- | --- | --- |
+| Diana Isabel Rivera Hincapié | Dirección de Relaciones Internacionales | Directora |
+| Juan Camilo Gaviria García | Dirección de Relaciones Internacionales | Profesional Coordinador de Cooperación Científica |
+| Yuliana Gómez Zapata | Dirección de Regionalización | Directora |
+| Natalia Restrepo Saldarriaga | Dirección de Comunicaciones | Directora |
+
+### Cronograma reuniones CODI 2026
+
+| Sesión | Fecha de recepción de solicitudes | Fecha de reunión CODI* |
+| --- | --- | --- |
+| 00008 | 23 de abril | 5 de mayo |
+| 00009 | 6 de mayo | 19 de mayo |
+| 00010 | Extraordinario | Extraordinario |
+| 00011 | 20 de mayo | 2 de junio |
+| 00012 | 4 de junio | 16 de junio |
+| 00013 | 19 de junio y 15 de julio | 14 y 28 de julio |
+| 00014 | 28 de julio | 11 de agosto |
+| 00015 | 12 de agosto | 25 de agosto |
+| 00016 | 26 de agosto | 8 de septiembre |
+| 00017 | 9 de septiembre | 22 de septiembre |
+| 00018 | 23 de septiembre | 6 de octubre |
+| 00019 | 7 de octubre | 20 de octubre |
+| 00020 | 21 de octubre y 3 de noviembre | 3 y 17 de noviembre |
+| 00021 | 18 de noviembre | 1 de diciembre |
+| 00022 | 2 de diciembre | 15 de diciembre |
+
+*Importante: Las respuestas del CODI se entregan en la misma semana de reunión
+
+Accede a las actas de las sesiones aquí
+## Puntos de Contacto y Referencias
+### Contacto
+- Vicerrectoría de Investigación — Universidad de Antioquia
+- Sede Administrativa: Calle 67 No. 53-108, Bloque 16 / SIU Calle 62 No. 52-59
+- Conmutador: (+57-604) 219 5190
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/investigacion-udea/Contenido/asMenuLateral/CODI)
+
+------------------------------------------------------------
+## [DOCUMENTO]: catalogo_formatos_descargables.md
+*Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/catalogo_formatos_descargables.md`*
+------------------------------------------------------------
+
+# Catálogo Maestro de Formatos y Procedimientos Descargables — UdeA
+
+## Resumen Ejecutivo
+Inventario exhaustivo y clasificado de los **18 formatos, actas, manuales y plantillas oficiales** dispuestos por la Vicerrectoría de Investigación de la Universidad de Antioquia para la gestión de proyectos en el SIIU, convocatorias CODI, estrategias de sostenibilidad/consolidación y liquidación.
+
+## Contenido Principal
+
+| Categoría / Etapa del Proyecto | Nombre del Formato o Procedimiento | Tipo | Enlace Directo de Descarga |
+| --- | --- | --- | --- |
+| Procedimientos | **Manual Registro Proyectos Avales Institucionales** | `PDF` | [Descargar PDF](https://www.udea.edu.co/wps/wcm/connect/udea/df3e1692-559e-460d-8df8-e849481eaf8b/Manual+Registro+Proyectos+Avales+Institucionales_IP_V2_Ago2023.pdf?MOD=AJPERES&CVID=oIlYRsO) |
+| Procedimientos | **Procedimiento para inscribir proyectos en el SUI** | `PDF` | [Descargar PDF](https://www.udea.edu.co/wps/wcm/connect/udea/ede17d51-513a-4aa4-8fe0-0ccbfdfcc98a/procedimiento-inscripcion-proyectos+%282%29+%281%29.pdf?MOD=AJPERES&CVID=oUk69uM) |
+| Formatos | **acta de registro y de propiedad intelectual** | `Word` | [Descargar Word](https://www.udea.edu.co/wps/wcm/connect/udea/a96da2e0-2e75-4698-8599-bc06809fabc4/acta+de+registro+y+de+propiedad+intelectual.docx?MOD=AJPERES&CVID=oo3lieD) |
+| Formatos | **Acta de finalización proyectos de investigación** | `Word` | [Descargar Word](https://www.udea.edu.co/wps/wcm/connect/udea/dd799871-6bb9-4bd7-84b9-0bd647cc3a3f/acta_finalizaci%C3%B3n1.docx?MOD=AJPERES&CVID=nmULgfn) |
+| Formatos | **Modificación acta de inicio proyectos de investigación (adenda)** | `Word` | [Descargar Word](https://www.udea.edu.co/wps/wcm/connect/udea/6f10f178-a131-44e5-bcc0-0e7149943869/modif_acta_inicio.doc.docx?MOD=AJPERES&CVID=l.--V9r) |
+| Formatos | **Acta de inicio y compromiso Estrategia de Consolidación 2018-2019** | `Word` | [Descargar Word](https://www.udea.edu.co/wps/wcm/connect/udea/d9891a14-a7ea-4fed-9161-5b812c1abb93/formato-acta-inicio-consolidacion2018-2019.docx?MOD=AJPERES&CVID=mGfAEbL&attachment=true&id=1557237049978) |
+| Formatos | **Acta de inicio y compromiso Estrategia de Sostenibilidad 2020-2021** | `PDF` | [Descargar PDF](https://www.udea.edu.co/wps/wcm/connect/udea/7fcd0cc9-fd1d-4eb1-bf4c-68b70f86a9ad/formato-acta-de-inicio-2020-estrategia-sostenibiliadd2021.pdf?MOD=AJPERES&CVID=nvfSkvN) |
+| Formatos | **Evaluación de proyectos de investigación** | `Excel` | [Descargar Excel](https://www.udea.edu.co/wps/wcm/connect/udea/9e7d74a3-9e2a-410b-89b4-56f97ce0b02f/Formato-Evaluaci%C3%B3n-Proyectos-2022.xlsx?MOD=AJPERES&CVID=okiq539) |
+| Formatos | **Lista de chequeo de proyectos** | `Word` | [Descargar Word](https://www.udea.edu.co/wps/wcm/connect/udea/ae2f8824-c9fc-45d0-b89e-cd2344329438/listachequeo1.docx?MOD=AJPERES&CVID=nmUQlE8) |
+| Formatos | **Solicitud de prórroga** | `Excel` | [Descargar Excel](https://www.udea.edu.co/wps/wcm/connect/udea/7a6fabd6-8ad3-42bc-b4ee-869441706b22/pr%C3%B3rroga.xlsx?MOD=AJPERES&CVID=l.--IeT) |
+| Formatos | **Plazo cumplimiento compromisos** | `Excel` | [Descargar Excel](https://www.udea.edu.co/wps/wcm/connect/udea/ecfcaef1-b005-4ef6-841c-608fe98d42ad/plaz_cump_comp.xlsx?MOD=AJPERES&CVID=l.--.6Y) |
+| Formatos | **Cambio de rubro** | `Excel` | [Descargar Excel](https://www.udea.edu.co/wps/wcm/connect/udea/a1d8fcdd-e52b-4fd5-acc6-acda6d40825a/cambio-rubro.xlsx?MOD=AJPERES&CVID=l.--QxO) |
+| Formatos | **Homologación de compromisos** | `Excel` | [Descargar Excel](https://www.udea.edu.co/wps/wcm/connect/udea/5b36b725-6800-426d-b0a3-9732fe4731ad/homologaci%C3%B3n_comp.xlsx?MOD=AJPERES&CVID=l.--MvD) |
+| Formatos | **Informe final cumplimiento de compromisos estrategia de sostenibilidad vigencia anterior a 2016** | `Word` | [Descargar Word](https://www.udea.edu.co/wps/wcm/connect/udea/0e5e695f-60a2-4413-8c51-b58d494fd117/formato_info_Final_est_sost.docx?MOD=AJPERES&CVID=kVFwyKD) |
+| Formatos | **Informe avance cumplimiento de compromisos estrategia de sostenibilidad vigencia anterior a 2016** | `Word` | [Descargar Word](https://www.udea.edu.co/wps/wcm/connect/udea/c7dfac3a-ab9a-41cd-858f-ce5a3be97af5/formato_inf_avance+sostenibilidad.docx?MOD=AJPERES&CVID=kVGiOLo) |
+| Formatos | **Informe parcial y final de cumplimiento de compromisos estrategia de sostenibilidad vigencia 2016-2017** | `Excel` | [Descargar Excel](https://www.udea.edu.co/wps/wcm/connect/udea/dcd41a8e-65a7-4871-80ac-035772523a78/PlantillaCumplimientoCompromisos-sostenibilidad16-17-v2.xlsx?MOD=AJPERES&CVID=lVNMgQl) |
+| Formatos | **Informe parcial y final de cumplimiento de compromisos estrategia de sostenibilidad vigencia 2018-2019** | `Excel` | [Descargar Excel](https://www.udea.edu.co/wps/wcm/connect/udea/9a63979b-349e-450f-9520-d8254a6190d3/Plantilla-informe-sostenibilidad-2018-2019+%2817%29.xlsm?MOD=AJPERES&CVID=oePgUdW) |
+| Formatos | **Formato Informe Parcial y Final de cumplimiento de compromisos Estrategia para la Consolidación de Grupos de Investigación** | `Excel` | [Descargar Excel](https://www.udea.edu.co/wps/wcm/connect/udea/18d07f4f-f984-4058-9f31-6eb7e7fa235c/Plantilla_Compromisos_consolidacion.xlsx?MOD=AJPERES&CVID=lXK2tPp) |
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Vicerrectoría de Investigación — Universidad de Antioquia
+- Ciudad Universitaria, Bloque 16 / Sede de Investigación Universitaria (SIU)
+- Teléfono: (+57-604) 219 5190
+
+### Enlaces clave
+- [Página oficial de Procedimientos y Formatos](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/gestion-investigacion/Contenido/asContenidosMenu/procedimientos-formatos)
+
+------------------------------------------------------------
+## [DOCUMENTO]: circulares_vicerrectoria.md
+*Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/circulares_vicerrectoria.md`*
+------------------------------------------------------------
+
+# Circulares
+
+## Resumen Ejecutivo
+Documentación institucional y lineamientos oficiales de Circulares en el Sistema Universitario de Investigación de la Universidad de Antioquia.
+
+## Contenido Principal
+## 2026
+
+Circular 00001 de 2026 Cronograma de vinculación y reportes de pago de Jóvenes Investigadores 2026
+
+## 2025
+
+Circular informativa 01 de 2025 Estado de la ejecución del Fondo de apoyo al primer proyecto de investigación
+
+Circular informativa 02 de 2025 Extensión de la vigencia del listado de revistas extranjeras homologadas de Publindex
+
+## 2024
+
+Circular informativa 01 de 2024 Procedimiento para la inscripción de proyectos sin financiación en el sistema de investigación
+
+Circular Informativa 02 de 2024 Procedimiento para la Inscripción de proyectos en el sistema de investigación
+
+## 2023
+
+Circular Informativa 02 de 2023 Eliminación del Fondo de apoyo para la revisión de estilo, edición o la traducción y de la modalidad de pago de APC en el Fondo de Democratización
+
+Circular N°7 del 25 de abril de 2022 Formas de vincular estudiantes en formación de pregrado en el marco de proyectos de investigación de convocatorias internas CODI
+
+## 2022
+
+Circular N°1 del 30 de marzo de 2022 Modificación a los requisitos de Jóvenes Investigadores en torno a la Resolución Académica 3588
+
+Recomendaciones actividades académicas período de vacaciones colectivas
+
+## 2021
+
+Circular N°1 del 3 de marzo de 2021 Ampliación de plazo para presentación de proyectos al “Fondo de Apoyo al Primer Proyecto”
+
+Circular N°2 del 17 de junio de 2021 Modificación a los requisitos de Jóvenes Investigadores en torno a la Resolución Académica 3509
+
+Circular N°3 del 27 de agosto de 2021 Modificación a los requisitos de Jóvenes Investigadores en torno a la Resolución Académica 3522
+
+Circular N°4 del 13 de septiembre de 2021 Trámite de convenios de pasantía de Jóvenes Investigadores financiados con recursos de proyectos de Investigación
+
+Circular N°5 del 11 de octubre de 2021 Gestión Documental para Centros de Investigación
+
+Circular N°6 del 26 de octubre de 2021 Gestión financiera de proyectos de investigación con recursos manejados en cuentas bancarias exclusivas
+
+## 2020
+
+Circular N°1 del 15 de marzo de 2020 Dinámica de los proyectos y actividad de investigación durante la contingencia relacionada con el COVID-19
+
+Circular N° 2 del 24 de marzo de 2020 Orientaciones para permisos de movilidad de investigadores en virtud de la contingencia relacionada con el COVID-19
+
+Circular N° 3 del 26 de marzo de 2020 Disposiciones del Comité para el Desarrollo de la Investigación –CODI- en relación con la contingencia ocasionada por el COVID-19.
+
+Circular N° 4 del 12 de agosto de 2020 Prórroga automática por seis (6) meses a todos los proyectos financiados por el CODI e inscritos SIIU
+
+Circular N° 5 del 14 de agosto de 2020 Estado de la ejecución de Fondos de Apoyo a la Investigación
+
+Circular N° 6 del 14 de agosto de 2020 Modificación a los requisitos de Jóvenes Investigadores en torno a las Resoluciones Académicas 3415 y 3428.
+
+## 2019
+
+Circular 01 de 2019 Trámites y prórrogas de plazo para cumplimiento de compromisos de proyectos atrasados en el Sistema Universitario de Investigación
+
+Circular 02 de 2019 Nuevas disposiciones sobre proyectos atrasados
+
+Circular 03 de 2019 Contrato de Acceso a Recursos Genéticos y sus productos derivados
+
+## 2018
+
+Circular 05 de 2018 Tiempos de dedicación de los profesores en proyectos de investigación
+
+Circular 06 de 2018 Procedimiento para determinar el monto de los recursos a asignar a cada grupo de investigación
+
+Circular 07 de 2018 Ejecución Contratos Colciencias
+
+Circular 08 de 2018 Beneficios Tributarios por actividades de Ciencia, Tecnologia e Innovación.
+
+## 2017
+
+Circular 01 de 2017 Recomendaciones de la oficina de Asesoría Jurídica con respecto a las cláusulas de los contratos suscritos con Colciencias
+
+Circular 02 de 2017 Procedimiento para otorgar el aval institucional en marco de la Convocatoria 781 de reconocimiento y medición de grupos e investigadores de Colciencias, 2017
+
+Circular 03 de 2017 Procedimiento para participación en la Segunda Convocatoria de Colombia Científica - Ecosistema Científico
+
+Anexo ficha de inscripción de propuestas
+
+Circular 04 de 2017 Selección de propuestas que la Universidad de Antioquia presentará como institución Ancla a la Segunda Convocatoria Colombia Científica - Ecosistema Científico p
+
+## 2016
+
+Circular 01 de 2016 Finalización de proyectos de Colciencias
+
+Circular 02 de 2016 Contrato Marco de Acceso a Recursos Genéticos
+
+Circular 03 de 2016 Instructivo para otorgar aval institucional a jóvenes profesionales que participarán de la convocatoria 761-2016 Jóvenes Investigadores e Innovadores Colciencias 2016.
+
+Circular 04 de 2016 Procedimiento Convocatoria Colombia Científica - Ecosistema Científico.
+
+Circular 05 de 2016 Administración de los proyectos de investigación de los becarios.
+
+## 2015
+
+Circular 01 de 2015 Ajustes al Procedimiento para otorgar el aval institucional en marco de la Convocatoria de reconocimiento y medición de grupos e investigadores de Colciencias, 2014.
+
+Circular 02 de 2015 Recolección Y movilización de los especímenes - Permiso ANLA.
+
+Circular 03 de 2015 Ejecución de Proyectos a través de la plataforma SIIU.
+
+Circular 04 de 2015 Trámite de prórroga para los proyectos de Investigación.
+
+Circular 05 de 2015 Aclaraciones a procedimientos de compras y contratación.
+
+Circular 06 de 2015 Instructivo para otorgar aval institucional a las propuestas a presentarse a las Convocatorias Colciencias 705, 709, 710, 711, 712, 713, 714 o 715
+
+Circular 07 de 2015 Instructivo para otorgar aval institucional a jóvenes profesionales que participarán de la convocatoria 706-2015 Jóvenes Investigadores Colciencias.
+
+## 2014
+
+Circular 01 de 2014 Reglamentos internos de los grupos de investigación.
+
+Circular 02 de 2014 Convocatorias Colciencias 657, 658, 659 y 660 de 2014
+
+Circular 03 de 2014 Gestión de la documentación de los proyectos de investigación.
+
+Circular 04 de 2014 Convocatoria de reconocimiento y medición de grupos e investigadores de Colciencias, 2014
+
+Circular 05 de 2014 Cronograma actividades de fondos y apoyos a la investigación por cierre financiero de la UdeA vigencia 2014.
+
+Circular 06 de 2014 Vinculación de Jóvenes Investigadores Colciencias.
+
+Circular 07 de 2014 Liquidación de convenios y contratos con Colciencias o la fiduciaria.
+
+Circular 08 de 2014 Procedimiento para otorgar el aval institucional en marco de la Convocatoria de reconocimiento y medición de grupos e investigadores de Colciencias, 2014.
+
+Anexo Circular 08 de 2014 Distribución de grupos en Centros de investigación.
+
+## 2013
+
+Circular 01 de 2013 Cumplimiento de compromisos en proyectos de investigación. Fecha: 23 de enero de 2013
+
+Circular 02 de 2013 Funciones del investigador principal.
+
+Circular 03 de 2013 Convocatoria Colciencias 617: información específica para jóvenes investigadores y semilleros de investigación.
+
+Circular 04 de 2013 Indicaciones para los beneficiarios de la estrategia de sostenibilidad 2013-2014.
+
+Circular 05 de 2013 Cumplimiento de compromisos en proyectos de investigación inscritos en al Sistema Universidad para acceder a recursos del CODI.
+
+Circular 06 de 2013 Actualización de información en Base de Datos de la Vicerrectoría de Investigación.
+
+Circular 07 de 2013 Convocatoria Colciencias para el reconocimiento y medición de grupos de investigación, año 2013 Vicerrectoría de Investigación
+
+## 2012
+
+Circular 02 de 2012 Devolución contrapartidas CODI
+
+Circular 03 de 2012 Convocatoria Colciencias 569-2012.
+
+Circular 04 de 2012 Convocatoria Colciencias 566-2012 Jóvenes Investigadores.
+
+Circular 05 de 2012 Convocatoria Colciencias 576-2012.
+
+Circular 06 de 2012 Convocatoria Colciencias de Reconocimiento de Grupos de Investigación año 2012.
+## Puntos de Contacto y Referencias
+### Contacto
+- Vicerrectoría de Investigación — Universidad de Antioquia
+- Sede Administrativa: Calle 67 No. 53-108, Bloque 16 / SIU Calle 62 No. 52-59
+- Conmutador: (+57-604) 219 5190
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/gestion-investigacion/Contenido/asContenidosMenu/circulares)
+- [PDF: Circular 00001 de 2026](https://www.udea.edu.co/wps/wcm/connect/udea/3c9af606-ebae-4aa9-bd4f-b1f052c56bee/Circular+01+del+2026_CronogramaJI.pdf?MOD=AJPERES&CVID=pL.E-QC)
+- [PDF: Circular informativa 01 de 2025](https://www.udea.edu.co/wps/wcm/connect/udea/71323081-1d07-4e42-95b7-5083ec5e3e91/Circular012025_estado-ejecucion-fondo-apoyo-PPInvestigacion.pdf?MOD=AJPERES&CVID=pnnOY0k)
+- [PDF: Circular informativa 02 de 2025](https://www.udea.edu.co/wps/wcm/connect/udea/b4d785f0-c796-4939-b653-4a31a60104a0/Circular+0225_listado-revistas-homologadas-publindex.pdf?MOD=AJPERES&CVID=pnnLUdV)
+- [PDF: Circular informativa 01 de 2024](https://www.udea.edu.co/wps/wcm/connect/udea/80a130a3-ab6a-47d2-b74d-c43ccc777b3e/Circular+2-Inscripci%C3%B3n+de+Proyectos+Feb23.pdf?MOD=AJPERES&CVID=oTDiX9Q)
+- [PDF: Circular Informativa 02 de 2024](https://www.udea.edu.co/wps/wcm/connect/udea/a4598c93-4389-4051-b619-b7a0e39def85/Circular+2-Marzo6_Inscripci%C3%B3n+de+Proyectos+VRI.pdf?MOD=AJPERES&CVID=oUlAIez)
+- [PDF: Circular Informativa 02 de 2023](https://www.udea.edu.co/wps/wcm/connect/udea/aa758391-23ff-4f6e-b812-33f7f74e3bc5/Circular_2_Eliminaci%C3%B3n_Fondos_+Apoyo_Investigaci%C3%B3n_09JUN23.pdf?MOD=AJPERES&CVID=oySx8Fj)
+- [PDF: Circular N°7 del 25 de abril de 2022](https://www.udea.edu.co/wps/wcm/connect/udea/ba096ed6-3c2d-4140-8f06-a129d3b734c2/Circular+Informativa+07+de+2023.pdf?MOD=AJPERES&CVID=ov7XRVy)
+- [Word: Circular N°1 del 30 de marzo de 2022](https://www.udea.edu.co/wps/wcm/connect/udea/1e959b66-f7bf-45af-8d61-01fdceb74138/Circular%2B1%2B2022+garant%C3%ADas%2BJI+RA+3588.docx?MOD=AJPERES&CVID=n.CDyQS)
+- [PDF: Recomendaciones actividades académicas período de vacaciones colectivas](https://www.udea.edu.co/wps/wcm/connect/udea/fd62135c-cccc-4fa0-8306-bc6d0f906012/Circular_ARL_2023.pdf?MOD=AJPERES&CVID=oxYPsAy)
+- [PDF: Circular N°1 del 3 de marzo de 2021](https://www.udea.edu.co/wps/wcm/connect/udea/a110d1cf-be4f-4adc-8007-ee5cd72819f4/Circular+1+de+2021+-+Fondo+Primer+Proyecto.pdf?MOD=AJPERES&CVID=nwsEvwY)
+
+------------------------------------------------------------
+## [DOCUMENTO]: vicerrectoria.md
+*Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/vicerrectoria.md`*
+------------------------------------------------------------
+
+# Vicerrectoría de Investigación
+
+## Resumen Ejecutivo
+Documentación institucional y lineamientos oficiales de Vicerrectoría de Investigación en el Sistema Universitario de Investigación de la Universidad de Antioquia.
+
+## Contenido Principal
+La Vicerrectoría de Investigación es la dependencia que lidera el Sistema de Investigación de la Universidad de Antioquia y la responsable de la ejecución de las estrategias de fomento de la investigación definidas por el Comité para el Desarrollo de la Investigación, CODI, por medio de la gestión de convocatorias, fondos para la investigación , proyectos especiales y divulgación científica.
+
+Su quehacer está regulado por el Estatuto General y el Acuerdo Superior 204 del 6 de noviembre de 2001.
+
+Ubicada en el Campus Medellín, Ciudad Universitaria Bloque 16-210.
+
+## Equipo de trabajo
+
+|  | Diana Marcela Garcés Valderrama Vicerrectora de Investigación Correo electrónico: vice.investigacion@udea.edu.co Teléfono: 6042195190 |
+| --- | --- |
+|  | Gloria Valencia Bustamante Asistente Correo electrónico: asistente.vin@udea.edu.co Teléfono: 6042195194 Días de atención presencial: lunes a viernes, 7:00 a.m. a 4:00 p.m. |
+|  | Luz Adriana Martínez Gallego Secretaria Correo electrónico: luz.martinez1@udea.edu.co Teléfono: 6042195190 Días de atención presencial: lunes a viernes, 8:00 a.m. a 5:00 p.m. |
+|  | Andrea Echeverry Zuleta Analista de convocatorias externas Correo electrónico: avales.vri@udea.edu.co Teléfono: 6042195192 Días de atención presencial: lunes a viernes, 8:00 a.m. a 5:00 p.m. |
+|  | Mauricio Toro Torres Profesional de convocatorias internas Fondos de apoyo Atención usuarios SIIU Correo electrónico: fondos.vin@udea.edu.co ​ ​​​​​​ Teléfono: 6042195193 Días de atención presencial: Martes, jueves y viernes, 7:30 a.m. a 4:30 p.m. Días de atención virtual: Lunes y miércoles, 7:00 a.m. a 4:00 p.m. |
+|  | Diana Patricia Diaz Quiroz Auxiliar administrativa Programa Jóvenes Investigadores Fondo de apoyo al primer proyecto Atención usuarios SIIU Premio Investigación Estudiantil Correo electrónico: apoyo.vin@udea.edu.co Teléfono: 6042198193 Días de atención presencial: Martes, jueves y viernes 7:30 a.m. a 4:30 p.m. Días de atención virtual: Lunes y miércoles 7:30 a.m. a 4:30 p.m. |
+|  | Ana María Osorio López Profesional Estadísticas Ciencia Abierta Correo electrónico: estadisticas.vi@udea.edu.co Teléfono: 6042198188 Días de atención presencial: Lunes, martes y jueves 7:30 a.m. a 4:30 p.m. Días de atención virtual: Miércoles y viernes 7:30 a.m. a 4:30 p.m. |
+|  | Kamila Giraldo Quintero Profesional Democratización Correo electrónico: democratizacion.vin@udea.edu.co Teléfono: 6042195190 Días de atención presencial: lunes y jueves, 7:00 a.m. a 4:00 p.m Martes, miércoles y viernes, 8:00 a.m. a 5:00 p.m. |
+|  | Maria Paulina Mesa Zuluaga Profesora e investigadora Apropiación social del conocimiento Correo electrónico: mpaulina.mesa@udea.edu.co Teléfono: 6042195190 Días de atención presencial: Martes, miércoles y viernes 8:00 a.m. a 12:00 m. |
+|  | Daniel Carvajal Tabares Profesional Programa de semilleros de investigación Correo electrónico: semilleros.vin@udea. edu.co Teléfono: 6042198194 Días de atención presencial: Lunes, jueves y viernes 9:00 a.m. a 5:00 p.m. Días de atención virtual: Martes y miércoles 9:00 a.m. a 5:00 p.m. |
+|  | Sergio Gómez Molina Profesional Coordinador programa de desarrollo de capacidades Correo electrónico: sergio.gomezm@udea.edu.co Teléfono: 6042198194 Días de atención presencial: Martes, jueves y viernes 7:00 a.m. a 4:00 p.m. Días de atención virtual: Lunes y miércoles 8:00 a.m. a 5:00 p.m. |
+|  | Edwin Castaño Arias Auxiliar administrativo Apoyo en gestión de datos Estrategia de sostenibilidad Plataforma SIIU Correo electrónico: datos.viceinvestiga@udea.edu.co Teléfono: 6042198188 Días de atención presencial: Lunes, martes y jueves 7:00 a.m. a 4:00 p.m. Días de atención virtual: Miércoles y viernes 7:00 a.m. a 4:00 p.m. |
+|  | Sandra Patricia Zabala Analista sistema SIIUA Apoyo revistas UdeA Correo electrónico: sandra.zabala@udea.edu.co Teléfono: 604 219 5198 Días de atención presencial: Lunes a viernes, 7:30 a.m. a 4:30 p.m. |
+|  | Carlos Andrés Vargas Alzate Analista de datos Correo electrónico: carlos.vargas@udea.edu.co Teléfono: 6042198188 Días de atención presencial: Martes, miércoles y viernes 7:00 a.m. a 4:00 p.m. Días de atención virtual: Lunes y jueves 7:00 a.m. a 4:00 p.m. |
+## Puntos de Contacto y Referencias
+### Contacto
+- Bloque 16-210
+- vice.investigacion@udea.edu.co
+- asistente.vin@udea.edu.co
+- luz.martinez1@udea.edu.co
+- avales.vri@udea.edu.co
+- fondos.vin@udea.edu.co
+- apoyo.vin@udea.edu.co
+- estadisticas.vi@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/investigacion-udea/Contenido/asMenuLateral/vicerrectoria)
+- [PDF: Estatuto General](http://secretariageneral.udea.edu.co/doc/a0001-1994.pdf)
+
+------------------------------------------------------------
+## [DOCUMENTO]: siu.md
+*Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/siu.md`*
+------------------------------------------------------------
+
+# Sistema Universitario de Investigación
+
+## Resumen Ejecutivo
+Sistema Universitario de Investigación
+
+## Contenido Principal
+La investigación en la Universidad de Antioquia data de alrededor de 1960 cuando regresan al país algunos profesores con título de posgrado, principalmente en el área de la salud. Para 1980 ya existían varios grupos de investigación que se habían conformado. En ese entonces se empiezan a estructurar las primeras políticas de investigación en la Universidad que dan lugar al establecimiento del Sistema Universitario de Investigación, consignado en el Acuerdo superior 153 de 1990.
+
+Este sistema de investigación de la Universidad de Antioquia fue sometido a un proceso de evaluación para las actividades realizadas en la década 1990-1999, evaluación que dio lugar a una reforma importante del SUI que se formalizó en el Acuerdo Superior 204 de 2001, vigente en la actualidad.
+
+Hoy contamos con una organización en la cual los grupos de investigación están adscritos a las facultades, escuelas o institutos. En cada una de estas dependencias existe un centro de investigación encargado de apoyar a sus investigadores en los procesos administrativos cuando se presentan a las convocatorias para financiación de proyectos.
+
+![](https://www.udea.edu.co/wps/wcm/connect/udea/5ff5e6b7-89ca-467b-b343-5dfa7e2600fb/centros-investigacion.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_L8L8H8C0LODDC0A6SSS2AD2GO4-5ff5e6b7-89ca-467b-b343-5dfa7e2600fb-lyxwVq8)
+
+Estos centros administran los recursos económicos y hacen los trámites para compras de materiales, reactivos, equipos, contratación de personal, cambios de rubros y control de compromisos de cada proyecto.
+
+El centro de investigación cuenta con un comité técnico integrado por el decano o director de la unidad, el jefe del centro y una representación de los grupos de investigación de esa unidad. Para efectos administrativos y de políticas de investigación existe el Comité para el Desarrollo de la Investigación (CODI) integrado por representantes de la administración universitaria y de la comunidad de investigadores.
+
+El CODI propone las políticas de investigación las cuales después de ser analizadas se pasan a discusión por el Consejo Académico el cual las recomienda para aprobación del Consejo Superior. Además el CODI asesora a la institución en todo lo relacionado con la investigación, a través de convocatorias anuales impulsa la actividad investigativa, y la articula con la docencia y la extensión, administra los recursos financieros para la investigación y apoya la difusión y la publicación de la actividad investigativa. La secretaría técnica del CODI está a cargo de la Vicerrectoría de Investigación.
+
+La Universidad apoya financieramente la investigación asignando anualmente recursos para tal fin. Estos recursos se invierten en convocatorias por áreas (ciencias médicas y de la salud; ingeniería y tecnologías; ciencias exactas y naturales; ciencias sociales, humanidades y artes). Igualmente, tiene establecidos fondos para para apoyar actividades asociadas a los proyectos de investigación: pasajes nacionales e internacionales, organización de eventos, primer proyecto, internacionalización, revistas especializadas, traducción, proyectos de pregrado.
+
+## Estructura del Sistema Universitario de Investigación
+
+![](https://www.udea.edu.co/wps/wcm/connect/udea/4695ade0-6a4e-4843-a2f3-b5e671f61637/estructura-sui.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_L8L8H8C0LODDC0A6SSS2AD2GO4-4695ade0-6a4e-4843-a2f3-b5e671f61637-lyxuKVW)
+## Puntos de Contacto y Referencias
+### Contacto
+- Vicerrectoría de Investigación — Universidad de Antioquia
+- Sede Administrativa: Calle 67 No. 53-108, Bloque 16 / SIU Calle 62 No. 52-59
+- Conmutador: (+57-604) 219 5190
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/investigacion-udea/Contenido/asMenuLateral/siu)
+
+------------------------------------------------------------
+## [DOCUMENTO]: siiu.md
+*Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/siiu.md`*
+------------------------------------------------------------
+
+# Sistema Integrado de Información Universitaria
+
+## Resumen Ejecutivo
+![](https://www.udea.edu.co/wps/wcm/connect/udea/6a327170-fadb-4f6a-a6d8-3476dd10d798/1/000.png?MOD=AJPERES) Conoce el SIIU y accede a los manuales para los módulos que se encuentran activos en esta plataforma.
+
+## Contenido Principal
+## ¿Qué es el SIIU?
+
+El Sistema  Integrado de Información Universitaria —SIIU— es una herramienta informática creada para mejorar la eficiencia en la administración de los proyectos de investigación de la Universidad de Antioquia.
+
+## Manuales
+
+Haz clic sobre el nombre del manual para acceder y descargar.
+
+## Manuales para el Investigador principal  - Tutor
+
+| Manual | Proceso | Perfil | Módulo |
+| --- | --- | --- | --- |
+| VI-GU-05 Guía para el registro de proyectos en el proceso de avales Institucionales  en el SIIU | Avales institucionales | Investigador principal | Convocatorias |
+| VI-GU-17 Guía para la matrícula de primer proyecto en el SIIU | Primer proyecto | Investigador principal | Convocatorias |
+| VI-GU-16 Guía para la información complementaria de los proyectos en el SIIU | Información complementaria | Investigador principal | Convocatorias |
+| VI-GU-24 Guía para la matrícula de proyectos en convocatoria en el SIIU | Matricula proyectos | Investigador principal | Convocatorias |
+| VI-GU-18 Guía para la matrícula de proyectos inscritos en el SIIU | Inscritos | Investigador principal | Convocatorias |
+| VI-GU-20 Guía para la solicitud de cambio de rubro en el SIIU | Solicitudes administrativas | Investigador principal | Administrativo |
+| VI-GU-23 Guía para la solicitud de prórroga de proyectos en el SIIU | Solicitudes administrativas | Investigador principal | Administrativo |
+| VI-GU-21 Guía para la homologación de compromisos en el SIIU | Solicitudes administrativas | Investigador principal | Administrativo |
+| VI-GU-22 Guía para la solicitud de plazo en la entrega de compromisos en el SIIU | Solicitudes administrativas | Investigador principal | Administrativo |
+| VI-GU-19 Guía para la solicitud de cambio de participante en el SIIU | Solicitudes administrativas | Investigador principal | Administrativo |
+| VI-IN-12 Instructivo para solicitar actualización de proyectos en el sistema SIIU | Actualizar proyectos | Investigador principal | Convocatorias |
+| VI-GU-25 Guía CKEditor para la matrícula de proyectos en el SIIU | MatrÍcula de proyectos | Investigador principal | Convocatorias |
+
+## Manuales para el centro de investigación
+
+| Nombre manual | Proceso | Perfil | Módulo |
+| --- | --- | --- | --- |
+| VI-GU-02 Guía para el aval de proyectos desde el proceso de avales institucionales en el SIIU | Avales institucionales | Centro Investigación | Convocatorias |
+| VI-GU-08 Guía para la evaluación técnica y aval del proyecto en el SIIU | Avalar proyectos | Centro Investigación | Convocatorias |
+| VI-GU-06 Guía para la asignación de evaluadores en el SIIU | Asignar evaluadores | Centro Investigación | Convocatorias |
+| VI-GU-15 Guía para el inicio formal de proyectos en el SIIU | Inicio formal | Centro Investigación | Administrativo |
+| VI-GU-09 Guía para la gestión de compromisos en  el SIIU | Compromisos | Centro Investigación | Administrativo |
+| VI-GU-13 Guía para avalar y aplicar solicitudes administrativas en el SIIU | Avalar solicitudes | Centro Investigación | Administrativo |
+| VI-IN-05 Instructivo para la actualización del proyecto devuelto al investigador principal en el SIIU | Devolver proyecto al IP | Centro Investigación | Convocatorias |
+| VI-GU-26 Guía para la configuración del presupuesto en el SIIU | Configuración de presupuesto | Centro Investigación | Administrativo |
+
+## Manual para coordinadores de grupo
+
+| Nombre  del manual | Proceso | Perfil | Módulo |
+| --- | --- | --- | --- |
+| VI-IN-03 Instructivo para la firma del coordinador de grupo | Firma del coordinador | Coordinador de grupo | Administrativo |
+
+## Manuales para configuración  y gestión SIIU
+
+| Nombre manual | Proceso | Perfil | Módulo |
+| --- | --- | --- | --- |
+| VI-GU-01 Guía para cambiar el responsable del proyecto en el SIIU | Cambiar responsable | Administrador SIIU | Convocatorias |
+| VI-GU-07 Guía para la configuración de la convocatoria en el SIIU | Configuración | Administrador SIIU | Convocatorias |
+| VI-GU-14 Guía para configurar trámites administrativos en el SIIU | Tramites administrativos | Administrador SIIU | Administrativo |
+| VI-GU-12 Guía para aprobar solicitudes administrativas en el SIIU | Aprobar solicitudes | Vicerrectoria Investigación | Administrativo |
+| VI-GU-04 Guía para el cierre de proyectos en  el SIIU | Cierre proyecto | Administrador SIIU | Administrativo |
+| VI-IN-04 Instructivo para cambiar proyectos en estado atrasado a ejecución | Cambio de proyectos atrasados | Vicerrectoría | Convocatorias |
+
+## Manuales para procesos Joven Investigador
+
+| Nombre manual | Proceso | Perfil | Módulo |
+| --- | --- | --- | --- |
+| VI-GU-10 Guía para la matrícula de cupos en el programa joven investigador en el SIIU | Joven investigador | Tutor | Convocatorias |
+| VI-GU-11 Guía para la solicitud de prórroga de cupos en el programa joven investigador en el SIIU | Joven investigador | Tutor | Administrativo |
+| VI-IN-06 Instructivo para el registro de estudiante como joven investigador en el SIIU | Registro de estudiante como JI | Tutor | Convocatorias |
+| VI-GU-10 Guía para la matrícula de cupos en el programa joven investigador en el SIIU | Joven investigador | Tutor | Convocatorias |
+| VI-GU-11 Guía para la solicitud de prórroga de cupos en el programa joven investigador en el SIIU | Joven investigador | Tutor | Administrativo |
+
+## Manuales para generación de reportes
+
+| Nombre manual | Proceso | Perfil | Módulo |
+| --- | --- | --- | --- |
+| VI-IN-01 Instructivo para generar constancias de proyectos  por grupos de investigación | Generación de reportes | Todos | Reportes |
+| VI-IN-02 Instructivo para generar reporte historial de proyectos | Generación de reportes | Todos | Reportes |
+| VI-IN-07 Instructivo para generar constancias de participación en proyectos | Generación de reportes | Todos | Reportes |
+| VI-IN-08 Instructivo para generar constancias evaluador de proyectos | Generación de reportes | Todos | Reportes |
+| VI-IN-09 Instructivo para generar el reporte de información básica de proyectos | Generación de reportes | Todos | Reportes |
+| VI-IN-10 Instructivo para generar el reporte historial de proyectos | Generación de reportes | Todos | Reportes |
+| VI-IN-11 Instructivo para generar el reporte por persona | Generación de reportes | Todos | Reportes |
+## Puntos de Contacto y Referencias
+### Contacto
+- Vicerrectoría de Investigación — Universidad de Antioquia
+- Sede Administrativa: Calle 67 No. 53-108, Bloque 16 / SIU Calle 62 No. 52-59
+- Conmutador: (+57-604) 219 5190
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/gestion-investigacion/Contenido/asContenidosMenu/siiu)
+- [PDF: VI-GU-05 Guía para el registro de proyectos en el proceso de avales Institucionales  en el SIIU](https://www.udea.edu.co/wps/wcm/connect/udea/4338af16-b70b-46a7-a2e1-0f7b5b648ad3/Manual+Matricula+de+cupo+para+JI+2026+%2813%29.pdf?MOD=AJPERES&CVID=pW9A-yd)
+
+------------------------------------------------------------
+## [DOCUMENTO]: comite_central_etica.md
+*Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/comite_central_etica.md`*
+------------------------------------------------------------
+
+# Comité Central de Ética en Investigación
+
+## Resumen Ejecutivo
+Documentación institucional y lineamientos oficiales de Comité Central de Ética en Investigación en el Sistema Universitario de Investigación de la Universidad de Antioquia.
+
+## Contenido Principal
+### Presentación
+
+El Comité Central de Ética en Investigación es un organismo adscrito a la Vicerrectoría de Investigación, que actúa con autonomía en el cumplimiento de sus funciones, cuyo objeto es velar porque los aspectos éticos de la investigación se reflejen en las normas y prácticas investigativas de la Universidad. Sus funciones, reglamentación y conformación están establecidos en la Resolución Rectoral 47765 del 15 de marzo de 2021.
+
+Resolución Rectoral 47765
+
+![Archivo Genérico](https://www.udea.edu.co/wps/wcm/connect/udea/80c64ff0-dc01-4dd3-b112-0d8d5b2524e0/generico.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_L8L8H8C0LODDC0A6SSS2AD2GO4-80c64ff0-dc01-4dd3-b112-0d8d5b2524e0-kMFGrXk)
+
+### Manual para el funcionamiento de los Comités de Ética en Investigación de la Universidad de Antioquia
+
+El Comité Central de Ética en Investigación presenta este manual a la comunidad universitaria y a la comunidad en general con la intención de aportar al fortalecimiento de los aspectos éticos, en particular aquellos referentes a los procedimientos relacionados con la generación de nuevos conocimientos en nuestro medio. El objetivo de este documento es brindar una guía para los procedimientos operativos del CCEI y de los distintos Comités de Ética y Bioética en la Universidad de Antioquia.
+
+Descargar manual
+
+![Archivo Genérico](https://www.udea.edu.co/wps/wcm/connect/udea/80c64ff0-dc01-4dd3-b112-0d8d5b2524e0/generico.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_L8L8H8C0LODDC0A6SSS2AD2GO4-80c64ff0-dc01-4dd3-b112-0d8d5b2524e0-kMFGrXk)
+
+### Circular Única
+
+Consulta la Circular Única Tópicos de Interés Ético-bioético en Investigación al Interior de la Universidad de Antioquia.
+
+Descargar Circular
+
+![Archivo Genérico](https://www.udea.edu.co/wps/wcm/connect/udea/80c64ff0-dc01-4dd3-b112-0d8d5b2524e0/generico.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_L8L8H8C0LODDC0A6SSS2AD2GO4-80c64ff0-dc01-4dd3-b112-0d8d5b2524e0-kMFGrXk)
+
+### Más información
+
+direccionsiu@udea.edu.co
+## Puntos de Contacto y Referencias
+### Contacto
+- direccionsiu@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/etica-en-la-investigacion-udea/contenido/ascontenidosmenu/comite-central-etica-investigacion)
+- [PDF: Resolución Rectoral 47765](https://www.udea.edu.co/wps/wcm/connect/udea/04543468-66ad-4015-8850-ee4b36c0d86c/Resolucio%CC%81n+Rectora+47765.pdf?MOD=AJPERES&CVID=nK7Qn4c)
+- [PDF: Descargar manual](https://www.udea.edu.co/wps/wcm/connect/udea/8598ab50-c33d-45cf-be1c-b105a884743b/Manual+operativo_Segundaversi%C3%B3n.Ajustada.pdf?MOD=AJPERES&CVID=oUqU4v2)
+- [PDF: Descargar Circular](https://www.udea.edu.co/wps/wcm/connect/udea/52644c75-4996-42c2-8572-c14c2e321ccc/Circular+%C3%9Anica+CCEI+-+FINAL.+Sept29.pdf?MOD=AJPERES&CVID=oeesmid)
+
+------------------------------------------------------------
+## [DOCUMENTO]: convocatorias_codi.md
+*Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/convocatorias_codi.md`*
+------------------------------------------------------------
+
+# Convocatorias CODI
+
+## Resumen Ejecutivo
+La Universidad de Antioquia y el Comité para el Desarrollo de la Investigación (CODI) convocan a los grupos de investigación de la Universidad de Antioquia a presentar propuestas a la Convocatoria Estrategia para la sostenibilidad y consolidación de los grupos de investigación 2026.
+
+## Contenido Principal
+El CODI financia programas y proyectos de investigación a través de convocatorias internas y conjuntas que permitan incrementar la producción científica y generar conocimiento de alto nivel en la Universidad de Antioquia.
+
+### 📅 Histórico de convocatorias CODI 2000 - 2018
+
+### 📅 Histórico de convocatorias CODI a partir del 2019
+## Puntos de Contacto y Referencias
+### Contacto
+- Vicerrectoría de Investigación — Universidad de Antioquia
+- Sede Administrativa: Calle 67 No. 53-108, Bloque 16 / SIU Calle 62 No. 52-59
+- Conmutador: (+57-604) 219 5190
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/convocatorias-fondos-etiqueta/convocatorias-codi/)
+
+------------------------------------------------------------
+## [DOCUMENTO]: convocatorias_externas.md
+*Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/convocatorias_externas.md`*
+------------------------------------------------------------
+
+# Convocatorias externas
+
+## Resumen Ejecutivo
+Conformar un listado de macroproyectos nacionales elegibles para financiación con recursos de la Asignación para la CTeI del Sistema General de Regalías que atiendan las demandas territoriales del bienio 2025-2026 y fortalezcan las capacidades científico-tecnológicas del país mediante intervenciones articuladas en varias regiones.
+
+## Contenido Principal
+La Vicerrectoría de Investigación acompaña a los grupos de investigación en la presentación de los proyectos ante entidades externas a través del aval, certificación de las contrapartidas y los trámites correspondientes a la formalización, ejecución y liquidación que permitan obtener recursos externos, incrementar la producción científica, la formación de estudiantes y la divulgación científica de la Universidad de Antioquia.
+
+![](https://www.udea.edu.co/wps/wcm/connect/udea/d2bac183-acba-4d76-820a-5286c530e08c/1/Banner+Oferta+Institucional+MINCIENCIAS.jpg?MOD=AJPERES)
+
+### Ingresa aquí para consultar las convocatorias de Minciencias y encuentra información detallada de cada una.
+## Puntos de Contacto y Referencias
+### Contacto
+- Vicerrectoría de Investigación — Universidad de Antioquia
+- Sede Administrativa: Calle 67 No. 53-108, Bloque 16 / SIU Calle 62 No. 52-59
+- Conmutador: (+57-604) 219 5190
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/convocatorias-fondos-etiqueta/convocatorias-externas)
+
+------------------------------------------------------------
+## [DOCUMENTO]: fondos_investigacion.md
+*Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/fondos_investigacion.md`*
+------------------------------------------------------------
+
+# Fondos de investigación
+
+## Resumen Ejecutivo
+El fondo tiene como objetivo financiar la realización de productos en torno a la Comunicación Pública de la Ciencia (CPC) y la Apropiación Social del Conocimiento (ASC). El tipo de contenidos que se financiarán corresponde a la tipología definida en la Tabla de Aceptación de Productos vigente de la Universidad de Antioquia como productos de Apropiación Social del Conocimiento (ASC).
+
+## Contenido Principal
+Mediante estos Fondos, el CODI apoya el desarrollo de la actividad investigativa en la Universidad de Antioquia a través de fondos especiales que fomenten la realización de proyectos, la socialización y publicación de resultados y la realización de eventos científicos.
+## Puntos de Contacto y Referencias
+### Contacto
+- Vicerrectoría de Investigación — Universidad de Antioquia
+- Sede Administrativa: Calle 67 No. 53-108, Bloque 16 / SIU Calle 62 No. 52-59
+- Conmutador: (+57-604) 219 5190
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/convocatorias-fondos-etiqueta/fondos-investigacion)
+
+------------------------------------------------------------
+## [DOCUMENTO]: programa_jovenes_investigadores.md
+*Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/programa_jovenes_investigadores.md`*
+------------------------------------------------------------
+
+# Sobre el programa en la UdeA
+
+## Resumen Ejecutivo
+Documentación institucional y lineamientos oficiales de Sobre el programa en la UdeA en el Sistema Universitario de Investigación de la Universidad de Antioquia.
+
+## Contenido Principal
+![](https://www.udea.edu.co/wps/wcm/connect/udea/2457b40b-606d-4639-98fd-0355ee38e65f/1/Banner+principal.png?MOD=AJPERES)
+
+La Universidad de Antioquia está comprometida con el fomento de la cultura y las vocaciones científicas a lo largo del ciclo de vida académico, como elemento fundamental para la búsqueda de la excelencia. El programa ofrece a los jóvenes con interés y potencial en el campo de la investigación la oportunidad de conocer en la práctica las dinámicas del trabajo científico colectivo y, a través de ello, ir consolidando su perfil investigador. Además, permite que los grupos desarrollen su estrategia de formación de investigadores como una alternativa para el fortalecimiento de sus capacidades y su proyección.
+
+Los estudiantes de pregrado de la Universidad de Antioquia podrán vincularse a los grupos de investigación que cumplan las condiciones mínimas establecidas. El vínculo de los estudiantes al Programa se realiza principalmente a través de los grupos de investigación que apliquen a esta Convocatoria CODI.
+
+Los grupos interesados en participar en la convocatoria deberán registrar la solicitud de cupo a través del SIIU, ver manual registro de cupo SIIU; una vez aprobado los cupos se procede con el nombramiento de los estudiantes siguiendo el manual registro del JI - SIIU.
+
+## Jóvenes investigadores financiados por proyectos
+
+Los grupos de investigación, las unidades académicas y otras dependencias administrativas podrán aportar recursos para la vinculación de un mayor número de estudiantes al Programa. Aquellos interesados deberán mantener las mismas condiciones descritas en estos términos de referencia y los recursos aportados deberán cubrir el 100% de la pasantía.
+
+Los grupos interesados deben realizar la solitud del trámite a través de los centros de investigación que manejan los recursos de los proyectos de investigación que financiarán los estudiantes, los centros tramitan los CDPs y los remiten a la Vicerrectoría de Investigación con los siguientes documentos debidamente diligenciados:
+
+Minuta de convenio JI financiados por proyectos
+
+![Archivo Genérico](https://www.udea.edu.co/wps/wcm/connect/udea/80c64ff0-dc01-4dd3-b112-0d8d5b2524e0/generico.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_L8L8H8C0LODDC0A6SSS2AD2GO4-80c64ff0-dc01-4dd3-b112-0d8d5b2524e0-kMFGrXk)
+
+Formato JI Hoja de vida
+
+![Archivo Genérico](https://www.udea.edu.co/wps/wcm/connect/udea/80c64ff0-dc01-4dd3-b112-0d8d5b2524e0/generico.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_L8L8H8C0LODDC0A6SSS2AD2GO4-80c64ff0-dc01-4dd3-b112-0d8d5b2524e0-kMFGrXk)
+
+Plantilla para la solicitud de convenios
+
+![Archivo Genérico](https://www.udea.edu.co/wps/wcm/connect/udea/80c64ff0-dc01-4dd3-b112-0d8d5b2524e0/generico.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_L8L8H8C0LODDC0A6SSS2AD2GO4-80c64ff0-dc01-4dd3-b112-0d8d5b2524e0-kMFGrXk)
+
+## Importante
+
+- Invitamos a los centros de investigación, tutores de jóvenes investigadores y personal administrativo de las unidades académicas a cargo del trámite de los convenios de pasantía, a tener en cuenta la circular la circular 00001 de 2026 en la que se presenta el cronograma del proceso para este año. Leer circular
+
+## Contacto
+
+Diana Patricia Diaz Quiroz Auxiliar Administrativa apoyo.vin@udea.edu.co Teléfono: (57-4) 2198193
+## Puntos de Contacto y Referencias
+### Contacto
+- apoyo.vin@udea.edu.co
+- 2198193
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/convocatorias-fondos-etiqueta/programa-jovenes-investigadores)
+- [Word: Minuta de convenio JI financiados por proyectos](https://www.udea.edu.co/wps/wcm/connect/udea/e970a0f9-8b04-4d86-a5dc-900b101a0c93/Formato+convenio+JI+PROYECTOS+2023+v1.docx?MOD=AJPERES&CVID=oCXX.m-)
+- [Word: Formato JI Hoja de vida](https://www.udea.edu.co/wps/wcm/connect/udea/b6b15b4f-9039-4fcb-8214-9c559c790b15/Formato+hoja+de+vida+JI.docx?MOD=AJPERES&CVID=nMTO6ji)
+- [Excel: Plantilla para la solicitud de convenios](https://www.udea.edu.co/wps/wcm/connect/udea/05ea8f62-18f1-4f3f-86c1-994d64afa9a6/plantilla+para+solicitar+ji+x+proyecto.xlsx?MOD=AJPERES&CVID=nMTN-9K)
+- [PDF: Leer circular](https://www.udea.edu.co/wps/wcm/connect/udea/3c9af606-ebae-4aa9-bd4f-b1f052c56bee/Circular+01+del+2026_CronogramaJI.pdf?MOD=AJPERES&CVID=pL.E-QC)
+
+------------------------------------------------------------
+## [DOCUMENTO]: procedimientos_formatos.md
+*Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/procedimientos_formatos.md`*
+------------------------------------------------------------
+
+# Procedimientos y formatos
+
+## Resumen Ejecutivo
+Esta documentación aplica para los proyectos y estrategias de sostenibilidad que aún están en Access no para los del SIIU, que deben ser gestionados directamente por el aplicativo.
+
+## Contenido Principal
+A continuación, encontrará una lista de formatos y procedimientos asociados a procesos de investigación en la Universidad de Antioquia. Esta documentación aplica para los proyectos y estrategias de sostenibilidad que aún están en Access no para los del SIIU, que deben ser gestionados directamente por el aplicativo.
+
+Procedimientos Procedimiento para solicitud de aval institucional para convocatorias externas El investigador que requiera un Aval Institucional para participar de una convocatoria externa deberá ponerse en contacto con el Centro de Investigación de su Facultad, Escuela o Instituto, para enviar al correo electrónico de la Vicerrectoría de Investigación avales.vri@udea.edu.co , la siguiente información: Aval del Comité Técnico del Centro de Investigación. Descarga de docencia aprobada por el Consejo de Facultad, Escuela o Instituto. Proyecto y presupuesto que será enviado. Certificados de contrapartida firmados por el coordinador de grupo, si aplica. Si la entidad cuenta con un formato establecido para el aval institucional, recomendamos que lo adjunte respectivamente diligenciado para proceder con la firma del Vicerrector de Investigación o si es del caso, la firma del Rector. Aval de Ética / Bioética (Si aplica) Términos de referencia de la convocatoria a la que se postulará el proyecto. Plazo establecido para entrega de propuestas a la Vicerrectoría de Investigación: Tres (3) días hábiles antes del cierre de la convocatoria, si el aval lo firma el Vicerrector de Investigación. Cinco (5) días hábiles antes del cierre de la convocatoria si el aval requiere firma del Rector. A tener en cuenta: El Investigador Principal (IP), deberá ser profesor regular, ocasional o visitante, (de tiempo completo o medio tiempo), conforme lo define el Estatuto Profesoral. Si es ocasional o visitante deberá tener respaldo de un profesor de planta ( se deberá adjuntar oficio ). El Centro de Investigación que administrará el proyecto revisará conjuntamente con los investigadores que las propuestas cumplan los requisitos establecidos por la entidad financiadora antes de enviarlos a la VRI. Las propuestas que resulten financiables deberán realizar el registro en el aplicativo SIIU , a través del proceso “Solicitud de Avales Institucionales” , a continuación se anexa instructivo: Manual Registro Proyectos Avales Institucionales Requisitos proyectos inscritos en el Sistema Universitario de Investigación -SIU- Permanentemente se originan en la Universidad proyectos de investigación que no han sido registrados en el Sistema Universitario de Investigación, ya sea porque tienen financiación externa y el trámite de aval fue realizado al interior de una dependencia, o porque se trata de proyectos realizados con recursos propios de los grupos y las dependencias académicas. Procedimiento para inscribir proyectos en el SUI Formatos Formatos de Actas acta de registro y de propiedad intelectual Acta de finalización proyectos de investigación Modificación acta de inicio proyectos de investigación (adenda) Acta de inicio y compromiso Estrategia de Consolidación 2018-2019 Acta de inicio y compromiso Estrategia de Sostenibilidad 2020-2021 Formatos para Centros de Investigación Evaluación de proyectos de investigación Lista de chequeo de proyectos Solicitud de prórroga Plazo cumplimiento compromisos Cambio de rubro Homologación de compromisos Formatos de informes Estrategia de Sostenibilidad de grupos de investigación Informe final cumplimiento de compromisos estrategia de sostenibilidad vigencia anterior a 2016 Informe avance cumplimiento de compromisos estrategia de sostenibilidad vigencia anterior a 2016 Informe parcial y final de cumplimiento de compromisos estrategia de sostenibilidad vigencia 2016-2017 Informe parcial y final de cumplimiento de compromisos estrategia de sostenibilidad vigencia 2018-2019 Formatos de informes Estrategia de Consolidación de grupos de investigación Formato Informe Parcial y Final de cumplimiento de compromisos Estrategia para la Consolidación de Grupos de Investigación
+## Puntos de Contacto y Referencias
+### Contacto
+- avales.vri@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/gestion-investigacion/Contenido/asContenidosMenu/procedimientos-formatos)
+- [PDF: Manual Registro Proyectos Avales Institucionales](https://www.udea.edu.co/wps/wcm/connect/udea/df3e1692-559e-460d-8df8-e849481eaf8b/Manual+Registro+Proyectos+Avales+Institucionales_IP_V2_Ago2023.pdf?MOD=AJPERES&CVID=oIlYRsO)
+- [PDF: Procedimiento para inscribir proyectos en el SUI](https://www.udea.edu.co/wps/wcm/connect/udea/ede17d51-513a-4aa4-8fe0-0ccbfdfcc98a/procedimiento-inscripcion-proyectos+%282%29+%281%29.pdf?MOD=AJPERES&CVID=oUk69uM)
+- [Word: acta de registro y de propiedad intelectual](https://www.udea.edu.co/wps/wcm/connect/udea/a96da2e0-2e75-4698-8599-bc06809fabc4/acta+de+registro+y+de+propiedad+intelectual.docx?MOD=AJPERES&CVID=oo3lieD)
+- [Word: Acta de finalización proyectos de investigación](https://www.udea.edu.co/wps/wcm/connect/udea/dd799871-6bb9-4bd7-84b9-0bd647cc3a3f/acta_finalizaci%C3%B3n1.docx?MOD=AJPERES&CVID=nmULgfn)
+- [Word: Modificación acta de inicio proyectos de investigación (adenda)](https://www.udea.edu.co/wps/wcm/connect/udea/6f10f178-a131-44e5-bcc0-0e7149943869/modif_acta_inicio.doc.docx?MOD=AJPERES&CVID=l.--V9r)
+- [Word: Acta de inicio y compromiso Estrategia de Consolidación 2018-2019](https://www.udea.edu.co/wps/wcm/connect/udea/d9891a14-a7ea-4fed-9161-5b812c1abb93/formato-acta-inicio-consolidacion2018-2019.docx?MOD=AJPERES&CVID=mGfAEbL&attachment=true&id=1557237049978)
+- [PDF: Acta de inicio y compromiso Estrategia de Sostenibilidad 2020-2021](https://www.udea.edu.co/wps/wcm/connect/udea/7fcd0cc9-fd1d-4eb1-bf4c-68b70f86a9ad/formato-acta-de-inicio-2020-estrategia-sostenibiliadd2021.pdf?MOD=AJPERES&CVID=nvfSkvN)
+- [Excel: Evaluación de proyectos de investigación](https://www.udea.edu.co/wps/wcm/connect/udea/9e7d74a3-9e2a-410b-89b4-56f97ce0b02f/Formato-Evaluaci%C3%B3n-Proyectos-2022.xlsx?MOD=AJPERES&CVID=okiq539)
+- [Word: Lista de chequeo de proyectos](https://www.udea.edu.co/wps/wcm/connect/udea/ae2f8824-c9fc-45d0-b89e-cd2344329438/listachequeo1.docx?MOD=AJPERES&CVID=nmUQlE8)
+- [Excel: Solicitud de prórroga](https://www.udea.edu.co/wps/wcm/connect/udea/7a6fabd6-8ad3-42bc-b4ee-869441706b22/pr%C3%B3rroga.xlsx?MOD=AJPERES&CVID=l.--IeT)
+
+------------------------------------------------------------
+## [DOCUMENTO]: reglamento_investigacion.md
+*Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/reglamento_investigacion.md`*
+------------------------------------------------------------
+
+# Reglamento de Investigación
+
+## Resumen Ejecutivo
+Documentación institucional y lineamientos oficiales de Reglamento de Investigación en el Sistema Universitario de Investigación de la Universidad de Antioquia.
+
+## Contenido Principal
+Según el Artículo 3, Acuerdo Superior 204, " La actividad de investigación en la Universidad de Antioquia estará regida por los principios expuestos en el Capítulo II del Título Primero del Estatuto General, principios que constituyen las normas rectoras para la aplicación de todas las disposiciones de la Universidad (Estatuto General, Artículo 26). De ellos, se destacan especialmente: la libertad de investigación (Artículo 4), la responsabilidad social (Artículo 6), la autonomía (Artículo 7), la universalidad (Artículo 8), la libertad de cátedra y de aprendizaje (Artículo 9), la excelencia académica como criterio rector de la vida universitaria (Artículo 12), la interdisciplinariedad (Artículo 13), la investigación como fuente y fundamento de la docencia, (Artículo 14), la cooperación interinstitucional (Artículo 15), la autoevaluación (Artículo 16), la participación (Artículo 18), la planeación y evaluación (Artículo 22), y la descentralización (Artículo 23)."
+
+Para consultar el Acuerdo Superior 204 del 6 de noviembre de 2001 y el Acuerdo Superior 386 del 22 de Febrero de 2011, siga las siguientes indicaciones:
+
+![](https://www.udea.edu.co/wps/wcm/connect/udea/12159236-58d1-45e0-96ed-c872690f0520/1/NormativaUdeA.jpg?MOD=AJPERES)
+## Puntos de Contacto y Referencias
+### Contacto
+- Vicerrectoría de Investigación — Universidad de Antioquia
+- Sede Administrativa: Calle 67 No. 53-108, Bloque 16 / SIU Calle 62 No. 52-59
+- Conmutador: (+57-604) 219 5190
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/gestion-investigacion/Contenido/asContenidosMenu/reglamento)
+
+------------------------------------------------------------
+## [DOCUMENTO]: propiedad_intelectual.md
+*Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/propiedad_intelectual.md`*
+------------------------------------------------------------
+
+# Productos de conocimiento UdeA
+
+## Resumen Ejecutivo
+Portafolio institucional de tecnologías y productos de conocimiento de la Universidad de Antioquia listos para procesos de transferencia, licenciamiento comercial y escalamiento productivo, en articulación con el Estatuto de Propiedad Intelectual (RR 49544 de 2022).
+
+## Contenido Principal
+![](https://www.udea.edu.co/wps/wcm/connect/udea/276d2a33-0bb0-461c-9967-831cbf7095cb/1/Rotador-Portafolio-Tecnologico-UdeA.png?MOD=AJPERES)
+
+Más de 80 desarrollos listos para procesos de transferencia, licenciamiento comercial y escalamiento a nivel de producción, hacen parte del portafolio de tecnologías de la Universidad de Antioquia. Puedes consultar el desarrollo de interés según el área de conocimiento o el tipo de resultado. Conoce los sectores de aplicación o cómo podemos ayudarte a encontrar el desarrollo a tu medida.
+
+### Ingresa aquí
+## Puntos de Contacto y Referencias
+### Contacto
+- Vicerrectoría de Investigación — Universidad de Antioquia
+- Sede Administrativa: Calle 67 No. 53-108, Bloque 16 / SIU Calle 62 No. 52-59
+- Conmutador: (+57-604) 219 5190
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/produccion-cientifica/propiedad-intelectual)
+
+------------------------------------------------------------
+## [DOCUMENTO]: acceso_abierto.md
+*Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/acceso_abierto.md`*
+------------------------------------------------------------
+
+# Política de Acceso Abierto
+
+## Resumen Ejecutivo
+Política Institucional de Acceso Abierto Universidad de Antioquia
+
+## Contenido Principal
+Acuerdo superior 451: Política Institucional de Acceso Abierto
+
+![Archivo Genérico](https://www.udea.edu.co/wps/wcm/connect/udea/80c64ff0-dc01-4dd3-b112-0d8d5b2524e0/generico.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_L8L8H8C0LODDC0A6SSS2AD2GO4-80c64ff0-dc01-4dd3-b112-0d8d5b2524e0-kMFGrXk)
+
+¿Qué es la Política de Acceso Abierto de la UdeA? Es la norma institucional que declara la voluntad de la Universidad de Antioquia por sumarse al movimiento de Acceso Abierto y establece su compromiso por poner a disposición del público, de manera libre y gratuita, la producción académica que es creada bajo un vínculo legal y reglamentario o contractual con la institución, o es publicada por sus unidades académicas y administrativas. La Política se aprobó como Acuerdo Superior y comprende dos partes: las consideraciones y los acuerdos. En las consideraciones se establece el contexto que motiva el movimiento Acceso Abierto y los principios y recomendaciones que lo guían, sus definiciones y las iniciativas internacionales, latinoamericanas y de país que sirven de referentes, así como la normatividad de la Universidad de Antioquia que sustenta su adhesión al movimiento Acceso Abierto en la medida en que comparte toda su filosofía. En los acuerdos se establecen los términos de la Política, empezando por precisar qué se entiende por producción académica y quiénes se consideran autores de la Universidad de Antioquia, para luego formalizar su adhesión a la Declaración de Berlín sobre Acceso Abierto (liderada por la Sociedad Max Planck), adoptar la publicación en Acceso Abierto para las revistas publicadas en la Universidad de Antioquia y establecer el Depósito Delegado como estrategia para que el Sistema de Bibliotecas sea la instancia responsable de desarrollar el Repositorio Institucional con la producción académica de la Universidad de Antioquia. Esta decisión también se rodea por recomendaciones para que los estudiantes se motiven a incorporar sus tesis, trabajos de investigación y monografías en el Repositorio Institucional y los autores prefieran publicar en medios de Acceso Abierto que estén acreditados. Finalmente, se precisan los compromisos de la Universidad para promover e implementar esta Política y se delega en el Rector su respectiva reglamentación. ¿Para qué sirve? Las ventajas del Acceso Abierto, directamente relacionadas con la Comunicación Científica, se pueden agrupar en tres grandes apartados: a) Incremento del uso y del impacto. El Acceso Abierto incrementa la visibilidad de los investigadores e instituciones que aportan a la ciencia escrita. La publicación en acceso abierto permite llegar a una audiencia mucho más amplia con lo cual aumentan no sólo las consultas (uso) de los textos sino también su impacto e inmediatez. b) Mejora de la calidad de la investigación. Los científicos pueden avanzar de forma más rápida y ágil en sus investigaciones ya que disponen de acceso libre e inmediato a los avances de sus colegas de todo el mundo. Al reducirse el período de recepción de los contenidos científicos se agiliza la transferencia de conocimiento. El modelo de acceso abierto, por tanto, es uno de los pilares básicos para el incremento cuantitativo y cualitativo de la investigación y la innovación. Aplicado al caso de la Universidad de Antioquia, es claro que este beneficio es extensivo a profesores y estudiantes, que podrán aprovechar la producción académica y científica de la institución para el desarrollo de sus actividades en docencia, investigación y extensión, lo cual es especialmente valioso al tratarse de una universidad pública que debe hacer los máximos esfuerzos y estrategias para reducir los costos de los estudiantes. c) Reducción de costes. Diversos estudios sobre la identificación y cuantificación de los costes y también de los beneficios de tres modelos de publicación académica: por suscripción, en acceso abierto y de auto-archivo en repositorios, convergen en el notable ahorro económico que la utilización del modelo de acceso abierto supone para la ciencia. Respecto al impacto social, el mismo autor explica los beneficios directos que el Acceso Abierto genera sobre la sociedad y los concreta en tres aspectos: a) Facilita una transferencia directa de conocimiento a la sociedad. Los contenidos científicos tienen interés para los investigadores en particular, pero además pueden ser útiles también a la sociedad en general. b) Rompe las barreras entre países ricos y pobres. Las diferencias existentes entre el primer y el tercer mundo en la mayoría de los ámbitos (educación, cultura, tecnología, etc.) pueden reducirse al mínimo en lo que se refiere a contenidos científicos si el modelo de acceso abierto llega a ser predominante. Los científicos de cualquier parte del mundo tendrán a su disposición los mismos contenidos, independientemente de los recursos económicos de que dispongan para adquirirlos. c) Permite visibilizar la inversión pública en investigación. La investigación es un sector con poca o baja visibilidad social. Su interés y efectividad son percibidos tan sólo por una pequeña parte de la sociedad, la más próxima a ella. Pero el Acceso Abierto permite que toda la sociedad evidencie los resultados de la investigación que ella misma ha financiado con recursos públicos. Nota: Tomado de Abadal, Ernest. (2012). Acceso abierto a la ciencia. Barcelona: UOC. (Colección El Profesional de la Información). Gracias a la Política institucional de Acceso Abierto a la producción académica, promulgada por el Consejo Superior Universitario, es posible contar con una normatividad que sustente acciones encaminadas a promovery fortalecer el acceso abierto en la Universidad de Antioquia, como son: • Impulsar estrategias de inducción y promoción del Acceso Abierto, que motiven a la comunidad universitaria a comprometerse con sus propósitos y apreciar sus ventajas. • Velar por el respeto a la propiedad intelectual de los contenidos depositados en el Repositorio Institucional y articular éste con las demás disposiciones sobre Propiedad Intelectual emitidas en la Universidad. • Preservar y garantizar el acceso a la producción académica alojada en el Repositorio Institucional. • Gestionar los recursos necesarios para que la Vicerrectoría de Investigación, el Sistema de Bibliotecas, la Editorial Universidad de Antioquia y demás instancias ejecutoras del Acceso Abierto, cuenten con el talento humano, y el apoyo técnico, tecnológico y logístico requerido para gestionar fondos de financiación, consolidar el Repositorio Institucional, editar las revistas y otras publicaciones académicas arbitradas, publicar artículos en acceso abierto e instaurar una cultura institucional hacia el Acceso Abierto. También sirve como base para afianzar el ámbito de la Ciencia Abierta y avanzar en la incorporación de otros frentes del Acceso Abierto como son las estrategias relacionadas con datos, recursos educativos, cultura, software y gobierno abiertos, entre otros. ¿Por qué es importante? Es sumamente importante porque, como dice el Acuerdo Superior, “resulta coherente, necesario y conveniente que la Universidad de Antioquia, como entidad pública y actor fundamental en el proceso de democratización del conocimiento y la construcción de una sociedad más justa, solidaria e inclusiva, se adhiera formalmente al movimiento Acceso Abierto, que la ubica en contextos internacionales afines a su naturaleza y vocación, y le permite retribuir a la sociedad su confianza en la misión que cumple y en los recursos públicos que le asigna”. Teniendo en cuenta los beneficios explicados en el punto anterior, es claro que la participación de la Universidad de Antioquia en el movimiento Acceso Abierto, la pone en una dinámica especial en la comunidad académica colombiana e internacional, como un actor activo, que contribuye en el intercambio de conocimientos eliminando al máximo las barreras, asume plenamente su responsabilidad social en este sector y lo hace explícito y formal en una norma del más alto nivel como es un Acuerdo del Consejo Superior Universitario. Para la comunidad universitaria también es importante porque cuenta ya con un marco normativo que le permite desenvolverse con seguridad en el terreno del Acceso Abierto y para el Sistema de Bibliotecas, resulta crucial por la confianza recibida como designada para gestionar el Depósito Delegado y el compromiso de generar las capacidades que le permitan fortalecer el Repositorio Institucional y cumplir sus propósitos. La forma de concretar la propuesta como Depósito Delegado automatizado, también es importante, dado lo novedoso respecto a experiencias conocidas y, también, acorde con los desarrollos informáticos actuales, que pondrán a la Universidad de Antioquia a la vanguardia en la gestión de repositorios institucionales. ¿Cómo se formuló? La propuesta básica estuvo a cargo del proyecto de investigación “Observatorio de las Actividades Científicas, Tecnológicas y de Innovación (ACTI) de la Universidad de Antioquia” financiado por la Vicerrectoría de Investigación y ejecutado por la Escuela Interamericana de Bibliotecología. Específicamente, la formulación de la política se trazó como compromiso del componente orientado a fortalecer el Repositorio Institucional e implicó una investigación documental amplia sobre el tema del Acceso Abierto y las iniciativas existentes en el ámbito internacional y latinoamericano. La propuesta así formulada se discutió con la Comisión ad hoc del Comité para el Desarrollo de la Investigación – CODI que actuó como grupo focal. Igualmente fueron consultados el Comité de Propiedad Intelectual, el Comité para la Asignación de Puntaje y el Comité de Revistas, representado por el profesor Jorge Antonio Mejía E., quienes hicieron sus aportes y dieron su aval. La propuesta también fue comentada con la bibliotecóloga Johana Jaramillo González quien fue Secretaria Técnica del Sistema Nacional de Acceso Abierto – RENATA hasta agosto de 2015. Con base en estas consultas, y en especial la recomendación del Profesor Jorge Antonio Mejía, se reconsideró la idea inicial de establecer como obligatorio el autoarchivo por parte de los profesores (como es la recomendación y tendencia mundial) pues este tipo de disposiciones no encaja con la cultura universitaria, resulta contraproducente para los propósitos que se persiguen y además, es de difícil manejo porque supone la verificación del cumplimiento de las obligaciones, el diseño de sanciones y la expedición de constancias, lo que conlleva el riesgo de contar con una norma inocua, pero sobre todo, adversa a la cultura universitaria. Por ello, se aprovechó la figura de “Depósito Delegado” para establecer que el Sistema de Bibliotecas fuera la instancia responsable de identificar y obtener por medios informáticos la producción científica de la Universidad, empezando por los sistemas de información institucionales, como el que desarrolló la Vicerrectoría de Docencia para el proceso de asignación de puntaje, o los de la Vicerrectoría de Investigación, que avanza con el Sistema de Información para la Investigación Universitaria – SIIU y el proyecto Observatorio. La idea, entonces, es facilitar la interoperabilidad de estos sistemas, de manera que la Biblioteca pueda consolidar el Repositorio Institucional en forma autónoma e informatizada, sin generar mayores inconvenientes para la comunidad universitaria. La Política aprobada por el Consejo Superior Universitario, fue antes discutida por el CODI y el Consejo Académico, quienes luego del análisis aprobaron su recomendación ante el CSU. En este proceso fueron determinantes las Vicerrectorías de Docencia y de Investigación, por su acompañamiento y convicción en el proceso. ¿Quiénes participaron? Como se ha dicho, el documento base y la coordinación del proceso estuvo a cargo del equipo responsable del proyecto de investigación “Observatorio de las Actividades Científicas, Tecnológicas y de Innovación ACTI) de la Universidad de Antioquia”, específicamente del componente Repositorio Institucional, asumido por el bibliotecólogo Weimar Cardona y los profesores Jaider Ochoa y Martha Silvia Molina de la Escuela Interamericana de Bibliotecología, como investigadora principal. La Comisión del CODI se nombró por iniciativa del Dr. Fanor Mondragón como Vicerrector de Investigación (2012-2015) y estuvo conformada por: • Jorge Iván Franco Giraldo, Editorial Universidad de Antioquia • Julia Rosa Morales, Sistema de Bibliotecas • Alejandro Uribe Tirado, Escuela Interamericana de Bibliotecología • César Pallares Delgado, Vicerrectoría de Investigación • Ana Lucía Pérez Patiño, Facultad de Ingeniería y Vicerrectoría de Extensión • Carlos Felipe Londoño Velásquez, Dirección de Asesoría Jurídica • Martha Silvia Molina Molina, Escuela Interamericana de Bibliotecología, coordinadora. En el proceso, también participaron, la profesora María Patricia Arbeláez, como Vicerrectora de Investigación, el profesor Carlos Vásquez y la editora Doris Aguirre, por la Editorial Universidad de Antioquia y los bibliotecólogos Dora Villegas, Margarita Estrada y Mauricio Zapata, por el Sistema de Bibliotecas. En los debates ante el Consejo Académico y el Consejo Superior Universitario, fue especialmente valioso el apoyo de las profesoras Luz Stella Isaza y María Patricia Arbeláez, como vicerrectoras de Docencia e Investigación (2015-2018), respectivamente, y del profesor Sergio Cristancho como actual Vicerrector de Investigación.
+## Puntos de Contacto y Referencias
+### Contacto
+- Vicerrectoría de Investigación — Universidad de Antioquia
+- Sede Administrativa: Calle 67 No. 53-108, Bloque 16 / SIU Calle 62 No. 52-59
+- Conmutador: (+57-604) 219 5190
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/gestion-investigacion/Contenido/asContenidosMenu/acceso-abierto)
+- [PDF: Acuerdo superior 451: Política Institucional de Acceso Abierto](https://www.udea.edu.co/wps/wcm/connect/udea/e1796949-5363-404c-94c6-6b75ce5ace52/AS-openacces451.PDF?MOD=AJPERES&CVID=meWlyUD)
+
+------------------------------------------------------------
+## [DOCUMENTO]: conflicto_intereses_financieros.md
+*Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/conflicto_intereses_financieros.md`*
+------------------------------------------------------------
+
+# Política de gestión de conflicto de intereses financieros en investigación
+
+## Resumen Ejecutivo
+Lineamientos oficiales, reglamentación vigente (Resolución Rectoral 49547) y formato obligatorio de declaración para identificar, prevenir y gestionar conflictos de intereses financieros (FCOI) en proyectos de investigación financiados por entes externos nacionales e internacionales.
+
+## Contenido Principal
+### Reglamentación de la Política de Conflictos de Intereses Financieros de la UdeA
+
+El propósito de esta política es identificar, eliminar o controlar cualquier posible amenaza a la integridad en las investigaciones financiadas por entes externos nacionales e internacionales, inclusive las que podrían dar lugar a un trato no ético de los sujetos de investigación. La adopción de esta política implica asumir el compromiso de armonizar, aplicar y divulgar los requisitos nacionales e internacionales concernientes al Conflicto de Intereses Financieros (FCOI por sus siglas en inglés), incluidos aquellos que están reglados por el Código de Regulaciones Federales de los Estados Unidos de América (42 CFR Parte 50, Subparte F).
+
+Conoce más sobre esta política descargando los siguientes documentos:
+
+Reglamentación de la Política de Conflictos de Intereses Financieros UdeA
+
+Español
+
+Inglés
+
+Resolución Rectoral 49547
+
+Español
+
+I nglés
+
+DESCARGA el Formato de Declaración de Situaciones de Conflicto de Intereses
+## Puntos de Contacto y Referencias
+### Contacto
+- Vicerrectoría de Investigación — Universidad de Antioquia
+- Sede Administrativa: Calle 67 No. 53-108, Bloque 16 / SIU Calle 62 No. 52-59
+- Conmutador: (+57-604) 219 5190
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/gestion-investigacion/politica-conflicto-intereses-financieros)
+- [PDF: Español](https://www.udea.edu.co/wps/wcm/connect/udea/3eacbb03-1660-42b2-a412-f16257bbf588/Reglamentaci%C3%B3n+Pol%C3%ADtica+de+Conflictos+de+Interes+Financieros+VF.pdf?MOD=AJPERES&CVID=ojd.7aW)
+- [PDF: Inglés](https://www.udea.edu.co/wps/wcm/connect/udea/16df06d3-f86d-4e58-a578-7eea8c50911e/12350_Target_Reglamen_poliiti_conflictos_rev.pdf?MOD=AJPERES&CVID=ojd.vQe)
+- [PDF: Español](https://www.udea.edu.co/wps/wcm/connect/udea/c6478f87-824e-479e-818a-2f365020e9b9/Resoluci%C3%B3n+Rectoral+49547+-+firmado.pdf?MOD=AJPERES&CVID=ojd.O8p)
+- [PDF: I nglés](https://www.udea.edu.co/wps/wcm/connect/udea/34613f70-f760-4415-b8ec-32464b59cbc6/12350_Target_Resolu_Rectoral_nov_2022_rev.pdf?MOD=AJPERES&CVID=oje059K)
+- [Word: DESCARGA el Formato de Declaración de Situaciones de Conflicto de Intereses](https://www.udea.edu.co/wps/wcm/connect/udea/3a7e9c6f-94a3-4661-beed-e6bccbd7d52b/Formato+DECLARACIO%CC%81N+DE+SITUACIONES+DE+CONFLICTO+DE+INTERESES+VerDic20.docx?MOD=AJPERES&CVID=okQM-1u)
+
+------------------------------------------------------------
+## [DOCUMENTO]: permisos_investigacion.md
+*Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/permisos_investigacion.md`*
+------------------------------------------------------------
+
+# Permisos para hacer investigación
+
+## Resumen Ejecutivo
+Documentación institucional y lineamientos oficiales de Permisos para hacer investigación en el Sistema Universitario de Investigación de la Universidad de Antioquia.
+
+## Contenido Principal
+La Vicerrectoría de Investigación pone a disposición de la comunidad universitaria los documentos e información general sobre consulta previa, los permisos marco de recolección de especímenes y contrato de acceso a recursos genéticos.
+
+### Importante:
+
+Aquellos docentes regulares que no estén incorporados al "Permiso Marco de Recolección de Especímenes de Especies Silvestres de la Diversidad Biológica con Fines de Investigación Científica No Comercial" , que requieran hacer actividades de colecta, deberán enviar hasta el martes 14 de octubre de 2025, la solicitud a la Vicerrectoría de Investigación al correo: viceinvestigacionpa@udea.edu.co , con la siguiente información:
+
+- Nombre del grupo de investigación
+
+- Descripción de las actividades que hace el grupo en el marco de recolección de especies
+
+- Nombre y cédula de investigador
+
+- Programa(s) académico(s) que el grupo apoya
+## Puntos de Contacto y Referencias
+### Contacto
+- viceinvestigacionpa@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/gestion-investigacion/Contenido/asContenidosMenu/permisos-investigacion/permisos-investigacion)
+
+------------------------------------------------------------
+## [DOCUMENTO]: atencion_ciudadano.md
+*Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/atencion_ciudadano.md`*
+------------------------------------------------------------
+
+# Atención al ciudadano
+
+## Resumen Ejecutivo
+Documentación institucional y lineamientos oficiales de Atención al ciudadano en el Sistema Universitario de Investigación de la Universidad de Antioquia.
+
+## Contenido Principal
+## Preguntas, Quejas, Reclamos y Sugerencias
+
+La Universidad de Antioquia se compromete a brindar mecanismos de atención al ciudadano, que estén al servicio de los intereses generales y particulares de sus usuarios y de la ciudadanía, con el propósito de satisfacer sus necesidades y prestar un adecuado servicio. Ello, con fundamento en los principios de legalidad, debido proceso, celeridad, eficacia, publicidad, contradicción, moralidad, presunción de buena fe e igualdad.
+
+### >> Si tiene una PQRS, regístrela aquí <<
+## Puntos de Contacto y Referencias
+### Contacto
+- Vicerrectoría de Investigación — Universidad de Antioquia
+- Sede Administrativa: Calle 67 No. 53-108, Bloque 16 / SIU Calle 62 No. 52-59
+- Conmutador: (+57-604) 219 5190
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/investigacion-udea/Contenido/asMenuLateral/atencion-ciudadano)
+
+================================================================================
+# 5. ECOSISTEMA FACULTAD DE CIENCIAS ECONÓMICAS Y CIC
+================================================================================
+
+
+
+------------------------------------------------------------
+## [DOCUMENTO]: index.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/index.md`*
+------------------------------------------------------------
+
+# Facultad de Ciencias Económicas y Centro de Investigaciones y Consultorías (CIC)
+
+<div class="wiki-hero" markdown="1">
+Esta sección consolida la **arquitectura funcional, grupos de investigación activos, semilleros, revistas científicas, comités de gobierno y directorio** de la **Facultad de Ciencias Económicas (FCE)** de la Universidad de Antioquia, operando como caso modelo de articulación con el **SIIU**.
+</div>
+
+---
+
+## Ejes del Centro de Investigaciones y Consultorías (CIC)
+
+<div class="wiki-grid">
+  <a class="wiki-card" href="arquitectura_funcional/">
+    <div class="wiki-card__title">Arquitectura Funcional del CIC</div>
+    <p class="wiki-card__desc">Gobernanza (Acuerdo de Facultad 86 de 2006), estructura directiva y diagnóstico de brechas.</p>
+  </a>
+  <a class="wiki-card" href="centro_investigacion/">
+    <div class="wiki-card__title">Centro de Investigaciones (CIC)</div>
+    <p class="wiki-card__desc">Historia, Unidad de Apoyo de Proyectos y guías oficiales de investigación y consultoría.</p>
+  </a>
+  <a class="wiki-card" href="grupos_investigacion_activos/">
+    <div class="wiki-card__title">9 Grupos de Investigación Activos</div>
+    <p class="wiki-card__desc">Monografía integral de COMPHOR, GES, GER, GESTOR, GICCO, IMARK, GIFI, Macroeconomía y Microeconomía.</p>
+  </a>
+  <a class="wiki-card" href="matriz_conformacion_comites/">
+    <div class="wiki-card__title">Matriz de 20 Comités de Gobierno</div>
+    <p class="wiki-card__desc">Integrantes nominales, roles, vigencia 2024–2026 y repositorios de actas de la Facultad.</p>
+  </a>
+  <a class="wiki-card" href="asesorias_consultorias/">
+    <div class="wiki-card__title">Asesorías y Consultorías</div>
+    <p class="wiki-card__desc">Portafolio de extensión especializada y canales de contacto en el Edificio de Extensión.</p>
+  </a>
+  <a class="wiki-card" href="directorio_administrativo/">
+    <div class="wiki-card__title">Directorio Administrativo FCE</div>
+    <p class="wiki-card__desc">Contactos institucionales, bloques, oficinas y extensiones telefónicas verificadas.</p>
+  </a>
+</div>
+
+---
+
+## Semilleros y Publicaciones Científicas
+
+- **Semilleros de Investigación:** [Panorama General](semilleros/semilleros-general.md) · [Ángelo (Macroeconomía)](semilleros/angelo-macroeconomia.md) · [COMPHOR](semilleros/comphor.md) · [Financiero (GICCO)](semilleros/financiero-gicco.md) · [GESTOR](semilleros/gestor.md) · [IMARK](semilleros/imark.md) · [Innovación FCE (GICCO)](semilleros/innovacion-fce-gicco.md) · [SIFI (GIFI)](semilleros/sifi-gifi.md) · [SILES (GICCO)](semilleros/siles-gicco.md).
+- **Revistas y Documentos de Trabajo:** [Publicaciones FCE](publicaciones/publicaciones-general.md) · [Borradores Depto. Economía](publicaciones/borradores-departamento-economia.md) · [Lecturas de Economía](publicaciones/revista-lecturas-economia.md) · [Contaduría UdeA](publicaciones/revista-contaduria.md) · [Perfil de Coyuntura](publicaciones/revista-perfil-coyuntura.md) · [Adversia](publicaciones/revista-adversia.md) · [Conexiones](publicaciones/revista-conexiones.md) · [Oikos](publicaciones/revista-oikos.md).
+- **Infraestructura Académica:** [Departamentos Académicos](departamentos.md) · [Centro de Documentación FCE](centro_documentacion.md).
+
+------------------------------------------------------------
+## [DOCUMENTO]: arquitectura_funcional.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/arquitectura_funcional.md`*
+------------------------------------------------------------
+
+# Arquitectura Funcional y Auditoría Estratégica: Centro de Investigaciones y Consultorías (CIC)
+**Unidad Académica:** Facultad de Ciencias Económicas — Universidad de Antioquia (UdeA)  
+**Fecha de Auditoría:** 2026-11-11  
+**Estándar de Calidad:** Rigor Técnico y Fidelidad de Datos Absoluta (Linus Archetype)
+
+---
+
+## 1. Misión, Marco Institucional y Génesis Operativa
+
+El **Centro de Investigaciones y Consultorías (CIC)** de la Facultad de Ciencias Económicas (FCE) es la unidad de gestión integral académica y administrativa responsable de articular, ejecutar y fomentar los dos ejes misionales de mayor vinculación social de la Universidad de Antioquia: la **investigación** (básica y aplicada) y la **consultoría especializada**.
+
+### 1.1. Antecedentes y Evolución Orgánica
+El CIC se consolidó formalmente a finales del año **2006** mediante el **Acuerdo de Facultad 86 de 2006**, integrando tres centros pioneros que operaban de forma fragmentada en la facultad:
+1. **Centro de Investigaciones Económicas (CIE):** Fundado en **1962**, histórico motor del análisis riguroso de la economía regional y nacional y creador de los *Borradores del CIE*.
+2. **Consultorio Contable:** Creado en **agosto de 1983**, especializado en servicios de asesoría, auditoría, sistemas contables y estructura de costos.
+3. **Centro de Investigaciones y Consultorías Administrativas (CICA):** Surgido en **1983**, enfocado en la institucionalización de la investigación en teoría organizacional y respuesta al entorno empresarial.
+
+### 1.2. Objetivos Estratégicos (Acuerdo de Facultad 86 de 2006)
+- **Formación de capital humano avanzado:** Vinculación de estudiantes y docentes en proyectos de investigación científica y consultoría técnica.
+- **Divulgación continua:** Transferencia de resultados a la comunidad académica y al sector productivo nacional e internacional.
+- **Articulación interdisciplinaria:** Cohesión entre las ciencias contables, las ciencias administrativas y la teoría económica.
+- **Resolución de problemas de contexto:** Planteamiento de alternativas viables a problemáticas socioeconómicas de los territorios.
+
+---
+
+## 2. Estructura Organizacional y Directorio Nominal
+
+El equipo directivo y administrativo del CIC opera centralizadamente en la Ciudad Universitaria (Medellín), con sede alterna para extensión en el Edificio de Extensión Universitaria:
+
+```mermaid
+graph TD
+    Decanatura["Decanatura FCE"] --> CIC["Dirección del CIC<br/>(Bloque 13-108)"]
+    CIC --> Admin["Coordinación Administrativa"]
+    CIC --> Proyectos["Unidad de Apoyo a Proyectos"]
+    CIC --> Doc["Centro de Documentación<br/>(Bloque 13-118)"]
+    CIC --> Ext["Sede Consultoría y Extensión<br/>(Edif. Extensión Piso 4)"]
+    CIC --> Grupos["9 Grupos de Investigación"]
+    Grupos --> Semilleros["Semilleros de Investigación"]
+```
+
+### Tabla de Cargos, Personal y Canales de Atención
+
+| Rol / Cargo | Funcionario(a) | Ubicación Física | Correo Electrónico | Teléfono / Extensión |
+| --- | --- | --- | --- | --- |
+| **Directora del CIC** | Martha Cecilia Álvarez Osorio | Bloque 13, Oficinas 108 y 328A | `jcic.fce@udea.edu.co` / `ciceconomicas@udea.edu.co` | (+57-604) 219 5800 |
+| **Coordinadora Administrativa CIC** | Diana Maribel Sánchez Patiño | Bloque 13-108 | `maribel.sanchez@udea.edu.co` | (+57-604) 219 5800 |
+| **Asistente Administrativo CIC** | Johnny Andrés Ortíz Armero | Bloque 13-108 | `johnny.ortiz@udea.edu.co` | (+57-604) 219 5800 |
+| **Auxiliar Administrativa** | Carolina Ceballos Trejos | Bloque 13-108 | `johana.ceballos@udea.edu.co` | (+57-604) 219 5800 |
+| **Auxiliar Administrativa** | Jeniffer Andrea Lopera García | Bloque 13-108 | `jeniffer.lopera@udea.edu.co` | (+57-604) 219 5800 |
+| **Coordinadora Centro de Documentación** | Laura María Posada Arboleda | Bloque 13-118 | `laura.posadaa@udea.edu.co` | (+57-604) 219 5819 |
+| **Bibliotecóloga Centro de Documentación** | Suly Amparo Monsalve Zapata | Bloque 13-118 | `suly.monsalve@udea.edu.co` | (+57-604) 219 8817 |
+| **Coordinadora Centro de Cómputo FCE** | Myriam Lucía Echavarría Chalarca | Bloque 13-224 | `computoeconomicas@udea.edu.co` | (+57-604) 219 5804 |
+| **Atención Consultorías y Extensión** | Unidad de Servicios Especializados | Edificio de Extensión, Piso 4, Of. 408 | `ciceconomicas@udea.edu.co` | (+57-604) 219 5840 / 219 5842 |
+
+---
+
+## 3. Líneas de Consultoría y Servicios Especializados
+
+El CIC canaliza la capacidad técnica y científica de la facultad hacia organizaciones públicas, privadas y comunitarias:
+
+### 3.1. Ejes Temáticos de Consultoría
+1. **Finanzas y Mercado de Capitales:** Valoración de activos, finanzas corporativas, formulación y evaluación socioeconómica de proyectos de inversión, modelos de cobertura y riesgo.
+2. **Gestión Organizacional y Estrategia:** Diseño e implementación de estructuras de gobernanza corporativa, gestión del cambio, optimización de modelos de negocio, clima organizacional.
+3. **Auditoría, Control y Contabilidad Aplicada:** Asesoría tributaria, implementación de Normas Internacionales de Información Financiera (NIIF), sistemas de costos avanzados, auditoría forense y control interno.
+4. **Economía de la Salud y Políticas Sociales:** Evaluación de impacto en políticas de salud pública, costeo y eficiencia en redes hospitalarias, economía de la seguridad social.
+5. **Estudios Regionales y Políticas Públicas:** Análisis de cadenas productivas territoriales, planes de desarrollo municipal/departamental, diagnósticos socioeconómicos y estudios de competitividad.
+6. **Marketing Estratégico e Investigación de Mercados:** Comportamiento del consumidor, posicionamiento de marcas, analítica de marketing (Imark).
+
+### 3.2. Gobernanza de Proyectos: Unidad de Apoyo a Proyectos
+La formulación y ejecución se rige por dos protocolos técnicos formalizados:
+- **Guía de Investigación:** Protocolo normativo interno para radicación de proyectos ante comités de ética, convocatorias CODI y fuentes de financiación externas.
+- **Guía de Consultoría:** Flujo administrativo de estructuración presupuestal, liquidación de costos indirectos de la Universidad, formalización contractual y actas de cierre.
+
+---
+
+## 4. Ecosistema de Investigación y Divulgación Científica
+
+### 4.1. Los 9 Grupos de Investigación Vinculados
+Todos los grupos se encuentran reconocidos y categorizados ante el Ministerio de Ciencia, Tecnología e Innovación (MinCiencias):
+
+| Grupo | Nombre Oficial | Enfoque Principal / Líneas de Trabajo | Enlace Institucional |
+| --- | --- | --- | --- |
+| **COMPHOR** | Comportamiento Humano Organizacional | Gestión del talento humano, cultura organizacional, sentido del trabajo, comportamiento individual y grupal. | [Ver grupo](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/comphor) |
+| **GES** | Grupo Economía de la Salud | Sistemas de salud, aseguramiento, evaluación económica de tecnologías en salud, políticas farmacéuticas. | [Ver grupo](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/economia-salud) |
+| **GER** | Grupo de Estudios Regionales | Economía regional y urbana, geografía económica, desarrollo territorial, mercado laboral regional. | [Ver grupo](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/estudios-regionales) |
+| **GESTOR** | Gestión Organizacional | Estrategia empresarial, modelos de gestión, innovación, teoría de la organización, emprendimiento. | [Ver grupo](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/gestion-organizacional) |
+| **GICCO** | Investigaciones y Consultorías Contables | Teoría contable, contabilidad ambiental y de gestión, tributación, regulación contable internacional. | [Ver grupo](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/gicco) |
+| **Imark** | Investigación en Marketing | Gestión de relaciones, neuromarketing, valor de marca, comportamiento del consumidor, mercadeo social. | [Ver grupo](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/imark) |
+| **GIFI** | Grupo de Investigación en Finanzas | Mercados financieros, finanzas corporativas, banca, análisis de riesgo y productos derivados. | [Ver grupo](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/gifi) |
+| **Macroeconomía** | Grupo de Macroeconomía Aplicada | Política monetaria, política fiscal, modelos DSGE, crecimiento económico, ciclos macroeconómicos. | [Ver grupo](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/macroeconomia-aplicada) |
+| **Microeconomía** | Grupo de Microeconomía Aplicada | Organización industrial, teoría de juegos aplicada, economía de la educación, economía laboral, econometría empírica. | [Ver grupo](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/microeconomia-aplicada) |
+
+### 4.2. Semilleros de Investigación Formativa
+El CIC ampara semilleros activos orientados a estudiantes de pregrado:
+1. **SIFI:** Semillero de Investigación en Finanzas (adscrito a GIFI).
+2. **Semillero Imark:** Investigación cualitativa y cuantitativa de mercados.
+3. **Semillero Gestión de lo Propio:** Liderado por COMPHOR en dinámicas humanas.
+4. **Semillero Ángelo de Investigación Económica:** Formación macroeconómica rigurosa.
+5. **Semillero Financiero GICCO:** Auditoría y modelos contables.
+6. **Semillero SILES:** Investigación en lectura y escritura académica contable (GICCO).
+7. **Semillero de Innovación FCE:** Proyectos interdisciplinarios en modelos de negocio.
+8. **Semillero GESTOR:** Análisis organizacional de pymes y emprendimientos locales.
+
+### 4.3. Portafolio de Revistas y Publicaciones Indexadas
+La facultad cuenta con un robusto sistema de divulgación científica montado sobre OJS (Open Journal Systems):
+- **Lecturas de Economía:** Revista de referencia internacional en teoría y política económica (A2 Publindex / Scopus / SciELO).
+- **Contaduría Universidad de Antioquia:** Publicación insignia de la disciplina contable en Latinoamérica.
+- **Perfil de Coyuntura Económica:** Análisis empírico y seguimiento macroeconómico coyuntural de Colombia y la región.
+- **Revista Adversia:** Órgano estudiantil de discusión crítica contable y financiera.
+- **Revista Oikos:** Difusión en administración, mercadeo y organizaciones.
+- **Revista Conexiones:** Divulgación de movilidad académica e internacionalización.
+- **Borradores del Departamento de Economía:** Serie de documentos de trabajo en fase preliminar (*working papers*).
+
+---
+
+## 5. Auditoría Crítica de Brechas de Comunicación y Oportunidades de Optimización
+
+Bajo la óptica implacable de la ingeniería de software y la arquitectura de la información, el relevamiento evidenció **cuatro brechas críticas estructurales** que limitan el impacto y la velocidad operativa del CIC:
+
+### Brecha 1: Alta Fragmentación de la Experiencia de Usuario (Silo Platforms)
+- **Diagnóstico:** Para consultar información del CIC, un usuario externo o investigador debe interactuar con cuatro plataformas desarticuladas:
+  1. Portal institucional WebSphere (`udea.edu.co/wps/portal/...`) para información básica.
+  2. Catálogo de consultorías AsOne embebido en un `<iframe>` (`asone.udea.edu.co/portafolio/`).
+  3. Sistema OJS (`revistas.udea.edu.co`) para papers y publicaciones.
+  4. Directorio telefónico en un servidor Apache PHP independiente (`tsone.udea.edu.co`).
+- **Impacto:** Fricción alta, pérdida de contexto de navegación y fallo en la indexación unificada en motores de búsqueda.
+- **Solución Recomendada:** Centralización en un portal estático unificado (*Static Knowledge Base*) con API unificada de búsqueda basada en Markdown/Headless CMS.
+
+### Brecha 2: Dependencia de Documentación Pasiva en PDF
+- **Diagnóstico:** Los protocolos operativos esenciales (Guía de Investigación y Guía de Consultoría) se presentan únicamente como archivos PDF estáticos para descarga.
+- **Impacto:** Imposibilidad de búsqueda semántica de requisitos, falta de trazabilidad en tiempo real sobre versiones vigentes y nula interactividad para los docentes proponentes.
+- **Solución Recomendada:** Desglose de las guías en páginas Markdown modulares navegables con checklists interactivos de radicación.
+
+### Brecha 3: Embudo Difuso para la Contratación de Consultoría
+- **Diagnóstico:** La página de *Asesorías y consultorías CIC* carece de un formulario de captura de requerimientos o cotizador para el sector productivo; delega todo el contacto a un correo electrónico genérico (`ciceconomicas@udea.edu.co`) y a un teléfono fijo.
+- **Impacto:** Fuga de oportunidades de consultoría privada y demoras en el triaje de solicitudes entre los 9 grupos de investigación.
+- **Solución Recomendada:** Implementación de un flujo de radicación digital ágil de solicitudes de consultoría con asignación algorítmica según el área temático-disciplinar del grupo.
+
+### Brecha 4: Opacidad de Métricas y Transferencia de Conocimiento
+- **Diagnóstico:** El portal no expone dashboards públicos sobre proyectos vigentes, cifras de impacto social, convenios marco activos o patentes/productos técnicos generados por cada grupo.
+- **Impacto:** El valor de la investigación de la UdeA queda invisibilizado para los tomadores de decisiones de política pública y el empresariado.
+- **Solución Recomendada:** Publicación de un tablero de comando de investigación abierta sincronizado con el Scienti/GrupLAC de MinCiencias.
+
+---
+
+## 6. Conclusión
+El Centro de Investigaciones y Consultorías posee una masa crítica de excelencia investigativa (9 grupos categorizados, 6 revistas consolidadas, medio siglo de trayectoria del CIE). No obstante, su infraestructura digital requería esta auditoría profunda y la extracción limpia a Markdown para habilitar una base de conocimiento moderna, desacoplada y lista para integraciones de alta velocidad.
+
+------------------------------------------------------------
+## [DOCUMENTO]: centro_investigacion.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/centro_investigacion.md`*
+------------------------------------------------------------
+
+# Centro de Investigaciones y Consultorías -CIC-
+
+## Resumen Ejecutivo
+![](https://www.udea.edu.co/wps/wcm/connect/udea/fc6776fd-470a-491d-9cfc-2e849eeb0c3e/1/Slides-grupos-de-investigacion-CIC.jpg?MOD=AJPERES)
+
+## Contenido Principal
+El Centro de Investigaciones y Consultorías —CIC— de la Facultad de Ciencias Económicas es la unidad de gestión integral de procesos académicos y administrativos encargada de brindar apoyo y fomento directo al desarrollo de dos ejes misionales de la Universidad de Antioquia: la investigación y la consultoría. Particularmente, la investigación en la Facultad de Ciencias Económicas ha tenido una gran trayectoria e incidencia en la generación de nuevos conocimientos básicos y aplicados.
+
+Es importante anotar que el CIC se creó a finales de 2006 en virtud de una senda reforma académico administrativa. De hecho, es la integración académica y administrativa de tres prestigiosos centros de investigación y consultoría que para entonces operaban al interior de la Facultad de Ciencias Económicas. De un lado, estaba el Centro de Investigaciones Económicas —CIE— que fue creado en 1962 y durante su existencia los investigadores del CIE se consagraron al estudio disciplinado y riguroso de la economía en el ámbito local, regional y nacional. Todo ello con la aspiración de contribuir, con sus aportes académicos, a la comprensión de la problemática socio económica y al planteamiento de alternativas de política viables y eficaces.
+
+Por otro lado, y como respuesta institucional a una serie de demandas más concretas y prácticas de una sociedad en proceso transformación, surgen a principios de la década del 80 otros dos centros de investigación y consultoría. Así, en agosto de 1983 nace el Consultorio Contable como un órgano de servicios de asesoría y consultoría en temas de auditoría, de sistemas contables y de costos. Simultáneamente, en el mismo año, surge el Centro de Investigaciones y Consultorías Administrativas —CICA— con el interés por institucionalizar la investigación en la ciencia de la administración y responder asimismo a las necesidades que el medio social y empresarial de la época exigía.
+
+Por su parte, la consultoría profesional de la Facultad ha tenido una sólida trayectoria institucional fiel a su misión de cooperar con su entorno para la transferencia y aplicación de un conocimiento útil y socialmente pertinente. Los actores públicos y privados han encontrado en la consultoría y la asesoría que ofrecen los distintos grupos de investigación, una respuesta concreta a las distintas demandas en el campo de la gestión tecnológica, empresarial, contable y económica.
+
+| Propósitos del CIC Apoyar, fomentar y contribuir a la generación, transmisión, aplicación y gestión del conocimiento desde las ciencias contables, administrativas y económicas al servicio de las necesidades de los distintos actores de la sociedad. Como instancia académica y administrativa, el CIC tiene como responsabilidad desarrollar políticas estratégicas y canalizar procesos de gestión, administración, comunicación y logística para beneficio y promoción de la investigación y la consultoría en la FCE. |  | Objetivos estratégicos El Acuerdo de Facultad 86 de 2006 definió para el CIC los siguientes objetivos estratégicos con el fin de orientar los lineamientos de política para el desarrollo de la investigación y la consultoría en la FCE: Formación del recurso humano orientado hacia la investigación al servicio de la Universidad y del medio profesional público y privado Difusión permanente y oportuna del trabajo investigativo Fortalecimiento y construcción de relaciones con la comunidad científica nacional e internacional. Integración de las áreas académicas y profesionales de la Facultad. Generación de conocimiento para las disciplinas que conforman los programas académicos de la Facultad de Ciencias Económicas Contribución a la solución de los problemas regionales y nacionales desde la perspectiva del ámbito de las ciencias económicas. |  | Unidad de apoyo de proyectos La Unidad de Proyectos del Centro de Investigaciones y Consultorías se crea con el propósito de brindar un acompañamiento a los profesores de la FCE en la formulación, ejecución y cierre de proyectos de investigación y consultoría; al igual que en el relacionamiento con otras dependencias de la Universidad o externas facilitando el acceso a convocatorias y oportunidades de financiación o trabajo colaborativo. Por lo anterior, el equipo humano de la Unidad ha planteado dos protocolos donde se explica brevemente los procesos a seguir tanto para la presentación de propuestas de investigación como de consultoría según sus respectivas condiciones. Guía consultoría Guía investigación |
+| --- | --- | --- | --- | --- |
+
+|  | Martha Cecilia Álvarez Osorio. Directora del Centro de Investigaciones y Consultorías -CIC- Contacto Campus Medellín Bloque 13 Piso 1, Oficinas 108 y 328A Correo: jcic.fce@udea.edu.co Medellín, Colombia |
+| --- | --- |
+## Puntos de Contacto y Referencias
+### Contacto
+- Bloque 13
+- jcic.fce@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/centro-investigacion)
+- [PDF: Guía consultoría](https://www.udea.edu.co/wps/wcm/connect/udea/56c32b22-108c-46d6-8020-69cd0012fd3b/guia-consultoria.pdf?MOD=AJPERES&CVID=lQufJnZ)
+- [PDF: Guía investigación](https://www.udea.edu.co/wps/wcm/connect/udea/e9ee9d70-5409-4611-94a7-4691d1c9a99e/guia-investigacion.pdf?MOD=AJPERES&CVID=lQufRjO)
+
+------------------------------------------------------------
+## [DOCUMENTO]: departamentos.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/departamentos.md`*
+------------------------------------------------------------
+
+# Departamentos Académicos - Facultad de Ciencias Económicas
+
+## Resumen Ejecutivo
+Estructura académica departamental de la Facultad de Ciencias Económicas, conformada por el Departamento de Ciencias Administrativas, Departamento de Ciencias Contables y Departamento de Economía.
+
+## Contenido Principal
+### Departamentos Académicos de la Facultad
+
+1. **Departamento de Ciencias Administrativas:**
+   - Jefe de Departamento: Juan Fernando Tavera Mesías
+   - Correo: `jcienciasadmtivas.fce@udea.edu.co`
+   - Bloque 13-114
+2. **Departamento de Ciencias Contables:**
+   - Jefatura de Departamento
+   - Correo: `contaduria@udea.edu.co` / `jcontables.fce@udea.edu.co`
+   - Bloque 13-114
+3. **Departamento de Economía:**
+   - Jefe de Departamento: Ramón Javier Mesa Callejas
+   - Correo: `jeconomia.fce@udea.edu.co` / `ramon.mesa@udea.edu.co`
+   - Bloque 13-114
+
+### Información Institucional del Portal
+Estructura organizativa encargada de la docencia, investigación y extensión disciplinar.
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Decanatura / Bloque 13-114
+- Conmutador: (+57-604) 219 5800
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/departamentos)
+
+------------------------------------------------------------
+## [DOCUMENTO]: grupos_investigacion_activos.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/grupos_investigacion_activos.md`*
+------------------------------------------------------------
+
+# Grupos de Investigación Activos — Facultad de Ciencias Económicas (UdeA)
+
+## Resumen Ejecutivo
+Documento monográfico exhaustivo que consolida la totalidad de la información disponible sobre los nueve (9) grupos de investigación activos de la Facultad de Ciencias Económicas de la Universidad de Antioquia, adscritos y coordinados administrativamente por el Centro de Investigaciones y Consultorías (CIC). Incluye categorización institucional, trayectorias, líneas de investigación, nómina docente, oferta de consultoría, semilleros y medios de divulgación.
+
+## Contenido Principal
+
+### 1. Panorama General del Ecosistema de Investigación FCE
+
+La investigación en la Facultad de Ciencias Económicas representa uno de los núcleos académicos de mayor tradición y producción científica de Colombia. Articulada bajo las directrices del **Centro de Investigaciones y Consultorías (CIC)** y el **Comité de Investigaciones de Facultad**, cuenta con nueve grupos activos avalados y categorizados en los niveles de excelencia de MinCiencias (antiguo Colciencias).
+
+| Grupo (Sigla) | Nombre Oficial | Departamento | Categoría MinCiencias | Año Fundación | Coordinador(a) / Líder | Semilleros Asociados |
+| --- | --- | --- | --- | --- | --- | --- |
+| **COMPHOR** | [Comportamiento Humano Organizacional - COMPHOR](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/comphor) | Departamento de Ciencias Administrativas | Categoría A (MinCiencias) | 2002 | **Héctor L. Bermúdez Restrepo** | Semillero Gestión de lo Propio |
+| **GES** | [Grupo Economía de la Salud - GES](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/economia-salud) | Departamento de Economía | Categoría A1 (MinCiencias) | 1997 | **Jairo Humberto Restrepo Zea** | Semillero de Economía de la Salud |
+| **GER** | [Grupo de Estudios Regionales - GER](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/estudios-regionales) | Departamento de Economía | Categoría A (MinCiencias) | 1995 | **Liliana Gallego Duque** | Semillero de Estudios Regionales |
+| **GESTOR** | [Grupo de Investigación en Gestión Organizacional - GESTOR](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/gestion-organizacional) | Departamento de Ciencias Administrativas | Categoría A (MinCiencias) | 2001 | **José Enrique Arias Pérez** | Semillero GESTOR |
+| **GICCO** | [Grupo de Investigaciones y Consultorías Contables - GICCO](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/gicco) | Departamento de Ciencias Contables | Categoría A (MinCiencias) | 2004 | **Hernán Carlos Bustamante García** | Semilleros Financiero, SILES e Innovación FCE |
+| **IMARK** | [Grupo de Investigación en Marketing - Imark](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/imark) | Departamento de Ciencias Administrativas | Categoría A (MinCiencias) | 2008 | **Beatriz Londoño Giraldo** | Semillero Imark (Investigación en Marketing) |
+| **GIFI** | [Grupo de Investigación en Finanzas - GIFI](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/gifi) | Departamento de Ciencias Administrativas | Categoría A (MinCiencias) | 2013 | **Claudia Inés Sepúlveda Rivillas** | Semillero SIFI (Finanzas) |
+| **MACROECONOMIA** | [Grupo de Macroeconomía Aplicada](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/macroeconomia-aplicada) | Departamento de Economía | Categoría A (MinCiencias) | 1984 | **Wilman Arturo Gómez Muñoz** | Semilleros Ángelo, Economía Clásica y Computacional |
+| **MICROECONOMIA** | [Grupo de Microeconomía Aplicada](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/microeconomia-aplicada) | Departamento de Economía | Categoría A (MinCiencias) | 1999 | **Carlos Andrés Vasco Correa** | Semillero de Microeconomía Aplicada |
+
+---
+
+### 2. Caracterización Detallada Grupo por Grupo
+
+#### 2.1. Comportamiento Humano Organizacional - COMPHOR
+- **Sigla Oficial:** `COMPHOR`
+- **Unidad Académica:** Facultad de Ciencias Económicas — Departamento de Ciencias Administrativas
+- **Líder / Coordinador(a):** **Héctor L. Bermúdez Restrepo**
+- **Correo Institucional del Grupo:** `hectorl.bermudez@udea.edu.co`
+- **Categorización MinCiencias:** Categoría A (MinCiencias)
+- **Año de Creación:** 2002
+- **Portal Web Institucional:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/comphor](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/comphor)
+
+##### A. Identidad, Misión y Enfoque Teórico
+El grupo de investigación COMPHOR de la Universidad de Antioquia es un grupo de personas en permanente formación el cual, pretende contribuir con la transformación de realidades organizacionales y sociales, a través de la sinergia entre las capacidades y las potencialidades de estudiantes, egresados(as), industriales y profesores(as). Esto, a través de la formulación, ejecución, evaluación y publicación de proyectos asociados a la investigación y la extensión en los campos del desarrollo humano organizacional, la ética y la responsabilidad en el trabajo, la inclusión y la diversidad, la administración del trabajo organizado, el examen de la experiencia sensible de la persona trabajadora y la mediación analítica de conflictos.
+Líneas de investigación:
+Administración del trabajo organizado
+Propósito de la línea
+: Comprender la dimensión objetiva de las prácticas de gestión de personal en las organizaciones.
+Logros de la línea:
+Investigaciones y publicaciones en temas como: Estudios de caso empresariales sobre las nuevas realidades del trabajo; examen, diseño y aplicación de procesos emanados de modelos estratégicos de la Gestión de Personal contemporánea (selección y atractividad; inducción general a la empresa; aprendizaje y desarrollo; evaluación del desempeño; mediación analítica de conflictos, etc.)
+Persona, trabajo y organización
+Propósito de la línea:
+Comprender la dimensión subjetiva de la persona y de los grupos en su experiencia en el acto del trabajo.
+Logros de la Línea:
+Investigaciones y publicaciones realizadas en temas como: Desarrollo humano; Calidad de vida laboral (vida buena y vida lograda); Diversidad, Equidad e Inclusión laboral; resonancia vs alienación; innovación y subjetividad (acto inventivo); fenómenos psicosociales en el trabajo; estrés laboral y burnout; etc.
+Integrantes del grupo
+Héctor L. Bermúdez
+PhD en Sociología y psicoanalista. Magíster en ciencias de la administración y especialista en gerencia del desarrollo humano.
+ORCID:
+https://orcid.org/0000-0003-4369-6135
+Carlos Mario Henao Galeano
+PhD en Administración. Psicólogo y psicoanalista. Magíster en ciencias de la administración.
+ORCID:
+https://orcid.org/0000-0001-6936-9453
+Angélica María López Velásquez
+Candidata a doctora en Dirección de empresas. Administradora de empresas. Magíster en gerencia del talento humano. Especialista en psicología organizacional.
+ORCID:
+https://orcid.org/0000-0001-5678-0315
+César Augusto Valderrama Gómez
+PhD en Ciencias sociales. Abogado y politólogo. Magíster en gobierno y asuntos públicos.
+ORCID:
+https://orcid.org/0000-0003-3715-177X
+Bibiana Marcela Gómez Granada
+Magíster en educación y desarrollo humano. Psicóloga.
+ORCID:
+https://orcid.org/0000-0003-2449-7149
+Natalia Arango Escudero
+Magíster en Gestión humana. Psicóloga. Especialista en psicología organizacional.
+ORCID:
+https://orcid.org/0009-0000-5966-0378
+Luis Fernando Segura López
+Candidato a doctor en Administración y organizaciones. Fonoaudiólogo. Magíster en administración de empresas.
+ORCID:
+https://orcid.org/0000-0001-9634-9394
+Cristina Gallego Correa
+Psicóloga, especialista en gerencia del desarrollo humano y candidata a doctora en Administración y organizaciones.
+Ladis Frías Cano
+Magíster en Gestión humana. Bibliotecóloga. Magíster en comercio internacional. Editora profesional.
+ORCID:
+https://orcid.org/0000-0001-6811-9188
+Adriana María Bustamante Cataño
+Magíster en Gestión humana. Psicóloga. Trabajadora social. Especialista en psicología organizacional. Especialista en gerencia de la seguridad y salud en el trabajo.
+ORCID:
+https://orcid.org/0009-0005-5095-419X
+Alexandra Gallego Lopera
+Magíster en Gestión humana. Psicóloga. Especialista en psicología organizacional. Consultora profesional.
+ORCID:
+https://orcid.org/0000-0002-8874-7701
+Monserrat Ordóñez Echeverri
+Estudios de doctorado en Administración y organizaciones. Psicóloga. Magíster en mediación de conflictos. Magíster en terapia familiar.
+ORCID:
+https://orcid.org/0000-0003-4855-4080
+Jorge Armando Benavides Villalobos
+Magíster en Gestión humana. Administrador de empresas. Especialista en derecho laboral.
+ORCID:
+https://orcid.org/0009-0000-6719-9219
+Mateo Muñoz Campo
+Administrador de empresas.
+ORCID:
+https://orcid.org/0009-0008-4463-7333
+Datos de contacto
+Profesor Héctor L. Bermúdez, PhD
+Coordinador del grupo de investigación COMPHOR
+Correo electrónico:
+hectorl.bermudez@udea.edu.co
+Orcid:
+https://orcid.org/0000-0003-4369-6135
+Facultad de Ciencias Económicas. Universidad de Antioquia
+Calle 67 No. 53-108. Bloque 13, of. 404. Medellín, Colombia
+
+##### B. Líneas de Consultoría y Transferencia (Portafolio CIC)
+El grupo COMPHOR contribuye con la transformación de realidades organizacionales a través del desarrollo humano, la inclusión y la ética.
+Asesorías especializadas en:
+1. Trabajo digno y calidad de vida:
+Contribuimos al desarrollo de formas de organización del trabajo desde la dignidad y la calidad de vida a través de
+Desarrollamos procesos encaminados a mejorar condiciones de trabajo digno y la calidad de vida.
+Acompañamos procesos de clima organizacional.
+Acompañamos en la intervención de factores de riesgo psicosocial.
+Asesoramos en temas de diversidad e inclusión en el trabajo.
+Asesoramos procesos de protocolo y sucesión familiar.
+Asesoramos procesos de conciliación trabajo-familiar
+2.
+Procesos estratégicos de gestión humana:
+Contribuimos al desarrollo de los procesos estratégicos de la gestión humana.
+Diseñamos y acompañamos procesos de selección de personal a partir de técnicas interactivas
+Diseñamos y acompañamos procesos de inducción y socialización en el trabajo.
+Desarrollamos y asesoramos procesos formativos en clave del desarrollo de las personas en la organización.
+Diseñamos programas de bienestar laboral.
+Asesoramos procesos de evaluación del trabajo (valoración y reconocimiento).
+Datos de contacto
+Héctor L. Bermúdez
+Coordinador Grupo de Investigación
+Comportamiento Humano Organizacional (COMPHOR)
+Correo:
+hectorl.bermudez@udea.edu.co
+Departamento de Ciencias Administrativas. Facultad de Ciencias Económicas
+Universidad de Antioquia (UdeA)
+Calle 67 No. 53-108. Bloque 13, of. 412. Medellín, Colombia
+
+##### C. Líneas de Investigación y Producción Académica
+El Grupo COMPHOR se ha destacado por la generación de conocimiento alrededor de temas de gran interés en el contexto regional y nacional, destacándose de manera especial los siguientes trabajos académicos:
+Coedición científic internacional
+Revista Latinoamericana de Investigación en Organizaciones, Ambiente y Sociedad – TEUKEN BIDIKAY:
+http://revistas.elpoli.edu.co/index.php/teu/index
+Datos de contacto
+Héctor L. Bermúdez
+Coordinador Grupo de Investigación
+Comportamiento Humano Organizacional (COMPHOR)
+Correo:
+hectorl.bermudez@udea.edu.co
+Universidad de Antioquia (UdeA)
+Calle 67 No. 53-108. Bloque 13, of. 412. Medellín, Colombia
+
+##### E. Formación y Semilleros de Investigación
+El grupo ampara la formación temprana de investigadores de pregrado y posgrado mediante: **Semillero Gestión de lo Propio**.
+
+---
+
+#### 2.2. Grupo Economía de la Salud - GES
+- **Sigla Oficial:** `GES`
+- **Unidad Académica:** Facultad de Ciencias Económicas — Departamento de Economía
+- **Líder / Coordinador(a):** **Jairo Humberto Restrepo Zea**
+- **Correo Institucional del Grupo:** `jairo.restrepo@udea.edu.co / ges@udea.edu.co`
+- **Categorización MinCiencias:** Categoría A1 (MinCiencias)
+- **Año de Creación:** 1997
+- **Portal Web Institucional:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/economia-salud](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/economia-salud)
+
+##### A. Identidad, Misión y Enfoque Teórico
+El GES es un grupo de investigación que busca, siguiendo los criterios universitarios de excelencia, ética y responsabilidad social, desarrollar la investigación, la docencia y la extensión en el área de Economía de la Salud. Entre sus objetivos están:
+Participar en el desarrollo académico de la Economía de la Salud mediante la actualización permanente y la conservación de vínculos con universidades y centros de investigación sobre el área;
+Orientar la enseñanza de la Economía de la Salud, como área de énfasis en Economía y como parte de la formación o especialización de otras profesiones;
+Formar investigadores para el crecimiento continuo de la Economía de la Salud;
+Desarrollar proyectos de investigación que contribuyan al desarrollo de los sistemas de salud;
+Divulgar los conocimientos adquiridos sobre la Economía de la Salud y el desarrollo de los sistemas de salud
+Con la convicción de contribuir al debate informado y a la generación de análisis sobre los avances y retos del sistema de salud y de la Economía de la Salud, desde junio de 2001 se cuenta con 35 números del Observatorio de la Seguridad Social, medio de divulgación de los trabajos del Grupo. Además de presentar resultados de sus investigaciones, se han publicado números especiales con la colaboración de colegas del país y del exterior.
+El GES coordina la Asociación Colombiana e Economía de la Salud-ACOES- y desarrolla su trabajo en torno a tres cinco líneas de investigación: Sistema de seguridad social: monitorio y evaluación; cobertura y acceso; financiamiento; organización industrial y regulación; evaluación económica y políticas públicas. En abril de 2016 fue reconocido por Colciencias.
+Trayectoria
+Durante los últimos años, el grupo ha contribuido en la formación de masa crítica en Economía de la Salud y de profesionales para la gestión y la investigación, mediante vinculación de estudiantes como jóvenes investigadores y estudiantes en formación, y asesoría de trabajos de grado en Economía y en las Maestrías en Economía y Salud Pública de la Universidad de Antioquia.
+Se ha realizado investigación interdisciplinaria y se ha contribuido a la proyección de la Economía de la Salud hacia otros grupos, disciplinas y funciones de la vida universitaria mediante la publicación del Observatorio de la Seguridad Social, proyectos de investigación, y actividades de docencia y extensión, tales como diplomados, seminarios, cursos electivos y asesorías a grupos de la Universidad e instituciones del sector salud.
+Entre las empresas o instituciones públicas y privadas que han confiado en nuestros servicios y han elegido al Grupo de Economía de la Salud como un aliado estratégico para acompañar sus procesos organizacionales destacamos las siguientes:
+Helpharma S.A: Determinar viabilidad de estudios farmacoeconómicos
+Municipio de Medellín - Secretaria de Salud: proyecto ciudad saludable
+Municipio de Medellín - Secretaria de Salud: acceso a los servicios de salud
+Municipio de Medellín - Secretaria de Salud: Cobertura y costos de los servicios de salud bucal en el plan de beneficios
+Municipio de Medellín - Secretaria de Salud: Evaluación económica de la atención preconcepcional en mujeres que presentaron un evento obstétrico en el año 2016 en Medellín.
+Fundación Internacional y para Iberoamérica de Administración y Políticas Públicas (FIIAPP): Caracterización de riesgos y prácticas de corrupción y opacidad y niveles de tolerancia a la corrupción en el sistema de salud colombiano
+ROCHE S.A.: Sostenibilidad financiera del sistema de salud colombiano: Alternativas y lecciones aprendidas
+Nuestros investigadores
+Datos de contacto
+Jairo Humberto Restrepo Zea
+Coordinador
+Universidad de Antioquia
+Calle 67 No. 53 - 108, Bloque 13
+Correo:
+grupoges@udea.edu.co
+Teléfonos: (+57 4) 219 58 00
+Medellín, Colombia
+
+##### B. Líneas de Consultoría y Transferencia (Portafolio CIC)
+Realizamos investigaciones y brindamos asesorías y consultorías, que faciliten una mejor comprensión de los sistemas de salud y seguridad social, para la toma de decisiones sobre programas y políticas en este sector.
+Líneas de investigación
+Políticas y sistemas de salud y seguridad social.
+Realiza un seguimiento continuo sobre el sistema de salud y seguridad social colombiano, consultando la realidad internacional y los avances teóricos, con lo cual se busca contribuir a la formulación, el seguimiento y la evaluación de políticas de salud y seguridad social, especialmente las referidas a calidad de vida, cobertura, acceso y utilización de servicios.
+Financiamiento y gasto.
+Analiza la generación, asignación y utilización de los recursos financieros destinados a los sistemas de salud y seguridad social, en particular el colombiano, los determinantes del gasto y la sostenibilidad financiera.
+Organización industrial y regulación.
+Estudia la estructura y funcionamiento de los mercados de salud, las implicaciones de los cambios tecnológicos, la naturaleza de la demanda y la oferta, y medidas regulatorias para corregir fallos de mercado y procurar el bien común.
+Evaluación económica.
+Analiza programas, servicios y tecnologías de salud, en cuanto a costos y consecuencias o desenlaces en salud, para contribuir a la toma de decisiones sobre la adopción o el financiamiento de nuevas tecnologías o programas de salud, y, en general, para el uso racional de recursos.
+Servicios de consultoría y asesoría
+Estudios de mercado: Análisis de oferta y demanda de servicios de salud y seguridad social,
+Estudios de cobertura y acceso a los servicios de salud y programas de seguridad social.
+Estudios de financiamiento: Análisis sobre la financiación de la salud y la seguridad social, análisis sobre la situación financiera de entidades del sector.
+Estudios de evaluación económica: Análisis de costo-efectividad (ACE), Análisis de costo utilidad (ACU), Análisis de impacto presupuestal (AIP), adaptación de modelos farmacoeconómicos al contexto colombiano, y Análisis de costos de la enfermedad.
+Formación de posgrado y educación continua
+Especialización virtual en Evaluación Económica en Salud (un año).
+Diplomado virtual en Evaluación Económica en Salud (160 horas).
+Cursos introductorios a la economía de la salud y a la evaluación económica en salud.
+
+##### C. Líneas de Investigación y Producción Académica
+El Grupo se ha destacado por la generación de conocimiento alrededor de temas de gran interés en el contexto regional y nacional, destacándose de manera especial los siguientes trabajos académicos:
+Libros
+(2008). RESTREPO, Jairo; ATEHORTUA, Sara; y RODRÍGUEZ, Sandra (2008). "Introducción a la Economía de la Salud en Colombia". Centro de Investigaciones y Consultorías, Facultad de Ciencias Económicas, Universidad de Antioquia (ISBN: 958-655-935-1).
+(2006). RESTREPO, Jairo; ECHEVERRI, Esperanza; VELÁSQUEZ, Johana y RODRÍGUEZ, Sandra (2006). "El Seguro subsidiado y el acceso a los servicios de salud. Teoría, contexto colombiano y experiencia en Antioquia". Centro de Investigaciones Económicas, Universidad de Antioquia (ISBN: 958-655-935-1).
+Artículos 2014-2019
+Título
+Autor principal
+Revista
+Eficiencia del gasto en salud en la OCDE y ALC: un análisis envolvente de datos
+Daysi Sanmartín
+Lecturas de Economía
+Saturación en los servicios de urgencias: Análisis de cuatro hospitales de Medellín y simulación de estrategias
+Jairo Humberto Restrepo Zea
+Gerencia y Políticas de Salud
+Cobertura universal y acceso efectivo a los servicios de salud: ¿Qué ha pasado en Colombia después de diez años de la Sentencia T-760?
+Lina Patricia Casas
+Revista de Salud Pública
+Medellín y el sueño de Ciudad Saludable: construcción técnica y colectiva
+Jairo Humberto Restrepo Zea
+Revista de Salud Pública
+La integridad y la transparencia como principios de la atención farmacéutica
+Jairo Humberto Restrepo Zea
+Vitae
+Análisis de costo-efectividad del ticagrelor en comparación con el clopidogrel para el tratamiento de pacientes con síndrome coronario agudo en Colombia
+Aurelio Mejía
+Revista Biomédica
+Evaluación económica del stent medicado vs convencional para pacientes con infarto agudo de miocardio con elevación del ST en Colombia
+Mateo Ceballos
+Revista Colombiana de Cardiología
+Artículos 2010-2014
+Título
+Autor principal
+Revista
+Impacto del seguro de salud subsidiado en el acceso a la citología cervical en Medellín, Colombia
+Sara Atehortúa
+Revista de Salud Pública
+Acceso a servicios de salud: análisis de barreras y estrategias en el caso de Medellín, Colombia
+Jairo Humberto Restrepo Zea
+Gerencia y Política de Salud
+Alcances y limitaciones teóricas y practicas del capital social en salud. El caso del sistema de salud en Medellín
+Juan Darío García Londoño
+Gerencia y Política de Salud
+Is tax funding of health care more likely to be regressive than systems based on social insurance in low- and middle-income countries?
+Aurelio Enrique Mejía Mejía
+Lecturas de Economía
+Evaluación de la calidad metodológica de la literatura en evaluación económica en salud en Colombia: una revisión sistemática
+Aurelio Enrique Mejía Mejía
+Biomédica Revista del Instituto Nacional de Salud
+El capital social y el sistema de Seguridad Social en salud en Medellín, 2009
+Juan Darío García Londoño
+Salud Pública de Medellín
+Diferencias socioeconómicas en los años de vida perdidos por cáncer de mama y cáncer cérvico-uterino en Colombia, 1997 y 2007
+Sara Catalina Atehortúa Becerra
+Gerencia y Política de Salud
+Análisis de costo efectividad del zinc para la prevención de la enfermedad diarreica aguda en niños menores de 5 años en Colombia
+Aurelio Enrique Mejía Mejía
+Coyuntura Económica: Investigación Económica y Social
+Artículos 2005-2010
+Título
+Autor principal
+Revista
+Las condiciones laborales de los profesionales de la salud a partir de la Ley 100 de 1993: evolución y un estudio de caso para Medellín
+Sara Catalina Atehortúa Becerra
+Gerencia y política de salud
+Evaluación económica de programas y servicios de salud
+Aurelio Enrique Mejía Mejía
+Gerencia y política de salud
+Percepciones de la usuarias del servicio de citología en unidades prestadoras de la ESE Metrosalud de la zona nororiental de Medellín, 2006
+Aurelio Enrique Mejía Mejía
+Salud Pública de Medellín
+Costo-efectividad de la detección del virus del papiloma humano en los programas de tamización de cáncer de cuello uterino
+Aurelio Enrique Mejía Mejía
+Biomédica. Revista del Instituto Nacional de Salud
+Accesibilidad a la citología cervical en Medellín Colombia
+Jairo Humberto Restrepo Zea
+Revista Española de Salud Pública
+¿Qué cambió en la seguridad social con la Ley 1122?
+Jairo Humberto Restrepo Zea
+Revista Facultad Nacional de Salud Pública
+Reforma a la seguridad social en Colombia, 1993-2007
+Jairo Humberto Restrepo Zea
+Observatorio de la seguridad social
+La integración vertical en el sistema de salud colombiano
+Jairo Humberto Restrepo Zea
+Revista de Economía Institucional
+Diseño y experiencia de la regulación en salud en Colombia
+Jairo Humberto Restrepo Zea
+Revista de Economía Institucional
+Diez años de economía de la salud en Colombia
+Jairo Humberto Restrepo Zea
+Gerencia y política de salud
+Artículos 2000-2005
+Título
+Autor principal
+Revista
+¿Qué enseña la reforma colombiana sobre los mercados de salud?
+Jairo Humberto Restrepo Zea
+Gerencia y política de salud
+Balance del régimen subsidiado de salud en Antioquia
+Jairo Humberto Restrepo Zea
+Gerencia y política de salud
+Producción académica en Economía de la Salud en Colombia
+Jairo Humberto Restrepo Zea
+Lecturas de Economía
+Estructura y conducta de la oferta del seguro de salud en Colombia
+Jairo Humberto Restrepo Zea
+Lecturas de Economía
+El seguro obligatorio de salud en Colombia: evolución y determinantes de la cobertura
+Jairo Humberto Restrepo Zea
+Revistas Académicas FEDESARROLLO- Coyuntura Social
+El seguro de salud en Colombia: ¿cobertura universal?
+Jairo Humberto Restrepo Zea
+Gerencia y política de salud
+Signos vitales del sector salud en Antioquia
+Jairo Humberto Restrepo Zea
+Revista Facultad Nacional de Salud Pública
+Artículos anteriores a 2000
+Título
+Autor principal
+Revista
+Monitoreo local de la reforma al sector salud en Colombia
+Jairo Humberto Restrepo Zea
+Revistas Académicas FEDESARROLLO- Coyuntura Social
+Artículos en libros
+Restrepo, JH. (2017) “Derecho a la salud y sostenibilidad financiera”. En: Torres, H. y Colorado DP (ed.).
+Derecho fundamental a la salud: ¿Nuevos escenarios?
+Bogotá, Universidad Nacional de Colombia, pp. 349-465.
+
+##### E. Formación y Semilleros de Investigación
+El grupo ampara la formación temprana de investigadores de pregrado y posgrado mediante: **Semillero de Economía de la Salud**.
+
+---
+
+#### 2.3. Grupo de Estudios Regionales - GER
+- **Sigla Oficial:** `GER`
+- **Unidad Académica:** Facultad de Ciencias Económicas — Departamento de Economía
+- **Líder / Coordinador(a):** **Liliana Gallego Duque**
+- **Correo Institucional del Grupo:** `ger@udea.edu.co`
+- **Categorización MinCiencias:** Categoría A (MinCiencias)
+- **Año de Creación:** 1995
+- **Portal Web Institucional:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/estudios-regionales](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/estudios-regionales)
+
+##### A. Identidad, Misión y Enfoque Teórico
+La Misión
+El Grupo de Estudios Regionales –GER- realiza investigaciones sobre desarrollo económico y social que contribuyen al conocimiento de la realidad nacional y regional, promueven la formación profesional y orientan la toma de decisiones en políticas públicas.
+La Visión
+Promover, a través de nuestras investigaciones y consultorías de alta calidad, un desarrollo económico y social en Colombia orientado hacia la inclusión y equidad social, la sostenibilidad ambiental, la competitividad productiva, el gobierno participativo y transparente. Así como el reconocimiento de la heterogeneidad regional.
+Apuesta estratégica
+El Grupo de Estudios Regionales -GER, realiza investigaciones sobre desarrollo socioeconómico, humano y ambientalmente sostenible que contribuyen al conocimiento de la realidad económica nacional y regional. EL GER promueve la formación profesional y orienta la toma de decisiones en políticas públicas. A través de sus investigaciones y consultorías, el GER tiene como objetivo promover en Colombia un desarrollo económico y social orientado hacia la inclusión, la equidad social y, el gobierno participativo y transparente. Sus objetivos y logros se fundamentan en enfoques multidisciplinares en conjunción con la economía y las políticas públicas que tienen como fin los derechos y el bienestar.
+Líneas y/o áreas de investigación
+Desarrollo económico regional y local.
+Geografía económica y desarrollo territorial.
+Análisis económico de género: políticas e inclusión económica y social.
+Historia económica y análisis institucional.
+Estudios de la pobreza y la desigualdad.
+Estudios multisectoriales y complejos en la sociedad actual
+Contacto
+Liliana Gallego-Duque
+Coordinadora
+Universidad de Antioquia
+Calle 67 No. 53 – 108, Bloque 13 Oficina 405
+Correo:
+Lilianam.gallego@udea.edu.co
+/
+ger@udea.edu.co
+Medellín, Colombia
+
+##### B. Líneas de Consultoría y Transferencia (Portafolio CIC)
+El Grupo de Estudios Regionales -GER- desarrolla su trabajo en cinco líneas de investigación
+Desarrollo económico regional y local (teorías y políticas)
+Geografía económica y economía espacial
+Análisis económico de género: políticas e inclusión económica y social
+Historia económica y análisis institucional
+Estructura productiva regional y estudios sectoriales
+Servicios de Consultoría
+Diagnóstico y/o evaluación de impacto de diversos programas sociales a nivel regional y local (educación, programas con enfoque de género, inclusión financiera, desarrollo rural, entre otros)
+Análisis sobre políticas públicas de desarrollo con enfoque territorial
+Seguimiento a programas asociados a los
+Objetivos del Desarrollo Sostenible (ODS)
+Estudios sobre sectores productivos y competitividad sectorial
+Contacto
+Liliana Gallego-Duque
+Coordinadora
+Universidad de Antioquia
+Calle 67 No. 53 – 108, Bloque 13 Oficina 405
+Correo:
+Lilianam.gallego@udea.edu.co
+/
+ger@udea.edu.co
+Medellín, Colombia
+
+##### C. Líneas de Investigación y Producción Académica
+Producción reciente de libros y capítulos de libros, artículos en revistas indexadas y documentos de trabajo; vea la producción de años anteriores en
+Gruplac GER.
+Línea Historia económica e institucional
+González-Lopera, Tatiana. 2023. El enfoque relacional y el análisis de redes sociales en los estudios históricos y en la historiografía colonial. El caso del Nuevo Reino de Granada.
+https://doi.org/10.22380/20274688.2371
+González-Lopera, Tatiana. 2023. Honor, linaje y sangre como capital social en la sociedad colonial vistos a través de un juicio por estupro en Antioquia (1729).
+https://doi.org/10.1344/BA2023.86.1028
+Rojas Rivera, Ángela M. 2023.
+Avances y retos en la investigación en historia fiscal de Colombia sobre el siglo XX
+.
+América Latina en la Historia Económica
+, número 2 (mayo-agosto, 2023).
+Rojas Rivera, Ángela M., & Lopera González, M. A. 2022.
+La herramienta de gramática institucional. Una discusión sobre su aplicación en investigaciones de políticas públicas
+.
+Estudios Políticos
+, (65).
+https://doi.org/10.17533/udea.espo.n65a02
+Lopera, Mario Alfonso (2020). “
+La formalización minera en el Bajo Cauca antioqueño a través de las áreas de reserva especial. Una aproximación al diseño institucional desde el marco de análisis y desarrollo institucional
+” en
+Revista de Estudios Políticos
+, No 58, Universidad de Antioquia.
+Línea Desarrollo económico regional y local
+Cindia Arango López, "
+A Town amid the Waters: The Building of a Hydroelectric Dam in Eastern Antioquia, Colombia
+", in
+PORTAL
+, Annual Review 2021-2022, LLILAS Benson Latin American Studies and Collections, No. 17.
+González-Lopera, Tatiana y Rengifo López, Juan Camilo. 2021. Noroccidente, una rica base natural con contraste territorial. En: Villamizar, J. (Ed.). Rodríguez, S. (Ed.). Rey, J., et al. (2021).
+Colombia desde las regiones
+(1.ª ed.). Editorial Universidad del Rosario.
+https://doi.org/10.12804/urosario9789587848069
+González-Lopera, Tatiana. 2021. Noroccidente, una región por definición mestiza. En: Villamizar, J. (Ed.). Rodríguez, S. (Ed.). Rey, J., et al. (2021).
+Colombia desde las regiones
+(1.ª ed.). Editorial Universidad del Rosario.
+https://doi.org/10.12804/urosario9789587848069
+Rojas Rivera, Angela Milena & Juan Camilo Rengifo
+. 2021.
+De lo simple a lo complejo: tres décadas del análisis de convergencia regional
+.
+Sociedad y Economía
+, No. 43, May-Agosto 2021.
+https://doi.org/110.25100/sye.v0i43.9951
+GUTIÉRREZ, Alderid, RINCÓN, Carolina; AGUDELO, Daniela; RESTREPO, Alba; ORTIZ, Jubelly; ÁLVAREZ, William, 2024, “Oferta laboral en el oriente antioqueño: análisis del mercado laboral: retos, desafíos y oportunidades”. Fondo Editorial Universidad Católica de Oriente,
+https://repositorio.uco.edu.co/items/b7866f81-8b6a-4e7a-93f2-369f79a22021
+GUTIÉRREZ, Alderid; ARANGO, Cindia, “Problemáticas en el desarrollo territorial del Oriente antioqueño”. Revista En-Contexto, No. 19, edición especial 2023. Tecnológico de Antioquia.
+https://doi.org/10.53995/23463279.1461
+GUTIÉRREZ, Alderid; ARANGO, Cindia, “Desarrollo Territorial: una propuesta conceptual”. Revista Desarrollo y Territorio, No 14. Red de desarrollo territorial de América Latina y el Caribe, págs.: 17-25,
+http://conectadel.ar/wp-content/uploads/2023/07/nro-14.pdf
+GUTIÉRREZ, Alderid; ARIAS, Beatriz; HERNÁNDEZ, Eulalia, “Salud colectiva en tiempos de COVID-19. Modelo escalar para comprender las afectaciones en la ruralidad de Urabá- Antioquia, 2020”, Dossier especial sobre pandemia, Volumen 20,
+Revista Gerencia y Políticas Públicas de Salud
+, 2021.
+GUTIÉRREZ, Alderid, RINCÓN, Carolina; Álvarez, William; RESTREPO, Alba,
+Análisis del mercado laboral en el Oriente antioqueño. Una mirada desde la inclusión
+. Rionegro: Fondo Editorial Universidad Católica de Oriente; ISBN: 978-628-7521-16-2 (digital), 2021.
+Carolina Rincón Zapata, Alderid Gutiérrez Loaiza, William Albeiro Álvarez Valle y Alba Lucía Restrepo Ruiz (2020).
+Aproximación a la oferta laboral en el Oriente Antioqueño en tiempos de pandemia
+.
+Fondo Editorial Universidad Católica de Oriente; Universidad de Antioquia; Comfenalco Antioquia; Cámara de Comercio del Oriente Antioqueño; Corporación Empresarial del Oriente. Rionegro (digital) ISBN: 978-958-5518-41-4.
+Ramírez Carranza, Lilian Andrea; Salinas Rincón, José Daniel; Castañeda Ramírez, José Adolfo. Planes de Desarrollo Nacional y estrategias de Responsabilidad Social Universitaria. ¿Una cuestión sinérgica
+? Revista Perspectivas
+, ISSN-e 2619-1687, Vol. 5, N.º 19, 2020 (Ejemplar dedicado a: Julio - septiembre), págs. 23-54.
+Jaramillo Jiménez, Ana María y Rengifo López, Juan Camilo. 2018. Evaluación de Impacto del Sistema Metro plus sobre el mercado laboral de las comunas Manrique y Aranjuez de Medellín. Lecturas de Economía No 89. Universidad de Antioquia.
+Línea Estructura productiva regional y estudios sectoriales
+Builes Gaitán, S. and Hurtado Pérez, M. C. (2021). Segmentation of Colombian organic food consumers focused on the consumption of the Andean blackberry.
+Agronomía Colombiana
+, 39(3), 438–452.
+https://doi.org/10.15446/agron.colomb.v39n3.96034
+Apropiación SC/divulgación
+Las Élites y la Navegación del Barco Colombiano
+.
+Revista de Estudiantes de Economía Intercambio, Vol. 2 Núm. 6 (2022): Sexto Número.
+Contacto
+Liliana Gallego-Duque
+Coordinadora
+Universidad de Antioquia
+Calle 67 No. 53 – 108, Bloque 13 Oficina 405
+Correo:
+Lilianam.gallego@udea.edu.co
+/
+ger@udea.edu.co
+Medellín, Colombia
+
+##### D. Nómina de Investigadores
+Contamos con un equipo humano altamente calificado conformado por profesores e investigadores, profesionales, estudiantes de posgrado y pregrado.
+Investigador
+Formación
+Línea
+Correo
+Cindia Arango López
+(economía-desarrollo territorial)
+Estudiante de Doctorado en Estudios Latinoamericanos, University of Texas at Austin.
+Magíster en Geografía e Historiadora de la U. de los Andes.
+Estructura productiva regional y estudios sectoriales
+cindia.arango@utexas.edu
+Yady Marcela Barrero
+Amortegui (economía)
+Doctora en economía de la Universidad de los Andes. Magister en economía UdeA.
+Economista
+Análisis económico de género: políticas e inclusión económica y social
+yady.barrero@udea.edu.co
+Liliana Gallego Duque
+(economía)
+Doctora en Economía Aplicada y,
+Doctora en Sociología de la Universidad Autónoma de Barcelona (UAB). Magister en Economía Aplicada y,
+Magister en Sociología (UAB). Economista de la Universidad de Antioquia.
+Análisis económico de género: políticas e inclusión económica y social.
+Estudios de la pobreza y la desigualdad.
+Estudios multisectoriales y complejos en la sociedad actual
+lilianam.gallego@udea.edu.co
+Tatiana González Lopera
+(ciencias económicas)
+Doctora en Historia y Estudios Humanísticos de la Universidad Pablo de Olavide (España)
+Magister en Historia y Antropóloga de la Universidad de Antioquia.
+Historia económica y análisis institucional
+tatiana.gonzalezl@udea.edu.co
+Alderid Gutiérrez Loaiza
+(economía-desarrollo territorial)
+Estudiante de doctorado en Estudios Socio-espaciales, INER-UdeA., Magister en ciencias políticas, Economista de la Universidad de Antioquia.
+Desarrollo económico regional y local (teorías y políticas)
+alderid.gutierrez@udea.edu.co
+Alejandra Restrepo Areiza
+(ciencias económicas)
+Magíster en Políticas Públicas y Economista de la Universidad de Antioquia.
+Desarrollo económico regional y local (teorías y políticas); Análisis económico de género: políticas e inclusión económica y social
+alejandra.restrepoa@udea.edu.co
+Juan Camilo Rengifo López
+(desarrollo territorial)
+Magíster en Estudios Urbano – Regionales, de la Universidad Nacional de Colombia. Economista de la Universidad de Antioquia.
+Desarrollo económico regional y local (teorías y políticas), Geografía económica y economía espacial
+juanc.rengifo@udea.edu.co
+Angela Milena Rojas Rivera
+(economía)
+Doctora en economía University of Warwick (Reino Unido). Magister en economía.
+Economista de la Universidad Nacional
+Desarrollo económico regional y local (teorías y políticas); Historia económica y análisis institucional; Geografía económica y economía espacial
+amilena.rojas@udea.edu.co
+José Daniel Salinas Rincón
+(economía)
+Candidato a PhD en Economía y Magister en economía cuantitativa, Universidad Libre de Bruselas (Bélgica). Magister en economía, Universidad Católica de Lovaina (Bélgica). Magister en economia internacional y desarrollo, Universidad de Namur (Bélgica). Magister y Economista, Pontificia Universidad Javeriana.
+Desarrollo económico regional y local (teorías y políticas); Análisis económico de género: políticas e inclusión económica y social. Estudios de la pobreza y la desigualdad.
+daniel.salinas@udea.edu.co
+Contacto
+Liliana Gallego-Duque
+Coordinadora
+Universidad de Antioquia
+Calle 67 No. 53 – 108, Bloque 13 Oficina 405
+Correo:
+Lilianam.gallego@udea.edu.co
+/
+ger@udea.edu.co
+Medellín, Colombia
+
+##### E. Formación y Semilleros de Investigación
+El grupo ampara la formación temprana de investigadores de pregrado y posgrado mediante: **Semillero de Estudios Regionales**.
+
+##### F. Iniciativas, Proyectos y Publicaciones Emblemáticas
+- **[Articulación con comunidades científicas - GER](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Estudios+regionales/asContenidos/asListado/Articulacionconcomunidadescientificas-GER):** Contamos con una articulación con diferentes comunidades científicas regionales, nacionales e internacionales.
+- **[El Grupo de Estudios Regionales (GER) y su presencia en Latin American Studies Association](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Estudios+regionales/asContenidos/asListado/GERysupresenciaenLatinAmericanStudiesAssociation):** El Grupo de Estudios Regionales (GER) ha tenido una presencia continua y creciente en Latin American Studies Association, en específico desde 2019.
+- **[Atrapados/As Entre la Revolución Digital y una Crisis de la Democracia: Respuestas y Soluciones Pensadas por la Economía Feminista para el Futuro](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Estudios+regionales/asContenidos/asListado/AtrapadosEntrelaRevolucionDigitalyunaCrisisdelaDemocraciaRySPensadasporEconomiaFeministaparaFuturo):** La Conferencia IAFFE 2024 aspira a incitar a la reflexión crítica sobre las respuestas de la economía feminista a dos de las características determinantes del panorama económico y ...
+- **[Curso virtual en Análisis de Redes Sociales](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Estudios+regionales/asContenidos/asListado/curso-virtual-analisis-redes-sociales):** El Grupo de Estudios Regionales (GER) de la Universidad de Antioquia y la Red de Investigadores en Historia Económica de Colombia (RIHE) invitan al: Curso virtual en Análisis de Re...
+- **[II Congreso Colombiano de Historia Económica](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Estudios+regionales/asContenidos/asListado/congreso-colombiano-historia-economica):** La Asociación Colombiana de Historia Económica y Empresarial y la Red de Investigadores en Historia Económica de Colombia convocan a presentar ponencias al II Congreso Colombiano d...
+- **[Proyectos desarrollados](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Estudios+regionales/asContenidos/asListado/proyectos):** Lideramos investigación y consultoría que aportan a la construcción de una sociedad inclusiva, sostenible y competitiva.
+
+
+---
+
+#### 2.4. Grupo de Investigación en Gestión Organizacional - GESTOR
+- **Sigla Oficial:** `GESTOR`
+- **Unidad Académica:** Facultad de Ciencias Económicas — Departamento de Ciencias Administrativas
+- **Líder / Coordinador(a):** **José Enrique Arias Pérez**
+- **Correo Institucional del Grupo:** `jenrique.arias@udea.edu.co / gestor@udea.edu.co`
+- **Categorización MinCiencias:** Categoría A (MinCiencias)
+- **Año de Creación:** 2001
+- **Portal Web Institucional:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/gestion-organizacional](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/gestion-organizacional)
+
+##### A. Identidad, Misión y Enfoque Teórico
+El grupo Gestor tiene una trayectoria de 23 años en la creación de conocimiento que contribuye al desarrollo científico y al mejoramiento de capacidades en gestión organizacional a través de la investigación, la transferencia de conocimiento y la articulación con redes académicas nacionales e internacionales en las líneas de investigación Ciencia, Tecnología, innovación y emprendimiento y organizaciones y estrategia.
+Contacto
+Jose Enrique Arias Pérez, PhD
+Coordinador Grupo de Investigación - GESTOR
+Correo:
+jenrique.arias@udea.edu.c
+o
+
+##### B. Líneas de Consultoría y Transferencia (Portafolio CIC)
+Consultoría, asesoría, capacitación e intervención en:
+Gestión de la innovación y el conocimiento
+Aprendizaje organizacional
+Liderazgo
+Gestión de la propiedad intelectual
+Transformación digital
+Modelos de negocio
+Dirección estratégica
+Sostenibilidad
+Contacto:
+Jose Enrique Arias Pérez, PhD
+Coordinador Grupo de Investigación - GESTOR
+Correo:
+jenrique.arias@udea.edu.co
+
+##### C. Líneas de Investigación y Producción Académica
+El Grupo se ha destacado por la generación de conocimiento alrededor de temas de gran interés en el contexto regional y nacional, de manera especial se han publicado los siguientes trabajos académicos:
+•    Cardona-Cano, R., López-Zapata, E., & Velez-Ocampo, J. (2024). Leadership styles, collaborative integrative behavior and ambidexterity in university research groups. The Learning Organization, 31(2), 185-20.
+•    López-Zapata, E., Torres-Vargas, Y., & Ortiz-Puentes, M. A. (2024). Transformational leadership and task performance: the mediating role of leader–member exchange, organizational support and work engagement. Academia Revista Latinoamericana de Administración, Academia Revista Latinoamericana de Administración.
+https://doi.org/10.1108/ARLA-05-2023-0069
+•    Henao-García, E.A. and Cardona Montoya, R.A. (2023), "Fostering technological innovation through management and marketing innovation. The human and non-technological linkage", European Journal of Innovation Management, Vol. 26 No. 1, pp. 183-206.
+https://doi.org/10.1108/EJIM-03-2021-0148
+•    Henao-García, E.A. and Cardona Montoya, R.A. (2023), "Management innovation and its relation to innovation outcomes and firm performance: a systematic literature review and future research agenda", European Journal of Innovation Management, Vol. ahead-of-print No. ahead-of-print.
+https://doi.org/10.1108/EJIM-10-2022-0564
+•    Lozada, N., Arias-Pérez, J. and Henao-García, E.A. (2023), "Unveiling the effects of big data analytics capability on innovation capability through absorptive capacity: why more and better insights matter", Journal of Enterprise Information Management, Vol. 36 No. 2, pp. 680-701.
+https://doi.org/10.1108/JEIM-02-2021-0092
+•    López-Zapata, E. and Ramírez-Gómez, A.D.J. (2023), "Intellectual capital, organizational culture and ambidexterity in Colombian firms", Journal of Intellectual Capital, Vol. 24 No. 2, pp. 375-398.
+https://doi.org/10.1108/JIC-08-2020-0286
+•    Jurado-Zambrano, D.A., Velez-Ocampo, J. and López-Zapata, E. (2023), "Smart governance strategies and their relationships with SDGs in three Latin American cities", Management Research, Vol. 21 No. 1, pp. 7-33.
+https://doi.org/10.1108/MRJIAM-01-2022-1270
+•    José Arias-Pérez, Thanh Huynh. (2023).Flipping the odds of AI-driven open innovation: The effectiveness of partner trustworthiness in counteracting interorganizational knowledge hiding. Industrial Marketing Management, Volume 111. Pages 30-40.
+https://doi.org/10.1016/j.indmarman.2023.03.005
+.
+•    Gómez-Duque, Luis Ángel, Daza-Torres, José David, & Arias-Pérez, José. (2023). Inteligencia de negocios y agilidad organizacional: ¿Son relevantes la toma de decisiones racional e intuitiva?. Estudios Gerenciales, 39(167), 181-191. Epub July 25, 2023.https://doi.org/10.18046/j.estger.2023.167.5542
+•    Arias-Pérez, J., Perdomo-Charry, G. and Lozada, N. (2023), "Opening the black box of organizational Machiavellianism: is co-innovation coming to an end as a driver of innovation performance?", Competitiveness Review, Vol. 33 No. 4, pp. 745-758.
+https://doi.org/10.1108/CR-04-2021-0057
+•    Arias-Pérez, J., Chacón-Henao, J. and López-Zapata, E. (2023), "Unlocking agility: Trapped in the antagonism between co-innovation in digital platforms, business analytics capability and external pressure for AI adoption?", Business Process Management Journal, Vol. 29 No. 6, pp. 1791-1809.
+https://doi.org/10.1108/BPMJ-10-2022-0484
+•    Urresta-Vargas, D., Carvajal-Vargas, V. and Arias-Pérez, J. (2023), "Dismissing uncertainties about open innovation constraints to organizational agility in emerging markets: is knowledge hiding a perfect storm?", Management Decision, Vol. ahead-of-print No. ahead-of-print.
+https://doi.org/10.1108/MD-10-2022-1473
+•    Arias-Pérez, J., Alegre, J. and Villar, C. (2023), "Uncovering the role of competitor orientation and emotional capability in enhancing innovation performance", International Journal of Organizational Analysis, Vol. 31 No. 5, pp. 1304-1315.
+https://doi.org/10.1108/IJOA-10-2020-2463
+•    José Arias-Pérez, Juan Vélez-Jaramillo. (2022). Ignoring the three-way interaction of digital orientation, Not-invented-here syndrome and employee's artificial intelligence awareness in digital innovation performance: A recipe for failure.Technological Forecasting and Social Change. Volume 174.
+https://doi.org/10.1016/j.techfore.2021.121305
+.
+•    Pertuz-Peralta, V., Arias-Pérez, J. and Daza-Calier, Y. (2022), "Knowledge sharing among academics: why organizational narcissism in higher education matters?", VINE Journal of Information and Knowledge Management Systems, Vol. 52 No. 1, pp. 141-157.
+https://doi.org/10.1108/VJIKMS-03-2020-0044
+•    Henao García, E.A., Galia, F. and Velez-Ocampo, J. (2022), "Understanding the impact of well-being on entrepreneurship in the context of emerging economies", Journal of Entrepreneurship in Emerging Economies, Vol. 14 No. 1, pp. 158-182.
+https://doi.org/10.1108/JEEE-08-2020-0314
+•    Arias-Pérez, J., Coronado-Medina, A. and Perdomo-Charry, G. (2022), "Big data analytics capability as a mediator in the impact of open innovation on firm performance", Journal of Strategy and Management, Vol. 15 No. 1, pp. 1-15.
+https://doi.org/10.1108/JSMA-09-2020-0262
+•    Sepúlveda-Rivillas, Claudia Inés, Restrepo-Ramírez, Carlos Gilberto, & Jaramillo, Juan Daniel Vélez. (2022). Intellectual Capital and Knowledge Management Dynamic Capabilities: The role of Knowledge Intensity. Cuadernos de Administración (Universidad del Valle), 38(72), e2211248. Epub March 16, 2022.https://doi.org/10.25100/cdea.v38i72.11248
+•    Arias-Pérez, J. and Cepeda-Cardona, J. (2022), "Knowledge management strategies and organizational improvisation: what changed after the emergence of technological turbulence caused by artificial intelligence?", Baltic Journal of Management, Vol. 17 No. 2, pp. 250-265.
+https://doi.org/10.1108/BJM-01-2021-0027
+•    Chacón-Henao, Juliana, López-Zapata, Esteban, & Arias-Pérez, Jose. (2022). Liderazgo compartido en equipos directivos y desempeño organizacional: el rol mediador del capital social. Estudios Gerenciales, 38(162), 32-44. Epub March 24, 2022.https://doi.org/10.18046/j.estger.2022.162.4524
+•    Henao García, E.A., Galia, F. and Velez-Ocampo, J. (2022), "Understanding the impact of well-being on entrepreneurship in the context of emerging economies", Journal of Entrepreneurship in Emerging Economies, Vol. 14 No. 1, pp. 158-182.
+https://doi.org/10.1108/JEEE-08-2020-0314
+•    Arias-Pérez, J. and Vélez-Jaramillo, J. (2022), "Understanding knowledge hiding under technological turbulence caused by artificial intelligence and robotics", Journal of Knowledge Management, Vol. 26 No. 6, pp. 1476-1491.
+https://doi.org/10.1108/JKM-01-2021-0058
+•    Henao-García, E., Arias-Pérez, J., & Lozada, N. (2021). Fostering big data analytics capability through process innovation: Is management innovation the missing link? Business Information Review, 38(1), 28-39.
+https://doi.org/10.1177/0266382120984716
+•    Arias-Pérez, J., Velez-Ocampo, J. and Cepeda-Cardona, J. (2021), "Strategic orientation toward digitalization to improve innovation capability: why knowledge acquisition and exploitation through external embeddedness matter", Journal of Knowledge Management, Vol. 25 No. 5, pp. 1319-1335.
+https://doi.org/10.1108/JKM-03-2020-0231
+•    Henao‐Ramírez, A.M. and López-Zapata, E. (2022), "Analysis of the factors influencing adoption of 3D design digital technologies in Colombian firms", Journal of Enterprise Information Management, Vol. 35 No. 2, pp. 429-454.
+https://doi.org/10.1108/JEIM-10-2020-0416
+•    Gonzalez-Perez, M.A., Mohieldin, M., Hult, G.T.M. and Velez-Ocampo, J. (2021), "COVID-19, sustainable development challenges of Latin America and the Caribbean, and the potential engines for an SDGs-based recovery", Management Research, Vol. 19 No. 1, pp. 22-37.
+https://doi.org/10.1108/MRJIAM-12-2020-1119
+•    GOMEZ-TRUJILLO, ANA MARIA, VELEZ-OCAMPO, JUAN, CASTRILLON-ORREGO, SERGIO A., ALVAREZ-VANEGAS, ALEJANDRO, & MANOTAS, EVA CRISTINA. (2021). RESPONSIBLE PATTERNS OF PRODUCTION AND CONSUMPTION: THE RACE FOR THE ACHIEVEMENT OF SDGS IN EMERGING MARKETS. AD-minister, (38), 93-120. Epub January 13, 2022.https://doi.org/10.17230/ad-minister.38.4
+•    Arias-Pérez, J., Alegre, J. and Villar, C. (2021), "Emotional capability: the missing link between information technology capabilities and innovation performanceCapacidad emocional: el vínculo perdido entre capacidades de tecnologías de la información y desempeño innovadorCapacidade emocional: O elo perdido entre as capacidades das tecnologias da informação e o desempenho inovador", Management Research, Vol. 19 No. 2, pp. 127-142.
+https://doi.org/10.1108/MRJIAM-12-2020-1115
+•    Velez-Ocampo J, Gonzalez-Perez MA, Sin KI. Jaguar Firms: Tropic Dwellers, Camouflage Masters, and Solitary Predators. Management and Organization Review. 2021;17(5):885-917. doi:10.1017/mor.2021.24
+•    Arias-Pérez, J., Lozada, N. and Henao-García, E. (2020), "When it comes to the impact of absorptive capacity on co-innovation, how really harmful is knowledge leakage?", Journal of Knowledge Management, Vol. 24 No. 8, pp. 1841-1857.
+https://doi.org/10.1108/JKM-02-2020-0084
+•    Gomez-Trujillo, A.M., Velez-Ocampo, J. and Gonzalez-Perez, M.A. (2020), "A literature review on the causality between sustainability and corporate reputation: What goes first?", Management of Environmental Quality, Vol. 31 No. 2, pp. 406-430.
+https://doi.org/10.1108/MEQ-09-2019-0207
+•    Henao-García, E. A., Lozada, N., & Arias-Pérez, J. (2020). Direct effects of knowledge management practices on organizational performance. Business Information Review, 37(1), 30-37.
+https://doi.org/10.1177/0266382120909073
+•    Arias-Pérez, J., Lozada, N. and Henao-García, E. (2020), "When it comes to the impact of absorptive capacity on co-innovation, how really harmful is knowledge leakage?", Journal of Knowledge Management, Vol. 24 No. 8, pp. 1841-1857.
+https://doi.org/10.1108/JKM-02-2020-0084
+•    Coronado-Medina., Alejandro, Arias-Pérez., Jose & Perdomo-Charry, Geovanny. (2020). Fostering Product Innovation Through Digital Transformation and Absorptive Capacity. International Journal of Innovation and Technology Management. Vol. 17.
+https://doi.org/10.1142/S0219877020500406
+•    Pertuz-Peralta, V., Arias-Pérez, J. and Daza-Calier, Y. (2022), "Knowledge sharing among academics: why organizational narcissism in higher education matters?", VINE Journal of Information and Knowledge Management Systems, Vol. 52 No. 1, pp. 141-157.
+https://doi.org/10.1108/VJIKMS-03-2020-0044
+•    Gutiérrez-Vargas, L. M., Arenas-Cardona, H. A., & López-Gómez, M. del S. (2020). La relación entre uso de beneficios y políticas trabajo-vida y satisfacción laboral: el rol mediador del conflicto trabajo-a-familia. Cuadernos De Gestión, 20(3), 75–86.
+https://doi.org/10.5295/cdg.191098lg
+•    Esteban López Zapata. (2020). Analysing the relationship between diversification strategy and firm performance: the role of the economic cycle. Tec Empresarial, 15(2), 1–15.
+https://doi.org/10.1229/tecempresarialjournal.v15i2.16
+•    Cepeda, J. and Arias-Pérez, J. (2019), "Information technology capabilities and organizational agility: The mediating effects of open innovation capabilities", Multinational Business Review, Vol. 27 No. 2, pp. 198-216.
+https://doi.org/10.1108/MBR-11-2017-0088
+•    Gaviria-Rivera, J. I., & López-Zapata, E. (2019). Transformational leadership, organizational climate and job satisfaction in work teams. European Research Studies Journal, 22(3), 68-82.
+•    Arias-Pérez, Jose, Lozada, Nelson, & Henao-García, Edwin. (2019). Gestión del Capital Intelectual y Desempeño de Grupos de Investigación Universitarios en un País Emergente. El caso de Colombia. Información tecnológica, 30(4), 181-188.
+https://dx.doi.org/10.4067/S0718-07642019000400181
+•    Lozada, N., Arias-Péres, J. & Perdomo-Charry, G. (2019). Big data analytics capability and co-innovation: An empirical study. Heliyon. Vol. 5, 10.
+https://doi.org/10.1016/j.heliyon.2019.e02541
+•    López-Zapata, Esteban, López-Moros, Gloria P., & Agudelo-Muñoz, Sabrina M.. (2019). Relación entre Estrategias Competitivas y Tipos de Aprendizaje Organizativo en Empresas Colombianas. Información tecnológica, 30(5), 191-202.
+https://dx.doi.org/10.4067/S0718-07642019000500191
+•    Velez-Ocampo, J. and Gonzalez-Perez, M.A. (2019), "Analyzing foreign expansion and corporate reputation: review and future research agenda", Cross Cultural & Strategic Management, Vol. 26 No. 4, pp. 586-608.
+https://doi.org/10.1108/CCSM-06-2019-0110
+
+##### E. Formación y Semilleros de Investigación
+El grupo ampara la formación temprana de investigadores de pregrado y posgrado mediante: **Semillero GESTOR**.
+
+##### F. Iniciativas, Proyectos y Publicaciones Emblemáticas
+- **[Articulación con comunidades científicas](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Gesti%21c3%21b3n+organizacional/asContenidos/asListado/ArticulacioncomunidadescientificasGESTOR):** Articulación con comunidades científicas contribuye al progreso, al desarrollo económico, social y representa la piedra angular para la integración de investigación, desarrollo e i...
+- **[Proyectos desarrollados](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Gesti%21c3%21b3n+organizacional/asContenidos/asListado/proyectos):** Lideramos varios proyectos que no solo aportan a la construcción de organizaciones más sostenibles sino también a los procesos misionales de nuestra Alma Máter: la docencia y la ex...
+- **[Apalancando procesos de innovación en organizaciones colombianas](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Gesti%21c3%21b3n+organizacional/asContenidos/asListado/apalancando-procesos-de-innovacion-en-organizaciones-colombianas):** La gestión del conocimiento al interior de las organizaciones favorece los procesos de innovación e incrementa la eficiencia. Así, investigadores de la Universidad de Antioquia esp...
+
+
+---
+
+#### 2.5. Grupo de Investigaciones y Consultorías Contables - GICCO
+- **Sigla Oficial:** `GICCO`
+- **Unidad Académica:** Facultad de Ciencias Económicas — Departamento de Ciencias Contables
+- **Líder / Coordinador(a):** **Hernán Carlos Bustamante García**
+- **Correo Institucional del Grupo:** `hernan.bustamante@udea.edu.co / gicco@udea.edu.co`
+- **Categorización MinCiencias:** Categoría A (MinCiencias)
+- **Año de Creación:** 2004
+- **Portal Web Institucional:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/gicco](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/gicco)
+
+##### A. Identidad, Misión y Enfoque Teórico
+El Grupo de Investigación y Consultorías Contables (GICCO) es un grupo humano que une esfuerzos para aportar conocimiento y satisfacer necesidades de las regiones, por ello trabaja principalmente desde dos frentes: investigación y consultoría, que se aplica tanto en el sector empresarial como en el gubernamental. GICCO está adscrito al Departamento de Ciencias Contables de la Universidad de Antioquia y fue creado en el año 2004.
+El grupo está integrado principalmente por profesores, sin embargo, los proyectos de investigación, proyectos editoriales, publicación de artículos, participación en eventos académicos, entre otras actividades de GICCO, cuentan con colaboración de estudiantes de Contaduría Pública de Medellín y las diferentes subregiones de Antioquia donde se ofrece el programa.
+El grupo tiene como principales objetivos generar conocimiento contable con pertinencia tanto regional como con proyección hacia el contexto internacional, desarrollar capacidades investigativas en la comunidad investigativa contable del país y transferir conocimiento para la solución de problemas organizacionales.
+Trayectoria
+•
+Teleantioquia
+•    Alumina
+•    Metro de Medellín
+•    Cornare
+•    Instituto de Cultura y Patrimonio de Antioquia
+•    Gobernación de Antioquia
+•    Ria
+•    Fábrica de Licores de Antioquia
+•    Lotería de Medellín
+•    ISA
+•    Grupo Réditos
+•    Universidad de Antioquia
+•    Contaduría General de la Nación
+•    Cooprudea
+•    KIA
+•    Aguascol
+•    Contraloría General de la República
+•    Corpocaldas
+•    Emvarias
+•    Contraloría general de Antioquia
+•    Hospital General de Medellín
+•    Politécnico Colombiano Jaime Isaza Cadavid
+•    Balalaika
+•    IDEA
+•    Reforestadora el Guasimo S.A.S
+•    Metrosalud
+•    Comedal
+•    Hospital Pablo Tobón Uribe
+•    Hospital Alma Máter
+•    Alcaldía de Medellín
+•    Asamblea Departamental de Antioquia
+•    Universidad San Buenaventura sede Cali
+•    Pontificia Universidad Javeriana sede Cali
+•    Universidad Autónoma de Bucaramanga
+•    Corporación Universitaria Remington
+•    INNpulsa
+•    Fondo Emprender
+•    SENA
+Líneas de Investigación
+Las líneas de investigación están agrupadas en tres ejes problémicos y se detallan a continuación:
+1.Eje Análisis contable
+- Costos y contabilidad de gestión
+- Gestión y contabilidad pública
+- Análisis de los procesos tributarios
+- Contabilidad y finanzas
+2. Eje Desarrollo contable
+- Nuevos desarrollos de la teoría contable
+- Caracterización internacional de la contabilidad
+- Educación contable
+- Tecnología contable
+- Desarrollos normativos
+3.Eje Control Organizacional
+- Control interno
+- Procesos de auditoría
+- Revisoría fiscal
+Mayor información
+Contacto
+Hernán Carlos Bustamante García
+Magíster en ciencias de la administración
+carlos.bustamante@udea.edu.co
+grupogicco@udea.edu.co
+
+##### B. Líneas de Consultoría y Transferencia (Portafolio CIC)
+GICCO está en capacidad de transferir conocimiento a los sectores empresarial y gubernamental a través de diversas estrategias, en especial, servicios de consultoría como:
+Interventoría de proyectos
+Fortalecimiento de la hacienda pública
+Diagnóstico financiero integral
+Valoración (de empresas o de activos específicos)
+Contabilidad del sector privado (implementación de normas – revisión – actualización – auditorías especializadas)
+Asesoría para implementación de sistemas contables con emprendedores
+Gestión tributaria organizacional (planeación y análisis del impacto de los tributos en las organizaciones)
+Sistemas de costos
+Contabilidad del sector público (implementación de normas – revisión – actualización – auditorías especializadas)
+Auditoría de sistemas de control interno (entidades públicas o privadas)
+Auditorías especializadas (de cumplimiento, de gestión, de procesos, o según el requerimiento del usuario)
+Desarrollo de sistemas de gestión de desempeño
+Diagnóstico e implementación de modelos de gestión para el sector público (MIPG)
+Co-creación y apoyo para la implementación de estrategias de autoevaluación y desarrollo de programas de contaduría pública de alta calidad
+Contacto
+Hernán Carlos Bustamante García
+Magíster en ciencias de la administración
+carlos.bustamante@udea.edu.co
+grupogicco@udea.edu.co
+
+##### C. Líneas de Investigación y Producción Académica
+Proyectos de Investigación Vigentes
+•    Campos y redes contables: ramas, procesos y nexos de la contabilidad
+•    Pertinencia del programa de Contaduría Pública de la Universidad de Antioquia desde las perspectivas de la calidad en la educación superior
+•    Inventarios de empresas de servicios: reconocimiento, medición y revelación, después de implementación de NIIF en Colombia
+•    Análisis del impacto del contenido del informe de auditoría en variables financieras y no financieras de las empresas que integran el Mercado Latinoamericano en el periodo 2010-2018
+•    Contabilidad a escala humana fundamentación epistemológica para el contexto latinoamericano
+•    Implicaciones del COVID-19 sobre la gestión financiera y no financiera de las organizaciones de América Latina
+•    Impacto de las nuevas tecnologías en el ejercicio profesional contable en Medellín, Colombia.
+•    Las líneas de Investigación del D.C.C – Universidad de Antioquia. Una perspectiva desde los Trabajos de Grado del programa de Contaduría Pública 2007 - 2020
+•    Fortalecimiento de la educación en Antioquia: formación en CTi+E como impulsora del progreso en las subregiones Norte y Bajo Cauca
+•    Contabilidad de los grupos económicos: caracterización de las políticas contables y las revelaciones de las empresas que cotizan en el MILA
+•    Gobernanza en la Gestión del Patrimonio Cultural Inmaterial
+•    La innovación social y su contribución al Buen Vivir. El caso del Consultorio Contable Social de la Universidad de Antioquia
+•    Rendición de cuentas de las sociedades de Beneficio e Interés Colectivo: una mirada desde lo contable y financiero
+•    Percepción académica de la aplicación de herramientas de analítica en la enseñanza de Ciencias Económicas
+•    Impactos de la inteligencia artificial en la planeación y control desde la Contabilidad de Gestión
+Publicaciones
+•    Riesgo financiero en los bancos y aseguradoras en tiempos de pandemia: una revisión bibliográfica – Daniel Ceballos García, Lorena Vásquez Arango
+•    El interés público y la certificación del contador público, en atención al estado de emergencia por Covid-19 en Colombia – Andrés Felipe Pulgarín Arias y Carlos Eduardo Castaño
+•    Analysis of double materiality in early adopters. Are companies walking the talk? – Diego Andrés Correa Mejía, Jaime Andrés Correa García y Maria Antonia García Benau
+•    Caracterización de los procesos de inclusión digital en comunidades rurales en el contexto de los ODS – Daniel Cardona Valencia y Erika Janeth Salazar Jiménez
+•    Una comparación de los marcos técnicos normativos sobre estándares internacionales de contabilidad e información financiera aplicables en el sector agropecuario en Colombia – Tania Atehortúa Castrillón, Didier Mauricio Agudelo Hernández, Jair Albeiro Osorio Agudelo y Wilmar Alexander Alzate Castro
+•    Análisis de la información financiera en torno al informe del auditor de las empresas del MILA – Belky Esperanza Gutiérrez Castañeda, Julián Esteban Zamarra Londoño y Daniela Pérez Noreña
+Para mas información consultar el GrupLAC:
+https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000007817
+
+##### E. Formación y Semilleros de Investigación
+El grupo ampara la formación temprana de investigadores de pregrado y posgrado mediante: **Semilleros Financiero, SILES e Innovación FCE**.
+
+---
+
+#### 2.6. Grupo de Investigación en Marketing - Imark
+- **Sigla Oficial:** `IMARK`
+- **Unidad Académica:** Facultad de Ciencias Económicas — Departamento de Ciencias Administrativas
+- **Líder / Coordinador(a):** **Beatriz Londoño Giraldo**
+- **Correo Institucional del Grupo:** `imark@udea.edu.co`
+- **Categorización MinCiencias:** Categoría A (MinCiencias)
+- **Año de Creación:** 2008
+- **Portal Web Institucional:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/imark](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/imark)
+
+##### A. Identidad, Misión y Enfoque Teórico
+El marketing, entre sus procesos y actividades que desarrolla en las organizaciones, tiene como fin de establecer, comunicar, entregar e intercambiar ofertas que representen valor para los clientes y la sociedad en general. Los aspectos que caracterizan un óptimo marketing, es el que entiende los productos, también son prestadores de servicios, y por lo tanto la comprensión del diseño y la implementación de experiencias valiosas en las interacciones de la marca con el cliente, son claves para generar estrategias exitosas.
+Imark es un Grupo de Investigación en Marketing, conformado por un equipo humano de profesionales apasionados por el tema, estamos entregados al servicio con la capacidad de entender las necesidades específicas de su organización. Así mismo, tenemos el conocimiento requerido para proponer proyectos efectivos y la habilidad para ejecutarlos con excelencia; nuestros clientes obtienen un desempeño superior en sus procesos de marketing a través de intervenciones de alto impacto, metodologías innovadoras con un alto nivel de compromiso. Creemos en la calidez humana, en la rigurosidad profesional y académica como vías para la efectividad.
+El Grupo está adscrito al Departamento de Ciencias Administrativas, creado en el año 2008. En el año 2016 fue reconocido y categorizado por Colciencias como grupo de investigación categoría B.
+Trayectoria
+Entre las empresas o instituciones públicas y privadas que han confiado en nuestros servicios y han elegido al grupo Imark como un aliado estratégico para acompañar sus procesos organizacionales destacamos las siguientes:
+Universidad de Antioquia -Vicerrectoría de Extensión: Programa Buen Comienzo-Evaluación Jardines Infantiles (en convenio con el grupo GESTOR)
+Empresa de Desarrollo Urbano - EDU: Reestructuración Administrativa Infantiles (en convenio con el grupo GESTOR)
+Universidad de Antioquia: Estudio de mercado-Bienestar Universitario
+Proyecto Alianzas Estratégicas-Talento Humano Estudio de Factibilidad-Escuela de Microbiologia Implementación Política de Comunicaciones-Sistema de Comunicaciones
+Teleantioquia: Análisis Comportamiento y Consumo
+Análisis información Encuesta Central de Medios.
+Datos de contacto
+Beatriz Londoño-Giraldo
+Ph.D. en Marketing
+beatriz.londonog@udea.edu.co
+
+##### B. Líneas de Consultoría y Transferencia (Portafolio CIC)
+Líneas
+El grupo Imark desarrolla sus actividades a través de proyectos  y consultorías que responden a
+:
+Investigación:
+Proyectos investigativos que permiten obtener y analizar información relevante para la construcción de conocimientos en marketing.
+Consultoría:
+Conocimiento experto en Marketing al servicio de su organización para el diseño, implementación o acompañamiento de ideas, procesos o planes estratégicos.
+Formación:
+Formación académica en todos los temas relacionados con el marketing para mejorar la cultura de su organización.
+Servicios
+Somos asesores con una amplia experiencia  en la gestión de soluciones de marketing, a través de la creación de experiencias. Nuestros servicios se basan en:
+Inteligencia:
+Aplicamos metodologías cualitativas y cuantitativas que generan información de clientes, competidores y mercados para tomar decisiones inteligentes en su organización. Dentro de las diferentes herramientas que usamos, están: la etnografía, cliente oculto u observación, grupos focales, entrevistas en profundidad, vigilancia de prácticas, encuestas descriptivas y análisis de información secundaria.
+Creación:
+Integramos el marketing, el pensamiento de diseño y la lógica de servicios para la creación de ofertas  de valor dirigidas a sus clientes. Creamos ideas, modelos, planes y estrategias para el  desarrollo de experiencias significativas de marca; en este servicio se desarrollan procesos creativos como: generación de Ideas, modelos y planes de negocio, planes de marketing, planes de comunicación, branding, diseño de servicios, estrategias de gestión de servicios y diseño de experiencias.
+Desarrollo:
+Lideramos el desarrollo exitoso de planes, procesos y proyectos, acompañando con conocimiento experto la consecución de objetivos establecidos en estos, este servicio lo logramos a través de: la implementación de procesos comerciales y de marketing, asesoramiento en la ejecución de planes de marketing, consultoría in house para el liderazgo de proyectos y procesos, lanzamiento y aceleración de productos y servicios y outsourcing.
+Evolución:
+Exploramos e implementamos nuevas perspectivas de valor percibido para sus marcas, evolucionando en la creación, comunicación, entrega e intercambio de sus ofertas de valor. En el largo plazo transformamos su cultura organizacional y orientamos su negocio hacia la innovación en el marketing; las herramientas que implementamos para la prestación de este servicio son: mapas de valor percibido (MVP), rediseño de indicadores de procesos y proyectos de marketing, ciclos de clientes y tipos de innovación, endomarketing para la innovación en marketing y sensibilización y acompañamiento en evolución cultural hacia la  innovación en marketing.
+
+##### C. Líneas de Investigación y Producción Académica
+Si deseas conocer más detalles del grupo IMARK y la producción académica te invitamos a ingresar
+AQUÍ - MinCiencias
+Artículos publicados
+Los ítems de producción con la marca
+corresponden a productos avalados y validados para la última
+Convocatoria Nacional para el Reconocimiento y Medición de Grupos de Investigación, Desarrollo Tecnológico o de Innovación y para el Reconocimiento de Investigadores del SNCTeI.
+1.-
+Publicado en revista especializada:
+Exploring the determinants of electronic commerce adoption in a municipality with limited internet access
+Reino Unido, COGENT BUSINESS Y MANAGEMENT ISSN: 2331-1975, 2024 vol:11 fasc: N/A págs: 1 - 14,
+DOI:
+10.1080/23311975.2024.2308090
+Autores: SILVANA JANETH CORREA HENAO, SEBASTIAN FRANCO CASTANO, ALEJANDRO VALENCIA ARIAS
+2.-
+Publicado en revista especializada:
+Engagement and loyalty in mobile applications for restaurant home deliveries
+Países Bajos, HELIYON ISSN: 2405-8440, 2024 vol:10 fasc: 7 págs: 1 - 13,
+DOI:
+10.1016/j.heliyon.2024.e28289
+Autores: BEATRIZ EUGENIA LONDONO GIRALDO, YESIKA ALEJANDRA LOPEZ HURTADO, JENNY VARGAS PIEDRAHITA
+3.-
+Publicado en revista especializada:
+Community mapping based on Milton Santos as a tool for disaster response and risk management in self-built communities: case study of El Pacífico, Medellín, Colombia
+, COGENT SOCIAL SCIENCES ISSN: 2331-1886, 2024 vol:10 fasc: 1 págs: 1 - 16,
+DOI:
+10.1080/23311886.2024.2307181
+Autores: LUIS ALEJANDRO RIVERA FLOREZ, LUIS ALEJANDRO BUILES JARAMILLO, INGRY NATALIA GOMEZ MIRANDA, CAMILO ERNESTO RESTREPO ESTRADA, EDNA MARGARITA RODRIGUEZ GAVIRIA
+4.-
+Publicado en revista especializada:
+Creating Value in Non-Profit Sports Organizations: An Analysis of the DART Model and Its Performance Implications
+Suiza, EUROPEAN JOURNAL OF INVESTIGATION IN HEALTH PSYCHOLOGY AND EDUCATION ISSN: 2174-8144, 2023 vol:13 fasc: págs: 1676 - 1693,
+DOI:
+10.3390/ejihpe13090121
+Autores: JORGE IVAN BRAND ORTIZ, SILVANA JANETH CORREA HENAO, LAURA CRISTINA HENAO COLORADO, ALEJANDRO VALENCIA ARIAS
+5.-
+Publicado en revista especializada:
+Value co-creation and co-destruction in the first cashless society in Colombia ¿ a middle range theory approach
+Reino Unido, INFORMATION TECHNOLOGY Y PEOPLE ISSN: 0959-3845, 2022 vol:35 fasc: 4 págs: 1298 - 1325,
+DOI:
+10.1108/ITP-05-2020-0273
+Autores: WILSON CASTANO MUNOZ, JUAN FERNANDO TAVERA MESIAS
+6.-
+Publicado en revista especializada:
+The effect of intra-urban mobility flows on the spatial heterogeneity of social media activity: investigating the response to rainfall events
+Inglaterra, INTERNATIONAL JOURNAL OF GEOGRAPHICAL INFORMATION SCIENCE ISSN: 1362-3087, 2021 vol:1 fasc: págs: 1 - 27,
+DOI:
+10.1080/13658816.2021.1957898
+Autores: CAMILO ERNESTO RESTREPO ESTRADA
+7.-
+Publicado en revista especializada:
+Exploration of E-Commerce Research: A Bibliometric Analysis
+China, INTERNATIONAL JOURNAL OF ELECTRONIC COMMERCE STUDIES ISSN: 2073-9729, 2021 vol:12 fasc: NA págs: 143 - 158,
+DOI:
+10.7903/ijecs.1777
+Autores: SEBASTIAN FRANCO CASTANO, SILVANA JANETH CORREA HENAO
+8.-
+Publicado en revista especializada:
+Blue and grey urban water footprints through citizens¿ perception and time series analysis of Brazilian dynamics
+, HYDROLOGICAL SCIENCES JOURNAL JOURNAL DES SCIENCES HYDROLOGIQUES ISSN: 2150-3435, 2021 vol:1 fasc: págs: 1 - 12,
+DOI:
+10.1080/02626667.2021.1879388
+Autores: CAMILO ERNESTO RESTREPO ESTRADA
+9.-
+Publicado en revista especializada:
+A multicriteria optimization framework for the definition of the spatial granularity of urban social media analytics
+, INTERNATIONAL JOURNAL OF GEOGRAPHICAL INFORMATION SCIENCE ISSN: 1362-3087, 2021 vol:35 fasc: págs: 43 - 62,
+DOI:
+10.1080/13658816.2020.1755039
+Autores: CAMILO ERNESTO RESTREPO ESTRADA
+10.-
+Publicado en revista especializada:
+Innovation resistance and mobile banking in rural Colombia
+Reino Unido, JOURNAL OF RURAL STUDIES ISSN: 0743-0167, 2021 vol:81 fasc: January págs: 269 - 280,
+DOI:
+10.1016/j.jrurstud.2020.10.035
+Autores: WILSON CASTANO MUNOZ, JUAN FERNANDO TAVERA MESIAS
+11.-
+Publicado en revista especializada:
+Digital local information services in developing countries: Evidence from Colombia
+Reino Unido, JOURNAL OF LIBRARIANSHIP AND INFORMATION SCIENCE ISSN: 1741-6477, 2020 vol:52 fasc: 4 págs: 1197 - 1208,
+DOI:
+10.1177/0961000620907970
+Autores: JUAN FERNANDO TAVERA MESIAS
+12.-
+Publicado en revista especializada:
+Knowledge Management Maturity: Development of Maturity Scales and Interaction between Key Areas
+Grecia, EUROPEAN RESEARCH STUDIES JOURNAL ISSN: 1108-2976, 2019 vol:22 fasc: 4 págs: 493 - 517,
+DOI:
+10.11214/thalassinos.22.04.032
+Autores: JUAN FERNANDO TAVERA MESIAS
+13.-
+Publicado en revista especializada:
+Knowledge Management Maturity: Development of Maturity Scales and Interaction between Key Areas
+, EUROPEAN RESEARCH STUDIES JOURNAL ISSN: 1108-2976, 2019 vol:22 fasc: 4 págs: 493 - 517,
+DOI:
+10.35808/ersj/1525
+Autores: DANIELA CASTANO SERNA
+14.-
+Publicado en revista especializada:
+Calidad de la Relación Universidad-Empresa en una Universidad Pública de Colombia
+Chile, JOURNAL OF TECHNOLOGY MANAGEMENT AND INNOVATION ISSN: 0718-2724, 2018 vol:13 fasc: 3 págs: 79 - 89,
+DOI:
+10.4067/S0718-27242018000300079
+Autores: SILVANA JANETH CORREA HENAO, BEATRIZ EUGENIA LONDONO GIRALDO, JUAN FERNANDO TAVERA MESIAS
+15.-
+Publicado en revista especializada:
+Calidad de la Relación Universidad-Empresa en una Universidad Pública de Colombia
+Chile, JOURNAL OF TECHNOLOGY MANAGEMENT AND INNOVATION ISSN: 0718-2724, 2018 vol:13 fasc: 3 págs: 79 - 89,
+DOI:
+Autores: SILVANA JANETH CORREA HENAO, BEATRIZ EUGENIA LONDONO GIRALDO, JUAN FERNANDO TAVERA MESIAS
+16.-
+Publicado en revista especializada:
+Flood modelling using synthesised citizen science urban streamflow observations
+Reino Unido, JOURNAL OF FLOOD RISK MANAGEMENT ISSN: 1753-318X, 2018 vol:1 fasc: págs: 1 - 13,
+DOI:
+10.1111/jfr3.12498
+Autores: CAMILO ERNESTO RESTREPO ESTRADA
+17.-
+Publicado en revista especializada:
+Geo-social media as a proxy for hydrometeorological data for streamflow estimation and to improve flood monitoring
+Reino Unido, COMPUTERS Y GEOSCIENCES ISSN: 1873-7803, 2018 vol:111 fasc: 1 págs: 148 - 158,
+DOI:
+10.1016/j.cageo.2017.10.010
+Autores: CAMILO ERNESTO RESTREPO ESTRADA
+18.-
+Publicado en revista especializada:
+Correlational study of the factors that influence in the recommendation and loyalty of patients of aesthetic medicine Medellín Colombia, 2014
+Colombia, CUADERNOS DE ADMINISTRACION UNIVERSIDAD DEL VALLE ISSN: 0120-4645, 2017 vol:33 fasc: 58 págs: 3 - 17,
+DOI:
+10.25100/cdea.v33i58.4527
+Autores: DIANA MARCELA BETANCUR GIRALDO, KATERINE MONTOYA CASTANEDA, JUAN FERNANDO TAVERA MESIAS
+19.-
+Publicado en revista especializada:
+Correlational study of the factors that influence in the recommendation and loyalty of patients of aesthetic medicine Medellín Colombia, 2014
+Colombia, CUADERNOS DE ADMINISTRACION UNIVERSIDAD DEL VALLE ISSN: 0120-4645, 2017 vol:33 fasc: 58 págs: 3 - 17,
+DOI:
+10.25100/cdea.v33i58.4527
+Autores: JUAN FERNANDO TAVERA MESIAS, DIANA MARCELA BETANCUR GIRALDO, KATERINE MONTOYA CASTANEDA
+20.-
+Publicado en revista especializada:
+Service quality, perceived value, satisfaction and intention to pay: the case of theatrical services
+Colombia, ACADEMIA REVISTA LATINOAMERICANA DE ADMINISTRACION ISSN: 1012-8255, 2017 vol:30 fasc: 2 págs: 269 - 286,
+DOI:
+10.1108/ARLA-01-2016-0022
+Autores: BEATRIZ EUGENIA LONDONO GIRALDO
+21.-
+Publicado en revista especializada:
+LECCIONES APRENDIDAS EN EL PROCESO DE COMERCIALIZACIÓN TECNOLÓGICA EN ANTIOQUIA: UN CASO DE ESTUDIO
+Colombia, Revista Politécnica ISSN: 1900-2351, 2016 vol:12 fasc: N/A págs: 65 - 71,
+DOI:
+2256-53533
+Autores: DANIELA RICO BALVIN
+22.-
+Publicado en revista especializada:
+Construcción de un modelo de madurez de gestión del conocimiento para una multinacional de alimentos de una economía emergente
+España, PROFESIONAL DE LA INFORMACION ISSN: 1699-2407, 2016 vol:25 fasc: 1 págs: 88 - 102,
+DOI:
+http://dx.doi.org/10.3145/epi.2016.ene.09
+Autores: JOSE ENRIQUE ARIAS PEREZ, JUAN FERNANDO TAVERA MESIAS, DANIELA CASTANO SERNA
+23.-
+Publicado en revista especializada:
+Construcción de un modelo de madurez de gestión del conocimiento para una multinacional de alimentos de una economía emergente
+España, PROFESIONAL DE LA INFORMACION ISSN: 1386-6710, 2016 vol:25 fasc: 1 págs: 88 - 102,
+DOI:
+Autores: DANIELA CASTANO SERNA
+24.-
+Publicado en revista especializada:
+Análisis de la intención de uso de los sitios web de compras colectivas
+Colombia, Revista Eia ISSN: 1794-1237, 2015 vol:12 fasc: 24 págs: 55 - 70,
+DOI:
+http:/dx.doi.org/10.14508/reia.2015.12.24.55-70
+Autores: ANA MARIA VILLA ZAPATA, KAREN RAMIREZ SALAZAR, JUAN FERNANDO TAVERA MESIAS
+25.-
+Publicado en revista especializada:
+Linking knowledge management maturity and innovation in leading companies in research and development
+Colombia, REVISTA REPUBLICANA ISSN: 1909-4450, 2015 vol:18 fasc: N/A págs: 159 - 180,
+DOI:
+Autores: JOSE ENRIQUE ARIAS PEREZ, JUAN FERNANDO TAVERA MESIAS
+26.-
+Publicado en revista especializada:
+Aceptación del internet móvil en Medellín y su Área Metropolitana: estudio aplicado a usuarios de teléfonos móviles
+Colombia, REVISTA VIRTUAL UNIVERSIDAD CATOLICA DEL NORTE ISSN: 0124-5821, 2015 vol:44 fasc: N/A págs: 119 - 134,
+DOI:
+https://drive.google.com/file/d/0B12Ev2eAs5TFaEJFRjBEN3RNTjdfeEh4LVY1QThXU1pUVmdZ/view?usp=sharing
+Autores: JUAN FERNANDO TAVERA MESIAS, JOSE ENRIQUE ARIAS PEREZ, DIANA MARCELA BETANCUR GIRALDO
+27.-
+Publicado en revista especializada:
+Aceptación del internet móvil en Medellín y su Área Metropolitana: estudio aplicado a usuarios de teléfonos móviles
+Colombia, REVISTA VIRTUAL UNIVERSIDAD CATOLICA DEL NORTE ISSN: 0124-5821, 2015 vol:44 fasc: págs: 119 - 134,
+DOI:
+Autores: DIANA MARCELA BETANCUR GIRALDO
+28.-
+Publicado en revista especializada:
+Aceptación Tecnológica de la Publicidad en Dispositivos Móviles en Colombia
+Colombia, Semestre Económico ISSN: 0120-6346, 2014 vol:17 fasc: 36 págs: 133 - 153,
+DOI:
+Autores: BERNARDO BALLESTEROS DIAZ, JUAN FERNANDO TAVERA MESIAS, DANIELA CASTANO SERNA
+29.-
+Publicado en revista especializada:
+ACEPTACIÓN TECNOLÓGICA DE LA PUBLICIDAD EN DISPOSITIVOS MÓVILES EN COLOMBIA*
+Colombia, Semestre Económico ISSN: 0120-6346, 2014 vol:17 fasc: 36 págs: 133 - 153,
+DOI:
+Autores: DANIELA CASTANO SERNA
+30.-
+Publicado en revista especializada:
+la comunicación interna en la productividad académica de la universidad privada y pública de administración de empresas de Medellín, Colombia
+Colombia, Desarrollo Gerencial. Revista De La Facultad De Ciencias Económicas Administrativas Y Contables. ISSN: 2146-5147, 2014 vol:6 fasc: 2 págs: 98 - 127,
+DOI:
+Autores: MARIO HUMBERTO MUNOZ HERNANDEZ, CLARA INES ORREGO CORREA
+31.-
+Publicado en revista especializada:
+Factores determinantes de la aceptación tecnológica del e-Commerce en países emergentes
+Colombia, Revista Ciencias Estrategicas ISSN: 1794-8347, 2014 vol:22 fasc: 31 págs: 101 - 119,
+DOI:
+Autores: JUAN FERNANDO TAVERA MESIAS, BEATRIZ EUGENIA LONDONO GIRALDO
+32.-
+Publicado en revista especializada:
+Medición de capacidades en investigación e innovación en instituciones de educación superior: una mirada desde el enfoque de las capacidades dinámicas
+Colombia, Entramado ISSN: 1900-3803, 2014 vol:10 fasc: 1 págs: 252 - 271,
+DOI:
+Autores: EDWIN ALEXANDER HENAO GARCIA, MAURICIO LOPEZ GONZALEZ
+33.-
+Publicado en revista especializada:
+Factores determinantes de la aceptación tecnológica del e-commerce en países emergentes
+Colombia, Revista Ciencias Estrategicas ISSN: 1794-8347, 2014 vol:22 fasc: 31 págs: 101 - 119,
+DOI:
+Autores: BEATRIZ EUGENIA LONDONO GIRALDO, JUAN FERNANDO TAVERA MESIAS
+34.-
+Publicado en revista especializada:
+Entorno institucional y calidad de la educación: un análisis exploratorio de los resultados de las pruebas estatales para los colegios públicos de la ciudad de Medellín.
+Colombia, Semestre Económico ISSN: 0120-6346, 2014 vol:17 fasc: 36 págs: 39 - 68,
+DOI:
+Autores: EDWIN ALEXANDER HENAO GARCIA, MAURICIO LOPEZ GONZALEZ, HECTOR MAURICIO POSADA DUQUE
+35.-
+Publicado en revista especializada:
+Internet Móvil: Aceptación tecnológica para el cierre de la brecha digital en Colombia
+Colombia, Perfil De Coyuntura Economica ISSN: 1657-4214, 2012 vol:19 fasc: N/A págs: 139 - 155,
+DOI:
+Autores: JUAN FERNANDO TAVERA MESIAS, JOSE ENRIQUE ARIAS PEREZ
+36.-
+Publicado en revista especializada:
+Comunicación y productividad en pequeñas y medianas empresas de un cluster textil en Colombia
+México, CONTADURIA Y ADMINISTRACION ISSN: 0186-1042, 2012 vol:57 fasc: 2 págs: 223 - 244,
+DOI:
+Autores: MARIO HUMBERTO MUNOZ HERNANDEZ
+37.-
+Publicado en revista especializada:
+ACEPTACIÓN DEL E-COMMERCE EN COLOMBIA: UN ESTUDIO PARA LA CIUDAD DE MEDELLÍN
+Colombia, Revista Facultad De Ciencias Económicas: Investigación Y Reflexión ISSN: 0121-6805, 2011 vol:19 fasc: 2 págs: 9 - 23,
+DOI:
+Autores: JUAN FERNANDO TAVERA MESIAS, JUAN CARLOS SANCHEZ GIRALDO, BERNARDO BALLESTEROS DIAZ
+38.-
+Publicado en revista especializada:
+Articulo Aceptación del e-Commerce en Colombia: Un estudio de la ciudad de Medellín
+Colombia, Revista Facultad De Ciencias Económicas: Investigación Y Reflexión ISSN: 0121-6805, 2011 vol:XIX fasc: 2 págs: 9 - 23,
+DOI:
+Autores: BERNARDO BALLESTEROS DIAZ, JUAN CARLOS SANCHEZ GIRALDO, JUAN FERNANDO TAVERA MESIAS
+39.-
+Publicado en revista especializada:
+Influencia de grupos informales en la gestión de Pymes industriales de Medellín
+Colombia, Lupa Empresarial (Online) ISSN: 1900-2459, 2010 vol:12 fasc: N/A págs: 1 - 15,
+DOI:
+Autores: BERNARDO BALLESTEROS DIAZ
+40.-
+Publicado en revista especializada:
+Análisis de los factores determinantes del uso de mensajes SMS para participar en programas de televisión
+España, CUADERNOS DE GESTION ISSN: 1988-2157, 2010 vol:10 fasc: 2 págs: 117 - 132,
+DOI:
+DOI: 10.5295/cdg.100157cr
+Autores: CARLA RUIZ MAFE, SILVIA SANZ BLAS, JUAN FERNANDO TAVERA MESIAS
+41.-
+Publicado en revista especializada:
+A comparative study of mobile messaging services acceptance to participate in television programmes
+Reino Unido, JOURNAL OF SERVICE MANAGEMENT ISSN: 1757-5818, 2010 vol:21 fasc: 1 págs: 69 - 102,
+DOI:
+10.1108/09564231011025128
+Autores: CARLA RUIZ MAFE, SILVIA SANZ BLAS, JUAN FERNANDO TAVERA MESIAS
+
+##### D. Nómina de Investigadores
+Contamos con un equipo de profesionales apasionados por el marketing, entregados al servicio, con la capacidad de entender las necesidades específicas de su organización, y a su vez, el conocimiento para proponer proyectos efectivos y la habilidad para ejecutarlos con excelencia.
+Nombres
+Opciones
+Beatriz Eugenia Londoño Giraldo
+CvLAC
+Detalles
+Vinculos
+Camilo Ernesto Restrepo Estrada
+CvLAC
+Detalles
+Vinculos
+Daniela Castaño Serna
+CvLAC
+Detalles
+Vinculos
+Diana Marcela Betancur Giraldo
+CvLAC
+Detalles
+Vinculos
+Jorge Alejandro Sierra Tamayo
+CvLAC
+Detalles
+Vinculos
+Juan Fernando Tavera Mesías
+CvLAC
+Detalles
+Vinculos
+Sara Catalina Atehortúa Becerra
+CvLAC
+Detalles
+Vinculos
+Silvana Janeth Correa Henao
+
+##### E. Formación y Semilleros de Investigación
+El grupo ampara la formación temprana de investigadores de pregrado y posgrado mediante: **Semillero Imark (Investigación en Marketing)**.
+
+##### F. Iniciativas, Proyectos y Publicaciones Emblemáticas
+- **[Blog Imark](https://imarkudeablog.wordpress.com/blog/):** Si quiere explorar, conocer, aprender y comprender mejor el mundo del marketing desde una visión del servicio, nuestro blog será el espacio para hacerlo. ¡Síganos y manténgase al d...
+- **[Buscamos gomosos del marketing](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Imark/asContenidos/asListado/Buscamosgomososdelmarketing):** El Grupo de Investigación Imark busca estudiantes de pregrado y posgrado capaces de trabajar en comunidades de aprendizaje para hacer parte de su semillero de investigación....
+- **[¿Alimentos afrodisíacos? Un nuevo proyecto de Imark y la Compañía Nacional de Chocolates explora su percepción en los consumidores](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Imark/asContenidos/asListado/AlimentosafrodisiacosIMARKNacionaldeChocolates):** ¿Puede un alimento influir en el deseo o la energía sexual?...
+- **[Apalancando procesos de innovación en organizaciones colombianas](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Imark/asContenidos/asListado/apalancando-procesos-de-innovacion-en-organizaciones-colombianas):** La gestión del conocimiento al interior de las organizaciones favorece los procesos de innovación e incrementa la eficiencia. Así, investigadores de la Universidad de Antioquia esp...
+- **[Proyecto de Investigación: Urbe Latam](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Imark/asContenidos/asListado/ProyectodeInvestigacionUrbeLatam):** URBE Latam busca expandir y refinar la comprensión de los riesgos, vulnerabilidades y potencialidades asociadas con los riesgos geográficos relacionados con la lluvia en América La...
+- **[Interacpedia: innovación de las aulas a las organizaciones](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Imark/asContenidos/asListado/innovacion-aulas-organizaciones):** A través del Concurso de Retos Interacpedia 2016-1, seis propuestas innovadoras en comunicación, mercadeo y ventas presentadas por estudiantes de Administración de Empresas de la F...
+
+
+---
+
+#### 2.7. Grupo de Investigación en Finanzas - GIFI
+- **Sigla Oficial:** `GIFI`
+- **Unidad Académica:** Facultad de Ciencias Económicas — Departamento de Ciencias Administrativas
+- **Líder / Coordinador(a):** **Claudia Inés Sepúlveda Rivillas**
+- **Correo Institucional del Grupo:** `gifi@udea.edu.co`
+- **Categorización MinCiencias:** Categoría A (MinCiencias)
+- **Año de Creación:** 2013
+- **Portal Web Institucional:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/gifi](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/gifi)
+
+##### A. Identidad, Misión y Enfoque Teórico
+Trayectoria
+Por un espacio de 10 años (2003-2013), la investigación en finanzas en el Departamento de Ciencias Administrativas se desarrolló como una línea de trabajo del Grupo Gestor, lo que permitió la ejecución de diferentes proyectos de investigación y la generación de producción científica en el campo financiero.
+A partir del año 2013, se conforma el Grupo de Investigación en Finanzas GIFi, dedicando sus esfuerzos a la investigación de las finanzas tanto corporativas como de mercados de capitales. Posteriormente, en 2014, se obtiene el aval y el reconocimiento por parte del Centro de investigaciones y Consultorías -CIC- de la Facultad de Ciencias Económicas de la Universidad de Antioquia, con miras a hacer parte de los grupos de investigación reconocidos por Colciencias.
+Actualmente, el Grupo GIFi se encuentra clasificado en categoría B de Colciencias y está conformado por profesores con formación de doctorado y maestría de los Departamentos de Ciencias Administrativas, Ciencias Contables y Estadística y Matemáticas, todos con intereses académicos afines a las finanzas. Este equipo multidisciplinar de profesores-investigadores, aportan a la formación de profesionales en Administración de Empresas, Contaduría Pública y Economía, así como también, especialistas y magísteres en: Evaluación Socioeconómica de Proyectos, Finanzas y Administración, desde diferentes perspectivas: impartiendo docencia, asesorando trabajos de grado y contribuyendo con la revisión y actualización permanente de los contenidos de estos programas académicos.
+El Grupo tiene como propósito investigar, analizar y generar conocimiento en finanzas para dar solución a las problemáticas financieras sociales, lo que le permite aportar al desarrollo del país tanto en el ámbito organizacional como desde lo científico. Estas actividades contribuyen con el mejoramiento continuo de las capacidades y habilidades docentes así como la validación y transferencia del conocimiento, procurando impactar positivamente en la sociedad y en los mercados.
+El Grupo desarrolla alianzas colaborativas con:
+Asociación Colombiana de Facultades de Administración de Empresas –ASCOLFA–
+Consejo Latinoamericano de Administración –CLADEA–
+Laboratorio de Educación Financiera y Punto BVC UdeA
+Red Académica en Finanzas –REDAFIN–
+Centro de Desarrollo Agrobiotecnológico de Innovación e Integración Territorial -CEDAI-
+Es así como, desde el año 2013, el Grupo hace parte activa de la Red Académica en Finanzas -REDAFIN- en la cual ha participado mediante la organización de congresos y encuentros de investigación en finanzas, la presentación de ponencias, la coordinación académica y de investigaciones y el desarrollo de investigaciones en red.
+Líneas de Investigación
+Finanzas Corporativas
+Se aborda el problema de la administración del capital desde las perspectivas de proyectos de inversión y financiación, con el fin de elaborar modelos de decisión, que articulen estas perspectivas, buscando aportar soluciones a la generación de valor organizacional. Esta línea se compone de:
+Teoría Financiera
+Administración Financiera
+Estructura de Capital
+Modelos financieros y de inversión
+Costo y apalancamiento financiero
+Valoración de empresas
+Valoración de intangibles
+Opciones reales
+Mercado de Capitales
+Busca encontrar soluciones al intercambio de recursos entre sus participantes, desde la financiación y la inversión. Por consiguiente, analiza la evolución global de las finanzas y el crecimiento de empresas multinacionales, cómo han contribuido al desarrollo de los mercados y sus economías. Así mismo, analiza los aspectos asociados a la regulación y la supervisión del sistema financiero para mejorar problemas de gestión financiera y gestión de la exposición a riesgos de mercado. Se apoya en:
+Teoría de la inversión y portafolios
+Renta fija y renta variable
+Riesgos financieros y coberturas con instrumentos derivados
+Finanzas internacionales
+Estrategias de trading
+Proyectos de Inversión
+Se estudian los procesos de identificación, formulación, evaluación y gestión de proyectos, para la financiación de proyectos públicos o privados, los cuales sirven de apoyo en la definición de políticas, mejorando la redistribución de los recursos, aumentando los niveles de desarrollo y las oportunidades para el crecimiento económico.
+Formulación y evaluación de proyectos y planes de negocio
+Gestión de proyectos
+Finanzas  para emprendimientos
+Responsabilidad Social Financiera
+Busca soluciones a problemas de agencia y asimetrías de información, mediante las relaciones de principios y normas, regulan el desempeño en las actividades de poder entre los propietarios, el consejo de administración, la administración y sus grupos de interés; estudia las estructuras de propiedad adecuadas para gestión y control empresarial, el sistema de incentivos y los mecanismos de protección de los intereses de la compañía y los accionistas como elementos de incidencia en el desempeño financiero, por último  en la generación de valor de las empresas. Se apoya en los siguientes temas:
+Teoría de la agencia
+Asimetrías de información
+Gobierno Corporativo
+Aversión al riesgo
+Riesgo reputacional
+Estructura de propiedad
+Contabilidad Financiera
+Esta línea aborda temas como:
+Contabilometría
+Gestión contable y financiera
+Revisoría fiscal y auditoría y su impacto en el mercado accionario
+Datos de contacto
+grupogifi@udea.edu.co
+http://www.facebook.com/gifiudea/
+GrupLAC
+Universidad de Antioquia
+Calle 67 No. 53 - 108, Bloque 13
+Coordinadora:
+Claudia Sepúlveda Rivillas, PhD.
+claudia.sepulveda@udea.edu.co
+Medellín, Colombia
+
+##### B. Líneas de Consultoría y Transferencia (Portafolio CIC)
+El Grupo de Investigación en Finanzas GIFi, ofrece servicios de investigación y consultoría en finanzas, enfocados principalmente en los siguientes ejes temáticos:
+Finanzas Corporativas
+Mercado de Capitales
+Proyectos de Inversión
+Responsabilidad Social Financiera
+Contabilidad Financiera
+Adicionalmente, se desarrollan programas de formación permanente, mediante cursos y diplomados en temas como los siguientes:
+Estructuración de proyectos en el Marco del Sistema General de Regalías
+Gestión de proyectos con el enfoque del Marco Lógico
+Inversiones en los Mercados Financieros
+SARLAFT (Sistema de administración del riesgo del lavado de activos y la financiación del terrorismo) apoyado en Blockchain para mejorar el aseguramiento, la transparencia e inmutabilidad de la información y transferencia de valores
+Nuestro objetivo es satisfacer las necesidades del entorno, contribuyendo a la generación de valor en las organizaciones mediante un proceso de transferencia de conocimiento.
+Datos de contacto
+grupogifi@udea.edu.co
+http://www.facebook.com/gifiudea/
+GrupLAC
+Universidad de Antioquia
+Calle 67 No. 53 - 108, Bloque 13
+Coordinadora:
+Claudia Sepúlveda Rivillas, PhD.
+claudia.sepulveda@udea.edu.co
+Medellín, Colombia
+
+##### C. Líneas de Investigación y Producción Académica
+Aquí
+encontrarás información y
+producción académica
+sobre el impacto de las investigaciones que realizamos, representadas en  artículos de revistas especializadas, libros o capítulos de libros y eventos científicos.
+Resumen de algunas publicaciones
+Artículos Publicados
+Publicado en revista especializada:
+Intellectual Capital and Knowledge Management Dynamic Capabilities: The role of Knowledge Intensity
+Cuadernos de Administración 38 (72), 1-16
+Autor:
+CLAUDIA SEPÚLVEDA
+CARLOS RESTREPO
+JUAN DANIEL VÉLEZ
+Publicado en revista especializada:
+Diseño de un árbol solar para la seccional del Bajo Cauca de la Universidad de Antioquia
+Revista UIS Ingenierías Vol. 21, n.°2, pp. 71-86
+Autor:
+JUAN PABLO CASTAÑO
+VALENTINA BOLAÑOS
+LUIS MIGUEL GARNICA
+LEIDY BIBIANA DE LA OSSA
+SERGIO AGUDELO
+EDWIN CHICA
+Publicado en revista especializada:
+Impact of knowledge-based organizational support on organizational performance through project management
+Journal of Knowledge Management. vol 26, No. 4, pp. 993-1013.
+Autor:
+CLAUDIA SEPÚLVEDA
+JOAQUIN ALEGRE
+VICTOR OLTRA
+Publicado en revista especializada:
+Planificación y evaluación de proyectos desde la perspectiva de género: una revisión bibliográfica
+Colombia, Revista Colombiana De Ciencias Sociales ISSN: 2216-1201, 2021 vol:12 fasc: N/A págs: 310 - 345,
+DOI
+:10.21501/22161201.3304
+Autor:
+WALTHER REINA GUTIÉRREZ
+Publicado en revista especializada
+: Adjustment by size effect on the cost of equity: Pending practice in capital budget in Colombia
+Colombia, Cuadernos De Administración ISSN: 2256-5078, 2020 vol:36 fasc: N/A págs: 126 - 142,
+DOI:
+10.25100/cdea.v36i67.7896
+Autores:
+WALTHER REINA GUTIÉRREZ
+JENNY MOSCOSO ESCOBAR
+DIANA CAROLINA MONTOYA GONZÁLEZ
+Publicado en revista especializada:
+Análisis de la información financiera en torno al informe del auditor de las empresas del MILA
+Colombia, Suma De Negocios ISSN: 2215-910X, 2020 vol:11 fasc: 26 págs: 99 - 106,
+Autora:
+BELKY ESPERANZA GUTIÉRREZ CASTAÑEDA
+Publicado en revista especializada:
+Informe de auditoría y su relación con el mercado integrado latinoamericano (MILA)
+Colombia, @Puntes Cont@Bles ISSN: 1657-7175, 2020 vol:26 fasc: págs: 101 - 126,
+Autores:
+BELKY ESPERANZA GUTIÉRREZ CASTAÑEDA
+CARLOS ANDRÉS BARRERA MONTOYA
+DANIELA PÉREZ NOREÑA
+Publicado en revista especializada:
+Impacto del cambio de calificación de riesgo país en los precios de cotización de los activos de renta variable en el mercado integrado latinoamericano (MILA)
+Colombia, @Puntes Cont@Bles ISSN: 1657-7175, 2020 vol:26 fasc: págs: 171 - 190,
+Autores:
+BELKY ESPERANZA GUTIÉRREZ CASTAÑEDA
+DANIELA PÉREZ NOREÑA
+DANIEL FERNANDO GIRALDO OSORIO
+Publicado en revista especializada:
+Two generalized bivariate FGM distributions and rank reduction
+Communications in Statistics - Theory and Methods ISSN: 0361-0926, 2020 vol:49 fasc: 23 págs: 5639 - 5665,
+DOI:
+10.1080/03610926.2019.1620780
+Autor:
+WALTER DÍAZ
+Publicado en revista especializada:
+Aproximación a las características de empresas que poseen activos intangibles en el Valle de Aburrá y Oriente cercano, Colombia
+Colombia, Criterio Libre ISSN: 1900-0642, 2019 vol:17 fasc: 30 págs: 127 - 153,
+Autoras:
+JENNY MOSCOSO ESCOBAR
+CLAUDIA INÉS SEPÚLVEDA RIVILLAS
+Publicado en revista especializada:
+Determinants of foreign exchange risk management in Latin American firms.
+Academia Revista Latinoamericana de Administración ISSN: 1012-8255, 2019 vol:32 fasc: 4 págs: 502 - 524,
+DOI
+:10.1108/ARLA-03-2019-0072
+Autor:
+CESAR AUGUSTO GIRALDO PRIETO
+Publicado en revista especializada:
+Income tax and value creation in Colombian companies
+Chile, RAN ISSN: 0719-7713, 2019 vol:5 fasc: 1 págs: 71 - 84,
+Autoras:
+LORENA VÁSQUEZ ARANGO
+BELKY ESPERANZA GUTIÉRREZ CASTAÑEDA
+Publicado en revista especializada:
+Aproximaciones sobre la incidencia de los reportes de sostenibilidad y gobierno corporativo en el valor de las empresas: evidencia desde Chile y Colombia
+Colombia, Criterio Libre ISSN: 1900-0642, 2019 vol:17 fasc: 30 págs: 231 - 2354,
+Autores:
+BELKY ESPERANZA GUTIÉRREZ CASTAÑEDA
+MAURICIO LOPERA CASTAÑO
+DIEGO ANDRÉS CORREA MEJÍA
+Publicado en revista especializada:
+La divulgación de las prácticas de responsabilidad Social empresarial y el desempeño financiero de las empresas colombianas.
+Venezuela, Espacios ISSN: 0798-1015, 2018 vol:39 fasc: 50 págs: 1 - 15,
+Autoras:
+ERIKA JANETH SALAZAR JIMÉNEZ
+BELKY ESPERANZA GUTIÉRREZ CASTAÑEDA
+Publicado en revista especializada:
+Estructura de propiedad y desempeño financiero de las empresas colombianas desde la perspectiva del accionista controlante.
+Colombia, Panorama Económico ISSN: 0122-8900, 2018 vol:26 fasc: 2 págs: 237 - 256,
+DOI:
+10.32997/2463-0470-vol.26-num.2-2018
+Autor:
+CESAR AUGUSTO GIRALDO PRIETO
+Publicado en revista especializada:
+Adopción de las NIIF y su incidencia en la liquidez del mercado accionario de Colombia
+Colombia, Escenarios: Empresa Y Territorio ISSN: 2463-0799, 2018 vol:7 fasc: 10 págs: 1 - 20,
+DOI:
+10.31469/escenarios
+Autor:
+CESAR AUGUSTO GIRALDO PRIETO
+Publicado en revista especializada:
+Análisis semiparamétrico de los factores asociados a la sostenibilidad de los emprendimientos.
+Colombia, Revista Facultad De Ciencias Económicas: Investigación Y Reflexión ISSN: 0121-6805, 2018 vol:26 fasc: 1 págs: 163 - 180,
+DOI:
+10.18359/rfce.3144
+Autor:
+WALTHER REINA GUTIÉRREZ
+Publicado en revista especializada:
+Metodología de estudio de eventos como medición del impacto del dictamen del Revisor Fiscal en el mercado accionario Colombiano en 2009-2016
+Colombia, Cuadernos De Contabilidad ISSN: 0123-1472, 2018 vol:19 fasc: 47 págs: 149 - 170,
+Autores:
+CARLOS ANDRÉS BARRERA MONTOYA
+BELKY ESPERANZA GUTIÉRREZ CASTAÑEDA
+Publicado en revista especializada:
+Análisis semiparamétrico de los factores asociados a la sostenibilidad de los emprendimientos
+Colombia, Revista Facultad De Ciencias Económicas: Investigación Y Reflexión ISSN: 0121-6805, 2018 vol:26 fasc: N/A págs: 163 - 180,
+Autores:
+CLAUDIA INÉS SEPÚLVEDA RIVILLAS
+WALTHER REINA GUTIÉRREZ
+Publicado en revista especializada:
+Coberturas financieras con derivados y su incidencia en el valor de mercado en empresas colombianas que cotizan en Bolsa.
+México, Contaduría Y Administración ISSN: 0186-1042, 2017 vol:62 fasc: N/A págs: 1572 - 1590,
+DOI:http://dx.doi.org/10.22201/fca.24488410e.2017
+Autores:
+CESAR AUGUSTO GIRALDO PRIETO
+GABRIEL J GONZÁLEZ URIBE
+DIANA CAROLINA FERREIRA HERRERA
+CRISTHIAN ANDRÉS VESGA BERMEJO
+Publicado en revista especializada:
+Diagnóstico financiero de las empresas en etapa temprana en Antioquia.
+Colombia, Criterio Libre ISSN: 1900-0642, 2017 vol:15 fasc: 26 págs: 131 - 155,
+Autoras:
+CLAUDIA INÉS SEPÚLVEDA RIVILLAS
+JENNY MOSCOSO ESCOBAR
+AMANDA LUCÍA RESTREPO LONDOÑO
+Publicado en revista especializada:
+Impacto del Índice Riesgo País en el mercado accionario Colombiano.
+México, Investigación Administrativa ISSN: 2448-7678, 2017 vol:46 fasc: 119 págs: 1 - 18,
+Autoras:
+DANIELA PÉREZ NOREÑA
+BELKY ESPERANZA GUTIÉRREZ CASTAÑEDA
+Publicado en revista especializada:
+Diagnóstico financiero de las empresas en etapa temprana en Antioquia.
+Colombia, Criterio Libre ISSN: 1900-0642, 2017 vol:15 fasc: 124 págs: 131 - 155,
+Autoras:
+CLAUDIA INÉS SEPÚLVEDA RIVILLAS
+JENNY MOSCOSO ESCOBAR
+AMANDA LUCÍA RESTREPO LONDOÑO
+Publicado en revista especializada:
+Impacto del Índice Riesgo País en el Mercado Accionario Colombiano.
+Reino Unido, Revista Investigación Administrativa ISSN: 0348-7652, 2017 vol:119 fasc: págs: - ,
+DOI:
+http://www.redalyc.org/articulo.oa?id=456050279002
+Autora:
+DANIELA PÉREZ NOREÑA
+Publicado en revista especializada:
+On multivariate generalization of the covariance
+Inglaterra, Communications in Statistics - Theory and Methods ISSN: 0361-0926, 2017 vol:46 fasc: 9 págs: 1 - 10,
+DOI:
+10.1080/03610926.2015.1056368
+Autores:
+WALTER DÍAZ
+CARLES MARIA CUADRAS AVELLANA
+Publicado en revista especializada:
+Caracterización financiera de las empresas generadoras de energía colombianas (2005-2012)
+Colombia, Revista Facultad De Ciencias Económicas: Investigación Y Reflexión ISSN: 0121-6805, 2016 vol:24 fasc: 2 págs: 63 - 84,
+Autoras:
+AMANDA LUCÍA RESTREPO LONDOÑO
+CLAUDIA INÉS SEPÚLVEDA RIVILLAS
+Publicado en revista especializada:
+Sostenibilidad de los emprendimientos: Un análisis de los factores determinantes
+Venezuela, Revista Venezolana de Gerencia ISSN: 1315-9984, 2016 vol:21 fasc: págs: 33 - 49,
+Autor:
+WALTHER REINA GUTIÉRREZ
+Publicado en revista especializada:
+Sostenibilidad de los emprendimientos: Un análisis de los factores determinantes
+Venezuela, Revista Venezolana de Gerencia ISSN: 1315-9984, 2016 vol:21 fasc: 73 págs: 33 - 49,
+Autores:
+CLAUDIA INÉS SEPÚLVEDA RIVILLAS
+WALTHER REINA GUTIÉRREZ
+Publicado en revista especializada:
+Comparative efficiency research: Meta-analysis of cost-effectiveness studies
+Reino Unido, BMC Medical Research Methodology ISSN: 1471-2288, 2014 vol:14 fasc: págs: 1 - 9,
+DOI:
+10.1186/1471-2288-14-139
+Autores:
+CARLES CRESPO
+TONI MONLEON GETINO
+WALTER DíAZ
+MARTÍN RÍOS ALCOLEA
+Publicado en revista especializada:
+Relación de los Posgrados de la Universidad de Antioquia con el Sistema Universitario de Investigación
+Colombia, Uni-Pluriversidad ISSN: 1657-4249, 2014 vol:14 fasc: 1 págs: 27 - 41,
+Autores:
+CLAUDIA INÉS SEPÚLVEDA RIVILLAS
+FERNANDO ESTEBAN POSADA ESPINAL
+AMANDA LUCÍA RESTREPO LONDOÑO
+JOSÉ DANIEL SALINAS RINCÓN
+Publicado en revista especializada:
+Costos Indirectos de fabricación: propuesta para su tratamiento ante los cambios normativos que enfrenta Colombia
+Colombia, Cuadernos De Contabilidad ISSN: 0123-1472, 2014 vol:15 fasc: N/A págs: 831 - 852,
+Autoras:
+BELKY ESPERANZA GUTIÉRREZ CASTAÑEDA
+MARÍA ISABEL DUQUE ROLDÁN
+Publicado en revista especializada:
+Estimación del riesgo de crédito para empresas del sector real en Colombia
+Colombia, Estudios Gerenciales ISSN: 0123-5923, 2012 vol:28 fasc: págs: 169 - 190,
+Autor:
+WALTHER REINA GUTIÉRREZ
+Capítulos de libro publicados
+Capítulo de libro:
+Evolución y comprensión del riesgo desde un enfoque administrativo y financiero, una mirada a la gestión del riesgo corporativo
+Colombia, 2020, Tendencias en finanzas: mecanismos alternativos de financiación, ISBN: 978-958-5408-12-8, Vol. , págs:125 - 170, Ed. Centro Editorial Esumer
+Autor:
+CESAR AUGUSTO GIRALDO PRIETO
+Otro capítulo de libro publicado:
+Modelos de valoración del capital intelectual: Una revisión crítica de la literatura y caso aplicado
+Colombia, 2017, Finanzas, modelación y riesgos, ISBN: 978-958-8991-91-4, Vol. , págs:107 - 134, Ed. Sello editorial Universidad de Medellín
+Autora:
+CLAUDIA INÉS SEPÚLVEDA RIVILLAS
+Capítulo de libro:
+Análisis de Fuentes de Financiación para Emprendimientos
+Colombia, 2014, Finanzas Y Modelación, ISBN: 9789588815-84-8, Vol. , págs:39 - 66, Ed. Señal Editora Y Universidad De Medellín
+Autores:
+JENNY MOSCOSO ESCOBAR
+SERGIO BOTERO BOTERO
+EDISSON ALEXANDER ARREDONDO HERNÁNDEZ
+ELIANA MARÍA QUINCHÍA VÁSQUEZ
+Otros artículos publicados
+Revista de divulgación:
+Relationship Between Systematic and Idiosyncratic Risk with the Expected Returns of Mila and Bm & Fbovespa
+India, International Journal of Business Marketing and Management (IJBMM) ISSN: 2456-4559, 2020 vol:5 fasc: págs: 12 - 25
+Autores:
+BELKY ESPERANZA GUTIÉRREZ CASTAÑEDA
+DANIELA PÉREZ NOREÑA
+CARLOS ANDRÉS BARRERA MONTOYA
+Revista de divulgación:
+Riesgo idiosincrático y retornos en el mercado accionario de Colombia
+Colombia, Borradores Departamento De Economía ISSN: 1692-2611, 2017 vol:60 fasc: págs: 1 - 34
+Autores:
+CARLOS ANDRÉS BARRERA MONTOYA
+BELKY ESPERANZA GUTIÉRREZ CASTAÑEDA
+Revista de divulgación:
+USO DE LAS COBERTURAS DE RIESGO DE TIPO DE CAMBIO POR MEDIO DE INSTRUMENTOS DERIVADOS FINANCIEROS EN EMPRESAS DEL SECTOR REAL: UNA CARACTERIZACIÓN DE LAS EMPRESAS QUE COTIZAN EN LA BOLSA DE VALORES DE COLOMBIA -BVC- (2009-2014)
+Argentina, REVISTA DE INVESTIGACIÓN EN MODELOS FINANCIEROS ISSN: 2250-6861, 2015 vol:2 fasc: págs: 70 - 100
+Autor:
+CESAR AUGUSTO GIRALDO PRIETO
+Revista de divulgación:
+Diseño y aplicación de un modelo de medición del riesgo operacional utilizando redes bayesianas
+Estados Unidos, Global Conferences On Business And Finance Proceedings ISSN: 1941-9589, 2014 vol:9 fasc: 1 págs: 1794 - 1804
+Autores:
+FERNANDO ESTEBAN POSADA ESPINAL
+SERGIO BOTERO BOTERO
+Otros libros publicados
+Otro libro publicado:
+Guía práctica para la optimización de portafolios
+Colombia,2019, ISBN: 978-958-5408-07-4 vol: págs: , Ed. Centro Editorial Esumer
+Autores:
+BEATRIZ ELENA BEDOYA RÍOS
+CESAR AUGUSTO GIRALDO PRIETO
+Otro libro publicado:
+Costo de Capital: Conceptos y Aplicaciones
+Colombia,2014, ISBN: 978-958-8890-37-1 vol: págs: , Ed. Editorial Universidad de Antioquia
+Autoras:
+JENNY MOSCOSO ESCOBAR
+CLAUDIA INÉS SEPÚLVEDA RIVILLAS
+Otro libro publicado:
+Costo de Capital: Conceptos y Aplicaciones
+Colombia,2014, ISBN: 978-958-8890-37-1 vol: págs: , Ed. Editorial Universidad de Antioquia
+Autoras:
+JENNY MOSCOSO ESCOBAR
+CLAUDIA INÉS SEPÚLVEDA RIVILLAS
+
+##### E. Formación y Semilleros de Investigación
+El grupo ampara la formación temprana de investigadores de pregrado y posgrado mediante: **Semillero SIFI (Finanzas)**.
+
+---
+
+#### 2.8. Grupo de Macroeconomía Aplicada
+- **Sigla Oficial:** `MACROECONOMIA`
+- **Unidad Académica:** Facultad de Ciencias Económicas — Departamento de Economía
+- **Líder / Coordinador(a):** **Wilman Arturo Gómez Muñoz**
+- **Correo Institucional del Grupo:** `wilman.gomez@udea.edu.co / macroeconomia@udea.edu.co`
+- **Categorización MinCiencias:** Categoría A (MinCiencias)
+- **Año de Creación:** 1984
+- **Portal Web Institucional:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/macroeconomia-aplicada](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/macroeconomia-aplicada)
+
+##### A. Identidad, Misión y Enfoque Teórico
+En el Grupo de Macroeconomía Aplicada confluyen un conjunto de profesores e investigadores del área. En este, se realiza el análisis permanente de la coyuntura económica y la evolución de la política económica del país, elementos que se han convertido en la base principal de la agenda de investigación del grupo.
+En este sentido, resultan de particular interés para sus integrantes, temas relacionados con:
+El comercio internacional
+El crecimiento económico nacional y regional
+La medición económica
+Las finanzas públicas locales
+El empleo y la competitividad.
+Informalidad
+Modelación DSGE
+Macroeconometría
+Historia del Pensamiento Macroeconómico
+Financiamiento de las Instituciones de Educación Superior (IES)
+Datos de contacto
+Wilman Arturo Gómez Muñoz
+Líder Grupo de Investigación Macroeconomía Aplicada
+wilman.gomez@udea.edu.co
+Universidad de Antioquia
+Medellín, Colombia
+
+##### B. Líneas de Consultoría y Transferencia (Portafolio CIC)
+El grupo desarrolla procesos asociados a la El grupo desarrolla procesos asociados a la investigación y a la extensión en las siguientes líneas:
+Estudios de Macroeconomía y prospectiva
+Análisis de la coyuntura y políticas económicas
+Economía y deporte
+Políticas y finanzas públicas
+Estudios financieros
+Asesoría en comercio internacional
+Contacto
+Wilman Arturo Gómez Muñoz
+Líder Grupo de Investigación Macroeconomía Aplicada
+wilman.gomez@udea.edu.co
+Universidad de Antioquia
+Medellín, Colombia
+
+##### C. Líneas de Investigación y Producción Académica
+Encuentre aquí toda la información relacionada con el impacto de las investigaciones que realizamos, representadas en  artículos de revistas especializadas, capítulos de libros y otras publicaciones.
+Restrepo-Estrada, M. I., & Tena-Junguito, A. (2016). The roots of regional trade in the Americas 1870 to 1950 (No. 23304). Universidad Carlos III de Madrid. Instituto Figuerola.
+Tena‐Junguito, A., & Restrepo‐Estrada, M. I. (2023). Power politics and the expansion of US exports, 1879–1938. The Economic History Review, 76(4), 1051-1073.
+Tobón, A (2023) La génesis de la teoría económica contemporánea, Medellín: Editorial Universidad de Antioquia. ISBN: 978-958-501-148-9, ISBNe: 978-958-501-157-1.
+Tobon, A. y Restrepo-Estrada, M. I. (2023). Evaluación de las competencias de los estudiantes universitarios de economía en Colombia, Revista de la Educación Superior, Vol. 52, Número 206, p.49-64.
+Tobon, A (2021) “Erik Lindahl’s pricing problem in a two-period model”. History of Economics Review, 79:1, 39-49, DOI: 10.1080/10370196.2021.1945754
+Tobon, A (2021) “Jean Tirole y la nueva identidad de ciencia económica”, Apuntes del Cenes, 40 (71), pp.17-40.
+Tobón, A. y Ríos, Y. (2020) “Los fundamentos clásicos de la acumulación del capital en la obra de Piketty”, Sociedad y Economía, No. 41, pp.109-120.
+Tobon, A. (2022) “Economía formal y economía informal: un estudio sobre la dinámica del crecimiento económico en un modelo de inspiración clásica”, Aproximaciones formales a la informalidad, Ed. Gómez W., Bogotá: Editorial Universidad del Rosario, pp.278-304. ISBN: 978-958-500-107-7
+​​​​​​​
+Tobón, A. y Restrepo-Estrada, M. I. (2021) “Evaluación de la competencia en análisis económico en el Examen de Estado en Colombia”, Elementos para un Green New Deal: finanzas, cuidados y educación para una nueva sociedad. E. Cruz, F. M. Parejo y J. F. Rangel, (Eds), Cáceres: Universidad de Extremadura, capítulo 15, pp. 193-202. ISBN 978-84-0925-221-3.
+https://dehesa.unex.es:8443/handle/10662/12419
+Tobon, A. (2020) “Determination of prices in the economic theory of James Steuart from a modern classical perspective”, The Economic Thought of Sir James Steuart: First Economist of the Scottish Enlightenment, J. M. Menudo (Ed.), Londres: Routledge, chapter 10, p.146-162.
+Tobón, A. (2024) “Las competencias específicas del economista en Colombia, por AFADECO”, Reseña, Lecturas de Economía, 101, p.275-281.
+Tobon, A. (2024). “Metodología para la construcción y evaluación de resultados de aprendizaje para programas de pregrado y posgrado”. Borradores Departamento de Economía, Universidad de Antioquia, 98, abril (ISSN 1692-2611).
+Tobon, A. (2022) La estructura lógica de la teoría del equilibrio general dinámico estocástico, Borradores Departamento de Economía, Universidad de Antioquia, 96, agosto (ISSN 1692-2611).
+​​​​​​​
+Salazar, C. A. S., González, C. L., Gómez, E. E. T., Gorrón, J. E. T., & González, M. L. (2022). Impactos económicos generados por el Covid-19 en el departamento de Antioquia. y desafíos en la economía colombiana, 305.
+Gaona, A. M., Torres, J. E., Sanchez, C. A., Torres, E. E., & Lopez, M. (2023). Capítulo 4. Descomposición histórica de los cambios en la informalidad laboral en Colombia: un análisis FAVAR. In Trabajos empíricamente formales sobre la informalidad (p. 4). Universidad del Rosario.
+Torres, J. E., Salazar, C. A. S., Gomez, E. E. T., & González, M. L. (2023). Capítulo 6. Pobreza y desigualdad durante la pandemia del covid-19 en Antioquia. In Aproximaciones formales a la informalidad (p. 6). Universidad del Rosario.
+Celin, Ramírez, Torres y López. (2023). “Análisis Crítico Sobre Definiciones de Informalidad.” en Aproximaciones formales a la informalidad. (Cap.1), (p.7-28) ISBN: 978-958-500-109-1 ISBN: 978-958-500-109-1
+https://editorial.urosario.edu.co/acceso-abierto/alianza-efi.html?products_edition=132811
+Celin, Torres y López. (2023). “Cambios normativos en el Sistema General de Seguridad Social en Salud y sus efectos en la informalidad laboral en Colombia.” en Trabajos empíricamente formales sobre la informalidad. (Cap. 3), (p. 107-154.) ISBN: 978-958-500-194-7
+https://editorial.urosario.edu.co/acceso-abierto/alianza-efi.html?products_edition=132811
+Celin, Torres y López. (2023). “Enfoque histórico de la interrelación entre la informalidad y el desarrollo” en Economía política, filosofía e institucionalidad de la informalidad. (Cap.1), (p. 7-19). ISBN: 978-958-500-192-3
+https://editorial.urosario.edu.co/acceso-abierto/alianza-efi.html?products_edition=132811
+Botero, J., Castrillón, C., Hurtado, Á., Franco, H., & Vargas, C. (2024). Formality and informality in an emerging economy: The case of Colombia. Cuadernos de Economía, 43(91), 1-29
+Castrillón, C., Gómez, W. y Montoya, J. Capítulo 2. Aspectos macroeconómicos de la medición de la informalidad (2023). Aproximaciones formales a la informalidad Editorial Universidad del Rosario.
+https://editorial.urosario.edu.co/catalog/product/view/id/7261/s/gpd-aproximaciones-formales-a-la-informalidad-9789585001091-643ac306f16d6/
+Castrillón, C., Gómez, W. y Montoya, J. Capítulo 3. Revisión de la modelación macroeconómica de la informalidad (2023). Aproximaciones formales a la informalidad Editorial Universidad del Rosario.
+https://editorial.urosario.edu.co/catalog/product/view/id/7261/s/gpd-aproximaciones-formales-a-la-informalidad-9789585001091-643ac306f16d6/
+Castrillón, C., Bustamante, E. & Gómez, W. Capítulo 9 (2023) Economía informal y tributación: estado actual del conocimiento y agenda para futuras investigaciones y políticas.
+https://editorial.urosario.edu.co/catalog/product/view/id/7357/s/gpd-economia-politica-filosofia-e-institucionalidad-de-la-informalidad-9789585001916-64cd716701ca3/
+Puerta y Flórez (2023). “Relaciones de legalidad-informalidad-ilegalidad en Latinoamérica: estado del arte" en Economía política, filosofía e institucionalidad de la informalidad. (Cap.3), (p. 39-75). ISBN: 978-958-500-192-3
+https://editorial.urosario.edu.co/acceso-abierto/alianza-efi.html?products_edition=132811
+Echeverri, Flórez, Ramírez y Puerta (2023). “Proyecto Autonomía Económica de las Mujeres en Medellín (2008-2021): un análisis de implementación a través del equilibrio puntuado" en Economía política, filosofía e institucionalidad de la informalidad. (Cap.6), (p. 145-182). ISBN: 978-958-500-192-3
+https://editorial.urosario.edu.co/acceso-abierto/alianza-efi.html?products_edition=132811
+
+##### D. Nómina de Investigadores
+Contamos con un equipo humano altamente calificado conformado por docentes e investigadores, profesionales, apoyo docente e investigación, estudiantes de posgrado y monitores y auxiliares administrativos.
+Integrantes
+Mauricio López González
+Coordinador CIC
+mauricio.lopez@udea.edu.co
+Ramón Javier Mesa Callejas
+Docente-Investigador
+ramon.mesa@udea.edu.co
+Edwin Esteban Torres Gómez
+Docente-Investigador
+esteban.torres@udea.edu.co
+Alexander Tobón Arias
+Docente-Investigador
+alexander.tobon@udea.edu.co
+Jhonny Moncada Mesa
+Docente-Investigador
+jhonny.moncada@udea.edu.co
+Cristian Sánchez Salazar
+Docente-Investigador
+cristian.sanchez@udea.edu.co
+Cristian Castrillón Gaviria
+Docente-Investigador
+cristian.castrillon@udea.edu.co
+Danny García
+Docente-Investigador
+Callegas-danny.garcia@udea.edu.co
+Sonia Agudelo Ayala
+Docente-Investigador
+sonia.agudeloa@udea.edu.co
+María Alejandra Puerta Olaya
+Docente-Investigador
+mariaa.puerta@udea.edu.co
+Yennifer Celin
+Docente-Investigador
+Camargo-yennifer.celin@udea.edu.co
+Maria Isabel Restrepo Estrada
+Docente-Investigador
+isabel.restrepo@udea.edu.co
+Jhon Edwar Torres G
+Docente-Investigador
+edwar.torres@udea.edu.co
+Contacto
+Wilman Arturo Gómez Muñoz
+Líder Grupo de Investigación Macroeconomía Aplicada
+wilman.gomez@udea.edu.co
+Universidad de Antioquia
+Medellín, Colombia
+
+##### E. Formación y Semilleros de Investigación
+El grupo ampara la formación temprana de investigadores de pregrado y posgrado mediante: **Semilleros Ángelo, Economía Clásica y Computacional**.
+
+##### F. Iniciativas, Proyectos y Publicaciones Emblemáticas
+- **[Boletines Económicos Municipales de Antioquia](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Macroeconom%21c3%21ada+aplicada/asContenidos/asListado/Boletines-Economicos-Municipales-de-Antioquia-Macroeconomia):** Iniciativa del Grupo de Macroeconomía Aplicada, de la Universidad de Antioquia, y con el respaldo del IDEA y la Gobernación de Antioquia, que tiene como propósito brindar informaci...
+- **[Articulación con Comunidades Científicas Grupo de Investigación Macroeconomía Aplicada](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Macroeconom%21c3%21ada+aplicada/asContenidos/asListado/Articulacioncomunidadescientificasmacroeconomia):** Desde el Grupo de Investigación Macroeconomía Aplicada contamos con la articulación con comunidades científicas.
+- **[Semilleros Grupo de Investigación Macroeconomía Aplicada](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Macroeconom%21c3%21ada+aplicada/asContenidos/asListado/semillerosmacroeconomia):** Son espacios de innovación, dedicación, ingenio y compromiso, para el desarrollo de los proyectos de investigación que permiten a los participantes familiarizarse con las diferentes metodologías.
+- **[La influencia del contexto en la calidad de la educación](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Macroeconom%21c3%21ada+aplicada/asContenidos/asListado/proyectos-investigacion):** Estudiar la economía de la educación resulta importante porque posibilita aportar con políticas públicas que precisamente se dirigen a mejorar la calidad de la misma, afirman los i...
+- **[Avanza investigación sobre el boom de las “multilatinas” colombianas](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Macroeconom%21c3%21ada+aplicada/asContenidos/asListado/proyecto-multilatinas-colombianas-udea):** Representantes del Grupo Orbis, Procafecol (Juan Valdez) y Procolombia junto al investigador Ramón Javier Mesa Callejas expusieron sus experiencias y conocimientos sobre la inserci...
+
+
+---
+
+#### 2.9. Grupo de Microeconomía Aplicada
+- **Sigla Oficial:** `MICROECONOMIA`
+- **Unidad Académica:** Facultad de Ciencias Económicas — Departamento de Economía
+- **Líder / Coordinador(a):** **Carlos Andrés Vasco Correa**
+- **Correo Institucional del Grupo:** `carlos.vasco@udea.edu.co / microeconomia@udea.edu.co`
+- **Categorización MinCiencias:** Categoría A (MinCiencias)
+- **Año de Creación:** 1999
+- **Portal Web Institucional:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/microeconomia-aplicada](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/microeconomia-aplicada)
+
+##### A. Identidad, Misión y Enfoque Teórico
+Lineamientos Internos del Grupo de Investigación Microeconomía Aplicada
+Centro de Investigación: Centro de Investigaciones y Consultorías
+Unidad Académica principal: Facultad de Ciencias Económicas
+Versión: 1.0
+Fecha: 4 de noviembre de 2025
+Vigencia: hasta su próxima actualización o por cinco (5) años, lo que ocurra primero.
+Preámbulos
+Estos lineamientos internos se elaboran en cumplimiento de los “Lineamientos sobre grupos de investigación en la Universidad de Antioquia” aprobados por el CODI mediante Actas 906, 907, 909 y 911 de 2024, que establecen la obligación de que los grupos conformados y reconocidos
+con anterioridad elaboren y entreguen sus propios lineamientos internos dentro de los doce (12) meses siguientes a la publicación (6 de noviembre de 2024).
+Se construyeron de manera participativa con los integrantes del Grupo de Investigación Microeconomía Aplicada y fueron validados en una reunión de sesión ordinaria del grupo (ver Anexo A – Acta interna de aprobación).
+1. Objetivos del Grupo
+Generar conocimiento aplicado en microeconomía para la comprensión y solución de problemas de organización industrial, regulación, energía y movilidad, economía ambiental y de los recursos naturales, economía del comportamiento, economía urbana, economía de la educación y enseñanza de la economía, economía pública y de las políticas públicas.
+Desarrollar y liderar proyectos de investigación, creación e innovación con impacto académico y social, articulados a demandas nacionales y regionales.
+Apoyar en la formación del talento humano en investigación (pregrado, posgrado y jóvenes investigadores), fortaleciendo capacidades en las líneas de investigación del grupo.
+Transferir y apropiar socialmente el conocimiento que generamos mediante consultorías, asesorías, divulgación en eventos académicos y trabajo de colaboración y cooperación con entidades tanto públicas como privadas, redes sociales y medios masivos.
+Promover la interdisciplinariedad: fomentar la colaboración con otros grupos de investigación o disciplinas para abordar problemas complejos desde múltiples perspectivas y con la integración de herramientas del análisis microeconómico.
+2. Conformación del Grupo y filiación
+Coordinador:
+Carlos Andrés Vasco Correa – Profesor ocasional –
+ORCID
+|
+Google Scholar
+| ResearchGate |
+CVLAC
+|
+RePEc
+|
+Web of Science
+|
+Scopus
+Integrantes con filiación UdeA:
+● Profesores de carrera:
+○ Jorge Barrientos Marín - Profesor Titular -
+Google Scholar
+-
+CVLAC
+-
+ORCID
+○ David Tobón Orozco - Profesor titular -
+CVLAC
+-
+ORCID
+|
+Google Scholar
+|
+ResearchGate
+|
+○ Yady Marcela Barrero Amórtegui -
+CVLAC
+-
+ORCID
+-
+Researchgate
+○ Santiago Alejandro Gallón Gómez -
+CVLAC
+-
+ORCID
+-
+Researchgate
+○ Carlos Felipe Gaviria Garcés -
+CVLAC
+-
+Scholar
+-
+ORCID
+○ Héctor Mauricio Posada Duque:
+Scholar
+○ Germán Darío Valencia Agudelo (IEP) -
+ORCID
+-
+Scholar
+● Profesores ocasionales o de cátedra:
+○ Edel Laura Sánchez Higuita - CVLAC - Researchgate
+○ Osmar Leandro Loaiza Quintero -
+CVLAC
+-
+ORCID
+-
+Researchgate
+○ Juan David Osorio Múnera -
+CVLAC
+-
+ORCID
+-
+Researchgate
+● Estudiantes (pregrado/maestría/doctorado):
+○ Laura Atehortúa Pinzón (Pregrado Economía)
+○ Miguel Ángel Patiño Adarve (Pregrado Economía)
+○ Juan Andrés Miranda Rojo (Pregrado Economía)
+○ Durley Ocampo Salazar (Pregrado Economía)
+○ Diego Olmos Baena (Maestría en Economía)
+○ Jose Miguel Pulgarín Agudelo (Pregrado en Economía)
+● Egresados, ad honorem, externos:
+○ Alejandro Montoya Castaño -
+Researchgate
+-
+Scholar
+3. Responsabilidades por rol
+3.1. Responsabilidades transversales (todos los miembros)
+● Cumplir el Código de Integridad Científica, la ética en la investigación, las políticas de acceso abierto y las normas de propiedad intelectual aplicables.
+● Alinear su actividad con las funciones misionales universitarias (docencia, investigación y extensión) y los principios de libertad de cátedra, excelencia académica y responsabilidad social.
+● Contribuir al diseño y ejecución del plan de acción anual del grupo.
+● Participar en reuniones, seminarios y actividades del plan de acción, así como atender los compromisos derivados de proyectos financiados.
+● Reportar oportunamente su producción y actividades en SIIU/GrupLAC/Repositorios, custodiar los datos conforme a los acuerdos de cada proyecto y las leyes de protección de datos personales y empresariales.
+3.2. Profesores de carrera y ocasionales
+● Liderar o co‑liderar líneas y proyectos, formular propuestas a convocatorias internas o externas y garantizar la ejecución técnico‑administrativa.
+● Dirigir tesis y semilleros; propiciar la formación integral de estudiantes y la apropiación social del conocimiento.
+● Asegurar arreglos de autoría transparentes (Protocolo CRediT), políticas de tratamiento de datos y reproducibilidad (repositorios de acceso abierto).
+● Los profesores de cátedra y ocasionales desarrollarán sus funciones conforme a su modalidad de vinculación, dedicación y plan de trabajo aprobado por la Unidad Académica.
+3.3. Asistentes de investigación
+● Ejecutar análisis y redacción de productos, con coautoría según contribuciones verificables.
+● Apoyar formación de estudiantes, documentación y curaduría de datos/código, y la preparación de informes técnicos.
+● Las demás actividades que se especifiquen en su convenio o contrato de vinculación.
+3.4. Estudiantes (Pregrado y posgrado)
+● Participar en seminarios, tesis y asistencias de investigación o semilleros con metas y cronogramas definidos.
+● Cumplir protocolos de ética, confidencialidad y manejo de datos; registrar avances en el repositorio del grupo en la nube.
+● Las demás actividades que se especifiquen en su convenio o contrato de vinculación.
+3.5. Integrantes ad honorem, egresados y externos
+● Vinculación mediante carta de compromiso y, cuando aplique, acuerdos de confidencialidad y propiedad intelectual.
+● Reporte regular de actividades y productos; declaración de conflictos de interés y cumplimiento de licencias de software y datos.
+4. Agendas y líneas de investigación (2025–2030)
+L1. Organización industrial, regulación y competencia
+Alcance
+: analizamos el funcionamiento de mercados regulados y con fallas de competencia, en particular sectores de servicios públicos. El grupo trabaja en medición de poder de mercado, carteles y prácticas de colusión, diseño de subastas, regulación tarifaria o monopolios naturales.
+L2. Energía
+Alcance
+: desarrollamos análisis económico aplicado al sistema energético: diseño tarifario, eficiencia, transición energética, integración de almacenamiento y sus implicaciones regulatorias, fiscales y territoriales.
+L3. Microeconometría aplicada y evaluación de políticas públicas
+Alcance
+: aplicamos métodos causales para evaluar intervenciones educativas, productivas, ambientales, tarifarias y sociales, usando datos administrativos, encuestas y experimentos o cuasi-experimentos. El propósito es producir evidencia para la toma de decisiones públicas y
+empresariales.
+L4. Economía ambiental, riesgo climático y territorio
+Alcance
+: estudiamos cómo el cambio climático, la presión sobre los ecosistemas y la gestión del agua afectan el bienestar local y regional. Incluye biodiversidad, PSA (pagos por servicios ambientales), riesgo de desastres, y sostenibilidad fiscal y de infraestructura asociada.
+L5. Economía Urbana:
+Alcance
+: evaluación de impacto de proyectos de infraestructura urbana (vivienda, transporte, trazado vial).
+L6. Economía de la educación y enseñanza de la Economía
+Alcance
+: analizamos los determinantes económicos y sociales del desempeño educativo mediante la estimación y el pronóstico de indicadores de deserción, rezago y logro en la educación básica. Incluye el desarrollo y aplicación de modelos econométricos y estadísticos para la evaluación de impacto de políticas y programas educativos, con el fin de aportar evidencia empírica que contribuya al diseño, seguimiento y mejora de las estrategias públicas orientadas a la equidad y calidad educativa. Asimismo, nos interesa la enseñanza de la economía como campo de estudio, promoviendo la innovación pedagógica, la formación en pensamiento económico y el desarrollo de competencias analíticas en distintos niveles educativos.
+L7. Análisis Microeconómico
+Alcance: estudiamos el comportamiento de los agentes económicos como los hogares, las organizaciones, el sector público y sus interacciones en diversos mercados y sectores, a partir del análisis microeconómico teórico y aplicado. Comprende el uso de modelos y herramientas cuantitativas para examinar la formación de precios, las decisiones de consumo, producción e inversión, y los efectos de la regulación y las políticas públicas sobre la eficiencia y el bienestar.
+La línea se orienta al análisis de cualquier sector económico o social, con el propósito de generar evidencia útil para la formulación de estrategias institucionales, empresariales y de política pública, con enfoque territorial y de sostenibilidad.
+Productos y compromisos de las diferentes líneas:
+● Al menos 1 proyecto activo por año (investigación aplicada, consultoría o convenio interinstitucional).
+● Al menos 1 artículo / working paper anual con resultados cuantitativos o de modelación.
+● Proyectos y convenios con entidades públicas y territoriales (por ejemplo CREG, ministerios, DNP, empresas públicas, autoridades ambientales, alcaldías/municipios).
+● Al menos 1 artículo científico o documento de trabajo.
+● Un insumo de política pública anual (policy brief, concepto técnico o nota de recomendación regulatoria).
+● Un seminario externo abierto (dirigido a entidades públicas, operadores o entes de control).
+● Repositorios con código reproducible y documentación técnica (cuando la información no esté sujeta a reserva).
+● Guías docentes/metodológicas que alimenten cursos, semilleros y formación de jóvenes investigadores.
+● Tableros e indicadores replicables a distintos niveles desde lo público o privado.
+● Estudio de caso regional.
+● Un producto de apropiación social anual (taller, informe ejecutivo para actores locales, guía de uso de indicadores) y otros productos a través de medios físicos o digitales (webinar, artículos, vídeos, podcasts).
+5. Financiación y producción
+Fuentes de financiación
+● Convocatorias internas UdeA (CODI, sostenibilidad, convocatorias autónomas, jóvenes investigadores).
+● Convocatorias externas (Minciencias, DNP, entidades territoriales), cooperación internacional y consultorías.
+● Convenios interadministrativos y proyectos con empresas y/o otras entidades.
+Metas de producción
+●
+Nuevo conocimiento
+: 2 artículos científicos/Q‑JCR o Scopus, 2 documentos de trabajo
+anuales.
+●
+Desarrollo tecnológico/innovación
+: al menos 1 entrega de
+software/modelo/prototipo/norma cada 2 años.
+●
+Formación:
+dirección/codirección/par evaluador de 2 tesis (pregrado/posgrado).  Nueva
+oferta y actualización de currículo de cursos de posgrado (Maestría y Doctorado).
+●
+Divulgación/apropiación
+: 2 actividades anuales (seminarios, policy briefs, talleres con tomadores de decisión).
+Gestión y seguimiento
+● Matriz anual con objetivos‑actividades‑responsables‑cronograma‑indicadores.
+● Revisión semestral en reunión de planeación
+● Reporte de un informe anual de gestión al Centro de Investigación.
+6. Dinámica del Grupo
+●
+Reuniones ordinarias
+: mensuales; extraordinarias cuando sea necesario. Se registrarán actas numeradas con acuerdos, responsables y plazos.
+●
+Seminario de investigación:
+agenda mensual (papers en progreso, resultados preliminares, invitados externos).
+●
+Toma de decisiones:
+preferentemente por consenso; en su defecto, mayoría simple de asistentes con quórum del 50% + 1 de integrantes profesores vinculados, ocasionales y cátedra.
+●
+Articulación con el plan de trabajo docente:
+las actividades del grupo se reflejarán en los planes de trabajo de los profesores (de carrera, ocasionales y de cátedra) conforme a su dedicación y modalidad de vinculación.
+●
+Archivo y transparencia
+: actas, productos y documentación en el repositorio institucional del grupo con niveles de acceso definidos.
+7. Equipos e infraestructura
+● Los
+equipos
+figuran en el inventario institucional y están bajo responsabilidad del profesor a cuyo cargo estén registrados; su uso se rige por los manuales de uso interno y pólizas vigentes en la Universidad.
+● La
+infraestructura física
+(oficinas, salas de reuniones) será coordinada por la Unidad Académica.
+●
+Software y datos:
+uso conforme a licencias institucionales UdeA y contratos de datos; toda descarga/uso debe contar con autorización y registro; la publicación de datos seguirá las políticas de confidencialidad y apertura definidas en cada proyecto.
+8. Admisión de nuevos integrantes
+●
+Requisitos:
+carta de intención con propuesta de contribución al grupo, hoja de vida en formato libre, ORCID, CVLAC, y contar con el aval de al menos la mayoría simple de los integrantes del grupo. El requisito de obtener aval no aplica para estudiantes de pregrado y posgrado, solo para investigadores nuevos.  Los estudiantes preferiblemente serán seleccionados mediante convocatoria abierta.
+●
+Criterios:
+afinidad con líneas del grupo, disponibilidad de tiempo, ética e integridad, manejo de datos y metodologías. Para estudiantes será un criterio su desempeño académico (promedio acumulado).  No contar con sanciones disciplinarias de la Universidad, especialmente las derivadas de conductas de violencias basadas en género (VBG).
+●
+Vinculación
+: por acta; periodo inicial de 6 meses con metas específicas.  Luego permanencia indefinida.  Para los estudiantes y personal externo, hasta terminar su vinculación como estudiante a la Universidad o al proyecto.
+●
+Compromisos
+: asistencia a las reuniones, entrega de productos y avances, respeto de normas de autoría y datos.
+9. Retiro de integrantes
+● Respetando el debido proceso se realizará una comunicación escrita de motivos, oportunidad de respuesta y acta de decisión.
+● Garantizar continuidad de compromisos con la Universidad y terceros: entrega de materiales, datos y códigos; actualización de autorías y reportes.
+● Notificación oportuna al Centro de Investigaciones y Consultorías, el Departamento de Economía y actualización en sistemas de información GRUPLAC.
+● Traslado a instancias de disciplina si se advierten conductas que así lo requieran.
+● Retiro voluntario, previo cumplimiento de compromisos adquiridos. La salida del investigador no debe poner en riesgo el cumplimiento de compromisos que la Universidad haya asumido con terceros y/o con el CODI. Para ello deberá acordarse por escrito el proceso para el cumplimiento de compromisos y lo concerniente a la producción del investigador, de acuerdo con los lineamientos internos del Grupo.
+● Si en el proceso de retiro se advierte la posible ocurrencia de una conducta disciplinable, se deberá realizar el traslado correspondiente a la Unidad de Asuntos Disciplinarios.
+10. Coordinación del Grupo
+● Perfil: título de pregrado y maestría o doctorado.
+● Situación actual: Coordinador: Carlos Andrés Vasco Correa (Profesor Ocasional desde 2015). Inicio de coordinación: octubre de 2025.
+● Elección: voto de miembros activos por mayoría simple; período de 2 años.
+● Funciones: delinear agendas y plan anual, promover redes, identificar financiación, asegurar ejecución de recursos, rendición de cuentas anual y cierre de proyectos con actas.
+● Suplencia: cuando la coordinación recaiga en un profesor ocasional o de cátedra, el grupo designará por acta un profesor de carrera o ocasional como respaldo académico ante la Unidad y ante la Vicerrectoría; en caso de renuncia o impedimento, se realizará nueva elección.
+● Plan de trabajo: las tareas de coordinación se incluirán en el plan de trabajo del Coordinador conforme al Estatuto Profesoral y los acuerdos de la Unidad Académica.
+11. Disolución, división o integración
+● Procedimiento con acta motivada, inventario de equipos y activos intangibles; plan de cierre de proyectos y compromisos.
+● Definición del destino de productos y bases de datos (otros grupos de investigación).
+● Acompañamiento del Centro CIC y Vicerrectoría de Investigación; reporte a plataformas de MinCiencias.
+● En caso de integración o fusión con otros grupos: acuerdo escrito sobre gobierno, líneas y distribución de activos tangibles o intangibles y obligaciones.
+12. Mecanismos de solución de conflictos
+● Prevención: acuerdos de autoría por escrito, hojas de ruta y cronogramas claros en el repositorio del grupo.
+● Mediación interna: En caso de presentarse un conflicto se conformará un comité ad hoc de 3 miembros no involucrados en la discordia quienes  entregarán máximo en 15 días hábiles una recomendación para zanjar la diferencia.
+● Escalamiento: a la Coordinación del Grupo, al Centro de Investigación y, de ser necesario, a instancias universitarias competentes.
+● Registro: toda controversia y su solución se documentará en acta para dejar un registro documental.
+Disposiciones finales
+●
+Actualización:
+revisión anual; actualización formal al menos cada 5 años o cuando lo exija la normativa.
+●
+Publicación interna
+: en repositorio del grupo.
+●
+Entrada en vigencia
+: a partir de su aprobación en acta interna (Anexo A).
+Trayectoria
+Empresas o instituciones públicas y privadas que han confiado en nuestros servicios y han elegido al Grupo de Microeconomía Aplicada como un aliado estratégico para acompañar sus procesos organizacionales:
+Sistema de Información para la Seguridad y la Convivencia –SISC-, Alcaldía de Medellín
+Corantioquia-Colanta-Colciencias
+Fábrica de Licores de Antioquia
+Ministerio de Ambiente y Desarrollo Sostenible
+Conconcreto
+Corantioquia
+Codensa-Colciencias
+ISA- Colciencias
+Comisión de Regulación en Salud -CRES
+Departamento Administrativo de Ciencia, Tecnología e Innovación -Colciencias
+Empresas Públicas de Medellín
+Municipio de Medellín-Secretaría Técnica
+Fendipetroleo
+Municipio de Medellín-Colciencias
+Servicio Nacional de Aprendizaje - SENA
+Contacto
+Carlos Andrés Vasco Correa
+Coordinador – Grupo Microeconomía Aplicada
+Facultad de Ciencias Económicas – Universidad de Antioquia
+carlos.vasco@udea.edu.co
+– 3138986355
+
+##### B. Líneas de Consultoría y Transferencia (Portafolio CIC)
+El grupo desarrolla procesos asociados a la investigación y a la extensión en las siguientes áreas del conocimiento:
+Agendas y líneas de investigación (2025–2030)
+L1. Organización industrial, regulación y competencia
+Alcance: analizamos el funcionamiento de mercados regulados y con fallas de competencia,
+en particular sectores de servicios públicos. El grupo trabaja en medición de poder de mercado,
+carteles y prácticas de colusión, diseño de subastas, regulación tarifaria o monopolios
+naturales.
+L2. Energía
+Alcance: desarrollamos análisis económico aplicado al sistema energético: diseño tarifario,
+eficiencia, transición energética, integración de almacenamiento y sus implicaciones
+regulatorias, fiscales y territoriales.
+L3. Microeconometría aplicada y evaluación de políticas públicas
+Alcance: aplicamos métodos causales para evaluar intervenciones educativas, productivas,
+ambientales, tarifarias y sociales, usando datos administrativos, encuestas y experimentos o
+cuasi-experimentos. El propósito es producir evidencia para la toma de decisiones públicas y
+empresariales.
+L4. Economía ambiental, riesgo climático y territorio
+Alcance: estudiamos cómo el cambio climático, la presión sobre los ecosistemas y la gestión
+del agua afectan el bienestar local y regional. Incluye biodiversidad, PSA (pagos por servicios
+ambientales), riesgo de desastres, y sostenibilidad fiscal y de infraestructura asociada.
+L5. Economía Urbana:
+Alcance: evaluación de impacto de proyectos de infraestructura urbana (vivienda, transporte,
+trazado vial).
+L6. Economía de la educación y enseñanza de la Economía
+Alcance: analizamos los determinantes económicos y sociales del desempeño educativo
+mediante la estimación y el pronóstico de indicadores de deserción, rezago y logro en la
+educación básica. Incluye el desarrollo y aplicación de modelos econométricos y estadísticos
+para la evaluación de impacto de políticas y programas educativos, con el fin de aportar
+evidencia empírica que contribuya al diseño, seguimiento y mejora de las estrategias públicas
+orientadas a la equidad y calidad educativa. Asimismo, nos interesa la enseñanza de la
+economía como campo de estudio, promoviendo la innovación pedagógica, la formación en
+pensamiento económico y el desarrollo de competencias analíticas en distintos niveles
+educativos.
+L7. Análisis Microeconómico
+Alcance: estudiamos el comportamiento de los agentes económicos como los hogares, las
+organizaciones, el sector público y sus interacciones en diversos mercados y sectores, a partir
+del análisis microeconómico teórico y aplicado. Comprende el uso de modelos y herramientas
+cuantitativas para examinar la formación de precios, las decisiones de consumo, producción e
+inversión, y los efectos de la regulación y las políticas públicas sobre la eficiencia y el bienestar.
+La línea se orienta al análisis de cualquier sector económico o social, con el propósito de
+generar evidencia útil para la formulación de estrategias institucionales, empresariales y de
+política pública, con enfoque territorial y de sostenibilidad.
+Productos y compromisos de las diferentes líneas:
+● Al menos 1 proyecto activo por año (investigación aplicada, consultoría o convenio
+interinstitucional).
+● Al menos 1 artículo / working paper anual con resultados cuantitativos o de modelación.
+● Proyectos y convenios con entidades públicas y territoriales (por ejemplo CREG,
+ministerios, DNP, empresas públicas, autoridades ambientales, alcaldías/municipios).
+● Al menos 1 artículo científico o documento de trabajo.
+● Un insumo de política pública anual (policy brief, concepto técnico o nota de
+recomendación regulatoria).
+● Un seminario externo abierto (dirigido a entidades públicas, operadores o entes de
+control).
+● Repositorios con código reproducible y documentación técnica (cuando la información
+no esté sujeta a reserva).
+● Guías docentes/metodológicas que alimenten cursos, semilleros y formación de jóvenes
+investigadores.
+● Tableros e indicadores replicables a distintos niveles desde lo público o privado.
+● Estudio de caso regional.
+● Un producto de apropiación social anual (taller, informe ejecutivo para actores locales,
+guía de uso de indicadores) y otros productos a través de medios físicos o digitales
+(webinar, artículos, vídeos, podcasts).
+Consultoría
+Asesorías sobre regulación de empresas de servicios de utilidad pública (agua y saneamiento básico, energía, telecomunicaciones, gas, transporte, educación)
+Valoración económica y estudios de impacto ambiental de actividades productivas y de consumo
+Estudios de demanda y oferta de servicios públicos; diseño y aplicación de encuestas; análisis de datos.
+Estudios sobre organización industrial
+Construcción de indicadores y el diseño de modelos econométricos que permitan hacer proyecciones de variables como oferta, demanda y precios
+Algunos de
+nuestros proyectos más destacados
+son:
+Generación de la metodología de actualización y cálculo de los indicadores de costos de generación de energía eléctrica (LCOE). Proyecto Financiado por la Unidad de Planeación Minero Energética –UPME y Colciencias. En ejecución.
+Incidencia de la polución en la resiliencia de un sistema natural y alcance de los instrumentos económicos de política ambiental y las tecnologías de mitigación en un modelo de equilibrio general. Actualmente.
+Efectos Económicos y ambientales de los usos del suelo: bases para una política ambiental de incentivos en sistemas productivos agroindustriales. Alviar Mauricio y David Tobón (investigadores principales). Actualmente.
+Fundamentación, caracterización y estimación de las rentas criminales en Medellín. 2015.
+Diseño conceptual y estudios de pre-factibilidad económica de diferentes escenarios para la operación de una biorrefinería usando caña de azúcar. 2014.
+Estudio para estimar los impactos económicos que podrían generarse en la exportación de flores colombianas si no se acogen estándares internacionales para la medición de huella de carbono de producto.  2014.
+Modelo tarifario para el sector productivo y análisis de la elasticidad del precio de la energía eléctrica en función de la estacionalidad hidrológica. 2013.
+Modelos de asignación de usos del suelo y de equilibrio general rurales.
+Análisis de mercado y financiero de pre factibilidad para la instalación de nuevas plantas de producción de alcoholes y afines
+Determinantes cantidad de contrabando, adulteración y carrusel de licores en el Departamento de Antioquia
+Estudio de competitividad del sector exportador de flores sujeto a distintos requerimientos de huella de carbono
+Valoración de servicios ambientales Cuenca Riogrande
+Modelo tarifario para el sector productivo y análisis de la elasticidad del precio de la energía eléctrica en función de la estacionalidad hidrológica
+Estudio marco regulatorio y promoción de la competencia del SGSSS
+Análisis de impacto de inversiones
+Efectos Económicos y ambientales de los usos del suelo: bases para una política ambiental de incentivos en sistemas productivos agroindustriales
+Estudio mecanismos de transferencia; estudios de demanda de gas natural, estudios de cargos por capacidad y mecanismos de confiabilidad, estudios de demanda de energía, estudios de cargos de acceso en telefonía; estudio de caracterización y determinantes del establecimiento de industrias electro intensivas en Colombia, etc.
+Efectos Económicos y ambientales de los usos del suelo: bases para una política ambiental de incentivos en sistemas productivos agroindustriales
+Plan de acción nodo regional de cambio climático de Antioquia
+Estudio de determinantes de demanda de combustibles y crecimiento del parque automotor en Antioquia
+Caracterización  y estimación del capital social en Medellín
+Utilización de nuevos materiales, métodos y procesos en la fabricación de componentes de microcentrales hidráulicas. 2011
+Optimización de herramientas multiobjetivo para la toma de decisiones de inversión en sistemas aislados sostenibles de energía. 2009
+Caracterización del Entorno de la Cadena Productiva
+Un modelo de equilibrio generalidad con externalidades y restricciones de resiliencia del ecosistema natural. Universidad de Antioquia. 2012.
+Modelo de equilibrio general con externalidades y restricciones de capital natural. Investigador principal.  2011.
+Valoración de servicios ambientales Cuenca Riogrande. 2011.
+Utilización de nuevos materiales, métodos y procesos en la fabricación de componentes de microcentrales hidráulicas. 2011.
+Modelo de Equilibrio General con Externalidades y Capital Natural. 2011.
+Estudio de los factores incidentes para la implantación y el mejoramiento de industrias electro-intensivas en Colombia. Alianza CIIEN. junio 2011.
+Contacto
+Carlos Andrés Vasco Correa Coordinador
+Grupo Microeconomía Aplicada Facultad de Ciencias Económicas
+Universidad de Antioquia
+carlos.vasco@udea.edu.co
+3138986355
+
+##### C. Líneas de Investigación y Producción Académica
+El Grupo se ha destacado por la generación de conocimiento alrededor de temas de gran interés en el contexto regional y nacional, destacándose recientemente por los siguientes trabajos académicos:
+Libros
+Economía, rentas criminales y políticas públicas en Medellín. David Tobón Orozco, Germán Darío Valencia, Jorge Barrientos Marín y Santiago Gallón Gómez. Alcaldía de Medellín. ISBN: 978-958-8888-73-6. 2016
+Modelo de Equilibrio General con Externalidades y Capital Natural. David Tobón Orozco, Carlos Andrés Vasco. Universidad de Antioquia. 2011. ISSB 978-958-8709-48-2. 2012
+Optimización de herramientas multiobjetivo para la toma de decisiones de inversión en sistemas aislados sostenibles de energía. David Tobón Orozco, Sergio Agudelo Flórez. Colciencias – ISA. 2009
+Caracterización de entornos y determinantes de la eficiencia en los sectores del cuero, el calzado y la marroquinería. David Tobón Orozco y Jorge Barrientos Marín. Servicio Nacional de Aprendizaje (Sena). 2009
+Introducción A La Economía Ambiental, Lilia Domínguez, Raul Oryan, Mauricio Alviar Ramírez, Diego Azqueta " Mcgraw Hill Interamericana S A, España.
+Capital social en Medellín: medición, determinantes y lineamientos de política pública para su fomento. Piedad Patricia Restrepo. Alcaldía de Medellín. 2007
+La participación privada en el sector de agua potable en Antioquia. El caso de cinco municipios. David Tobón Orozco y Germán Valencia. Centro de Investigaciones Económicas, Universidad de Antioquia. 2006
+Artículos 2016
+Título
+Autor principal
+Revista
+Functional Systemic Risk, Complementarities and Early Warnings
+Santiago Gallón
+Documentos de investigación del banco de México
+Artículos 2015
+Título
+Autor principal
+Revista
+Scope of Economic Incentives and Abatement Technologies to Regulate a Natural System's Resilience in a General Equilibrium Model
+David Tobón Orozco
+World Bank Economic Review
+Long-term seasonal forwards in electricity generation markets: an application to Colombia
+David Tobón Orozco
+Cuadernos de Economía (Forthcoming)
+A Solution for Multicollinearity in Stochastic Frontier Production Function Models
+Santiago Gallón
+Lecturas de Economía (Forthcoming)
+General Equilibrium Model for Evaluating the Hydrical Environmental Policy in Colombia
+David Tobón Orozco
+Journal of Cleaner Production (Forthcoming)
+Artículos 2014
+Título
+Autor principal
+Revista
+El patrón de crecimiento económico y la pobreza en Colombia
+Jorge Barrientos Marín
+Perfil de Coyuntura Económica
+Conflicto, Economía y Paz
+Jorge Barrientos Marín
+Revista de Economía del Caribe
+Incentivos a la producción y disponibilidad a pagar por leche ecológica en Medellín
+David Tobón Orozco
+Semestre Económico
+Los ciclos económicos departamentales en Colombia, 1960-2011
+María Isabel Restrepo Estrada
+Revista de Economía Institucional
+La Microeconomía de la Violencia Intrafamiliar. Evidencia Empírica para Medellín
+Jorge Barrientos Marín
+Perfil de Coyuntura Económica
+Functional calibration estimation by the maximum entropy on the mean principle
+Santiago Alejandro Gallón Gómez
+Statistics
+A robust algorithm for template curve estimation based on manifold embedding
+Santiago Alejandro Gallón Gómez
+Computational Statistics &Amp; Data Analysis
+Artículos 2013
+Título
+Autor principal
+Revista
+Sobre la Dinámica de la Pobreza en Colombia, 2002-2012
+Jorge Barrientos Marín
+Seminario quincenal del Banco de la República (seccional Medellín)
+Para mayor información sobre las publicaciones y capítulos de libros, puede ingresar a:
+http://www.microaplicada.tk/
+, blog del Grupo.
+
+##### D. Nómina de Investigadores
+Contamos con un equipo de profesionales altamente cualificados quienes con el apoyo de jóvenes investigadores son los encargados de liderar los proyectos que propendan por la optima asignación de recursos, el bienestar social y la equidad.
+Integrantes
+Carlos Andrés Vasco Correa
+Director
+carlos.vasco@udea.edu.co
+David Tobón Orozco
+Investigador
+david.tobon@udea.edu.co
+Jorge Barrientos Marín
+Investigador
+jorge.barrientos@udea.edu.co
+Héctor Mauricio Posada
+Investigador
+hector.posada@udea.edu.co
+Germán Valencia Agudelo
+Investigador
+german.valencia@udea.edu.co
+Santiago Gallón Gómez
+Investigador
+santiago.gallon@udea.edu.co
+Blog personal
+Juan David Osorio Múnera
+Investigador
+juan.osorio35@udea.edu.co
+Edel Laura Sánchez Higuita
+Investigadora
+edel.sanchez@udea.edu.co
+Yady Marcela Barrero Amórtegui
+Investigadora
+yady.barrero@udea.edu.co
+Carlos Felipe Gaviria Garcés
+Investigador
+felipe.gaviria@udea.edu.co
+Osmar Leandro Loaiza Quintero
+Asistentes de investigación
+Carlos Andrés Molina Guerra,
+camolina@mit.edu
+Estudiantes
+Miguel Ángel Patiño Adarve (Pregrado Economía)
+Juan Andrés Miranda Rojo (Pregrado Economía)
+Durley Ocampo Salazar (Pregrado Economía)
+Diego Olmos Baena (Maestría en Economía)
+Jose Miguel Pulgarín Agudelo (Pregrado en Economía)
+Egresados, ad honorem, externos
+Alejandro Montoya Castaño
+
+##### E. Formación y Semilleros de Investigación
+El grupo ampara la formación temprana de investigadores de pregrado y posgrado mediante: **Semillero de Microeconomía Aplicada**.
+
+##### F. Iniciativas, Proyectos y Publicaciones Emblemáticas
+- **[Nueve mil millones de pesos anuales reciben bandas extorsionistas en Medellín](https://www.udea.edu.co/wps/portal/udea/web/inicio/udea-noticias/udea-noticia/!ut/p/z0/fY8xT8NADIX_SpaMp7u24VrGiAGp6sCAUHsLcnNWMb3YSXyp-PlcyoBYGGz5e3p-sm2wRxsYbnSBTMKQCp-Cf989Pq1XbeMOzjfetf6lediunzevb87ubfjfUBLocxxDa0MnnPEr2-MgU4Y0R4Tagf6lD-nxZ156xZKpI9Da3beZoiyuXxm5SqJVj5GkIM94Q9NTWioJo5qIZkAVNcAzpCJM2NEZ2ZyBI6gpJ8mk5V_SDGqHazh9AyXT0hs!/):** Más de nueve mil millones de pesos estarían recibiendo los combos delincuenciales por extorsión en Medellín, y 247 barrios sufren por este delito para poder vivir y trabajar, revel...
+- **[Economía y rentas criminales: el caso de Medellín](https://www.udea.edu.co/wps/portal/udea/web/generales/interna/investigacion/Grupos+de+investigaci%21c3%21b3n/Ciencias+sociales/Microeconom%21c3%21ada+aplicada/asContenidos/asListado/investigacion-rentas-criminales-medellin):** El grupo de investigación Microeconomía Aplicada de la Universidad de Antioquia   ha publicado el libro Economía, rentas criminales y políticas públicas en Medellín, un estudio que...
+- **[En el 80 % de los barrios de Medellín hay extorsión](http://www.semana.com/nacion/articulo/seguridad-medellin-en-el-80-de-los-barrios-hay-extorsion/459948):** La reducción de homicidios en los últimos diez años en Medellín ha sido tan significativa que además de salir de la lista de las 50 ciudades más violentes del mundo, 2015 fue el de...
+
+
+---
+
+## Puntos de Contacto y Referencias
+### Centro de Investigaciones y Consultorías - CIC (Coordinación Central)
+- **Dirección:** Martha Cecilia Álvarez Osorio (`jcic.fce@udea.edu.co` / `ciceconomicas@udea.edu.co`)
+- **Coordinación Administrativa:** Diana Maribel Sánchez Patiño (`maribel.sanchez@udea.edu.co`)
+- **Ubicación Central:** Ciudad Universitaria Calle 67 No. 53-108, Bloque 13, Oficinas 108 y 328A
+- **Oficina de Extensión y Consultoría:** Edificio de Extensión Universitaria, Calle 70 No. 52-72, Piso 4, Oficina 408
+- **Teléfonos:** (+57-604) 219 5800 / 219 5840 / 219 5842
+
+### Enlaces clave
+- [Portal de Grupos de Investigación FCE](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/grupos-investigacion)
+- [Centro de Investigaciones y Consultorías - CIC](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/centro-investigacion)
+- [Sistema de Revistas Científicas UdeA](https://revistas.udea.edu.co/)
+
+------------------------------------------------------------
+## [DOCUMENTO]: matriz_conformacion_comites.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/matriz_conformacion_comites.md`*
+------------------------------------------------------------
+
+# Matriz Maestra de Conformación de Comités de Gobierno y Académicos
+## Resumen Ejecutivo
+Documento consolidado de alta densidad de información que recopila la conformación nominal, cargos, representaciones, períodos y canales de contacto de los 20 comités de gobierno y gestión de la Facultad de Ciencias Económicas de la Universidad de Antioquia.
+
+## Contenido Principal
+
+### Consejo de Facultad
+- **Vigencia:** 2024-2026
+- **Archivo individual:** [`consejo-facultad.md`](comites/consejo-facultad.md)
+- **URL oficial:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/consejo-facultad](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/consejo-facultad)
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Jair Albeiro Osorio Agudelo** | Decano | `decaeconomicas@udea.edu.co` |
+| **Luz Ángela Valencia Cadavid** | Vicedecana | `vicedecaeconomicas@udea.edu.co` |
+| **Juan Fernando Tavera Mesías** | Jefe Departamento de Ciencias Administrativas | `pregradoadm.fce@udea.edu.co` |
+| **Carlos Mario Ospina Zapata** | Jefe Departamento de Ciencias Contables | `pregradocontaduria@udea.edu.co` |
+| **Ramón Javier Mesa Callejas** | Jefe Departamento de Economía | `ramon.mesa@udea.edu.co, departamentoeconomia@udea.edu.co` |
+| **Sergio Iván Restrepo Ochoa** | Jefe Departamento de Estadística y Matemáticas | `sergio.restrepo@udea.edu.co, estadisticaeconomicas@udea.edu.co` |
+| **Marta Cecilia Álvarez** | Directora Centro de Investigación y Consultorías | `ciceconomicas@udea.edu.co` |
+| **Héctor L. Bermúdez Restrepo** | Representante de los Profesores | `hectorl.bermudez@udea.edu.co, representacionprofesoralfce@udea.edu.co` |
+| **María Claudia Saavedra** | Representante de los Egresados | `mclsaavedra@gmail.com` |
+| **Cristina López González** | Coordinadora Unidad de Posgrados (invitado) | `cristina.lopezg@udea.edu.co` |
+| **Daniel Cardona Valencia** | Líder Servicios de Extensión (invitado) | `daniel.cardonav@udea.edu.co` |
+| **Juan Sebastián Ocampo** | Jefe de Servicios Administrativos (invitado) | `jserviciosadtvos.fce@udea.edu.co` |
+| **Alejandra Castaño Arias** | Líder Autoevaluación (invitado) | `alejandra.castanoa@udea.edu.co` |
+| **Yesica Alzate Gallego** | Coordinadora  Bienestar (invitado) | `bienestareconomicas@udea.edu.co` |
+
+
+### Comité Administrativo
+- **Vigencia:** No especificado
+- **Archivo individual:** [`comite-administrativo.md`](comites/comite-administrativo.md)
+- **URL oficial:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-administrativo](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-administrativo)
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Jair Albeiro Osorio Agudelo** | Decano | `Sin correo específico` |
+| **Luz Ángela Valencia Cadavid** | Vicedecana | `Sin correo específico` |
+| **Martha Cecilia Álvarez Osorio** | Jefe del Centro de Investigación y Consultorías | `Sin correo específico` |
+| **Juan Fernando Tavera Mesías** | Jefe del Departamento de Ciencias Administrativas | `Sin correo específico` |
+| **Carlos Mario Ospina Zapata** | Jefe del Departamento de Ciencias Contables | `Sin correo específico` |
+| **Ramón Javier Mesa Callejas** | Jefe del Departamento de Economía | `Sin correo específico` |
+| **Sergio Iván Restrepo Ochoa** | Jefe del Departamento de Estadística y Matemáticas | `Sin correo específico` |
+| **Cristina López González** | Coordinadora Unidad de Posgrados | `Sin correo específico` |
+| **Juan Sebastián Ocampo Puerta** | Jefe del Departamento de Servicios Administrativos | `Sin correo específico` |
+| **Daniel Cardona Valencia** | Coordinador de Formación a lo largo de la vida | `Sin correo específico` |
+
+
+### Comité de Aseguramiento de la Calidad
+- **Vigencia:** No especificado
+- **Archivo individual:** [`comite-aseguramiento-calidad.md`](comites/comite-aseguramiento-calidad.md)
+- **URL oficial:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-aseguramiento-calidad](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-aseguramiento-calidad)
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Luz Ángela Valencia Cadavid** | Vicedecano (a) | `Sin correo específico` |
+| **Juan Fernando Tavera Mesías** | Jefe y/o delegado del Departamento de Ciencias Administrativas | `Sin correo específico` |
+| **Carlos Eduardo Castaño Ríos** | Jefe y/o delegado del Departamento de Ciencias Contables | `Sin correo específico` |
+| **Ramón Javier Mesa Callejas** | Jefe y/o delegado del Departamento de Economía | `Sin correo específico` |
+| **Sergio Iván Restrepo Ochoa** | Jefe y/o delegado del Departamento de Estadística y Matemáticas | `Sin correo específico` |
+| **Diana Sirley Tabares Higuita** | Coordinador de Regionalización | `Sin correo específico` |
+| **Yesica Alzate Gallego** | Coordinador de Bienestar | `Sin correo específico` |
+| **Alejandra Castaño Arias** | Coordinador del equipo de Autoevaluación para la Facultad | `Sin correo específico` |
+
+
+### Comité de Asuntos Estudiantiles
+- **Vigencia:** No especificado
+- **Archivo individual:** [`comite-asuntos-estudiantiles.md`](comites/comite-asuntos-estudiantiles.md)
+- **URL oficial:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-asuntos-estudiantiles](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-asuntos-estudiantiles)
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Sergio Iván Restrepo Ochoa** | Jefe y/o delegado de los departamentos de pregrado Estadística y Matemáticas | `Sin correo específico` |
+| **Juan Fernando Tavera Mesías** | Jefe y/o delegado de los departamentos de pregrado Ciencias Administrativas | `Sin correo específico` |
+| **Carlos Eduardo Castaño Ríos** | Jefe y/o delegado de los departamentos de pregrado Ciencias Contables | `Sin correo específico` |
+| **Ramón Javier Mesa Callejas** | Jefe y/o delegado de los departamentos de pregrado Economía | `Sin correo específico` |
+| **Diana Sirley Tabares Higuita** | Coordinador (a) de Regionalización o delegado | `Sin correo específico` |
+| **Jenny Marcela Suárez Escobar** | Asesoría profesional a la gestión académica y administrativa (Asistente del departamento de Economía) | `Sin correo específico` |
+| **Enrique Vargas Ríos** | Profesional Universitario 2 - Temporal de la Vicedecanatura | `Sin correo específico` |
+| **Yesica Alzate Gallego** | Coordinador (a) de Bienestar | `Sin correo específico` |
+
+
+### Comité de Carrera
+- **Vigencia:** No especificado
+- **Archivo individual:** [`comite-carrera.md`](comites/comite-carrera.md)
+- **URL oficial:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-carrera](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-carrera)
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Sergio Iván Restrepo Ochoa** | Jefe de Departamento Estadística y Matemáticas | `Sin correo específico` |
+| **Juan Fernando Tavera Mesías** | Jefe de Departamento Ciencias Administrativas | `Sin correo específico` |
+| **Carlos Eduardo Castaño Ríos** | Jefe de Departamento Ciencias Contables | `Sin correo específico` |
+| **Ramón Javier Mesa Callejas** | Jefe de Departamento Economía | `Sin correo específico` |
+| **Julián Monsalve Herrera** | Representante de los estudiantes | `Sin correo específico` |
+| **Fredy Alonso Arango Cuartas** | Representante de los egresados | `Sin correo específico` |
+
+
+### Comité de Carrera Departamento de Ciencias Administrativas
+- **Vigencia:** No especificado
+- **Archivo individual:** [`comite-carrera-departamento-ciencias-administrativas.md`](comites/comite-carrera-departamento-ciencias-administrativas.md)
+- **URL oficial:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-carrera-departamento-ciencias-administrativas](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-carrera-departamento-ciencias-administrativas)
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Juan Fernando Tavera Mesías** | Jefe del Departamento de Ciencias Administrativas | `Sin correo específico` |
+| **Ana María Parente Laverde** | Coordinador (a) del Núcleo Curricular de Administración y Organizaciones | `Sin correo específico` |
+| **Diana Marcela Betancur Giraldo** | Coordinador (a) del Núcleo Curricular de  Mercadeo | `Sin correo específico` |
+| **Liliana María Gutiérrez Vargas** | Coordinador (a) del Núcleo Curricular de Gestión Humana | `Sin correo específico` |
+| **Ana Milena Medina Orozco** | Coordinador (a) del Núcleo Curricular  de Finanzas | `Sin correo específico` |
+| **Julián Monsalve Herrera** | Representante de los estudiantes | `Sin correo específico` |
+| **Fredy Cuartas** | Representante de los egresados | `Sin correo específico` |
+
+
+### Comité de Carrera Departamento de Economía
+- **Vigencia:** No especificado
+- **Archivo individual:** [`comite-carrera-departamento-economia.md`](comites/comite-carrera-departamento-economia.md)
+- **URL oficial:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-carrera-departamento-economia](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-carrera-departamento-economia)
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Ramón Javier Mesa Callejas** | Jefe Departamento de Economía | `Sin correo específico` |
+| **Alexander de Jesús Tobón Arias** | Coordinador(a) de la comisión de autoevaluación del Programa | `Sin correo específico` |
+| **Juan Darío García Callejas** | Coordinador(a) del curso Monografía de Grado | `Sin correo específico` |
+| **Edel Laura Sánchez Higuita** | Coordinador(a) de las prácticas académicas | `Sin correo específico` |
+| **David Fernando Tobón Orozco** | Representante de los profesores del programa de Economía | `Sin correo específico` |
+| **Santiago Alejandro Gallón Gómez** | Representante de los profesores del área de Matemáticas | `Sin correo específico` |
+| **José Daniel Salinas Rincón** | Representante de los profesores del programa de Economía | `Sin correo específico` |
+| **Julián Monsalve Herrera** | Representante de los estudiantes | `Sin correo específico` |
+| **Fredy Alonso Arango Cuartas** | Representante de los egresados | `Sin correo específico` |
+
+
+### Comité del Clima
+- **Vigencia:** No especificado
+- **Archivo individual:** [`comite-clima.md`](comites/comite-clima.md)
+- **URL oficial:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-clima](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-clima)
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Jair Osorio Agudelo** | Decano | `Sin correo específico` |
+| **Sergio Iván Restrepo Ochoa** | Jefe del departamento de Estadística y Matemáticas | `Sin correo específico` |
+| **Martha Cecilia Álvarez Osorio** | Jefe del centro de Investigación y Consultorías | `Sin correo específico` |
+| **Juan Fernando Tavera Mesías** | Jefe del Departamento de Servicios Administrativos | `Sin correo específico` |
+| **Carlos Eduardo Castaño Ríos** | Jefe del departamento de Ciencias Contables | `Sin correo específico` |
+| **Diana Milena Jaramillo Pérez** | Coordinador (a) Unidad de Comunicaciones | `Sin correo específico` |
+| **Yesica Alzate Gallego** | Coordinador (a) de Bienestar | `Sin correo específico` |
+| **Newt Esteban Velazquez** | Asistente Proceso Administrativo | `Sin correo específico` |
+| **Edith Yamile Zapata Zapata** | Representante de los empleados del nivel asistencial | `Sin correo específico` |
+| **Johnny Ortiz** | Representante de los empleados del nivel profesional | `Sin correo específico` |
+
+
+### Comité de Currículo
+- **Vigencia:** No especificado
+- **Archivo individual:** [`comite-curriculo.md`](comites/comite-curriculo.md)
+- **URL oficial:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-curriculo](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-curriculo)
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Luz Ángela Valencia Cadavid** | Vicedecano (a) | `Sin correo específico` |
+| **Julián Monsalve Herrera** | Representante de los estudiantes | `Sin correo específico` |
+| **Fredy Alonso Arango Cuartas** | Representante de los egresados | `Sin correo específico` |
+
+
+### Comité de Egresados
+- **Vigencia:** No especificado
+- **Archivo individual:** [`comite-egresados.md`](comites/comite-egresados.md)
+- **URL oficial:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-egresados](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-egresados)
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Martha Osorio** | Representante del Departamento de Ciencias Contables | `Sin correo específico` |
+| **Fredy Alonso Arango Cuartas** | Representante de los estudiantes y de los egresados | `Sin correo específico` |
+| **Alejandra Castaño** | Representante del Departamento de Administración | `Sin correo específico` |
+| **Claudia Medina** | Representante del Departamento de Economía | `Sin correo específico` |
+| **Daniel Cardona Valencia** | Coordinador de Extensión y del comité | `Sin correo específico` |
+
+
+### Comité de Emergencias
+- **Vigencia:** No especificado
+- **Archivo individual:** [`comite-emergencias.md`](comites/comite-emergencias.md)
+- **URL oficial:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-emergencias](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-emergencias)
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Jair Osorio Agudelo** | Decano | `Sin correo específico` |
+| **Francy Tatiana Castaño Quintero** | Jefe de servicios administrativos | `Sin correo específico` |
+| **Yesica Alzate Gallego** | Profesional Universitario 2 (Coordinador de Bienestar) | `Sin correo específico` |
+| **Luis Fernando García Grajales** | Auxiliar administrativo 2 | `Sin correo específico` |
+| **Juan Fernando Ríos** | Técnico Administrativo 3 de la Unidad de Medios Audiovisuales | `Sin correo específico` |
+| **Jenny Marcela Suárez Escobar** | Asesoría profesional a la gestión académica y administrativa (Asistente del departamento de Economía) | `Sin correo específico` |
+| **Enrique Vargas Ríos** | Profesional Universitario 2 - Temporal de la Vicedecanatura | `Sin correo específico` |
+| **Edith Yamile Zapata Zapata** | Secretaria 3 de la Decanatura | `Sin correo específico` |
+| **Laura María Posada** | Profesional Universitario 1 (Bibliotecaria 1) del Centro de Documentación | `Sin correo específico` |
+| **Diana Milena Jaramillo Pérez** | Profesional Universitario 1 – Temporal de la Unidad de Comunicaciones | `Sin correo específico` |
+
+
+### Comité de Evaluación Profesoral
+- **Vigencia:** No especificado
+- **Archivo individual:** [`comite-evaluacion-profesoral.md`](comites/comite-evaluacion-profesoral.md)
+- **URL oficial:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-evaluacion-profesoral](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-evaluacion-profesoral)
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Juan Fernando Tavera Mesías** | Jefe del Departamento de Ciencias Administrativas | `Sin correo específico` |
+| **Carlos Eduardo Castaño Ríos** | Jefe del Departamento de Ciencias Contables | `Sin correo específico` |
+| **Ramón Javier Mesa Callejas** | Jefe del Departamento de Economía | `Sin correo específico` |
+| **Sergio Iván Restrepo Ochoa** | Jefe del Departamento de Estadística y Matemáticas | `Sin correo específico` |
+| **Dora Hoyos** | Profesora titular externa a la Facultad | `Sin correo específico` |
+
+
+### Comité de Género
+- **Vigencia:** No especificado
+- **Archivo individual:** [`comite-genero.md`](comites/comite-genero.md)
+- **URL oficial:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-genero](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-genero)
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Catalina Lopera** | Delegado del Consejo de Facultad | `Sin correo específico` |
+| **Claudia Cristina Medina Palacios** | Delegada o delegado de las y los profesores | `Sin correo específico` |
+| **Luis Fernando Segura** | Delegada o delegado de las y los profesores | `Sin correo específico` |
+| **Geraldine Castañeda** | Delegado o delegada de las y los estudiantes de pregrado y posgrado | `Sin correo específico` |
+| **Karen Natalia Guerrero** | Delegado o delegada de las y los estudiantes de pregrado y posgrado | `Sin correo específico` |
+| **Luz Angélica Abadía** | Delegado o delegada de las y los estudiantes de pregrado y posgrado | `Sin correo específico` |
+| **Michell Nicole Torres** | Delegado o delegada de las y los estudiantes de pregrado y posgrado | `Sin correo específico` |
+| **Yesica Alzate Gallego - Catalina Lopera** | Quien ejerza la Coordinación de Bienestar de la Facultad | `Sin correo específico` |
+
+
+### Comité de Investigación del Departamento de Ciencias Administrativas
+- **Vigencia:** No especificado
+- **Archivo individual:** [`comite-investigaciones-departamento-ciencias-administrativas.md`](comites/comite-investigaciones-departamento-ciencias-administrativas.md)
+- **URL oficial:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-investigaciones-departamento-ciencias-administrativas](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-investigaciones-departamento-ciencias-administrativas)
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Juan Fernando Tavera Mesías** | Jefe Departamento de Ciencias Administrativas | `Sin correo específico` |
+| **José Enrique Arias Pérez** | Coordinador (a) del grupo de investigación GESTOR | `Sin correo específico` |
+| **Beatriz Londoño Giraldo** | Coordinador (a) del grupo de investigación IMARK | `Sin correo específico` |
+| **Claudia Inés Sepúlveda Rivillas** | Coordinador (a) del grupo de investigación GIFI | `Sin correo específico` |
+| **Héctor L. Bermúdez** | Coordinador (a) del grupo de investigación COMPHOR | `Sin correo específico` |
+
+
+### Comité de investigaciones del Departamento de Ciencias Contables
+- **Vigencia:** No especificado
+- **Archivo individual:** [`comite-investigaciones-departamento-ciencias-contables.md`](comites/comite-investigaciones-departamento-ciencias-contables.md)
+- **URL oficial:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-investigaciones-departamento-ciencias-contables](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-investigaciones-departamento-ciencias-contables)
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Carlos Eduardo Castaño Ríos** | Jefe Departamento de Ciencias Contables | `Sin correo específico` |
+| **Hernán Carlos Bustamante García** | Director del grupo de investigaciones GICCO | `Sin correo específico` |
+| **Martha Cecilia Álvarez Osorio** | Coordinador del proyecto de aula trabajo de grado 2 | `Sin correo específico` |
+| **Daniel Ceballos García** | Profesor- investigador del departamento de ciencias contables | `Sin correo específico` |
+
+
+### Comité de Posgrados
+- **Vigencia:** No especificado
+- **Archivo individual:** [`comite-posgrados.md`](comites/comite-posgrados.md)
+- **URL oficial:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-posgrados](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-posgrados)
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Jair Albeiro Osorio Agudelo** | Decano | `Sin correo específico` |
+| **Cristina López González** | Coordinadora Unidad de Posgrados | `Sin correo específico` |
+| **Juan Fernando Vélez Ocampo** | Coordinador de posgrado departamento de Administración | `Sin correo específico` |
+| **Julián Esteban Zamarra Londoño** | Coordinador de posgrado Departamento de Contaduría | `Sin correo específico` |
+| **Sergio Restrepo Ochoa** | Coordinador de posgrado Departamento de Estadística y matemáticas | `Sin correo específico` |
+| **Yady Marcela Barrero Amortegui** | Coordinador de posgrado Departamento de Economía | `Sin correo específico` |
+| **Martha Cecilia Álvarez Osorio** | Directora del CIC | `Sin correo específico` |
+| **Paula Andrea Uribe Polo** | Representante de los estudiantes de posgrado | `Sin correo específico` |
+
+
+### Comité de Prácticas
+- **Vigencia:** No especificado
+- **Archivo individual:** [`comite-practicas.md`](comites/comite-practicas.md)
+- **URL oficial:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-practicas](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-practicas)
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Laura Sánchez** | Coordinador (a) de prácticas de Economía | `Sin correo específico` |
+| **Lina Muñoz** | Coordinador (a) de prácticas de Contaduría Pública | `Sin correo específico` |
+| **Natalia Arango** | Coordinador (a) de prácticas de Administración de Empresas | `Sin correo específico` |
+| **Martha Ruiz** | Coordinador (a) de prácticas de Desarrollo Territorial | `Sin correo específico` |
+
+
+### Comité de revistas del Departamento de Ciencias Contables
+- **Vigencia:** No especificado
+- **Archivo individual:** [`comite-revistas-departamento-ciencias-contables.md`](comites/comite-revistas-departamento-ciencias-contables.md)
+- **URL oficial:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-revistas-departamento-ciencias-contables](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-revistas-departamento-ciencias-contables)
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Daniel Ceballos García** | Director de la revista Contaduría Universidad de Antioquia | `Sin correo específico` |
+| **Daniela Quintero** | Profesor de apoyo al proceso editorial de las revistas del DCC | `Sin correo específico` |
+| **Mateo Toro** | Profesor de apoyo al proceso editorial de las revistas del DCC | `Sin correo específico` |
+| **Daniela Gómez Valencia** | Estudiante de contaduría pública | `Sin correo específico` |
+
+
+### Comité Técnico
+- **Vigencia:** No especificado
+- **Archivo individual:** [`comite-tecnico.md`](comites/comite-tecnico.md)
+- **URL oficial:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-tecnico](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-tecnico)
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Jair Albeiro Osorio Agudelo** | Decano - Presidente | `Sin correo específico` |
+| **Martha Cecilia Álvarez Osorio** | Jefe del Centro de Investigación y Consultorías - Secretario | `Sin correo específico` |
+| **Wilman Arturo Gómez Muñoz** | Coordinador de los Grupos de Investigación | `Sin correo específico` |
+| **Juan Fernando Vélez Ocampo** | Coordinador de los Programas de Doctorado | `Sin correo específico` |
+| **Carlos Alexander Grajales Correa** | Coordinador de los Programas de Maestría | `Sin correo específico` |
+| **Jaime Alberto Guevara Sanabria** | Representante de los investigadores con proyectos en ejecución | `Sin correo específico` |
+| **Daniel Cardona Valencia** | Representante de Extensión | `Sin correo específico` |
+
+
+### Comités de programas de posgrados de los departamentos académicos
+- **Vigencia:** No especificado
+- **Archivo individual:** [`comites-programas-posgrados-departamentos.md`](comites/comites-programas-posgrados-departamentos.md)
+- **URL oficial:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comites-programas-posgrados-departamentos](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comites-programas-posgrados-departamentos)
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Juan Fernando Tavera** | Integrante departamento de Administración | `Sin correo específico` |
+| **Juan Fernando Vélez** | Integrante departamento de Administración | `Sin correo específico` |
+| **Jorge Quiroz** | Integrante departamento de Administración | `Sin correo específico` |
+| **Cristina López** | Integrante departamento de Administración | `Sin correo específico` |
+| **Carlos Mario Henao** | Integrante departamento de Administración | `Sin correo específico` |
+| **Jarol Morales Grisales** | Integrante departamento de Administración | `Sin correo específico` |
+| **César Augusto Giraldo** | Integrante departamento de Administración | `Sin correo específico` |
+| **Ramón Javier Mesa** | Integrante departamento de Economía | `Sin correo específico` |
+| **Yady Barrero** | Integrante departamento de Economía | `Sin correo específico` |
+| **Juan Darío García Londoño** | Integrante departamento de Economía | `Sin correo específico` |
+| **Julián Zamarra** | Integrante departamento de Contaduría | `Sin correo específico` |
+| **Daniela Quintero** | Integrante departamento de Contaduría | `Sin correo específico` |
+| **Sergio Restrepo** | Integrante departamento de Estadística y Matemáticas | `Sin correo específico` |
+| **Yina Grajales** | Integrante departamento de Estadística y Matemáticas | `Sin correo específico` |
+| **Mauricio Lopera** | Integrante departamento de Estadística y Matemáticas | `Sin correo específico` |
+
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Secretaría General de la Facultad de Ciencias Económicas
+- Bloque 13-114 (Campus Medellín, Ciudad Universitaria)
+- Teléfono: (+57-604) 219 5800 / 219 5801
+- Correo: decaeconomicas@udea.edu.co
+
+### Enlaces clave
+- [Portal Central de Consejos y Comités](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites)
+
+------------------------------------------------------------
+## [DOCUMENTO]: directorio_administrativo.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/directorio_administrativo.md`*
+------------------------------------------------------------
+
+# Directorio Administrativo y de Investigaciones FCE
+
+## Resumen Ejecutivo
+Directorio telefónico y de sedes físicas oficial de la Facultad de Ciencias Económicas y el Centro de Investigaciones y Consultorías (CIC) de la Universidad de Antioquia.
+
+## Contenido Principal
+### Decanatura
+
+
+Decano
+
+Jair Albeiro Osorio Agudelo
+
+Bloque 13-114 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 5800
+
+Correo electrónico:
+
+decaeconomicas@udea.edu.co , albeiro.osorio@udea.co
+
+Secretaria Decanatura
+
+Edith Yamile Zapata Zapata
+
+Bloque 13-114 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 5801
+
+Correo electrónico:
+
+edith.zapata@udea.edu.co
+
+Jefe Administrativo
+
+Juan Sebastián Ocampo Puerta
+
+Bloque 13-114 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 5817
+
+Correo electrónico:
+
+jserviciosadtvos.fce@udea.edu.co
+
+Profesional Financiero
+
+Newt Esteban Velásquez Díaz
+
+Bloque 13-114 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57604) 2198836
+
+Correo electrónico:
+
+financiero.fce@udea.edu.co
+
+Auxiliar Administrativa
+
+Diana Mosquera Londoño
+
+Bloque 13-204 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 5820
+
+Correo electrónico:
+
+diana.mosquera@udea.edu.co
+
+Apoyo Servicios Administrativos - Proyectos
+
+Johana Londoño Rendón
+
+Bloque 13-118 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 8834
+
+Correo electrónico:
+
+johana.londono1@udea.edu.co
+
+Auxiliar Contable
+
+Liset Montoya Rojas
+
+Bloque 13-114 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 5835
+
+Correo electrónico:
+
+liset.montoya@udea.edu.co
+
+Auxiliar Administrativo
+
+Luis Fernando García Grajales
+
+Bloque 13-416 (Campus Medellín, Ciudad Universitaria)
+
+Correo electrónico:
+
+luis.garcia17@udea.edu.co
+
+
+### Vicedecanatura
+
+
+Vicedecana
+
+Luz Ángela Valencia Cadavid
+
+Bloque 13-114 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 5802
+
+Correo electrónico:
+
+vicedecaeconomicas@udea.edu.co
+
+Asistente Vicedecanatura
+
+Enrique Vargas Ríos
+
+Bloque 13-114 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 5803
+
+Correo electrónico:
+
+enrique.vargasr@udea.edu.co
+
+Secretaria Vicedecanatura
+
+Carmen Andrea Patiño Jaramillo
+
+Bloque 13-408 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 5802
+
+Correo electrónico:
+
+carmen.patino@udea.edu.co
+
+Profesional en Autoevaluación
+
+Alejandra Castaño Arias
+
+Bloque 13 Centro de Documentación primer piso
+
+Teléfono: (+57-604) 219 8838
+
+Correo electrónico:
+
+alejandra.castanoa@udea.edu.co
+
+
+### Internacionalización
+
+
+Coordinador Internacionalización
+
+Germán Dario Mira Álvarez
+
+Bloque 13-117(Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 5810
+
+Correo electrónico:
+
+german.mira@udea.edu.co
+
+Auxiliar Administrativa Internacionalización
+
+Mariana Zuluaga Aguirre
+
+Bloque 13-114 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 5810
+
+Correo electrónico:
+
+internacional.fce@udea.edu.co
+
+
+### Departamento Ciencias Administrativas
+
+
+Jefe Departamento de Ciencias Administrativas
+
+Juan Fernando Tavera Mesías
+
+Bloque 13-114 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 8820
+
+Correo electrónico:
+
+juan.tavera@udea.edu.co
+
+Asistente Departamento de Ciencias Administrativas
+
+Alba Bustamante Toro
+
+Bloque 13-114 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 8820
+
+Correo electrónico:
+
+pregradoadm.fce@udea.edu.co
+
+Coordinadora de Prácticas Administración de Empresas
+
+Natalia Arango Escudero
+
+Bloque 13-411(Campus Medellín, Ciudad Universitaria)
+
+Correo electrónico:
+
+practicasadmon.fce@udea.edu.co
+
+
+### Departamento Ciencias Contables
+
+
+Jefe Departamento de Ciencias Contables
+
+Carlos Mario Ospina Zapata
+
+Bloque 13-114 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 8828
+
+Correo electrónico:
+
+pregrado.contaduria@udea.edu.co
+
+Asistente Departamento de Ciencias Contables
+
+Ana María Álvarez Osorio
+
+Bloque 13-114 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 8802
+
+Correo electrónico:
+
+ana.alvarezo@udea.edu.co
+
+
+### Departamento de Estadística y Matemáticas
+
+
+Jefe Departamento de Estadística y Matemáticas
+
+Sergio Iván Restrepo Ochoa
+
+Bloque 13-114 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 5822
+
+Correo electrónico:
+
+sergio.restrepo@udea.edu.co
+
+estadisticaeconomicas@udea.edu.co
+
+
+### Departamento Economía
+
+
+Jefe Departamento de Economía
+
+Ramón Javier Mesa Callejas
+
+Bloque 13-114 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 5821
+
+Correo electrónico:
+
+ramon.mesa@udea.edu.co
+
+Asistente Departamento de Economía
+
+Isabel Cristina Álvarez Maya
+
+Bloque 13-114 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 5821
+
+Correo electrónico:
+
+economia.fce@udea.edu.co
+
+
+### Regionalización
+
+
+Líder de Regionalización
+
+Diana Sirley Tabares Higuita
+
+Bloque 13-111 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 5834
+
+Correo electrónico:
+
+regiones.fce@udea.edu.co
+
+Auxiliar administrativa - Regiones
+
+Yuli Andrea Pineda
+
+Bloque 6-331 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 5834
+
+Correo electrónico:
+
+regiones.fce@udea.edu.co
+
+Coordinador Académico pregrado Desarrollo Territorial
+
+extensión 2924
+
+Bloque 1-101 (Campus Oriente, El Carmen de Viboral)
+
+Teléfono: (57-604) 2198332
+
+Correo electrónico:
+
+Juan David Osorio Múnera
+
+Docente de apoyo programas regionalizados FCE - Administración de Empresas, Contaduría Pública
+
+Edilma Benjumea Hincapié
+
+Bloque 6-331 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 5834
+
+Correo electrónico:
+
+admonregiones.fce@udea.edu.co
+
+Docente de apoyo programas regionalizados FCE - Administración de Empresas, Contaduría Pública
+
+Juan Esteban Díaz Rodriguez
+
+Bloque 6-331 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 5836
+
+Correo electrónico:
+
+contaduria.regiones@udea.edu.co
+
+Docente de apoyo programas Regionalizados FCE - Gestión en Ecología y Turismo
+
+Adriana Milena Bermúdez Cardona
+
+Bloque 22-204 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 2195195
+
+Correo electrónico:
+
+turismo.fce@udea.edu.co
+
+Docente de apoyo programas Regionalizados FCE - Gestión en Ecología y Turismo
+
+Luis Jader Montero Castro
+
+Bloque 22-204 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 2195195
+
+Correo electrónico:
+
+turismo2.fce@udea.edu.co
+
+
+### Unidad de Posgrados y Educación Permanente
+
+
+Coordinadora Unidad de Posgrados
+
+Cristina López González
+
+Bloque 13-310 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 8808 - 219 8815
+
+Correo electrónico:
+
+jefeposgrados.fce@udea.edu.co
+
+Profesional mercadeo Unidad de Posgrados y Educación Permanente
+
+Juan Felipe Marín
+
+Bloque 13-310 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 5808
+
+Correo electrónico:
+
+mercadeo.economicas@udea.edu.co
+
+Técnico Unidad de Posgrados
+
+Gustavo Adolfo Acevedo Ortiz
+
+Bloque 13-310 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 5833
+
+Correo electrónico:
+
+gustavo.acevedo@udea.edu.co
+
+Asistente Unidad de Posgrados
+
+Leslie Mildret Zapata Gómez
+
+Bloque 13-310 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 5833
+
+Correo electrónico:
+
+leslie.zapata@udea.edu.co
+
+Auxiliar administrativa
+
+Ana María Jaramillo Estrada
+
+Bloque 13-310 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 8815
+
+Correo electrónico:
+
+mercadeo.economicas@udea.edu.co
+
+Secretaria Asistencial Unidad de Posgrados y Educación Permanente
+
+Luz Amilbia Ruiz Palomino
+
+Bloque 13-310 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 5832
+
+Correo electrónico:
+
+lamilbia.ruiz@udea.edu.co
+
+
+### Bienestar Universitario
+
+
+Coordinadora Bienestar Universitario
+
+Yesica Alzate Gallego
+
+Bloque 13-328(Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 8827
+
+Correo electrónico:
+
+bienestar.fce@udea.edu.co
+
+Profesional Bienestar Universitario
+
+Maribel Quintero Vélez
+
+Bloque 13-328(Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 8827
+
+Correo electrónico:
+
+comitegenero.fce@udea.edu.co
+
+
+### Centro de documentación
+
+
+Coordinadora Centro de documentación
+
+Laura María Posada Arboleda
+
+Bloque 13-118 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 5819
+
+Correo electrónico:
+
+laura.posada@udea.edu.co
+
+Bibliotecóloga Centro de documentación
+
+Suly Amparo Monsalve Zapata
+
+Bloque 13-118 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 8817
+
+Correo electrónico:
+
+suly.monsalve@udea.edu.co
+
+
+### Centro de Investigaciones y Consultorías
+
+
+Directora Centro de Investigaciones y Consultorías - CIC
+
+Martha Cecilia Álvarez Osorio
+
+Bloque 13-108 (Campus Medellín, Ciudad Universitaria)
+
+Correo electrónico:
+
+ciceconomicas@udea.edu.co
+
+Auxiliar administrativa
+
+Carolina Ceballos Trejos
+
+Bloque 13-108 (Campus Medellín, Ciudad Universitaria)
+
+Correo electrónico:
+
+johana.ceballos@udea.edu.co
+
+Coordinadora administrativa - Centro de Investigaciones y Consultorías - CIC
+
+Diana Maribel Sánchez Patiño
+
+Bloque 13-108 (Campus Medellín, Ciudad Universitaria)
+
+Correo electrónico:
+
+maribel.sanchez@udea.edu.co
+
+Auxiliar administrativa
+
+Jeniffer Andrea Lopera García
+
+Bloque 13-108 (Campus Medellín, Ciudad Universitaria)
+
+Correo electrónico:
+
+jeniffer.lopera@udea.edu.co
+
+Asistente Administrativo CIC
+
+Johnny Andrés Ortíz Armero
+
+Bloque 13-108 (Campus Medellín, Ciudad Universitaria)
+
+Correo electrónico:
+
+johnny.ortiz@udea.edu.co
+
+Gestora de Innovación
+
+Paula Liliana Naranjo Castaño
+
+Bloque 19-206 (Campus Medellín, Ciudad Universitaria)
+
+Correo electrónico:
+
+innovacion.fce@udea.edu.co
+
+Lider Educación a lo largo de la vida
+
+Daniel Cardona Valencia
+
+Bloque 13-111 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 2198807
+
+Correo electrónico:
+
+daniel.cardonav@udea.edu.co
+
+
+### Unidad de Comunicaciones
+
+
+Lider Unidad de Comunicaciones
+
+Laura Echandía Betancur
+
+Bloque 13-416 (Campus Medellín, Ciudad Universitaria)
+
+Correo electrónico:
+
+comunicaciones.fce@udea.edu.co
+
+Asistente Unidad de Comunicaciones
+
+Sara Cano Flórez
+
+Bloque 13-416 (Campus Medellín, Ciudad Universitaria)
+
+Correo electrónico:
+
+comunicaciones.fce@udea.edu.co
+
+
+### Unidad de Medios audiovisuales
+
+
+Coordinador Medios Audiovisuales y Soporte
+
+Juan Fernando Rios DLeón
+
+Bloque 13-114 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 8809
+
+Correo electrónico:
+
+juan.rios@udea.edu.co
+
+Auxiliar de Medios
+
+Christian Alexánder Alvarez García
+
+Bloque 13-114 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 5800
+
+Correo electrónico:
+
+medioseconomicas@udea.edu.co
+
+Coordinadora Centro de cómputo
+
+Myriam Lucia Echavarria Chalarca
+
+Bloque 13-224 (Campus Medellín, Ciudad Universitaria)
+
+Teléfono: (+57-604) 219 5804
+
+Correo electrónico:
+
+lucia.echavarria@udea.edu.co
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Bloque 13-114 (Campus Medellín, Ciudad Universitaria)
+- Teléfono: (+57-604) 219 5800
+- decaeconomicas@udea.edu.co , albeiro.osorio@udea.co
+- Teléfono: (+57-604) 219 5801
+- edith.zapata@udea.edu.co
+- Teléfono: (+57-604) 219 5817
+- jserviciosadtvos.fce@udea.edu.co
+- Teléfono: (+57604) 2198836
+
+### Enlaces clave
+- [Página oficial de origen](https://tsone.udea.edu.co/php_directorio_telefonico/?app=consulta&codigo=FCE)
+
+------------------------------------------------------------
+## [DOCUMENTO]: asesorias_consultorias.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/asesorias_consultorias.md`*
+------------------------------------------------------------
+
+# Asesorías y consultorías CIC
+
+## Resumen Ejecutivo
+Nuestra oferta de servicios especializados, asesorías y consultorías está diseñada con el propósito de conectar nuestra producción de conocimiento con los intereses de las organizaciones y comunidades, buscando resolver con acierto y colaborativamente sus necesidades, favoreciendo la transferencia y apropiación social de conocimiento y aportando al desarrollo de los territorios y el mejoramiento d.
+
+## Contenido Principal
+### Contacto
+
+Edificio de Extensión Universitaria Calle 70 No. 52-72 Piso 4, Oficina 408. Correo: ciceconomicas@udea.edu.co Teléfonos: (57+604) 219 5840 - 219 58 42 Medellín, Colombia
+## Puntos de Contacto y Referencias
+### Contacto
+- ciceconomicas@udea.edu.co
+- 219 5840
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/servicios-extension/asesorias-consultorias)
+
+------------------------------------------------------------
+## [DOCUMENTO]: centro_documentacion.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/centro_documentacion.md`*
+------------------------------------------------------------
+
+# Centro de Documentación
+
+## Resumen Ejecutivo
+Un espacio de la consulta y promoción de información especializada que sirve de soporte bibliográfico, de información y de documentación a los diferentes grupos de investigación y a la comunidad universitaria interesada en temas económicos. ![](https://www.udea.edu.co/wps/wcm/connect/udea/2c645f60-b810-475c-8584-0314b9903f3d/1/centrodocumentacionfce.jpg?MOD=AJPERES)
+
+## Contenido Principal
+El Centro de Documentación, adscrito a la Facultad de Ciencias Económicas, es una unidad de información especializada que contribuye y sirve de soporte bibliográfico, de información y de documentación a los diferentes proyectos de investigación y consultoría que realiza el Centro de Investigaciones y Consultorías -CIC, contribuyendo de esta forma a la generación de conocimiento científico en las áreas de administración, contaduría y economía, así como apoyando los procesos de formación de los estudiantes de estas mismas áreas de la Facultad a nivel de pregrado y posgrado.
+
+### Servicios
+
+- Requisitos para la Entrega de Trabajo de Grado en el Centro de Documentación Facultad de Ciencias Económicas
+
+- Préstamo. Este servicio les permite a los usuarios retirar el material del Centro por un período de tiempo, y también acceder a aquellos materiales que no se encuentran en la Universidad sino en instituciones aliadas. Consulte reglamento AQUÍ.
+
+- Préstamo de portátiles. Por un periodo de 1 hasta 3 horas se le presta al usuario un portátil para el desarrollo de actividades académicas. Consulte el reglamento de uso AQUÍ.
+
+- Referencia. Orientación que se le brinda al usuario, en la búsqueda y localización de los documentos, con el fin de satisfacer sus necesidades de información, ya sean académicas o investigativas.
+
+- Alerta bibliográfica. Permite informar a los usuarios sobre las nuevas publicaciones que llegan al Centro de documentación. Este servicio se ofrece a través de un boletín electrónico que se envía a los profesores y mediante la publicación en la página web.
+
+- Bibliografías especializadas. Búsqueda de información bibliográfica por temas específicos de acuerdo al interés del usuario.
+
+![](https://www.udea.edu.co/wps/wcm/connect/udea/f5779008-4113-41b9-ad70-ebab4bf429b2/1/botoncatalogofce.png?MOD=AJPERES)
+
+## Bases de datos
+
+El Sistema de Bibliotecas de la Universidad cuenta con acceso a múltiples recursos de información digital y electrónica. Estas colecciones se encuentran de forma electrónica, por lo que se puede acceder a su contenido en cualquier momento, con tu usuario y contraseña del portal universitario.
+
+Lo puedes hacer desde cualquier computador y lugar del mundo. A continuación, encontrarás una guía con el paso a paso para acceder de forma ágil y sencilla:
+
+![](https://www.udea.edu.co/wps/wcm/connect/udea/f5779008-4113-41b9-ad70-ebab4bf429b2/2/botonbasesdadatosfce.png?MOD=AJPERES)
+
+## Recursos académicos de acceso abierto descarga PDF en cada botón
+
+|  |  |  |
+| --- | --- | --- |
+
+## Boletín de adquisiciones
+
+El Centro de Documentación en aras de mantener informados a sus usuarios sobre la disponibilidad de nuevos materiales que pueden enriquecer los trabajos e investigación de la comunidad en temas de las Ciencias Económicas, comparte su Boletín de Adquisiciones a un clic:
+
+- Boletín de novedades bibliográfica 2026
+
+- Boletín trabajos de grado 2026-1
+
+- Boletín trabajos de grado 2025-2
+
+- Boletín Bibliográfico 2025
+
+- Boletín II trabajos de Grado 2025-1
+
+- Boletín II trabajos de Grado 2024-2
+
+- Boletín trabajos de Grado 2024-2
+
+- Boletín No 2023-2 Octubre
+
+- Boletín trabajos de Grado 2023-2
+
+- Boletín No 2023-2
+
+- Boletín de Trabajos de Grado 2022
+
+- Boletín No 2023-1
+
+- Boletín No 2022-2
+
+- Boletín No 2022-1
+
+- Boletín No 2019-1
+
+- Boletín No 2019-2
+
+- Boletín No 2018-1
+
+- Boletín No 2017-2
+
+- Boletín No 2017-1
+
+- Boletín No 2016-2
+
+- Boletín No 2016-1
+
+- Boletín No 2024-1
+
+### Requisitos para la entrega de trabajo de grado en el centro de documentación aquí
+
+De interés Historia El Centro de Documentación, creado en 1970, se constituyó como un organismo adscrito al Centro de Investigaciones Económicas -CIE-, para dar respuesta a las necesidades de información bibliográfica de los investigadores. Con el pasar de los años, el Centro se convierte en una unidad de información especializada en economía colombiana. Para 1987, en el área cuenta con publicaciones importantes como las generadas por el Banco Mundial, y en 2001, empieza a recibir las publicaciones del Fondo Monetario Internacional, lo que le permite ampliar su temática ya no solo ofrece información sobre la economía nacional sino a nivel internacional. En 2007, a través de una reforma académico-administrativa se consolida el Centro de Investigaciones y Consultorías CIC, de manera que el Centro de Documentación se orienta a satisfacer específicamente las necesidades de información en las áreas de Administración, Contaduría y Economía. Seis años después, en 2013, pasa a depender administrativamente de la Facultad de Ciencias Económicas, pero con los mismos objetivos que son el apoyar los procesos de investigación del Centro de Investigaciones y Consultorías y de formación de los estudiantes de estas mismas áreas de la Facultad a nivel de pregrado y posgrado mediante el suministro de información bibliográfica. Misión Promover y facilitar el acceso a la información mediante la búsqueda, adquisición, organización y difusión de la documentación e información especializada en las áreas de economía, contaduría y administración, apoyando fundamentalmente los procesos de investigación, actuando según su filosofía y estatutos, en el marco de los principios generales de la Universidad de Antioquia. Horarios de atención Lunes-Jueves: 7am. - 12:00m. - 1p.m.- 4:30 p.m. Viernes: 7a.m. - 12:00 m. - 1p.m. - 4p.m. Correo electrónico: laura.posada@udea.edu.co Bloque 13, oficina 118.
+## Puntos de Contacto y Referencias
+### Contacto
+- laura.posada@udea.edu.co
+- Bloque 13
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/centro-documentacion)
+- [PDF: Consulte reglamento AQUÍ.](https://www.udea.edu.co/wps/wcm/connect/udea/48a4a043-0bfe-4c6b-a954-c054e4af7152/Reglamento_prestamogeneral.pdf?MOD=AJPERES&CVID=lQuetHa)
+- [PDF: Consulte el reglamento de uso AQUÍ.](https://www.udea.edu.co/wps/wcm/connect/udea/97ae8ee5-1ce7-489a-9123-b7b1fb650bc2/Reglamento_portatil.pdf?MOD=AJPERES&CVID=lQuecun)
+- [PDF: Documento](https://www.udea.edu.co/wps/wcm/connect/udea/c11d7a30-8242-42a4-942a-777109fdb82e/ruta+para+consultar+bases+de+datos+del+sistema+de+bibliotecas.pdf?MOD=AJPERES&CVID=ndjJuX.)
+- [PDF: Documento](https://www.udea.edu.co/wps/wcm/connect/udea/bb1e7145-e1e2-4beb-a1aa-29be099213b0/RECURSOS+ACAD%C3%89MICOS_CONT.pdf?MOD=AJPERES&CVID=p45iMX.&attachment=true&id=1722372200655)
+- [PDF: Documento](https://www.udea.edu.co/wps/wcm/connect/udea/91de7676-17e0-428f-aee8-adc9411bd249/RECURSOS+ACAD%C3%89MICOS_ADMON+DEF.pdf?MOD=AJPERES&CVID=p45iC6c&attachment=true&id=1722371168216)
+- [PDF: Documento](https://www.udea.edu.co/wps/wcm/connect/udea/0e37cd0c-1cc7-49a8-be9c-4df0650bcd02/RECURSOS+ACAD%C3%89MICOS_ECO.pdf?MOD=AJPERES&CVID=p45iZ7b&attachment=true&id=1722372250941)
+
+------------------------------------------------------------
+## [DOCUMENTO]: comite-administrativo.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-administrativo.md`*
+------------------------------------------------------------
+
+# Comité Administrativo
+
+## Resumen Ejecutivo
+Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. 
+
+**Período Vigente:** No especificado
+
+## Contenido Principal
+### Conformación y Miembros del Comité
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Jair Albeiro Osorio Agudelo** | Decano | `Sin correo específico` |
+| **Luz Ángela Valencia Cadavid** | Vicedecana | `Sin correo específico` |
+| **Martha Cecilia Álvarez Osorio** | Jefe del Centro de Investigación y Consultorías | `Sin correo específico` |
+| **Juan Fernando Tavera Mesías** | Jefe del Departamento de Ciencias Administrativas | `Sin correo específico` |
+| **Carlos Mario Ospina Zapata** | Jefe del Departamento de Ciencias Contables | `Sin correo específico` |
+| **Ramón Javier Mesa Callejas** | Jefe del Departamento de Economía | `Sin correo específico` |
+| **Sergio Iván Restrepo Ochoa** | Jefe del Departamento de Estadística y Matemáticas | `Sin correo específico` |
+| **Cristina López González** | Coordinadora Unidad de Posgrados | `Sin correo específico` |
+| **Juan Sebastián Ocampo Puerta** | Jefe del Departamento de Servicios Administrativos | `Sin correo específico` |
+| **Daniel Cardona Valencia** | Coordinador de Formación a lo largo de la vida | `Sin correo específico` |
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Decanatura / Secretaría de Comités: Bloque 13-114
+- Conmutador: (+57-604) 219 5800 / 219 5801
+- Correo Decanatura: decaeconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-administrativo)
+
+------------------------------------------------------------
+## [DOCUMENTO]: comite-aseguramiento-calidad.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-aseguramiento-calidad.md`*
+------------------------------------------------------------
+
+# Comité de Aseguramiento de la Calidad
+
+## Resumen Ejecutivo
+Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. El Acuerdo de Facultad 365 del 30 de octubre de 2023 define el comité.
+
+**Período Vigente:** No especificado
+
+## Contenido Principal
+### Conformación y Miembros del Comité
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Luz Ángela Valencia Cadavid** | Vicedecano (a) | `Sin correo específico` |
+| **Juan Fernando Tavera Mesías** | Jefe y/o delegado del Departamento de Ciencias Administrativas | `Sin correo específico` |
+| **Carlos Eduardo Castaño Ríos** | Jefe y/o delegado del Departamento de Ciencias Contables | `Sin correo específico` |
+| **Ramón Javier Mesa Callejas** | Jefe y/o delegado del Departamento de Economía | `Sin correo específico` |
+| **Sergio Iván Restrepo Ochoa** | Jefe y/o delegado del Departamento de Estadística y Matemáticas | `Sin correo específico` |
+| **Diana Sirley Tabares Higuita** | Coordinador de Regionalización | `Sin correo específico` |
+| **Yesica Alzate Gallego** | Coordinador de Bienestar | `Sin correo específico` |
+| **Alejandra Castaño Arias** | Coordinador del equipo de Autoevaluación para la Facultad | `Sin correo específico` |
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Decanatura / Secretaría de Comités: Bloque 13-114
+- Conmutador: (+57-604) 219 5800 / 219 5801
+- Correo Decanatura: decaeconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-aseguramiento-calidad)
+
+------------------------------------------------------------
+## [DOCUMENTO]: comite-asuntos-estudiantiles.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-asuntos-estudiantiles.md`*
+------------------------------------------------------------
+
+# Comité de Asuntos Estudiantiles
+
+## Resumen Ejecutivo
+Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. 
+
+**Período Vigente:** No especificado
+
+## Contenido Principal
+### Conformación y Miembros del Comité
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Sergio Iván Restrepo Ochoa** | Jefe y/o delegado de los departamentos de pregrado Estadística y Matemáticas | `Sin correo específico` |
+| **Juan Fernando Tavera Mesías** | Jefe y/o delegado de los departamentos de pregrado Ciencias Administrativas | `Sin correo específico` |
+| **Carlos Eduardo Castaño Ríos** | Jefe y/o delegado de los departamentos de pregrado Ciencias Contables | `Sin correo específico` |
+| **Ramón Javier Mesa Callejas** | Jefe y/o delegado de los departamentos de pregrado Economía | `Sin correo específico` |
+| **Diana Sirley Tabares Higuita** | Coordinador (a) de Regionalización o delegado | `Sin correo específico` |
+| **Jenny Marcela Suárez Escobar** | Asesoría profesional a la gestión académica y administrativa (Asistente del departamento de Economía) | `Sin correo específico` |
+| **Enrique Vargas Ríos** | Profesional Universitario 2 - Temporal de la Vicedecanatura | `Sin correo específico` |
+| **Yesica Alzate Gallego** | Coordinador (a) de Bienestar | `Sin correo específico` |
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Decanatura / Secretaría de Comités: Bloque 13-114
+- Conmutador: (+57-604) 219 5800 / 219 5801
+- Correo Decanatura: decaeconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-asuntos-estudiantiles)
+
+------------------------------------------------------------
+## [DOCUMENTO]: comite-carrera-departamento-ciencias-administrativas.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-carrera-departamento-ciencias-administrativas.md`*
+------------------------------------------------------------
+
+# Comité de Carrera Departamento de Ciencias Administrativas
+
+## Resumen Ejecutivo
+Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. El Acuerdo de Facultad No. 213 del 19de agosto del 2015 define el comité.
+
+**Período Vigente:** No especificado
+
+## Contenido Principal
+### Conformación y Miembros del Comité
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Juan Fernando Tavera Mesías** | Jefe del Departamento de Ciencias Administrativas | `Sin correo específico` |
+| **Ana María Parente Laverde** | Coordinador (a) del Núcleo Curricular de Administración y Organizaciones | `Sin correo específico` |
+| **Diana Marcela Betancur Giraldo** | Coordinador (a) del Núcleo Curricular de  Mercadeo | `Sin correo específico` |
+| **Liliana María Gutiérrez Vargas** | Coordinador (a) del Núcleo Curricular de Gestión Humana | `Sin correo específico` |
+| **Ana Milena Medina Orozco** | Coordinador (a) del Núcleo Curricular  de Finanzas | `Sin correo específico` |
+| **Julián Monsalve Herrera** | Representante de los estudiantes | `Sin correo específico` |
+| **Fredy Cuartas** | Representante de los egresados | `Sin correo específico` |
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Decanatura / Secretaría de Comités: Bloque 13-114
+- Conmutador: (+57-604) 219 5800 / 219 5801
+- Correo Decanatura: decaeconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-carrera-departamento-ciencias-administrativas)
+
+------------------------------------------------------------
+## [DOCUMENTO]: comite-carrera-departamento-economia.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-carrera-departamento-economia.md`*
+------------------------------------------------------------
+
+# Comité de Carrera Departamento de Economía
+
+## Resumen Ejecutivo
+Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. El Acuerdo de Facultad No 0352 del 13 de marzo de 2023 define el comité.
+
+**Período Vigente:** No especificado
+
+## Contenido Principal
+### Conformación y Miembros del Comité
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Ramón Javier Mesa Callejas** | Jefe Departamento de Economía | `Sin correo específico` |
+| **Alexander de Jesús Tobón Arias** | Coordinador(a) de la comisión de autoevaluación del Programa | `Sin correo específico` |
+| **Juan Darío García Callejas** | Coordinador(a) del curso Monografía de Grado | `Sin correo específico` |
+| **Edel Laura Sánchez Higuita** | Coordinador(a) de las prácticas académicas | `Sin correo específico` |
+| **David Fernando Tobón Orozco** | Representante de los profesores del programa de Economía | `Sin correo específico` |
+| **Santiago Alejandro Gallón Gómez** | Representante de los profesores del área de Matemáticas | `Sin correo específico` |
+| **José Daniel Salinas Rincón** | Representante de los profesores del programa de Economía | `Sin correo específico` |
+| **Julián Monsalve Herrera** | Representante de los estudiantes | `Sin correo específico` |
+| **Fredy Alonso Arango Cuartas** | Representante de los egresados | `Sin correo específico` |
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Decanatura / Secretaría de Comités: Bloque 13-114
+- Conmutador: (+57-604) 219 5800 / 219 5801
+- Correo Decanatura: decaeconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-carrera-departamento-economia)
+
+------------------------------------------------------------
+## [DOCUMENTO]: comite-carrera.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-carrera.md`*
+------------------------------------------------------------
+
+# Comité de Carrera
+
+## Resumen Ejecutivo
+Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. El Acuerdo Académico 0069 del 12 de marzo de 1996 define el comité.
+
+**Período Vigente:** No especificado
+
+## Contenido Principal
+### Conformación y Miembros del Comité
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Sergio Iván Restrepo Ochoa** | Jefe de Departamento Estadística y Matemáticas | `Sin correo específico` |
+| **Juan Fernando Tavera Mesías** | Jefe de Departamento Ciencias Administrativas | `Sin correo específico` |
+| **Carlos Eduardo Castaño Ríos** | Jefe de Departamento Ciencias Contables | `Sin correo específico` |
+| **Ramón Javier Mesa Callejas** | Jefe de Departamento Economía | `Sin correo específico` |
+| **Julián Monsalve Herrera** | Representante de los estudiantes | `Sin correo específico` |
+| **Fredy Alonso Arango Cuartas** | Representante de los egresados | `Sin correo específico` |
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Decanatura / Secretaría de Comités: Bloque 13-114
+- Conmutador: (+57-604) 219 5800 / 219 5801
+- Correo Decanatura: decaeconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-carrera)
+
+------------------------------------------------------------
+## [DOCUMENTO]: comite-clima.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-clima.md`*
+------------------------------------------------------------
+
+# Comité del Clima
+
+## Resumen Ejecutivo
+Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. 
+
+**Período Vigente:** No especificado
+
+## Contenido Principal
+### Conformación y Miembros del Comité
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Jair Osorio Agudelo** | Decano | `Sin correo específico` |
+| **Sergio Iván Restrepo Ochoa** | Jefe del departamento de Estadística y Matemáticas | `Sin correo específico` |
+| **Martha Cecilia Álvarez Osorio** | Jefe del centro de Investigación y Consultorías | `Sin correo específico` |
+| **Juan Fernando Tavera Mesías** | Jefe del Departamento de Servicios Administrativos | `Sin correo específico` |
+| **Carlos Eduardo Castaño Ríos** | Jefe del departamento de Ciencias Contables | `Sin correo específico` |
+| **Diana Milena Jaramillo Pérez** | Coordinador (a) Unidad de Comunicaciones | `Sin correo específico` |
+| **Yesica Alzate Gallego** | Coordinador (a) de Bienestar | `Sin correo específico` |
+| **Newt Esteban Velazquez** | Asistente Proceso Administrativo | `Sin correo específico` |
+| **Edith Yamile Zapata Zapata** | Representante de los empleados del nivel asistencial | `Sin correo específico` |
+| **Johnny Ortiz** | Representante de los empleados del nivel profesional | `Sin correo específico` |
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Decanatura / Secretaría de Comités: Bloque 13-114
+- Conmutador: (+57-604) 219 5800 / 219 5801
+- Correo Decanatura: decaeconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-clima)
+
+------------------------------------------------------------
+## [DOCUMENTO]: comite-curriculo.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-curriculo.md`*
+------------------------------------------------------------
+
+# Comité de Currículo
+
+## Resumen Ejecutivo
+Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. El Acuerdo Académico 0069 del 12 de marzo de 1996 define el comité.
+
+**Período Vigente:** No especificado
+
+## Contenido Principal
+### Conformación y Miembros del Comité
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Luz Ángela Valencia Cadavid** | Vicedecano (a) | `Sin correo específico` |
+| **Julián Monsalve Herrera** | Representante de los estudiantes | `Sin correo específico` |
+| **Fredy Alonso Arango Cuartas** | Representante de los egresados | `Sin correo específico` |
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Decanatura / Secretaría de Comités: Bloque 13-114
+- Conmutador: (+57-604) 219 5800 / 219 5801
+- Correo Decanatura: decaeconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-curriculo)
+
+------------------------------------------------------------
+## [DOCUMENTO]: comite-egresados.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-egresados.md`*
+------------------------------------------------------------
+
+# Comité de Egresados
+
+## Resumen Ejecutivo
+Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. 
+
+**Período Vigente:** No especificado
+
+## Contenido Principal
+### Conformación y Miembros del Comité
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Martha Osorio** | Representante del Departamento de Ciencias Contables | `Sin correo específico` |
+| **Fredy Alonso Arango Cuartas** | Representante de los estudiantes y de los egresados | `Sin correo específico` |
+| **Alejandra Castaño** | Representante del Departamento de Administración | `Sin correo específico` |
+| **Claudia Medina** | Representante del Departamento de Economía | `Sin correo específico` |
+| **Daniel Cardona Valencia** | Coordinador de Extensión y del comité | `Sin correo específico` |
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Decanatura / Secretaría de Comités: Bloque 13-114
+- Conmutador: (+57-604) 219 5800 / 219 5801
+- Correo Decanatura: decaeconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-egresados)
+
+------------------------------------------------------------
+## [DOCUMENTO]: comite-emergencias.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-emergencias.md`*
+------------------------------------------------------------
+
+# Comité de Emergencias
+
+## Resumen Ejecutivo
+Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. La Resolución de Decanatura de la Facultad de Ciencias Económicas 0071 del 01 de marzo de 2023, modificada por la Resolución de Decanatura de la Facultad de Ciencias Económicas - 0256 del 27 de julio de 2023 define el comité.
+
+**Período Vigente:** No especificado
+
+## Contenido Principal
+### Conformación y Miembros del Comité
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Jair Osorio Agudelo** | Decano | `Sin correo específico` |
+| **Francy Tatiana Castaño Quintero** | Jefe de servicios administrativos | `Sin correo específico` |
+| **Yesica Alzate Gallego** | Profesional Universitario 2 (Coordinador de Bienestar) | `Sin correo específico` |
+| **Luis Fernando García Grajales** | Auxiliar administrativo 2 | `Sin correo específico` |
+| **Juan Fernando Ríos** | Técnico Administrativo 3 de la Unidad de Medios Audiovisuales | `Sin correo específico` |
+| **Jenny Marcela Suárez Escobar** | Asesoría profesional a la gestión académica y administrativa (Asistente del departamento de Economía) | `Sin correo específico` |
+| **Enrique Vargas Ríos** | Profesional Universitario 2 - Temporal de la Vicedecanatura | `Sin correo específico` |
+| **Edith Yamile Zapata Zapata** | Secretaria 3 de la Decanatura | `Sin correo específico` |
+| **Laura María Posada** | Profesional Universitario 1 (Bibliotecaria 1) del Centro de Documentación | `Sin correo específico` |
+| **Diana Milena Jaramillo Pérez** | Profesional Universitario 1 – Temporal de la Unidad de Comunicaciones | `Sin correo específico` |
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Decanatura / Secretaría de Comités: Bloque 13-114
+- Conmutador: (+57-604) 219 5800 / 219 5801
+- Correo Decanatura: decaeconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-emergencias)
+
+------------------------------------------------------------
+## [DOCUMENTO]: comite-evaluacion-profesoral.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-evaluacion-profesoral.md`*
+------------------------------------------------------------
+
+# Comité de Evaluación Profesoral
+
+## Resumen Ejecutivo
+Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. La Resolución de Consejo de Facultad No. 2067 (establece los integrantes) La conformación es directriz institucional define el comité.
+
+**Período Vigente:** No especificado
+
+## Contenido Principal
+### Conformación y Miembros del Comité
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Juan Fernando Tavera Mesías** | Jefe del Departamento de Ciencias Administrativas | `Sin correo específico` |
+| **Carlos Eduardo Castaño Ríos** | Jefe del Departamento de Ciencias Contables | `Sin correo específico` |
+| **Ramón Javier Mesa Callejas** | Jefe del Departamento de Economía | `Sin correo específico` |
+| **Sergio Iván Restrepo Ochoa** | Jefe del Departamento de Estadística y Matemáticas | `Sin correo específico` |
+| **Dora Hoyos** | Profesora titular externa a la Facultad | `Sin correo específico` |
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Decanatura / Secretaría de Comités: Bloque 13-114
+- Conmutador: (+57-604) 219 5800 / 219 5801
+- Correo Decanatura: decaeconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-evaluacion-profesoral)
+
+------------------------------------------------------------
+## [DOCUMENTO]: comite-genero.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-genero.md`*
+------------------------------------------------------------
+
+# Comité de Género
+
+## Resumen Ejecutivo
+Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. El Acuerdo de Consejo de Facultad no 0367 febrero 7 de 2024 define el comité.
+
+**Período Vigente:** No especificado
+
+## Contenido Principal
+### Conformación y Miembros del Comité
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Catalina Lopera** | Delegado del Consejo de Facultad | `Sin correo específico` |
+| **Claudia Cristina Medina Palacios** | Delegada o delegado de las y los profesores | `Sin correo específico` |
+| **Luis Fernando Segura** | Delegada o delegado de las y los profesores | `Sin correo específico` |
+| **Geraldine Castañeda** | Delegado o delegada de las y los estudiantes de pregrado y posgrado | `Sin correo específico` |
+| **Karen Natalia Guerrero** | Delegado o delegada de las y los estudiantes de pregrado y posgrado | `Sin correo específico` |
+| **Luz Angélica Abadía** | Delegado o delegada de las y los estudiantes de pregrado y posgrado | `Sin correo específico` |
+| **Michell Nicole Torres** | Delegado o delegada de las y los estudiantes de pregrado y posgrado | `Sin correo específico` |
+| **Yesica Alzate Gallego - Catalina Lopera** | Quien ejerza la Coordinación de Bienestar de la Facultad | `Sin correo específico` |
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Decanatura / Secretaría de Comités: Bloque 13-114
+- Conmutador: (+57-604) 219 5800 / 219 5801
+- Correo Decanatura: decaeconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-genero)
+
+------------------------------------------------------------
+## [DOCUMENTO]: comite-investigaciones-departamento-ciencias-administrativas.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-investigaciones-departamento-ciencias-administrativas.md`*
+------------------------------------------------------------
+
+# Comité de Investigación del Departamento de Ciencias Administrativas
+
+## Resumen Ejecutivo
+Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. 
+
+**Período Vigente:** No especificado
+
+## Contenido Principal
+### Conformación y Miembros del Comité
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Juan Fernando Tavera Mesías** | Jefe Departamento de Ciencias Administrativas | `Sin correo específico` |
+| **José Enrique Arias Pérez** | Coordinador (a) del grupo de investigación GESTOR | `Sin correo específico` |
+| **Beatriz Londoño Giraldo** | Coordinador (a) del grupo de investigación IMARK | `Sin correo específico` |
+| **Claudia Inés Sepúlveda Rivillas** | Coordinador (a) del grupo de investigación GIFI | `Sin correo específico` |
+| **Héctor L. Bermúdez** | Coordinador (a) del grupo de investigación COMPHOR | `Sin correo específico` |
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Decanatura / Secretaría de Comités: Bloque 13-114
+- Conmutador: (+57-604) 219 5800 / 219 5801
+- Correo Decanatura: decaeconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-investigaciones-departamento-ciencias-administrativas)
+
+------------------------------------------------------------
+## [DOCUMENTO]: comite-investigaciones-departamento-ciencias-contables.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-investigaciones-departamento-ciencias-contables.md`*
+------------------------------------------------------------
+
+# Comité de investigaciones del Departamento de Ciencias Contables
+
+## Resumen Ejecutivo
+Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. El Acuerdo de Facultad 303 de febrero 19 de 2020 define el comité.
+
+**Período Vigente:** No especificado
+
+## Contenido Principal
+### Conformación y Miembros del Comité
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Carlos Eduardo Castaño Ríos** | Jefe Departamento de Ciencias Contables | `Sin correo específico` |
+| **Hernán Carlos Bustamante García** | Director del grupo de investigaciones GICCO | `Sin correo específico` |
+| **Martha Cecilia Álvarez Osorio** | Coordinador del proyecto de aula trabajo de grado 2 | `Sin correo específico` |
+| **Daniel Ceballos García** | Profesor- investigador del departamento de ciencias contables | `Sin correo específico` |
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Decanatura / Secretaría de Comités: Bloque 13-114
+- Conmutador: (+57-604) 219 5800 / 219 5801
+- Correo Decanatura: decaeconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-investigaciones-departamento-ciencias-contables)
+
+------------------------------------------------------------
+## [DOCUMENTO]: comite-posgrados.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-posgrados.md`*
+------------------------------------------------------------
+
+# Comité de Posgrados
+
+## Resumen Ejecutivo
+Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. El Acuerdo de Facultad 211 de 2015 define el comité.
+
+**Período Vigente:** No especificado
+
+## Contenido Principal
+### Conformación y Miembros del Comité
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Jair Albeiro Osorio Agudelo** | Decano | `Sin correo específico` |
+| **Cristina López González** | Coordinadora Unidad de Posgrados | `Sin correo específico` |
+| **Juan Fernando Vélez Ocampo** | Coordinador de posgrado departamento de Administración | `Sin correo específico` |
+| **Julián Esteban Zamarra Londoño** | Coordinador de posgrado Departamento de Contaduría | `Sin correo específico` |
+| **Sergio Restrepo Ochoa** | Coordinador de posgrado Departamento de Estadística y matemáticas | `Sin correo específico` |
+| **Yady Marcela Barrero Amortegui** | Coordinador de posgrado Departamento de Economía | `Sin correo específico` |
+| **Martha Cecilia Álvarez Osorio** | Directora del CIC | `Sin correo específico` |
+| **Paula Andrea Uribe Polo** | Representante de los estudiantes de posgrado | `Sin correo específico` |
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Decanatura / Secretaría de Comités: Bloque 13-114
+- Conmutador: (+57-604) 219 5800 / 219 5801
+- Correo Decanatura: decaeconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-posgrados)
+
+------------------------------------------------------------
+## [DOCUMENTO]: comite-practicas.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-practicas.md`*
+------------------------------------------------------------
+
+# Comité de Prácticas
+
+## Resumen Ejecutivo
+Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. El Acuerdo de Facultad 163 del 29 de febrero de 2012 define el comité.
+
+**Período Vigente:** No especificado
+
+## Contenido Principal
+### Conformación y Miembros del Comité
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Laura Sánchez** | Coordinador (a) de prácticas de Economía | `Sin correo específico` |
+| **Lina Muñoz** | Coordinador (a) de prácticas de Contaduría Pública | `Sin correo específico` |
+| **Natalia Arango** | Coordinador (a) de prácticas de Administración de Empresas | `Sin correo específico` |
+| **Martha Ruiz** | Coordinador (a) de prácticas de Desarrollo Territorial | `Sin correo específico` |
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Decanatura / Secretaría de Comités: Bloque 13-114
+- Conmutador: (+57-604) 219 5800 / 219 5801
+- Correo Decanatura: decaeconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-practicas)
+
+------------------------------------------------------------
+## [DOCUMENTO]: comite-revistas-departamento-ciencias-contables.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-revistas-departamento-ciencias-contables.md`*
+------------------------------------------------------------
+
+# Comité de revistas del Departamento de Ciencias Contables
+
+## Resumen Ejecutivo
+Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. 
+
+**Período Vigente:** No especificado
+
+## Contenido Principal
+### Conformación y Miembros del Comité
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Daniel Ceballos García** | Director de la revista Contaduría Universidad de Antioquia | `Sin correo específico` |
+| **Daniela Quintero** | Profesor de apoyo al proceso editorial de las revistas del DCC | `Sin correo específico` |
+| **Mateo Toro** | Profesor de apoyo al proceso editorial de las revistas del DCC | `Sin correo específico` |
+| **Daniela Gómez Valencia** | Estudiante de contaduría pública | `Sin correo específico` |
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Decanatura / Secretaría de Comités: Bloque 13-114
+- Conmutador: (+57-604) 219 5800 / 219 5801
+- Correo Decanatura: decaeconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-revistas-departamento-ciencias-contables)
+
+------------------------------------------------------------
+## [DOCUMENTO]: comite-tecnico.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-tecnico.md`*
+------------------------------------------------------------
+
+# Comité Técnico
+
+## Resumen Ejecutivo
+Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. El Acuerdo Superior 204 del 6 de noviembre de 2001 define el comité.
+
+**Período Vigente:** No especificado
+
+## Contenido Principal
+### Conformación y Miembros del Comité
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Jair Albeiro Osorio Agudelo** | Decano - Presidente | `Sin correo específico` |
+| **Martha Cecilia Álvarez Osorio** | Jefe del Centro de Investigación y Consultorías - Secretario | `Sin correo específico` |
+| **Wilman Arturo Gómez Muñoz** | Coordinador de los Grupos de Investigación | `Sin correo específico` |
+| **Juan Fernando Vélez Ocampo** | Coordinador de los Programas de Doctorado | `Sin correo específico` |
+| **Carlos Alexander Grajales Correa** | Coordinador de los Programas de Maestría | `Sin correo específico` |
+| **Jaime Alberto Guevara Sanabria** | Representante de los investigadores con proyectos en ejecución | `Sin correo específico` |
+| **Daniel Cardona Valencia** | Representante de Extensión | `Sin correo específico` |
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Decanatura / Secretaría de Comités: Bloque 13-114
+- Conmutador: (+57-604) 219 5800 / 219 5801
+- Correo Decanatura: decaeconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-tecnico)
+
+------------------------------------------------------------
+## [DOCUMENTO]: comites-programas-posgrados-departamentos.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comites-programas-posgrados-departamentos.md`*
+------------------------------------------------------------
+
+# Comités de programas de posgrados de los departamentos académicos
+
+## Resumen Ejecutivo
+Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. El Acuerdo de Facultad 211 de 2015 define el comité.
+
+**Período Vigente:** No especificado
+
+## Contenido Principal
+### Conformación y Miembros del Comité
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Juan Fernando Tavera** | Integrante departamento de Administración | `Sin correo específico` |
+| **Juan Fernando Vélez** | Integrante departamento de Administración | `Sin correo específico` |
+| **Jorge Quiroz** | Integrante departamento de Administración | `Sin correo específico` |
+| **Cristina López** | Integrante departamento de Administración | `Sin correo específico` |
+| **Carlos Mario Henao** | Integrante departamento de Administración | `Sin correo específico` |
+| **Jarol Morales Grisales** | Integrante departamento de Administración | `Sin correo específico` |
+| **César Augusto Giraldo** | Integrante departamento de Administración | `Sin correo específico` |
+| **Ramón Javier Mesa** | Integrante departamento de Economía | `Sin correo específico` |
+| **Yady Barrero** | Integrante departamento de Economía | `Sin correo específico` |
+| **Juan Darío García Londoño** | Integrante departamento de Economía | `Sin correo específico` |
+| **Julián Zamarra** | Integrante departamento de Contaduría | `Sin correo específico` |
+| **Daniela Quintero** | Integrante departamento de Contaduría | `Sin correo específico` |
+| **Sergio Restrepo** | Integrante departamento de Estadística y Matemáticas | `Sin correo específico` |
+| **Yina Grajales** | Integrante departamento de Estadística y Matemáticas | `Sin correo específico` |
+| **Mauricio Lopera** | Integrante departamento de Estadística y Matemáticas | `Sin correo específico` |
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Decanatura / Secretaría de Comités: Bloque 13-114
+- Conmutador: (+57-604) 219 5800 / 219 5801
+- Correo Decanatura: decaeconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comites-programas-posgrados-departamentos)
+
+------------------------------------------------------------
+## [DOCUMENTO]: consejo-facultad.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/consejo-facultad.md`*
+------------------------------------------------------------
+
+# Consejo de Facultad
+
+## Resumen Ejecutivo
+Órgano de gobierno y gestión académica-administrativa de la Facultad de Ciencias Económicas. El Consejo de Facultad está definido en el Estatuto General de la Universidad, en su artículo 57 Acuerdo Superior 01 de 1994 , como un organismo decisorio en lo académico y asesor del decano en los demás asuntos.
+
+**Período Vigente:** 2024-2026
+
+## Contenido Principal
+### Conformación y Miembros del Comité
+
+| Integrante | Rol / Cargo / Representación | Correo Electrónico Institucional |
+| --- | --- | --- |
+| **Jair Albeiro Osorio Agudelo** | Decano | `decaeconomicas@udea.edu.co` |
+| **Luz Ángela Valencia Cadavid** | Vicedecana | `vicedecaeconomicas@udea.edu.co` |
+| **Juan Fernando Tavera Mesías** | Jefe Departamento de Ciencias Administrativas | `pregradoadm.fce@udea.edu.co` |
+| **Carlos Mario Ospina Zapata** | Jefe Departamento de Ciencias Contables | `pregradocontaduria@udea.edu.co` |
+| **Ramón Javier Mesa Callejas** | Jefe Departamento de Economía | `ramon.mesa@udea.edu.co, departamentoeconomia@udea.edu.co` |
+| **Sergio Iván Restrepo Ochoa** | Jefe Departamento de Estadística y Matemáticas | `sergio.restrepo@udea.edu.co, estadisticaeconomicas@udea.edu.co` |
+| **Marta Cecilia Álvarez** | Directora Centro de Investigación y Consultorías | `ciceconomicas@udea.edu.co` |
+| **Héctor L. Bermúdez Restrepo** | Representante de los Profesores | `hectorl.bermudez@udea.edu.co, representacionprofesoralfce@udea.edu.co` |
+| **María Claudia Saavedra** | Representante de los Egresados | `mclsaavedra@gmail.com` |
+| **Cristina López González** | Coordinadora Unidad de Posgrados (invitado) | `cristina.lopezg@udea.edu.co` |
+| **Daniel Cardona Valencia** | Líder Servicios de Extensión (invitado) | `daniel.cardonav@udea.edu.co` |
+| **Juan Sebastián Ocampo** | Jefe de Servicios Administrativos (invitado) | `jserviciosadtvos.fce@udea.edu.co` |
+| **Alejandra Castaño Arias** | Líder Autoevaluación (invitado) | `alejandra.castanoa@udea.edu.co` |
+| **Yesica Alzate Gallego** | Coordinadora  Bienestar (invitado) | `bienestareconomicas@udea.edu.co` |
+
+### Repositorios Oficiales de Actas y Decisiones
+- [Cronograma](https://drive.google.com/file/d/17qijvsnkUqGSpK02-r1X1H6X7-ChlK1R/view?usp=sharing)
+- [Carpeta de Actas](https://drive.google.com/drive/folders/1Sey3MyLps3efcbg47ZcSqbEx0x4IiNxx?usp=drive_link)
+- [Carpeta de Acuerdos](https://drive.google.com/drive/folders/1v6_E0rP58nE0-RtHE0PPjDqjH5Nj36Zr?usp=drive_link)
+- [Comunicados](https://drive.google.com/drive/folders/1v2t7cksmYp0wXqWKoVsO82yE1FUGZcw2?usp=sharing)
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Decanatura / Secretaría de Comités: Bloque 13-114
+- Conmutador: (+57-604) 219 5800 / 219 5801
+- Correo Decanatura: decaeconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/consejo-facultad)
+- [Cronograma](https://drive.google.com/file/d/17qijvsnkUqGSpK02-r1X1H6X7-ChlK1R/view?usp=sharing)
+- [Carpeta de Actas](https://drive.google.com/drive/folders/1Sey3MyLps3efcbg47ZcSqbEx0x4IiNxx?usp=drive_link)
+- [Carpeta de Acuerdos](https://drive.google.com/drive/folders/1v6_E0rP58nE0-RtHE0PPjDqjH5Nj36Zr?usp=drive_link)
+- [Comunicados](https://drive.google.com/drive/folders/1v2t7cksmYp0wXqWKoVsO82yE1FUGZcw2?usp=sharing)
+
+------------------------------------------------------------
+## [DOCUMENTO]: angelo-macroeconomia.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/semilleros/angelo-macroeconomia.md`*
+------------------------------------------------------------
+
+# MACROECONOMÍA - Semillero Ángelo de Investigación Económica
+
+## Resumen Ejecutivo
+Somos un grupo interdisciplinar de profesores y estudiantes de Economía. Estamos interesados en formar en investigación económica a partir de la práctica de la investigación misma.
+
+## Contenido Principal
+## Misión
+
+El Semillero Ángelo de investigación económica desarrolla actividades de iniciación y formación en investigación en economía que posibilitan la adquisición y fortalecimiento de habilidades y aptitudes para la investigación en diversas líneas de la disciplina, entre sus participantes.
+
+## Visión
+
+En el 2028 el Semillero Ángelo de investigación económica será reconocido dentro de la Facultad de Ciencias Económicas como un escenario de formación inicial para los futuros investigadores que integren los proyectos de Facultad.
+
+## Objetivos estratégicos
+
+Ofrecer un espacio de formación en investigación a través de la construcción y desarrollo de proyectos individuales y colectivos en diversas líneas de investigación económica y social.
+
+## Líneas de investigación
+
+- Macroeconomía Aplicada.
+
+- Microeconomía.
+
+- Historia económica.
+
+- Análisis de coyuntura y políticas económicas.
+
+## Metodología
+
+Aprendizaje por la práctica.
+
+## Proyectos
+
+1. Organización, estadística descriptiva y métodos econométricos de los datos de la Gran Encuesta Integrada de Hogares. 2. Organización y estadística descriptiva datos Encuesta de Calidad de Vida (Nacional). 3. Organización y descripción de los datos asociados a las Convocatorias de Arte y Cultura de Antioquia (no Medellín). 4. Transcripción de la contabilidad de la Expedición Botánica con el fin de hacer análisis de cultura material de la ciencia a partir de los datos que se encuentran allí.
+
+## Integrantes
+
+| Profesores Coordinadores: María Alejandra Puerta Olaya Yennifer Celin Camargo Danny García Calleas José Daniel Salinas Rincón | Estudiantes: David Correa Romero Sandra Milena Claderón Chávez Enrique Antonio Tavera Motta Carolina Monsalve Anyel Marquínez Montaño Andrés Alejandro Isaza Restrepo Karol Juliana Parra Mazo Andrés Felipe Sánchez Ochoa Marilady Robledo Blandón Juan David Blanco Yarce ​​​​​​ | Mateo Cardona Correa Alejandro Mesa Jiménez Santiago Mármol Romero Angie Paola Zapata Álvarez Valeria Pérez Mesa Ana Hitchel Carrillo Moreno Michel Daniela Torres Laura Vanesa Mojica Arias José Manuel Bastidas Burbano Karen Natalia Guerrero Bello Alejandra Jaramillo Atehortúa Luz Angélica Abadía Durán |
+| --- | --- | --- |
+
+## Contacto
+
+mariaa.puerta@udea.edu.co yennifer.celin@udea.edu.co danny.garcia@udea.edu.co daniel.salinas@udea.edu.co
+## Puntos de Contacto y Referencias
+### Contacto
+- mariaa.puerta@udea.edu.co
+- yennifer.celin@udea.edu.co
+- danny.garcia@udea.edu.co
+- daniel.salinas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/semilleros/Contenido/asMenuLateral/SemilleroAngelodeInvestigacionEconomicaMACRO)
+
+------------------------------------------------------------
+## [DOCUMENTO]: comphor.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/semilleros/comphor.md`*
+------------------------------------------------------------
+
+# COMPHOR - Semillero de Investigación Gestión de lo Propio
+
+## Resumen Ejecutivo
+Somos una organización de personas cuyo propósito es investigar y comprender cómo diversas comunidades gestionan asuntos relacionados con la vida cotidiana (como las relaciones de poder, los recursos escasos y la influencia de sus cosmogonías sobre estos fenómenos).
+
+## Contenido Principal
+Desde el Semillero de investigación Gestión de lo Propio buscamos participar en la comprensión de la vida social no como observadores pasivos que estudian tales fenómenos por fuera de ellos, sino más bien como partícipes de la comunidad en la que estos emergen, viviendo y retribuyendo a la misma mientras conversamos con esta fenomenología de la vida cotidiana que nos convoca a querer aprender e investigar.
+
+Los espacios del semillero tienen también como enfoque el aprendizaje y la enseñanza desde la interculturalidad e interdisciplinariedad, por lo cual, toda persona de la comunidad puede participar activamente de los encuentros.
+
+## Líneas de investigación
+
+- Organización del trabajo.
+
+- Relaciones de poder.
+
+- Vida en comunidad.
+
+## Metodología
+
+Abordamos la investigación desde un énfasis contrahegemónico con distintas propuestas metodológicas pensadas desde contextos históricos y culturales latinoamericanos. Algunos textos guías son el CRISSAC del pueblo Nasa o el texto Investigar desde el Sur: epistemologías, metodologías y cartografías emergentes (Mejía y otros, 2022); sin embargo, también abordamos la comprensión desde la metodología de investigación tradicional para tener una perspectiva panorámica acerca de esta metodología que se propone.
+
+## Integrantes
+
+| Brayan Lotero Urrego Gabriela Sánchez Henao Juan Jose Usuga Restrepo Manuel Alejandro Coral Aristizábal | Mateo Muñoz Campo Miguel Alcantar Mesa Natalia María Silva Hurtado | Pedro Pablo Pereira Molina Santiago Escobar Lopera Sebastián Londoño Urrea |
+| --- | --- | --- |
+
+- Contacto
+
+- Mateo Muñoz Campo
+
+- Mateo.munoz2@udea.edu.co
+## Puntos de Contacto y Referencias
+### Contacto
+- Mateo.munoz2@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/semilleros/Contenido/asMenuLateral/comphor)
+
+------------------------------------------------------------
+## [DOCUMENTO]: financiero-gicco.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/semilleros/financiero-gicco.md`*
+------------------------------------------------------------
+
+# GICCO - Semillero Financiero
+
+## Resumen Ejecutivo
+Con los últimos resultados que ha obtenido Colombia en las pruebas PISA en el componente financiero, se genera la posibilidad de crear el Semillero Financiero, conformado por un grupo de estudiantes del programa de Contaduría Pública y se ha hecho extensivo a los demás programas de la FCE; somos apasionados por la investigación y la generación de conocimientos, donde ponemos en práctica los concep.
+
+## Contenido Principal
+## Misión
+
+El semillero Financiero tiene como misión principal el desarrollo de actividades lúdicas de formación e investigación en el ámbito de la Educación Financiera; se enfoca en ofrecer a estudiantes de bachillerato de los colegios de la ciudad de Medellín, los conceptos fundamentales sobre finanzas a través de diversas actividades como la carrera de observación y charlas que profundizan en temas de interés general desde las Educación Financiera para el desarrollo de habilidades en el manejo de los recursos económicos.
+
+## Visión
+
+La visión del Semillero Financiero se centra en fomentar la investigación y el desarrollo de habilidades en el ámbito de la Educación Financiera entre los estudiantes de pregrado de la FCE y que puedan replicar los conceptos a todos los interesados en aprender a optimizar sus recursos financieros.
+
+## Objetivos estratégicos
+
+1. Preparar a los estudiantes universitarios de la FCE para tomar decisiones informadas en el ámbito de la Educación Financiera. 2. Proporcionar un espacio para que estudiantes y profesores del área financiera de la FCE se interesen en la investigación financiera, contribuyendo a la formación de personas con excelente educación financiera. 3. Estimular la participación de todos los integrantes en los temas fundamentales de la educación financiera. 4. Formular y desarrollar trabajos de investigación en la línea de profundización en Finanzas. 5. Desarrollar una cultura financiera y generar productos académicos relacionados con las finanzas.
+
+## Líneas de investigación
+
+Gestión Financiera, Finanzas Corporativas y Educación Financiera.
+
+## Metodología
+
+La metodología del Semillero Financiero se centra en fomentar la investigación y el aprendizaje práctico en el ámbito de la Educación Financiera. Buscan contribuir a la formación de una cultura financiera sólida entre los estudiantes, promoviendo la investigación en temas de finanzas personales; adicionalmente, desde la investigación los estudiantes trabajan en proyectos que abordan problemas reales en el campo financiero.
+
+## Proyectos
+
+- Ofrecer charlas de Educación Financiera a los estudiantes de grado 10º y 11º de bachillerato.
+
+- Convenio con Bienestar Institucional para ofrecer charlas a los jóvenes que vienen desde los colegios a visitar la Universidad.
+
+- Proyecto de investigación sobre educación financiera de los jóvenes universitarios.
+
+## Integrantes
+
+| Profesores Coordinadores: Carlos Mario Correa Londoño | Estudiantes: Mateo Cardona Urán Juan Carlos Aguirre Vargas María Victoria Martínez Areiza Alejandro Marín Correa | Marcela Hinestroza Muñoz Esneider David Giraldo Murillo Valentina Durango Ramírez Juan Felipe Velásquez García |
+| --- | --- | --- |
+
+## Contacto
+
+​Carlos Mario Correa Londoño cmario.correa@udea.edu.co
+## Puntos de Contacto y Referencias
+### Contacto
+- cmario.correa@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/semilleros/Contenido/asMenuLateral/SemilleroFinanciero-GICCO)
+
+------------------------------------------------------------
+## [DOCUMENTO]: gestor.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/semilleros/gestor.md`*
+------------------------------------------------------------
+
+# GESTOR - Grupo de Investigación en Gestión Organizacional
+
+## Resumen Ejecutivo
+Somos un grupo de estudiantes y docentes de administración de empresas apasionados por la investigación y la generación de conocimientos, donde ponemos en práctica los conceptos en productividad, emprendimiento y competitividad por y para la región de Urabá.
+
+## Contenido Principal
+## Objetivo estratégico
+
+Creamos conocimiento que contribuye al desarrollo científico y al mejoramiento de capacidades en gestión organizacional a través de la investigación, la transferencia de conocimiento y la articulación con redes académicas nacionales e internacionales.
+
+## Líneas de investigación
+
+- Ciencia tecnología, innovación y emprendimiento
+
+- Organizaciones y Estrategia
+
+## Metodología
+
+El proceso Formatico ene l semillero se basa en tres grandes componentes
+
+- Componente 1. Formar en Investigación
+
+- Componente 2. Formar a través de la investigación
+
+- Componente III: Formación participando en proyectos.
+
+## Proyectos
+
+2017 Ambidiestreza organizacional: Revisión de literatura Atenuación de la radiación ultravioleta en Colombia: aportes para una política pública en foto-protección 2018 2019 Diseño de un modelo de negocio para un área de innovación social en una universidad pública 2020 Construcción de un sistema categorial sobre las necesidades de transformación de las carreras de ciencias económicas en el marco de prospectiva 2021 Estudio Comparativo sobre egresados de enseñanza tradicional universitaria vs egresados de formatos de enseñanza disruptiva en la educación superior 2022 Gestión de la Innovación y el emprendimiento en las instituciones de Educación Superior en Colombia 2023 Análisis del efecto de las habilidades del siglo XXI en la relación entre alineación estratégica y desempeño  organizacional de las startups en Colombia 2024 Construcción de un sistema categorial de los factores y variables que contribuyen al fortalecimiento del tejido social, desde el emprendimiento sustentable. Caso Urabá - Colombia.
+
+## Integrantes
+
+Pregrado en Administración
+
+Cristian Robledo Espinosa
+
+Anyi Paola López Idárraga
+
+Valeria Cardona Echavarría
+
+Maestría en Administración
+
+Juan Daniel Vélez Jaramillo
+
+## Contacto
+
+Cristina López González Coordinadora del Semillero Correo: cristina.lopezg@udea.edu.co
+## Puntos de Contacto y Referencias
+### Contacto
+- cristina.lopezg@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/semilleros/Contenido/asMenuLateral/gestor)
+
+------------------------------------------------------------
+## [DOCUMENTO]: imark.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/semilleros/imark.md`*
+------------------------------------------------------------
+
+# IMARK - Investigación en Marketing
+
+## Resumen Ejecutivo
+Formar investigadores que promuevan la generación de conocimiento sobre el marketing y aporten a la sociedad y a las organizaciones (producción científica).
+
+## Contenido Principal
+## Misión
+
+Somos un equipo humano enfocado en la generación y transferencia de conocimiento de relevancia académica en el área del marketing.
+
+## Visión
+
+Hacia el futuro el semillero espera promover la capacidad investigativa en los estudiantes de pregrado, la Interacción real entre estudiantes, investigadores y profesores del Grupo de Investigación IMARK y la capacidad de trabajo en grupo y la interdisciplinariedad con otros Grupos de Investigación.
+
+## Objetivos estratégicos
+
+- Potenciar el desarrollo del espíritu investigativo en la disciplina del marketing entre los estudiantes de administración de empresas.
+
+- Propiciar la interacción entre estudiantes, investigadores y profesores alrededor de la investigación científica en marketing.
+
+- Generar la capacidad de trabajo en grupo y la interdisciplinariedad.
+
+## Líneas de investigación
+
+- Branding y Valor de Marcas.
+
+- Comportamiento del Consumidor.
+
+- Estrategias de Marketing.
+
+- Nuevas Tecnologías aplicadas al Marketing.
+
+## Metodología
+
+Acompañamiento en la realización de actividades de investigación vinculada a proyectos de investigación en curso. Formación en metodologías de investigación y técnicas de análisis de información.
+
+## Proyectos
+
+1.Estudio de la percepción de los consumidores y la aceptación de productos con incorporación de ingredientes reconocidos por sus propiedades afrodisiacas. 2.Percepción de los consumidores sobre productos alimenticios con derivados de cannabis. 3.Customer engagement social networks
+
+## Integrantes
+
+| Docentes Beatriz Londoño Giraldo Camilo Restrepo Estrada Daniela Castaño Serna Diana Marcela Betancur Giraldo Juan Fernando Tavera Mesías | Estudiantes María Fernanda Ramírez Gómez Silvana Tejada Alzate Estefanía Estrada Monsalve Santiago Castañeda Moná Vanesa Gallego Cardona Mateo Ciro Pavas Brandon Steven López Llanos Adriana Marcela Rivera Babilonia Mateo Ramírez Pérez Claudia Andrea Correa Giraldo |
+| --- | --- |
+
+## Contacto
+
+Coordinador del Semillero Beatriz Londoño-Giraldo beatriz.londonog@udea.edu.co
+## Puntos de Contacto y Referencias
+### Contacto
+- beatriz.londonog@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/semilleros/Contenido/asMenuLateral/imark)
+
+------------------------------------------------------------
+## [DOCUMENTO]: innovacion-fce-gicco.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/semilleros/innovacion-fce-gicco.md`*
+------------------------------------------------------------
+
+# GICCO - Semillero de Innovación FCE
+
+## Resumen Ejecutivo
+Grupo de estudiantes, con el apoyo de docentes de la Facultad de Ciencias Económicas y de los grupos de investigación Gestor y GICCO, que buscan promover la investigación que nutre el ecosistema de innovación y emprendimiento de la Universidad, teniendo una participación activa de los estudiantes para dinamizar las acciones de fomento a la innovación y conectarse con el ecosistema de innovación.
+
+## Contenido Principal
+## Misión
+
+Desarrollar capacidades en innovación para el impacto de los territorios por medio de la investigación.
+
+## Visión
+
+Convertirnos en un agente estratégico movilizador de la innovación en las unidades académicas de la UdeA, liberando el potencial de las capacidades de los estudiantes para ayudar a los gestores de innovación teniendo la investigación como base.
+
+## Objetivo general
+
+Promover el desarrollo de capacidades en innovación y/o emprendimiento en los estudiantes de pregrado de UdeA.
+
+## Objetivos específicos
+
+- Asistir las acciones de fomento a la innovación.
+
+- Conectar la Tecnología, la Innovación y el Emprendimiento con la investigación.
+
+- Favorecer el acercamiento a la comunidad estudiantil a los conceptos de tecnologías emergentes.
+
+- Apoyar el programa de innovación de la unidad académica.
+
+## Líneas de investigación
+
+Innovación, tecnología, emprendimiento.
+
+## Metodología
+
+Por Cohortes, cada año ingresa una cohorte nueva, la cual tiene un proceso de formación basado en retos, experiencial, que los lleva a aprender sobre innovación, nuevas tecnologías y emprendimiento y a formular sus proyectos de investigación.
+
+## Proyectos
+
+- Ofrecer charlas de Educación Financiera a los estudiantes de grado 10º y 11º de bachillerato.
+
+- Convenio con Bienestar Institucional para ofrecer charlas a los jóvenes que vienen desde los colegios a visitar la Universidad.
+
+- Proyecto de investigación sobre educación financiera de los jóvenes universitarios.
+
+## Integrantes
+
+| Docente Coordinadora: Paula Liliana Naranjo Castaño. Estudiantes: Juan David Tilano Ana María Naranjo María Juliana Ospina Agudelo Cristian Robledo Espinosa Angy Paola Zapata Daniela | Geraldine Castañeda Marilady Blandón Alejandra Cardona Isabella Jader Humbert Castro gonzalez Angela Ortiz Muñoz Mateo Cardona Correa | Juan Pablo Vásquez María Camila López Rueda Luz Yadira Cardona Rios Yitmerth Emilio Hurtado Moreno Juana Valentina Hernandez Salazar Jeronimo Barbaran Niebles Valeria Martinez Oquendo Luis David Angel Velasquez |
+| --- | --- | --- |
+
+## Contacto
+
+Paula Liliana Naranjo Castaño. innovacioneconomicas@udea.edu.co
+## Puntos de Contacto y Referencias
+### Contacto
+- innovacioneconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/semilleros/Contenido/asMenuLateral/SemillerodeInnovacionFCE-GICCO)
+
+------------------------------------------------------------
+## [DOCUMENTO]: semilleros-general.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/semilleros/semilleros-general.md`*
+------------------------------------------------------------
+
+# GIFI - Semillero de Investigación en Finanzas (SIFI)
+
+## Resumen Ejecutivo
+El Semillero de Investigación en Finanzas (SIFI) es una iniciativa de gestión académico-investigativa que propende por fomentar y desarrollar capacidades investigativas alrededor de las finanzas.
+
+## Contenido Principal
+## Misión
+
+Propiciar la creación de espacios que fomenten el desarrollo de capacidades, actitudes y destrezas investigativas a través del análisis y el estudio en temas financieros, que le aporten al desarrollo del conocimiento con impacto organizacional y social.
+
+## Visión
+
+El Semillero de Investigación en Finanzas – (SIFI) tiene como visión contribuir en los próximos cinco (5) años a desarrollar y fortalecer conjuntamente con los estudiantes, docentes y egresados, la investigación y la formación integral, para la formulación y ejecución de proyectos que contribuyan al desarrollo económico y social en el campo de acción.
+
+## Objetivos estratégicos
+
+- Capacitar a los miembros del semillero en procesos, métodos y técnicas de investigación aplicados a las finanzas.
+
+- Promover la divulgación y apropiación social del conocimiento en finanzas mediante publicaciones de resultados de investigaciones en revistas académicas y la participación en conferencias nacionales e internacionales.
+
+- Desarrollar proyectos innovadores desde las finanzas y con valor agregado que respondan a las necesidades sociales y organizacionales.
+
+- Organizar eventos y talleres para difundir conocimientos financieros en la comunidad.
+
+- Establecer alianzas con otros semilleros y grupos de investigación.
+
+## Líneas de investigación
+
+Finanzas Corporativas, Mercados Financieros y de capitales, Economía y Desarrollo Regional, Tecnología y Finanzas.
+
+## Metodología
+
+Desarrollo de Proyectos, investigación cualitativa (análisis de contenido y estudios de caso) e investigación cuantitativa (análisis estadístico).
+
+## Proyectos
+
+• Valoración económica de proyectos de generación de energía eléctrica renovable en la seccional Bajo Cauca. •    Antioquia mira su cielo Caracterización del cielo a través de monitoreo y análisis de variables climáticas esenciales - Proyecto CODI Regiones. •    Educación y alfabetización financiera en estudiantes de las facultades de Ingeniería y Ciencias Económicas de la Universidad de Antioquia en el 2024.
+
+## Integrantes
+
+| Seccional Bajo Cauca María José Gómez Caldera Alejandra Pérez Henao Juranys Galván Higuita Valentina Montiel Mira Isabella J Álvarez Caraballo Dayana Fernández Viana | Campus Medellín Juan Diego García Salazar Yesica Paola Giraldo Alzate José Ángel Quiñonez Ramos |
+| --- | --- |
+
+## Contacto
+
+Leidy Bibiana De La Ossa Villadiego Leidy.delaossa@udea.edu.co
+
+César Augusto Giraldo Prieto cesar.giraldop@udea.edu.co
+## Puntos de Contacto y Referencias
+### Contacto
+- Leidy.delaossa@udea.edu.co
+- cesar.giraldop@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/semilleros)
+
+------------------------------------------------------------
+## [DOCUMENTO]: sifi-gifi.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/semilleros/sifi-gifi.md`*
+------------------------------------------------------------
+
+# GIFI - Semillero de Investigación en Finanzas (SIFI)
+
+## Resumen Ejecutivo
+El Semillero de Investigación en Finanzas (SIFI) es una iniciativa de gestión académico-investigativa que propende por fomentar y desarrollar capacidades investigativas alrededor de las finanzas.
+
+## Contenido Principal
+## Misión
+
+Propiciar la creación de espacios que fomenten el desarrollo de capacidades, actitudes y destrezas investigativas a través del análisis y el estudio en temas financieros, que le aporten al desarrollo del conocimiento con impacto organizacional y social.
+
+## Visión
+
+El Semillero de Investigación en Finanzas – (SIFI) tiene como visión contribuir en los próximos cinco (5) años a desarrollar y fortalecer conjuntamente con los estudiantes, docentes y egresados, la investigación y la formación integral, para la formulación y ejecución de proyectos que contribuyan al desarrollo económico y social en el campo de acción.
+
+## Objetivos estratégicos
+
+- Capacitar a los miembros del semillero en procesos, métodos y técnicas de investigación aplicados a las finanzas.
+
+- Promover la divulgación y apropiación social del conocimiento en finanzas mediante publicaciones de resultados de investigaciones en revistas académicas y la participación en conferencias nacionales e internacionales.
+
+- Desarrollar proyectos innovadores desde las finanzas y con valor agregado que respondan a las necesidades sociales y organizacionales.
+
+- Organizar eventos y talleres para difundir conocimientos financieros en la comunidad.
+
+- Establecer alianzas con otros semilleros y grupos de investigación.
+
+## Líneas de investigación
+
+Finanzas Corporativas, Mercados Financieros y de capitales, Economía y Desarrollo Regional, Tecnología y Finanzas.
+
+## Metodología
+
+Desarrollo de Proyectos, investigación cualitativa (análisis de contenido y estudios de caso) e investigación cuantitativa (análisis estadístico).
+
+## Proyectos
+
+• Valoración económica de proyectos de generación de energía eléctrica renovable en la seccional Bajo Cauca. •    Antioquia mira su cielo Caracterización del cielo a través de monitoreo y análisis de variables climáticas esenciales - Proyecto CODI Regiones. •    Educación y alfabetización financiera en estudiantes de las facultades de Ingeniería y Ciencias Económicas de la Universidad de Antioquia en el 2024.
+
+## Integrantes
+
+| Seccional Bajo Cauca María José Gómez Caldera Alejandra Pérez Henao Juranys Galván Higuita Valentina Montiel Mira Isabella J Álvarez Caraballo Dayana Fernández Viana | Campus Medellín Juan Diego García Salazar Yesica Paola Giraldo Alzate José Ángel Quiñonez Ramos |
+| --- | --- |
+
+## Contacto
+
+Leidy Bibiana De La Ossa Villadiego Leidy.delaossa@udea.edu.co
+
+César Augusto Giraldo Prieto cesar.giraldop@udea.edu.co
+## Puntos de Contacto y Referencias
+### Contacto
+- Leidy.delaossa@udea.edu.co
+- cesar.giraldop@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/semilleros/Contenido/asMenuLateral/gifi)
+
+------------------------------------------------------------
+## [DOCUMENTO]: siles-gicco.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/semilleros/siles-gicco.md`*
+------------------------------------------------------------
+
+# GICCO - Semillero de Investigación en Lectura y Escritura - SILES
+
+## Resumen Ejecutivo
+Somos un colectivo de estudiantes, con el acompañamiento de profesores, interesados en abordar el estudio de los aspectos formales de la lectura y escritura académica. Nuestro tema central de discusión es el de literacidad académica y subjetividad.
+
+## Contenido Principal
+El tema central de discusión e n el Semillero de Investigación en Lectura y Escritura - SILES es el de literacidad académica y subjetividad, se trata de fortalecer la literacidad académica como exigencia propia de la formación universitaria, sin que esto vaya en contravía del desarrollo de la subjetividad del estudiante, pues como lo afirma Foucault en “ el orden del discurso ” la escritura académica se convierte en un mecanismo de control (1992). De allí que el ensayo emerge como una forma de expresión que integra las exigencias y el rigor propio de la escritura académica con la creatividad y subjetividad propias del discurso literario. Además, gracias a la libertad inherente al género es conveniente que se oriente en el contexto de los semilleros de investigación, dado que ellos se entienden como “grupos de interés con la curiosidad necesaria para investigar, pero con la independencia y frescura que requiere el género” (Ruiz, 2015).
+
+## Objetivos estratégicos
+
+El Semillero de Investigación en Lectura y Escritura -SILES pretende constituirse en una comunidad de indagación para desarrollar habilidades de pensamiento, con criterio ético, por medio de la lectura y escritura de textos, orientada a fortalecer en los estudiantes sus habilidades expresivas y comunicativas tanto en contextos académicos como no académicos.
+
+## Líneas de investigación
+
+- Polifonía textual
+
+- literacidad académica y subjetividad
+
+- Retórica
+
+- Argumentación
+
+- Ensayo
+
+## Metodología
+
+La dinámica de trabajo permitirá reconocer todo acto humano como un resultado de tensiones por el encuentro de diversas subjetividades, lo que implica además la necesidad de identificar las voces que aparecen en la descripción y discusión de fenómenos propios del contexto humano-social. Para ello, se utilizarán mediaciones como el cine, la música, la literatura y otras expresiones de la cultura.
+
+## Proyectos
+
+- Ofrecer charlas de Educación Financiera a los estudiantes de grado 10º y 11º de bachillerato.
+
+- Convenio con Bienestar Institucional para ofrecer charlas a los jóvenes que vienen desde los colegios a visitar la Universidad.
+
+- Proyecto de investigación sobre educación financiera de los jóvenes universitarios.
+
+## Integrantes
+
+| Melissa Ensuncho Aguas Liceth Quiroz Molina Sebastián Londoño Urrea César Alberto Causado Sibaja Andrés Camilo Rentería Mosquera Camilo Andrés González Marín Ana María Moreno Vallejo | Daniel Felipe Agudelo López María José Moreno Machado Lina Yineth Castañeda López Eduard Samuel Lezcano Mosquera Liseth Alejandra Chivata Gil Daimer Santiago Cárdenas Gonzales Alejandro Serna Angarita | Kelly Lorena Rangel Meneses Gustavo Andrés López Gutiérrez Jhon Mario Baena Herrera Sebastián Montes Díaz Pablo José Osorio Acevedo María Sara Macea Medina Estér Martínez Gustavo Ruiz Rojas |
+| --- | --- | --- |
+
+## Contacto
+
+​Hernán Carlos Bustamante García carlos.bustamante@udea.edu.co
+## Puntos de Contacto y Referencias
+### Contacto
+- carlos.bustamante@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/semilleros/Contenido/asMenuLateral/SemillerodeInvestigacionLecturayEscritura-SILES-GICCO)
+
+------------------------------------------------------------
+## [DOCUMENTO]: borradores-departamento-economia.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/publicaciones/borradores-departamento-economia.md`*
+------------------------------------------------------------
+
+# Borradores del Departamento de Economía
+
+## Resumen Ejecutivo
+Material académico con el que se busca dar a conocer algunos avances e informes de los proyectos y actividades de investigación en los que trabajan los profesores del Departamento de Economía.
+
+## Contenido Principal
+Es una serie de documentos de trabajo mediante los cuales se dan a conocer y se ponen a discusión avances e informes de proyectos y actividades de investigación. Se busca compartir los productos escritos con la comunidad académica y con expertos en los diferentes temas que se abordan, además de adelantar una discusión en torno a ellos y publicar las versiones finales en revistas o libros, indexadas en Colombia o en el exterior. El contenido de los Borradores es responsabilidad de los autores y no compromete a la institución.
+
+| Borradores Departamento de Economía |  |  |  |
+| --- | --- | --- | --- |
+| # | Título | Autor(es) | Fecha |
+| 109 | Una guía técnica para la GEIH | José Manuel Bastidas Burbano Wilman Arturo Gómez | Mayo de 2026 |
+| 108 | Un modelo de inflación para el caso colombiano (2001-2025) | Wilman Arturo Gómez Carlos Esteban Posada | Marzo de 2026 |
+| 107 | Asociatividad Territorial y Provincias Administrativas y de Planificación en Antioquia: Una estrategia para el desarrollo regional | Maria Juliana Muñoz Cardona | Septiembre de 2025 |
+| 106 | Entre buenas intenciones e incentivos perversos: ¿El Régimen Simple de Tributación impulsa la formalización o solo reduce el recaudo en Colombia? | Alejandro Montoya Castaño Luis Fernando Gamboa Mónica Mogollón Luis Carlos Reyes | Junio de 2025 |
+| 105 | Transformación digital en la cadena de valor cafetera: análisis comparativo de plataformas tecnológicas para el cumplimiento del Reglamento Europeo sobre Productos Libres de Deforestación (EUDR) | Harold Cardona Trujillo | Enero de 2025 |
+| 104 | El ciclo del ahorro de los hogares en Colombia: una aproximación trimestral usando variables macroeconómicas, laborales y demográficas | Jaime Horacio Montoya Ramírez | Diciembre de 2024 |
+| 103 | Ciclos reales de negocios: una nota didáctica | Wilman Arturo Gómez Muñoz | Noviembre de 2024 |
+| 102 | Notas sobre el marxismo de Maurice Dobb | Ramon Boixadera Bosch | Noviembre de 2024 |
+| 101 | Evaluación de reglas fiscales a través de un modelo de equilibrio general dinámico estocástico DSGE estimado para la economía colombiana | Geraldine Grimaldo Álvarez Wilman Arturo Gómez Muñoz Juan Pablo Saldarriaga Muñoz | Octubre de 2024 |
+| 100 | Sector informal como amortiguador del ciclo económico: el papel de la aversión a la pérdida | Wilman Gómez M. Cristian Castrillón G. Jaime Montoya A. | Octubre de 2024 |
+| 99 | La interacción gráfica en Python como herramienta para mejorar el aprendizaje en microeconomía y macroeconomía | Carlos Andrés Palacio Gómez | Octubre de 2024 |
+| 98 | Metodología para la construcción y evaluación de resultados de aprendizaje para programas de pregrado y posgrado | Alexander Tobón Arias | Abril de 2024 |
+| 97 | Transición demográfica, acumulación y uso del capital humano: ¿por qué muchos países siguen siendo pobres? | Ana Isabel Suárez García | Octubre de 2023 |
+| 96 | La estructura lógica de la teoría del equilibrio general dinámico estocástico | Alexander Tobón Arias | Agosto de 2022 |
+| 95 | Entre el poder y la resistencia. Asesinato de líderes sociales y restitución de tierras en Colombia | Juan Fernando Zabala Hincapié | Diciembre de 2021 |
+| 94 | Crédito, producción y consumo en la teoría monetaria de Hawtrey (1919) | Carlos Andrés Villarreal Restrepo | Octubre de 2021 |
+| 93 | Conferencia de Carlo Benetti con motivo de su investidura como Doctor Honoris Causa de la Universidad Metropolitana de México en 2015 | Carlo Benetti | Septiembre de 2021 |
+| 92 | La estructura de la propiedad de la tierra y su relación con la inversión social local en Colombia, 2000 – 2010 | Mariana Rincón Orozco | Junio de 2021 |
+| 91 | Es posible explicar la crisis colombiana de 1998-2003 a partir de la teoría austríaca del ciclo económico? | Andrés Mauricio Rosero Sánchez | Mayo de 2021 |
+| 90 | Caída y convergencia mundial de las tasas de inflación | Gómez Múñoz Wilman Arturo Posada Posada Carlos Esteban Rhenals Monterrosa Remberto | Marzo de 2021 |
+| 89 | La teoría económica: ¿un monumento en peligro? | Jean Cartelier | Febrero de 2021 |
+| 88 | Identificación de las principales restricciones operativas al crecimiento en Antioquia, Caldas, Risaralda y Quindío . | Harold Cardona Trujillo Estefany Peña Rojas | Diciembre de 2020 |
+| 87 | Efecto de los programas educativos en pruebas estandarizadas. Un análisis por cuartiles de la política educativa "Antioquia la más educada". | Diana Lucia López López Edwin Esteban Torres Gómez Cristian Sánchez Salazar | Diciembre de 2019 |
+| 86 | Corrupción, incentivos y contrabando técnico en Colombia. 1998 – 2013 | Edwin Esteban Torres Gómez Luis Ricardo Argüello Cuervo | Noviembre de 2019 |
+| 85 | Diseño e implementación de resultados de aprendizaje para pregrados en Economía | Alexander Tobón | Octubre de 2019 |
+| 84 | Una breve aplicación a la predicción de la fragilidad de empresas colombianas, mediante el uso de modelos estadísticos | Jorge Iván Pérez García Mauricio Lopera Castaño Fredy Alonso Vásquez Bedoya | Septiembre de 2019 |
+| 83 | Concentración de tierras, paz territorial e impuesto predial rural en Antioquia | Cristian Sánchez Salazar | Septiembre de 2019 |
+| 82 | ¿Las diferencias importan? Heterogeneidad y dilemas sociales en recursos naturales, aportes desde la Economía experimental y del comportamiento. | Yady Marcela Barrero | Septiembre de 2019 |
+| 81 | Algebra de un modelo simple IS-MR-AD-AS: Notas de clase | Jaime Alberto Montoya Remberto Rhenals | Agosto de 2019 |
+| 80 | Determinantes del ahorro interno en Colombia: un acercamiento desde las Cuentas Nacionales Trimestrales para el período 1994-2017 | Jaime Horacio Montoya Ramírez | Junio de 2019 |
+| 79 | Implementación de una evaluación por competencias académicas en el pregrado de Economía de la Universidad del Magdalena, Colombia | Rafael García José González Porto Luz Helena Díaz Álvaro Acevedo Alexander Tobón | Mayo de 2019 |
+| 78 | Determinantes de la productividad multifactorial: los casos de las principales economías latinoamericanas y emergentes de Asia (1960 - 2015) | Carlos Esteban Posada Posada Remberto Rhenals Monterrosa Wilman Arturo Gómez Muñoz | Diciembre de 2018 |
+| 77 | Sobre la estructura de gasto y la curva de Engel de los hogares urbanos: evidencia empírica para Medellín | Jorge Barrientos Marín Efraín Arango Sánchez | Noviembre de 2018 |
+| 76 | Can environmental taxes and payments for ecosystem services regulate pollution when the resilience of water bodies is surpassed? | David Tobón Orozco Carlos Molina Harvey Vargas | Noviembre de 2018 |
+| 75 | Los estudios en historia fiscal de Colombia sobre el siglo XX | Ángela Milena Rojas Rivera | Noviembre de 2018 |
+| 74 | Planteamiento de la cuestión agraria en la historiografía agraria colombiana: 1936–2016 | Juan Carlos Velásquez Torres | Marzo de 2018 |
+| 73 | Mediciones del crecimiento económico regional y local en Colombia, 1950-2017: una revisión | Jaime Vallecilla G. | Febrero de 2018 |
+| 72 | Modelo cualitativo para estudiar la internacionalización de las multilatinas Colombianas | Ramón Javier Mesa Callejas Mauricio Lopera Castaño Paola Melisa Valencia Guzmán Mónica Andrea Álvarez Marín Paula Andrea Uribe Polo | Febrero de 2018 |
+| 71 | Los salarios y la fatiga acumulada: una revisión de la teoría de la oferta de trabajo | Carlos Andrés Vasco Correa | Diciembre de 2017 |
+| 70 | Una regla empírica de tasa de interés de política monetaria para una economía emergente, pequeña y abierta | Jaime Montoya Ramirez | Noviembre de 2017 |
+| 69 | Revisión general de la producción académica en historia empresarial colombiana publicada en revistas académicas 1984-2016 ​ | Tatiana González Lopera | Noviembre de 2017 |
+| 68 | La teoría macroeconómica de John Maynard Keynes | Ghislain Deleplace | Octubre de 2017 |
+| 67 | La determinación de los precios en la teoría económica de Sir James Steuart | Alexander Tobón | Septiembre 2017 |
+| 66 | Cálculo de un WACC diferenciado por región para proyectos de generación de electricidad con fuentes renovables en Colombia | Jorge Barrientos Marín, Fernando Villada Duque | Septiembre 2017 |
+| 65 | Panel de VAR: Una aplicación en la movilidad de factores de producción en la integración económica Alianza del Pacífico | Carlos Andrés Villarreal Restrepo | Junio de 2017 |
+| 64 | Recursos y capacidades para el desarrollo económico local en Buriticá Antioquia | Tatiana María Colorado Marín, Juan David Franco Henao y Yesica Rangel Villada | Junio de 2017 |
+| 63 | Desarrollo económico local y género en ámbitos territoriales rurales: el caso de la zona Liborina-Sabanalarga, Antioquia, Colombia | Harold Cardona Trujillo, Jorge Lotero Contreras, Paula Andrea Galeano Morales Alix Bibiana Gómez, y Robinson Garcés Marín | Mayo de 2017 |
+| 62 | Sobre los fundamentales del precio de la energía eléctrica: evidencia empírica para Colombia | Jorge Barrientos Marín y Mónica Toro Martínez | Marzo de 2017 |
+| 61 | Incidencia de los flujos de capital en la política monetaria de Colombia, 1996-2011 | Deivis Agudelo Hincapié, Alexis Arias Saavedra y Julián Jiménez Mejía | Enero de 2017 |
+| 60 | Riesgo idiosincrático y retornos en el mercado accionario de Colombia | Carlos Andrés Barrera Montoya | Enero de 2017 |
+| 59 | Incidence of pollution in the resilience of a natural system and the extent of expected pigouvian taxes and permits for environmental services in a general equilibrium model | David Tobón Orozco, Carlos Molina Guerra y John Harvey Vargas Cano | Noviembre de 2016 |
+| 58 | Desarrollo económico y espacial desigual:panorama teórico y aproximaciones al caso colombiano | Ángela Milena Rojas Rivera y Juan Camilo Rengifo López | Noviembre de 2016 |
+| 57 | Economía, gestión y fútbol: de la pasión a la sostenibilidad financiera | Ramón Javier Mesa Callejas, Jair Albeiro Osorio Agudelo y Carlos Eduardo Castaño Ríos | Julio de 2016 |
+| 56 | A Comparative Analysis of Political Competition and Local Provision of Public Goods: Brazil, Colombia and Mexico (1991-2010) | Ángela M. Rojas Rivera y Carlos A. Molina Guerra | Octubre de 2015 |
+| 55 | ¿Debería la Historia del Pensamiento Económico ser incluida en los Planes de Estudio de Economía en Pregrado? | Alessandro Roncaglia | Junio de 2015 |
+| 54 | Informality and Macroeconomic Volatility: Do Credit Constraints Matter? | Catalina Granda Carvajal | Enero de 2015 |
+| 53 | Modelo VECM para estimar relaciones de largo plazo de un indicador de liquidez y sus determinantes | Wilman A. Gómez y John F. Lopera | Noviembre de 2013 |
+| 52 | Análisis de las disparidades regionales en Colombia: una aproximación desde la estadística espacial, 1985 – 2010 | Jhonny Moncada y Osmar Leandro Loaiza Quintero | Octubre de 2013 |
+| 51 | Tangible temptation in the social dilema: cash, cooperation, and self control | Kristian Ove R. Myrseth, Gerhard Riener y Conny Wollbrant | Mayo de 2013 |
+| 50 | Análisis de la interacción entre las autoridades monetaria y fiscal en Colombia (1991-2011). Una aplicación desde la teoría de juegos | Sebastián Giraldo González, Edwin Esteban Torres Gómez y Ana Cristina  Muñoz Toro | Enero de 2013 |
+| 49 | Desarrollo económico Territorial: El caso del Cluster TIC, Medellín y Valle de Aburrá. Propuesta de fomento y consolidación de la industria de Contenidos Digitales | Felipe Molina Otálvaro, Pablo Barrera Bolaños y Tulio Montemiranda  Aguirre | Noviembre de 2012 |
+| 48 | Características de la Población Ocupada en Colombia: Un análisis del perfil de los formales e informales | José Daniel Salinas Rincón, Sara Isabel González Arismendy y Leidy Johana Marín | Octubre de 2012 |
+| 47 | El tiempo, el éter que lo cubre todo: Un análisis de la temporalidad en la economía política de Karl Marx | Germán Darío Valencia Agudelo | Septiembre de 2012 |
+| 46 | Medición del riesgo sistémico financiero en estudios de historia económica. Propuesta metodológica y aplicación para la banca libre en Antioquia, 1888 | Javier Mejía Cubillos | Mayo de 2012 |
+| 45 | Identificación y priorización de barreras a la eficiencia energética: un estudio en microempresas de Medellín | Juan Gabriel Vanegas y Sergio Botero Botero | Marzo de 2012 |
+| 44 | Estructura de ingresos para trabajadores asalariados y por cuenta propia en la ciudad de Ibagué | José Daniel Salinas Rincón y Daniel Aragón Urrego | Noviembre de 2011 |
+| 43 | Estimación del stock de capital humano bajo la metodología Jorgenson-Fraumeni para Colombia 2001-2009 | Juan David Correa Ramírez y Jaime Alberto Montoya Arbeláez | Septiembre de 2011 |
+| 42 | Tamaño óptimo del gasto público colombiano: una aproximación desde la teoría del crecimiento endógeno | Camilo Alvis y Cristian Castrillón | Septiembre de 2011 |
+| 41 | Determinantes del margen de intermediación en el sector bancario colombiano para el periodo 2000 – 2010 | Perla Escobar y Julián Gómez | Septiembre de 2011 |
+| 40 | Efectos del salario mínimo sobre el estatus laboral de los jóvenes en Colombia | Yenny Catalina Aguirre Botero | Agosto de 2011 |
+| 39 | Per Capita GDP Convergence in South America, 1960 - 2007 | Danny Garcia Callejas | Mayo de 2011 |
+| 38 | Implicaciones de Forward y Futuros para el Sector Eléctrico Colombiano | Duvan Fernando Torres Gómez Astrid Carolina Arroyave Tangarife | Marzo de 2011 |
+| 37 | Political Competition in Dual Economies: Clientelism in Latin America | Ángela Milena Rojas | Febrero de 2011 |
+| 36 | Democracy and Environmental Quality in Latin America: A Panel System of Equations Approach, 1995-2008 | Danny García Callejas | Noviembre de 2010 |
+| 35 | Karl Marx: dinero, capital y crisis | Ghislain Deleplace | Octubre de 2010 |
+| 34 | Corruption, Economic Freedom and Political Freedom in South America: In Pursuit of the missing Link | Danny García Callejas | Agosto de 2010 |
+| 33 | Restricción vehicular y regulación ambiental: el programa “Pico y Placa” en Medellín | David Tobón Orozco, Carlos Vasco Correa y Blanca Gómez Olivo | Mayo de 2010 |
+| 32 | La política ambiental en Colombia: Tasas retributivas y Equilibrios de Nash | Medardo Restrepo Patiño | Octubre de 2009 |
+| 31 | Evolución y determinantes de las exportaciones industriales regionales: evidencia empírica para Colombia, 1977-2002 | Jorge Barrientos Marín y Jorge Lotero Contreras | Septiembre de 2009 |
+| 30 | La función reguladora del Estado: ¿qué regular y por qué? Conceptualización y el caso de Colombia | Jorge Hernán Flórez Acosta | Julio de 2009 |
+| 29 | La Curva de Engel de los Servicios de Salud En Colombia. Una Aproximación Semiparamétrica | Jorge Barrientos Marín, Juan Miguel Gallego y Juan Pablo Saldarriaga | Julio de 2009 |
+| 28 | Competitiveness of Colombian Departments observed from an Economic geography Perspective | Jorge Lotero Contreras, Héctor Mauricio Posada Duque y Daniel Valderrama | Abril de 2009 |
+| 27 | Aportes teóricos al debate de la agricultura desde la economía | Marleny Cardona Acevedo, Yady Marcela Barrero Amortegui, Carlos Felipe Gaviria Garcés, Ever Humberto Álvarez Sánchez y Juan Carlos Muñoz Mora | Septiembre de 2007 |
+| Borradores del Centro de Investigaciones Económicas (1- 26) |  |  |  |
+| 26 | Definición teórica y medición del Comercio Intraindustrial | Ana Isabel Moreno y Héctor Mauricio Posada Duque | Noviembre de 2006 |
+| 25 | Economic policy and institutional change: a contex-specific model for explaining the economic reforms failure in 1970’s Colombia | Ángela Milena Rojas | Noviembre de 2006 |
+| 24 | El efecto de las intervenciones cambiarias: la experiencia colombiana reciente | Mauricio A. Hernández Monsalve y Ramón Javier Mesa Callejas | Noviembre de 2006 |
+| 23 | Formulación de una política pública para el sector del deporte, la recreación y la educación física en Antioquia | Ramón Javier Mesa Callejas, Juan Francisco Gutiérrez Betancur, Rodrigo Arboleda Sierra, Mauricio López González, Nini Johana Marín Rodríguez y Nelson Alveiro Gaviria García. | Octubre de 2006 |
+| 22 | Diagnóstico del sector deporte, la recreación y la educación física en Antioquia | Ramón Javier Mesa Callejas, Rodrigo Arboleda Sierra, Juan Francisco Gutiérrez Betancur, Mauricio López González, Nini Johana Marín Rodríguez y Nelson Alveiro Gaviria García | Octubre de 2006 |
+| 21 | Impacto Económico de los Juegos Deportivos Departamentales 2004: el caso de Santa Fe De Antioquia | Ramón Javier Mesa Callejas, Rodrigo Arboleda Sierra, Mauricio A. Hernández Monsalve, Ana Milena Olarte Cadavid y Nini Johana Marín Rodríguez | Octubre de 2006 |
+| 20 | Caracterización económica del deporte en Antioquia y Colombia: 1998-2001 | Ramón Javier Mesa Callejas, Ana Milena Olarte Cadavid, Rodrigo Arboleda Sierra, Carlos Mario Londoño Toro, Juan David Gómez y Gonzalo Valderrama | Octubre de 2006 |
+| 19 | Perspectiva Económica sobre la demanda de combustibles en Antioquia | Elizeth Ramos Oyola, Maria Victoria Cárdenas Londoño y David Tobón Orozco | Septiembre de 2006 |
+| 18 | Biology and Economics: Metaphors that Economists usually take from Biology | Danny García Callejas | Septiembre de 2006 |
+| 17 | Regulación ambiental sobre la contaminación vehicular en Colombia: ¿hacia donde vamos? | David Tobón Orozco, Andrés Felipe Sánchez Gandur y Maria Victoria Cárdenas Londoño | Septiembre de 2006 |
+| 16 | Cliometrics: a market account of a scientific community (1957-2005) | Ángela Milena Rojas | Septiembre de 2006 |
+| 15 | Integración vertical en el sistema de salud colombiano: Aproximaciones empíricas y análisis de doble marginalización | Jairo Humberto Restrepo Zea, John Fernando Lopera Sierra y Sandra Rodríguez Acosta | Mayo de 2006 |
+| 14 | La curva Ambiental de Kuznets para la calidad del agua: un análisis de su validez mediante raíces unitarias y cointegración | Mauricio Alviar Ramírez, Catalina Granda Carvajal, Luis Guillermo Pérez Puerta, Juan Carlos Muñoz Mora y Diana Constanza Restrepo Ochoa | Mayo de 2006 |
+| 13 | La competitividad: aproximación conceptual desde la teoría del crecimiento y la geografía económica | Jorge Lotero Contreras, Ana Isabel Moreno Monroy y Mauricio Giovanni Valencia Amaya | Mayo de 2005 |
+| 12 | Economic Growth, Consumption and Oil Scarcity in Colombia: A Ramsey model, time series and panel data approach | Danny García Callejas | Marzo de 2005 |
+| 11 | Diseño y experiencia de la regulación en salud en Colombia | Jairo Humberto Restrepo Zea y Sandra Rodríguez Acosta | Marzo de 2005 |
+| 10 | Selección adversa en el régimen contributivo de salud: el caso de la EPS de Susalud | Johanna Vásquez Velásquez y Karoll Gómez Portilla | Marzo de 2004 |
+| 9 | Institucionalidad e incentivos en la educación básica y media en Colombia | David Fernando Tobón, Germán Darío Valencia, Danny García Callejas, Guillermo Pérez y Gustavo Adolfo Castillo | Febrero de 2004 |
+| 8 | Impactos monetarios e institucionales de la deuda pública en Colombia 1840-1890 | Ángela Milena Rojas R | Febrero  de 2004 |
+| 7 | La ética de los estudiantes frente a los exámenes académicos: un problema relacionado con beneficios económicos y probabilidades | Danny García Callejas | Noviembre de 2003 |
+| 6 | Las relaciones del desarrollo económico con la geografía y el territorio: una revisión | Jorge Lotero Contreras | Septiembre de 2003 |
+| 5 | Producción académica en Economía de la Salud en Colombia, 1980-2002 | Karem Espinosa Echavarría Jairo Humberto Restrepo Zea y Sandra Rodríguez Acosta | Agosto de 2003 |
+| 4 | Determinantes de la deserción estudiantil en la Universidad de Antioquia | Johanna Vásquez Velásquez, Elkin Castaño, Karoll Gómez Portilla y Santiago Gallón Gómez | Julio de 2003 |
+| 3 | Un modelo RSDAIDS para las importaciones de madera de Estados Unidos y sus implicaciones para Colombia | Mauricio Alviar Ramírez, Medardo Restrepo Patiño y Santiago Gallón Gómez | Noviembre de 2002 |
+| 2 | Economía y relaciones sexuales: un modelo económico, su verificación empírica y posibles recomendaciones para disminuir los casos de sida. | Marcela Montoya Múnera y Danny García Callejas | Noviembre de 2002 |
+| 1 | Organismos reguladores del sistema de saludo colombiano: conformación, funcionamiento y responsabilidades. | Durfari Velandia Naranjo, Jairo Restrepo Zea y Sandra Rodríguez Acosta | Agosto de 2002 |
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Universidad de Antioquia, Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Conmutador: (+57-604) 219 5800
+- Correo institucional: comunicacioneseconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/publicaciones/Contenido/asMenuLateral/borradores-del-departamento-de-economia)
+- [PDF: Transformación digital en la cadena de valor cafetera: análisis comparativo de plataformas tecnológi](https://bibliotecadigital.udea.edu.co/bitstream/10495/45106/1/CardonaHarold_2025_Transformaci%c3%b3nDigitalCadenaValor.pdf)
+- [PDF: Ciclos reales de negocios: una nota didáctica](https://bibliotecadigital.udea.edu.co/bitstream/10495/44847/1/GomezWilman_2024_CiclosRealesNegocios.pdf)
+- [PDF: Notas sobre el marxismo de Maurice Dobb](https://bibliotecadigital.udea.edu.co/bitstream/10495/44754/1/BoixaderaRamon_2024_MarxismoMauriceDobb.pdf)
+- [PDF: Evaluación de reglas fiscales a través de un modelo de equilibrio general dinámico estocástico DSGE ](https://bibliotecadigital.udea.edu.co/bitstream/10495/43301/1/GrimaldoGeraldine_2024_EvaluacionReglaFiscal.pdf)
+- [PDF: Sector informal como amortiguador del ciclo económico: el papel de la aversión a la pérdida](https://bibliotecadigital.udea.edu.co/bitstream/10495/42876/1/GomezWilman_2024_SectorInformalCiclo.pdf)
+- [PDF: La interacción gráfica en Python como herramienta para mejorar el aprendizaje en microeconomía y mac](https://bibliotecadigital.udea.edu.co/bitstream/10495/42877/1/PalacioCarlos_2024_PhytonAprendizajeMicroeconom%c3%ada.pdf)
+
+------------------------------------------------------------
+## [DOCUMENTO]: publicaciones-general.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/publicaciones/publicaciones-general.md`*
+------------------------------------------------------------
+
+# Borradores del Departamento de Economía
+
+## Resumen Ejecutivo
+Material académico con el que se busca dar a conocer algunos avances e informes de los proyectos y actividades de investigación en los que trabajan los profesores del Departamento de Economía.
+
+## Contenido Principal
+Es una serie de documentos de trabajo mediante los cuales se dan a conocer y se ponen a discusión avances e informes de proyectos y actividades de investigación. Se busca compartir los productos escritos con la comunidad académica y con expertos en los diferentes temas que se abordan, además de adelantar una discusión en torno a ellos y publicar las versiones finales en revistas o libros, indexadas en Colombia o en el exterior. El contenido de los Borradores es responsabilidad de los autores y no compromete a la institución.
+
+| Borradores Departamento de Economía |  |  |  |
+| --- | --- | --- | --- |
+| # | Título | Autor(es) | Fecha |
+| 109 | Una guía técnica para la GEIH | José Manuel Bastidas Burbano Wilman Arturo Gómez | Mayo de 2026 |
+| 108 | Un modelo de inflación para el caso colombiano (2001-2025) | Wilman Arturo Gómez Carlos Esteban Posada | Marzo de 2026 |
+| 107 | Asociatividad Territorial y Provincias Administrativas y de Planificación en Antioquia: Una estrategia para el desarrollo regional | Maria Juliana Muñoz Cardona | Septiembre de 2025 |
+| 106 | Entre buenas intenciones e incentivos perversos: ¿El Régimen Simple de Tributación impulsa la formalización o solo reduce el recaudo en Colombia? | Alejandro Montoya Castaño Luis Fernando Gamboa Mónica Mogollón Luis Carlos Reyes | Junio de 2025 |
+| 105 | Transformación digital en la cadena de valor cafetera: análisis comparativo de plataformas tecnológicas para el cumplimiento del Reglamento Europeo sobre Productos Libres de Deforestación (EUDR) | Harold Cardona Trujillo | Enero de 2025 |
+| 104 | El ciclo del ahorro de los hogares en Colombia: una aproximación trimestral usando variables macroeconómicas, laborales y demográficas | Jaime Horacio Montoya Ramírez | Diciembre de 2024 |
+| 103 | Ciclos reales de negocios: una nota didáctica | Wilman Arturo Gómez Muñoz | Noviembre de 2024 |
+| 102 | Notas sobre el marxismo de Maurice Dobb | Ramon Boixadera Bosch | Noviembre de 2024 |
+| 101 | Evaluación de reglas fiscales a través de un modelo de equilibrio general dinámico estocástico DSGE estimado para la economía colombiana | Geraldine Grimaldo Álvarez Wilman Arturo Gómez Muñoz Juan Pablo Saldarriaga Muñoz | Octubre de 2024 |
+| 100 | Sector informal como amortiguador del ciclo económico: el papel de la aversión a la pérdida | Wilman Gómez M. Cristian Castrillón G. Jaime Montoya A. | Octubre de 2024 |
+| 99 | La interacción gráfica en Python como herramienta para mejorar el aprendizaje en microeconomía y macroeconomía | Carlos Andrés Palacio Gómez | Octubre de 2024 |
+| 98 | Metodología para la construcción y evaluación de resultados de aprendizaje para programas de pregrado y posgrado | Alexander Tobón Arias | Abril de 2024 |
+| 97 | Transición demográfica, acumulación y uso del capital humano: ¿por qué muchos países siguen siendo pobres? | Ana Isabel Suárez García | Octubre de 2023 |
+| 96 | La estructura lógica de la teoría del equilibrio general dinámico estocástico | Alexander Tobón Arias | Agosto de 2022 |
+| 95 | Entre el poder y la resistencia. Asesinato de líderes sociales y restitución de tierras en Colombia | Juan Fernando Zabala Hincapié | Diciembre de 2021 |
+| 94 | Crédito, producción y consumo en la teoría monetaria de Hawtrey (1919) | Carlos Andrés Villarreal Restrepo | Octubre de 2021 |
+| 93 | Conferencia de Carlo Benetti con motivo de su investidura como Doctor Honoris Causa de la Universidad Metropolitana de México en 2015 | Carlo Benetti | Septiembre de 2021 |
+| 92 | La estructura de la propiedad de la tierra y su relación con la inversión social local en Colombia, 2000 – 2010 | Mariana Rincón Orozco | Junio de 2021 |
+| 91 | Es posible explicar la crisis colombiana de 1998-2003 a partir de la teoría austríaca del ciclo económico? | Andrés Mauricio Rosero Sánchez | Mayo de 2021 |
+| 90 | Caída y convergencia mundial de las tasas de inflación | Gómez Múñoz Wilman Arturo Posada Posada Carlos Esteban Rhenals Monterrosa Remberto | Marzo de 2021 |
+| 89 | La teoría económica: ¿un monumento en peligro? | Jean Cartelier | Febrero de 2021 |
+| 88 | Identificación de las principales restricciones operativas al crecimiento en Antioquia, Caldas, Risaralda y Quindío . | Harold Cardona Trujillo Estefany Peña Rojas | Diciembre de 2020 |
+| 87 | Efecto de los programas educativos en pruebas estandarizadas. Un análisis por cuartiles de la política educativa "Antioquia la más educada". | Diana Lucia López López Edwin Esteban Torres Gómez Cristian Sánchez Salazar | Diciembre de 2019 |
+| 86 | Corrupción, incentivos y contrabando técnico en Colombia. 1998 – 2013 | Edwin Esteban Torres Gómez Luis Ricardo Argüello Cuervo | Noviembre de 2019 |
+| 85 | Diseño e implementación de resultados de aprendizaje para pregrados en Economía | Alexander Tobón | Octubre de 2019 |
+| 84 | Una breve aplicación a la predicción de la fragilidad de empresas colombianas, mediante el uso de modelos estadísticos | Jorge Iván Pérez García Mauricio Lopera Castaño Fredy Alonso Vásquez Bedoya | Septiembre de 2019 |
+| 83 | Concentración de tierras, paz territorial e impuesto predial rural en Antioquia | Cristian Sánchez Salazar | Septiembre de 2019 |
+| 82 | ¿Las diferencias importan? Heterogeneidad y dilemas sociales en recursos naturales, aportes desde la Economía experimental y del comportamiento. | Yady Marcela Barrero | Septiembre de 2019 |
+| 81 | Algebra de un modelo simple IS-MR-AD-AS: Notas de clase | Jaime Alberto Montoya Remberto Rhenals | Agosto de 2019 |
+| 80 | Determinantes del ahorro interno en Colombia: un acercamiento desde las Cuentas Nacionales Trimestrales para el período 1994-2017 | Jaime Horacio Montoya Ramírez | Junio de 2019 |
+| 79 | Implementación de una evaluación por competencias académicas en el pregrado de Economía de la Universidad del Magdalena, Colombia | Rafael García José González Porto Luz Helena Díaz Álvaro Acevedo Alexander Tobón | Mayo de 2019 |
+| 78 | Determinantes de la productividad multifactorial: los casos de las principales economías latinoamericanas y emergentes de Asia (1960 - 2015) | Carlos Esteban Posada Posada Remberto Rhenals Monterrosa Wilman Arturo Gómez Muñoz | Diciembre de 2018 |
+| 77 | Sobre la estructura de gasto y la curva de Engel de los hogares urbanos: evidencia empírica para Medellín | Jorge Barrientos Marín Efraín Arango Sánchez | Noviembre de 2018 |
+| 76 | Can environmental taxes and payments for ecosystem services regulate pollution when the resilience of water bodies is surpassed? | David Tobón Orozco Carlos Molina Harvey Vargas | Noviembre de 2018 |
+| 75 | Los estudios en historia fiscal de Colombia sobre el siglo XX | Ángela Milena Rojas Rivera | Noviembre de 2018 |
+| 74 | Planteamiento de la cuestión agraria en la historiografía agraria colombiana: 1936–2016 | Juan Carlos Velásquez Torres | Marzo de 2018 |
+| 73 | Mediciones del crecimiento económico regional y local en Colombia, 1950-2017: una revisión | Jaime Vallecilla G. | Febrero de 2018 |
+| 72 | Modelo cualitativo para estudiar la internacionalización de las multilatinas Colombianas | Ramón Javier Mesa Callejas Mauricio Lopera Castaño Paola Melisa Valencia Guzmán Mónica Andrea Álvarez Marín Paula Andrea Uribe Polo | Febrero de 2018 |
+| 71 | Los salarios y la fatiga acumulada: una revisión de la teoría de la oferta de trabajo | Carlos Andrés Vasco Correa | Diciembre de 2017 |
+| 70 | Una regla empírica de tasa de interés de política monetaria para una economía emergente, pequeña y abierta | Jaime Montoya Ramirez | Noviembre de 2017 |
+| 69 | Revisión general de la producción académica en historia empresarial colombiana publicada en revistas académicas 1984-2016 ​ | Tatiana González Lopera | Noviembre de 2017 |
+| 68 | La teoría macroeconómica de John Maynard Keynes | Ghislain Deleplace | Octubre de 2017 |
+| 67 | La determinación de los precios en la teoría económica de Sir James Steuart | Alexander Tobón | Septiembre 2017 |
+| 66 | Cálculo de un WACC diferenciado por región para proyectos de generación de electricidad con fuentes renovables en Colombia | Jorge Barrientos Marín, Fernando Villada Duque | Septiembre 2017 |
+| 65 | Panel de VAR: Una aplicación en la movilidad de factores de producción en la integración económica Alianza del Pacífico | Carlos Andrés Villarreal Restrepo | Junio de 2017 |
+| 64 | Recursos y capacidades para el desarrollo económico local en Buriticá Antioquia | Tatiana María Colorado Marín, Juan David Franco Henao y Yesica Rangel Villada | Junio de 2017 |
+| 63 | Desarrollo económico local y género en ámbitos territoriales rurales: el caso de la zona Liborina-Sabanalarga, Antioquia, Colombia | Harold Cardona Trujillo, Jorge Lotero Contreras, Paula Andrea Galeano Morales Alix Bibiana Gómez, y Robinson Garcés Marín | Mayo de 2017 |
+| 62 | Sobre los fundamentales del precio de la energía eléctrica: evidencia empírica para Colombia | Jorge Barrientos Marín y Mónica Toro Martínez | Marzo de 2017 |
+| 61 | Incidencia de los flujos de capital en la política monetaria de Colombia, 1996-2011 | Deivis Agudelo Hincapié, Alexis Arias Saavedra y Julián Jiménez Mejía | Enero de 2017 |
+| 60 | Riesgo idiosincrático y retornos en el mercado accionario de Colombia | Carlos Andrés Barrera Montoya | Enero de 2017 |
+| 59 | Incidence of pollution in the resilience of a natural system and the extent of expected pigouvian taxes and permits for environmental services in a general equilibrium model | David Tobón Orozco, Carlos Molina Guerra y John Harvey Vargas Cano | Noviembre de 2016 |
+| 58 | Desarrollo económico y espacial desigual:panorama teórico y aproximaciones al caso colombiano | Ángela Milena Rojas Rivera y Juan Camilo Rengifo López | Noviembre de 2016 |
+| 57 | Economía, gestión y fútbol: de la pasión a la sostenibilidad financiera | Ramón Javier Mesa Callejas, Jair Albeiro Osorio Agudelo y Carlos Eduardo Castaño Ríos | Julio de 2016 |
+| 56 | A Comparative Analysis of Political Competition and Local Provision of Public Goods: Brazil, Colombia and Mexico (1991-2010) | Ángela M. Rojas Rivera y Carlos A. Molina Guerra | Octubre de 2015 |
+| 55 | ¿Debería la Historia del Pensamiento Económico ser incluida en los Planes de Estudio de Economía en Pregrado? | Alessandro Roncaglia | Junio de 2015 |
+| 54 | Informality and Macroeconomic Volatility: Do Credit Constraints Matter? | Catalina Granda Carvajal | Enero de 2015 |
+| 53 | Modelo VECM para estimar relaciones de largo plazo de un indicador de liquidez y sus determinantes | Wilman A. Gómez y John F. Lopera | Noviembre de 2013 |
+| 52 | Análisis de las disparidades regionales en Colombia: una aproximación desde la estadística espacial, 1985 – 2010 | Jhonny Moncada y Osmar Leandro Loaiza Quintero | Octubre de 2013 |
+| 51 | Tangible temptation in the social dilema: cash, cooperation, and self control | Kristian Ove R. Myrseth, Gerhard Riener y Conny Wollbrant | Mayo de 2013 |
+| 50 | Análisis de la interacción entre las autoridades monetaria y fiscal en Colombia (1991-2011). Una aplicación desde la teoría de juegos | Sebastián Giraldo González, Edwin Esteban Torres Gómez y Ana Cristina  Muñoz Toro | Enero de 2013 |
+| 49 | Desarrollo económico Territorial: El caso del Cluster TIC, Medellín y Valle de Aburrá. Propuesta de fomento y consolidación de la industria de Contenidos Digitales | Felipe Molina Otálvaro, Pablo Barrera Bolaños y Tulio Montemiranda  Aguirre | Noviembre de 2012 |
+| 48 | Características de la Población Ocupada en Colombia: Un análisis del perfil de los formales e informales | José Daniel Salinas Rincón, Sara Isabel González Arismendy y Leidy Johana Marín | Octubre de 2012 |
+| 47 | El tiempo, el éter que lo cubre todo: Un análisis de la temporalidad en la economía política de Karl Marx | Germán Darío Valencia Agudelo | Septiembre de 2012 |
+| 46 | Medición del riesgo sistémico financiero en estudios de historia económica. Propuesta metodológica y aplicación para la banca libre en Antioquia, 1888 | Javier Mejía Cubillos | Mayo de 2012 |
+| 45 | Identificación y priorización de barreras a la eficiencia energética: un estudio en microempresas de Medellín | Juan Gabriel Vanegas y Sergio Botero Botero | Marzo de 2012 |
+| 44 | Estructura de ingresos para trabajadores asalariados y por cuenta propia en la ciudad de Ibagué | José Daniel Salinas Rincón y Daniel Aragón Urrego | Noviembre de 2011 |
+| 43 | Estimación del stock de capital humano bajo la metodología Jorgenson-Fraumeni para Colombia 2001-2009 | Juan David Correa Ramírez y Jaime Alberto Montoya Arbeláez | Septiembre de 2011 |
+| 42 | Tamaño óptimo del gasto público colombiano: una aproximación desde la teoría del crecimiento endógeno | Camilo Alvis y Cristian Castrillón | Septiembre de 2011 |
+| 41 | Determinantes del margen de intermediación en el sector bancario colombiano para el periodo 2000 – 2010 | Perla Escobar y Julián Gómez | Septiembre de 2011 |
+| 40 | Efectos del salario mínimo sobre el estatus laboral de los jóvenes en Colombia | Yenny Catalina Aguirre Botero | Agosto de 2011 |
+| 39 | Per Capita GDP Convergence in South America, 1960 - 2007 | Danny Garcia Callejas | Mayo de 2011 |
+| 38 | Implicaciones de Forward y Futuros para el Sector Eléctrico Colombiano | Duvan Fernando Torres Gómez Astrid Carolina Arroyave Tangarife | Marzo de 2011 |
+| 37 | Political Competition in Dual Economies: Clientelism in Latin America | Ángela Milena Rojas | Febrero de 2011 |
+| 36 | Democracy and Environmental Quality in Latin America: A Panel System of Equations Approach, 1995-2008 | Danny García Callejas | Noviembre de 2010 |
+| 35 | Karl Marx: dinero, capital y crisis | Ghislain Deleplace | Octubre de 2010 |
+| 34 | Corruption, Economic Freedom and Political Freedom in South America: In Pursuit of the missing Link | Danny García Callejas | Agosto de 2010 |
+| 33 | Restricción vehicular y regulación ambiental: el programa “Pico y Placa” en Medellín | David Tobón Orozco, Carlos Vasco Correa y Blanca Gómez Olivo | Mayo de 2010 |
+| 32 | La política ambiental en Colombia: Tasas retributivas y Equilibrios de Nash | Medardo Restrepo Patiño | Octubre de 2009 |
+| 31 | Evolución y determinantes de las exportaciones industriales regionales: evidencia empírica para Colombia, 1977-2002 | Jorge Barrientos Marín y Jorge Lotero Contreras | Septiembre de 2009 |
+| 30 | La función reguladora del Estado: ¿qué regular y por qué? Conceptualización y el caso de Colombia | Jorge Hernán Flórez Acosta | Julio de 2009 |
+| 29 | La Curva de Engel de los Servicios de Salud En Colombia. Una Aproximación Semiparamétrica | Jorge Barrientos Marín, Juan Miguel Gallego y Juan Pablo Saldarriaga | Julio de 2009 |
+| 28 | Competitiveness of Colombian Departments observed from an Economic geography Perspective | Jorge Lotero Contreras, Héctor Mauricio Posada Duque y Daniel Valderrama | Abril de 2009 |
+| 27 | Aportes teóricos al debate de la agricultura desde la economía | Marleny Cardona Acevedo, Yady Marcela Barrero Amortegui, Carlos Felipe Gaviria Garcés, Ever Humberto Álvarez Sánchez y Juan Carlos Muñoz Mora | Septiembre de 2007 |
+| Borradores del Centro de Investigaciones Económicas (1- 26) |  |  |  |
+| 26 | Definición teórica y medición del Comercio Intraindustrial | Ana Isabel Moreno y Héctor Mauricio Posada Duque | Noviembre de 2006 |
+| 25 | Economic policy and institutional change: a contex-specific model for explaining the economic reforms failure in 1970’s Colombia | Ángela Milena Rojas | Noviembre de 2006 |
+| 24 | El efecto de las intervenciones cambiarias: la experiencia colombiana reciente | Mauricio A. Hernández Monsalve y Ramón Javier Mesa Callejas | Noviembre de 2006 |
+| 23 | Formulación de una política pública para el sector del deporte, la recreación y la educación física en Antioquia | Ramón Javier Mesa Callejas, Juan Francisco Gutiérrez Betancur, Rodrigo Arboleda Sierra, Mauricio López González, Nini Johana Marín Rodríguez y Nelson Alveiro Gaviria García. | Octubre de 2006 |
+| 22 | Diagnóstico del sector deporte, la recreación y la educación física en Antioquia | Ramón Javier Mesa Callejas, Rodrigo Arboleda Sierra, Juan Francisco Gutiérrez Betancur, Mauricio López González, Nini Johana Marín Rodríguez y Nelson Alveiro Gaviria García | Octubre de 2006 |
+| 21 | Impacto Económico de los Juegos Deportivos Departamentales 2004: el caso de Santa Fe De Antioquia | Ramón Javier Mesa Callejas, Rodrigo Arboleda Sierra, Mauricio A. Hernández Monsalve, Ana Milena Olarte Cadavid y Nini Johana Marín Rodríguez | Octubre de 2006 |
+| 20 | Caracterización económica del deporte en Antioquia y Colombia: 1998-2001 | Ramón Javier Mesa Callejas, Ana Milena Olarte Cadavid, Rodrigo Arboleda Sierra, Carlos Mario Londoño Toro, Juan David Gómez y Gonzalo Valderrama | Octubre de 2006 |
+| 19 | Perspectiva Económica sobre la demanda de combustibles en Antioquia | Elizeth Ramos Oyola, Maria Victoria Cárdenas Londoño y David Tobón Orozco | Septiembre de 2006 |
+| 18 | Biology and Economics: Metaphors that Economists usually take from Biology | Danny García Callejas | Septiembre de 2006 |
+| 17 | Regulación ambiental sobre la contaminación vehicular en Colombia: ¿hacia donde vamos? | David Tobón Orozco, Andrés Felipe Sánchez Gandur y Maria Victoria Cárdenas Londoño | Septiembre de 2006 |
+| 16 | Cliometrics: a market account of a scientific community (1957-2005) | Ángela Milena Rojas | Septiembre de 2006 |
+| 15 | Integración vertical en el sistema de salud colombiano: Aproximaciones empíricas y análisis de doble marginalización | Jairo Humberto Restrepo Zea, John Fernando Lopera Sierra y Sandra Rodríguez Acosta | Mayo de 2006 |
+| 14 | La curva Ambiental de Kuznets para la calidad del agua: un análisis de su validez mediante raíces unitarias y cointegración | Mauricio Alviar Ramírez, Catalina Granda Carvajal, Luis Guillermo Pérez Puerta, Juan Carlos Muñoz Mora y Diana Constanza Restrepo Ochoa | Mayo de 2006 |
+| 13 | La competitividad: aproximación conceptual desde la teoría del crecimiento y la geografía económica | Jorge Lotero Contreras, Ana Isabel Moreno Monroy y Mauricio Giovanni Valencia Amaya | Mayo de 2005 |
+| 12 | Economic Growth, Consumption and Oil Scarcity in Colombia: A Ramsey model, time series and panel data approach | Danny García Callejas | Marzo de 2005 |
+| 11 | Diseño y experiencia de la regulación en salud en Colombia | Jairo Humberto Restrepo Zea y Sandra Rodríguez Acosta | Marzo de 2005 |
+| 10 | Selección adversa en el régimen contributivo de salud: el caso de la EPS de Susalud | Johanna Vásquez Velásquez y Karoll Gómez Portilla | Marzo de 2004 |
+| 9 | Institucionalidad e incentivos en la educación básica y media en Colombia | David Fernando Tobón, Germán Darío Valencia, Danny García Callejas, Guillermo Pérez y Gustavo Adolfo Castillo | Febrero de 2004 |
+| 8 | Impactos monetarios e institucionales de la deuda pública en Colombia 1840-1890 | Ángela Milena Rojas R | Febrero  de 2004 |
+| 7 | La ética de los estudiantes frente a los exámenes académicos: un problema relacionado con beneficios económicos y probabilidades | Danny García Callejas | Noviembre de 2003 |
+| 6 | Las relaciones del desarrollo económico con la geografía y el territorio: una revisión | Jorge Lotero Contreras | Septiembre de 2003 |
+| 5 | Producción académica en Economía de la Salud en Colombia, 1980-2002 | Karem Espinosa Echavarría Jairo Humberto Restrepo Zea y Sandra Rodríguez Acosta | Agosto de 2003 |
+| 4 | Determinantes de la deserción estudiantil en la Universidad de Antioquia | Johanna Vásquez Velásquez, Elkin Castaño, Karoll Gómez Portilla y Santiago Gallón Gómez | Julio de 2003 |
+| 3 | Un modelo RSDAIDS para las importaciones de madera de Estados Unidos y sus implicaciones para Colombia | Mauricio Alviar Ramírez, Medardo Restrepo Patiño y Santiago Gallón Gómez | Noviembre de 2002 |
+| 2 | Economía y relaciones sexuales: un modelo económico, su verificación empírica y posibles recomendaciones para disminuir los casos de sida. | Marcela Montoya Múnera y Danny García Callejas | Noviembre de 2002 |
+| 1 | Organismos reguladores del sistema de saludo colombiano: conformación, funcionamiento y responsabilidades. | Durfari Velandia Naranjo, Jairo Restrepo Zea y Sandra Rodríguez Acosta | Agosto de 2002 |
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Universidad de Antioquia, Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Conmutador: (+57-604) 219 5800
+- Correo institucional: comunicacioneseconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/publicaciones)
+- [PDF: Transformación digital en la cadena de valor cafetera: análisis comparativo de plataformas tecnológi](https://bibliotecadigital.udea.edu.co/bitstream/10495/45106/1/CardonaHarold_2025_Transformaci%c3%b3nDigitalCadenaValor.pdf)
+- [PDF: Ciclos reales de negocios: una nota didáctica](https://bibliotecadigital.udea.edu.co/bitstream/10495/44847/1/GomezWilman_2024_CiclosRealesNegocios.pdf)
+- [PDF: Notas sobre el marxismo de Maurice Dobb](https://bibliotecadigital.udea.edu.co/bitstream/10495/44754/1/BoixaderaRamon_2024_MarxismoMauriceDobb.pdf)
+- [PDF: Evaluación de reglas fiscales a través de un modelo de equilibrio general dinámico estocástico DSGE ](https://bibliotecadigital.udea.edu.co/bitstream/10495/43301/1/GrimaldoGeraldine_2024_EvaluacionReglaFiscal.pdf)
+- [PDF: Sector informal como amortiguador del ciclo económico: el papel de la aversión a la pérdida](https://bibliotecadigital.udea.edu.co/bitstream/10495/42876/1/GomezWilman_2024_SectorInformalCiclo.pdf)
+- [PDF: La interacción gráfica en Python como herramienta para mejorar el aprendizaje en microeconomía y mac](https://bibliotecadigital.udea.edu.co/bitstream/10495/42877/1/PalacioCarlos_2024_PhytonAprendizajeMicroeconom%c3%ada.pdf)
+
+------------------------------------------------------------
+## [DOCUMENTO]: revista-adversia.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/publicaciones/revista-adversia.md`*
+------------------------------------------------------------
+
+# Adversia
+
+## Resumen Ejecutivo
+Portal oficial y repositorio de artículos de la Adversia de la Facultad de Ciencias Económicas de la UdeA.
+
+## Contenido Principal
+_Sin contenido textual específico listado en el contenedor principal._
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Universidad de Antioquia, Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Conmutador: (+57-604) 219 5800
+- Correo institucional: comunicacioneseconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://revistas.udea.edu.co/index.php/adversia)
+- [PDF: PDF](https://revistas.udea.edu.co/index.php/adversia/article/view/362599/20820082)
+- [PDF: PDF](https://revistas.udea.edu.co/index.php/adversia/article/view/362603/20820083)
+- [PDF: PDF](https://revistas.udea.edu.co/index.php/adversia/article/view/362604/20820084)
+- [PDF: PDF](https://revistas.udea.edu.co/index.php/adversia/article/view/362606/20820085)
+- [PDF: PDF](https://revistas.udea.edu.co/index.php/adversia/article/view/362607/20820086)
+- [PDF: PDF](https://revistas.udea.edu.co/index.php/adversia/article/view/362608/20820807)
+
+------------------------------------------------------------
+## [DOCUMENTO]: revista-conexiones.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/publicaciones/revista-conexiones.md`*
+------------------------------------------------------------
+
+# Revista Conexiones
+
+## Resumen Ejecutivo
+En Conexiones, revista de movilidad nacional e internacional, podrás conocer más detalles sobre los intercambios, las experiencias de los estudiantes que llegan al bloque 13 y de aquellos que toman la decisión de estudiar en otro lugar.
+
+## Contenido Principal
+|  |  |
+| --- | --- |
+| Leer Edición Nº 1 | Leer Edición Nº 2 |
+
+### Mayor información
+
+Germán Darío Mira Álvarez Coordinador Programa de Movilidad german.mira@udea.edu.co Mariana Zuluaga Auxiliar Administrativa Programa de Movilidad internacional.fce@udea.edu.co Bloque 13-114 - Teléfono: (57+604) 219 58 10
+## Puntos de Contacto y Referencias
+### Contacto
+- german.mira@udea.edu.co
+- internacional.fce@udea.edu.co
+- Bloque 13-114
+- bloque 13
+
+### Enlaces clave
+- [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/movilidad/revista-conexiones)
+
+------------------------------------------------------------
+## [DOCUMENTO]: revista-contaduria.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/publicaciones/revista-contaduria.md`*
+------------------------------------------------------------
+
+# Contaduría Universidad de Antioquia
+
+## Resumen Ejecutivo
+Portal oficial y repositorio de artículos de la Contaduría Universidad de Antioquia de la Facultad de Ciencias Económicas de la UdeA.
+
+## Contenido Principal
+_Sin contenido textual específico listado en el contenedor principal._
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Universidad de Antioquia, Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Conmutador: (+57-604) 219 5800
+- Correo institucional: comunicacioneseconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://revistas.udea.edu.co/index.php/cont)
+- [PDF: pdf](https://revistas.udea.edu.co/index.php/cont/article/view/367327/20822351)
+- [PDF: PDF](https://revistas.udea.edu.co/index.php/cont/article/view/357665/20821297)
+- [PDF: PDF](https://revistas.udea.edu.co/index.php/cont/article/view/359484/20821296)
+- [PDF: PDF](https://revistas.udea.edu.co/index.php/cont/article/view/364962/20821298)
+- [PDF: PDF](https://revistas.udea.edu.co/index.php/cont/article/view/366269/20821940)
+- [PDF: PDF](https://revistas.udea.edu.co/index.php/cont/article/view/357472/20821939)
+
+------------------------------------------------------------
+## [DOCUMENTO]: revista-lecturas-economia.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/publicaciones/revista-lecturas-economia.md`*
+------------------------------------------------------------
+
+# Lecturas de Economía
+
+## Resumen Ejecutivo
+Portal oficial y repositorio de artículos de la Lecturas de Economía de la Facultad de Ciencias Económicas de la UdeA.
+
+## Contenido Principal
+_Sin contenido textual específico listado en el contenedor principal._
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Lecturas de Economía ISSN: 0120-2596 | eISSN: 2323-0622 Indexada en: Scopus (Q4 SJR), Scielo-Citation Index, Redalyc, EBSCO - Fuente Académica Premier, EconLit - Journal of Economic Literature, RePEc (Research Papers in Economics), DOAJ, LATINDEX, REDIB, PUBLINDEX - Minciencias, Clarivate Emerging Sources Citation Index - Web of Science Dirección: Calle 67 #53-108 — Facultad de Ciencias Económicas — Medellín, Colombia Email: revistalecturas@udea.edu.co Lecturas de Economía website and its metadata are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License .
+- Lecturas de Economía ISSN: 0120-2596 | eISSN: 2323-0622 Indexada en: Scopus (Q4 SJR), Scielo-Citation Index, Redalyc, EBSCO - Fuente Académica Premier, EconLit - Journal of Economic Literature, RePEc (Research Papers in Economics), DOAJ, LATINDEX, REDIB, PUBLINDEX - Minciencias, Clarivate Emerging Sources Citation Index - Web of Science Dirección: Calle 67 #53-108 — Facultad de Ciencias Económicas — Medellín, Colombia Email: revistalecturas@udea.edu.co Lecturas de Economía website and its metadata are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License .
+- Lecturas de Economía ISSN: 0120-2596 | eISSN: 2323-0622 Indexada en: Scopus (Q4 SJR), Scielo-Citation Index, Redalyc, EBSCO - Fuente Académica Premier, EconLit - Journal of Economic Literature, RePEc (Research Papers in Economics), DOAJ, LATINDEX, REDIB, PUBLINDEX - Minciencias, Clarivate Emerging Sources Citation Index - Web of Science Dirección: Calle 67 #53-108 — Facultad de Ciencias Económicas — Medellín, Colombia Email: revistalecturas@udea.edu.co Lecturas de Economía website and its metadata are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License .
+
+### Enlaces clave
+- [Página oficial de origen](https://revistas.udea.edu.co/index.php/lecturasdeeconomia)
+- [PDF: PDF](https://revistas.udea.edu.co/index.php/lecturasdeeconomia/article/view/366946/20822276)
+- [PDF: PDF](https://revistas.udea.edu.co/index.php/lecturasdeeconomia/article/view/361869/20822277)
+- [PDF: PDF (English)](https://revistas.udea.edu.co/index.php/lecturasdeeconomia/article/view/357770/20822278)
+- [PDF: PDF (English)](https://revistas.udea.edu.co/index.php/lecturasdeeconomia/article/view/360607/20822279)
+- [PDF: PDF](https://revistas.udea.edu.co/index.php/lecturasdeeconomia/article/view/360735/20822280)
+- [PDF: PDF (English)](https://revistas.udea.edu.co/index.php/lecturasdeeconomia/article/view/359932/20822281)
+
+------------------------------------------------------------
+## [DOCUMENTO]: revista-oikos.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/publicaciones/revista-oikos.md`*
+------------------------------------------------------------
+
+# Oikos
+
+## Resumen Ejecutivo
+Portal oficial y repositorio de artículos de la Oikos de la Facultad de Ciencias Económicas de la UdeA.
+
+## Contenido Principal
+_Sin contenido textual específico listado en el contenedor principal._
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Universidad de Antioquia, Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Conmutador: (+57-604) 219 5800
+- Correo institucional: comunicacioneseconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://revistas.udea.edu.co/index.php/oikos)
+
+------------------------------------------------------------
+## [DOCUMENTO]: revista-perfil-coyuntura.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/publicaciones/revista-perfil-coyuntura.md`*
+------------------------------------------------------------
+
+# Perfil de Coyuntura Económica
+
+## Resumen Ejecutivo
+Portal oficial y repositorio de artículos de la Perfil de Coyuntura Económica de la Facultad de Ciencias Económicas de la UdeA.
+
+## Contenido Principal
+_Sin contenido textual específico listado en el contenedor principal._
+
+## Puntos de Contacto y Referencias
+### Contacto
+- Ubicación: Universidad de Antioquia, Ciudad Universitaria Calle 67 No. 53-108, Bloque 13
+- Conmutador: (+57-604) 219 5800
+- Correo institucional: comunicacioneseconomicas@udea.edu.co
+
+### Enlaces clave
+- [Página oficial de origen](https://revistas.udea.edu.co/index.php/coyuntura)
+- [PDF: PDF](https://revistas.udea.edu.co/index.php/coyuntura/article/view/327741/20784795)
+- [PDF: PDF](https://revistas.udea.edu.co/index.php/coyuntura/article/view/327742/20784796)
+- [PDF: PDF](https://revistas.udea.edu.co/index.php/coyuntura/article/view/327743/20784797)
+- [PDF: PDF](https://revistas.udea.edu.co/index.php/coyuntura/article/view/327744/20784798)
+- [PDF: PDF](https://revistas.udea.edu.co/index.php/coyuntura/article/view/327745/20784799)
+- [PDF: PDF](https://revistas.udea.edu.co/index.php/coyuntura/article/view/327746/20784800)
+
+================================================================================
+# 6. MAPAS DE CONTENIDO (MOC) Y CONCEPTOS
 ================================================================================
 
 
@@ -2614,7 +8989,7 @@ Este catálogo relaciona de forma exhaustiva los **31 documentos normativos y op
 - **Compatibilidad de la Wiki:** Totalmente operable en **Obsidian** (con soporte de wikilinks y graph view), renderizable en **GitHub** y exportable a sitios estáticos (**Quartz 4.0** o **MkDocs Material**).
 
 ================================================================================
-# 5. SÍNTESIS DEL MARCO NORMATIVO INSTITUCIONAL (21 NORMAS)
+# 7. SÍNTESIS DEL MARCO NORMATIVO INSTITUCIONAL (21 NORMAS)
 ================================================================================
 
 
@@ -2653,19 +9028,19 @@ El **Estatuto General (Acuerdo Superior 01 de 1994)** define a la Universidad de
 
 ```mermaid
 flowchart TD
-    CSU["Consejo Superior Universitario (CSU)<br/>• Máximo Órgano de Gobierno y Dirección (Art. 29)<br/>• Aprueba Estatutos, Presupuesto y Crea Unidades"]
+    CSU["<b>Consejo Superior Universitario (CSU)</b><br/>Máximo Órgano de Gobierno y Dirección (Art. 29)<br/>Aprueba Estatutos, Presupuesto y Unidades"]
     
-    Rector["Rectoría<br/>• Primera Autoridad Ejecutiva y Representante Legal (Art. 40)<br/>• Ordenación General del Gasto y Contratación"]
+    Rector["<b>Rectoría</b><br/>Primera Autoridad Ejecutiva y Legal (Art. 40)<br/>Ordenación General del Gasto y Contratos"]
     
-    Acad["Consejo Académico<br/>• Máxima Autoridad Académica (Art. 34)<br/>• Aprueba Planes Curriculares, I+D y Posgrados"]
+    Acad["<b>Consejo Académico</b><br/>Máxima Autoridad Académica (Art. 34)<br/>Aprueba Planes de I+D, Posgrados y Currículos"]
     
-    CODI["Comité para el Desarrollo de la Investigación (CODI)<br/>(Comité Asesor del Consejo Académico - Art. 38)"]
+    CODI["<b>CODI</b><br/>Comité Asesor de I+D del CA (Art. 38)"]
     
-    Decanos["Decanos de Facultad<br/>• Representantes del Rector (Art. 51)<br/>• Ordenadores del Gasto Delegados (Art. 53)"]
+    Decanos["<b>Decanos de Facultad</b><br/>Representantes del Rector (Art. 51)<br/>Ordenadores de Gasto Delegados (Art. 53)"]
     
-    CF["Consejos de Facultad<br/>• Autoridad Académica Seccional (Art. 57)<br/>• Aprueba Planes de I+D y avala Proyectos"]
+    CF["<b>Consejos de Facultad</b><br/>Autoridad Académica Seccional (Art. 57)<br/>Aprueba Planes de I+D y Avala Proyectos"]
     
-    Centros["Centros de Investigación y Extensión (Art. 74)<br/>• Administran proyectos y recursos en SIIU"]
+    Centros["<b>Centros de Investigación (CI/CIE)</b><br/>Administran proyectos y recursos en SIIU (Art. 74)"]
 
     CSU --> Rector
     CSU --> Acad
@@ -3883,7 +10258,7 @@ Antes de someter una prórroga o plazo en el SIIU:
 - **MOC Central de Legalidad:** [MOC_Marco_Normativo](../00_INICIO_Y_MOCS/MOC_Marco_Normativo.md)
 
 ================================================================================
-# 6. ARCHIVO MAESTRO FIDEDIGNO: 31 GUÍAS E INSTRUCTIVOS OFICIALES
+# 8. ARCHIVO MAESTRO FIDEDIGNO: 31 GUÍAS E INSTRUCTIVOS OFICIALES
 ================================================================================
 
 
@@ -5130,12 +11505,12 @@ Cuando se acepte la confirmación:
 2. Busque por palabra clave (código del proyecto) y presione **Consultar**.
 3. En la columna **Acciones** dé clic a los tres puntos y seleccione **Autorizar actualización**.
 
-   ![[VI-GU-08-figura-12a.png]]
+   ![Figura 12a](docs/assets/figuras/VI-GU-08/figura-12a.png)
    *Figura 12 a – Autorizar actualización*
 
 4. El sistema solo habilita el campo **Fecha límite** (la hora límite por defecto trae 11:59:59 pm). Presione el icono de calendario para modificar la fecha límite y presione **Autorizar actualización**.
 
-   ![[VI-GU-08-figura-12b.png]]
+   ![Figura 12b](docs/assets/figuras/VI-GU-08/figura-12b.png)
    *Figura 12 b – Cambiar fecha límite*
 
 ---
@@ -6153,13 +12528,13 @@ El tutor debe ingresar al portal de la Universidad de Antioquia (`http://www.ude
    ![Figura 12](docs/assets/figuras/VI-GU-11/figura-12.png)
    *Figura 12- Documento soporte _Seleccionar archivo*
 
-   ![[VI-GU-11-figura-13a.png]]
+   ![Figura 13a](docs/assets/figuras/VI-GU-11/figura-13a.png)
    *Figura 13 (en doc ref. Figura 3)- Búsqueda de archivo para adjuntar*
 
    - Seleccione el botón **Cargar Archivo** y verifique que la barra de carga esté en azul y con el nombre correcto.  
    - Clic en **Guardar**.
 
-   ![[VI-GU-11-figura-13b.png]]
+   ![Figura 13b](docs/assets/figuras/VI-GU-11/figura-13b.png)
    *Figura 13 / 14 - Cargar archivo*
 
    - Valide en la lista que el documento de soporte quedó correctamente adjunto.
@@ -6173,7 +12548,7 @@ El tutor debe ingresar al portal de la Universidad de Antioquia (`http://www.ude
 
 1. Presione el botón **ENVIAR** para que la Vicerrectoría de Investigación pueda revisar y gestionar la solicitud.
 
-   ![[VI-GU-11-figura-14b.png]]
+   ![Figura 14b](docs/assets/figuras/VI-GU-11/figura-14b.png)
    *Figura 14 (en doc ref. Figura 14b)- Enviar solicitud*
 
 2. El sistema genera un mensaje de confirmación de envío.  
@@ -12319,7 +18694,7 @@ Valide que el proyecto quede en estado **Pendiente de actualización**, realizan
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 12-ABR-2024 |
 
 ================================================================================
-# 7. ARCHIVO MAESTRO FIDEDIGNO: 21 NORMAS INSTITUCIONALES COMPLETAS
+# 9. ARCHIVO MAESTRO FIDEDIGNO: 21 NORMAS INSTITUCIONALES COMPLETAS
 ================================================================================
 
 
@@ -15186,7 +21561,7 @@ Rector
 Secretario General
 
 ================================================================================
-# 8. TÉRMINOS LEGALES Y CUMPLIMIENTO
+# 10. TÉRMINOS LEGALES Y CUMPLIMIENTO
 ================================================================================
 
 

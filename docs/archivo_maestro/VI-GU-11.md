@@ -17,6 +17,8 @@ tags:
   - "joven_investigador"
   - "prorroga"
   - "tramites_administrativos"
+search:
+  boost: 0.35
 ---
 
 # GUÍA PARA LA SOLICITUD DE PRÓRROGA DE CUPOS EN EL PROGRAMA JOVEN INVESTIGADOR
@@ -30,12 +32,12 @@ tags:
 
 ## Contenido
 
-1. [Definición](#1-definición)
+1. [Definición](#1-definicion)
 2. [Contenido](#2-contenido)
    - 2.1. [Requisitos](#21-requisitos)
    - 2.2. [Usuarios que intervienen](#22-usuarios-que-intervienen)
-   - 2.3. [Ingrese a la aplicación SIIU por el portal](#23-ingrese-a-la-aplicación-siiu-por-el-portal)
-   - 2.4. [Solicitar prórroga para cupo de Joven Investigador](#24-solicitar-prórroga-para-cupo-de-joven-investigador)
+   - 2.3. [Ingrese a la aplicación SIIU por el portal](#23-ingrese-a-la-aplicacion-siiu-por-el-portal)
+   - 2.4. [Solicitar prórroga para cupo de Joven Investigador](#24-solicitar-prorroga-para-cupo-de-joven-investigador)
    - 2.5. [Enviar solicitud](#25-enviar-solicitud)
    - 2.6. [Editar Solicitud](#26-editar-solicitud)
 3. [Nota de cambio](#3-nota-de-cambio)
@@ -160,13 +162,13 @@ El tutor debe ingresar al portal de la Universidad de Antioquia (`http://www.ude
    ![Figura 12](../assets/figuras/VI-GU-11/figura-12.png)
    *Figura 12- Documento soporte _Seleccionar archivo*
 
-   ![[VI-GU-11-figura-13a.png]]
+   ![Figura 13a](../assets/figuras/VI-GU-11/figura-13a.png)
    *Figura 13 (en doc ref. Figura 3)- Búsqueda de archivo para adjuntar*
 
    - Seleccione el botón **Cargar Archivo** y verifique que la barra de carga esté en azul y con el nombre correcto.  
    - Clic en **Guardar**.
 
-   ![[VI-GU-11-figura-13b.png]]
+   ![Figura 13b](../assets/figuras/VI-GU-11/figura-13b.png)
    *Figura 13 / 14 - Cargar archivo*
 
    - Valide en la lista que el documento de soporte quedó correctamente adjunto.
@@ -180,7 +182,7 @@ El tutor debe ingresar al portal de la Universidad de Antioquia (`http://www.ude
 
 1. Presione el botón **ENVIAR** para que la Vicerrectoría de Investigación pueda revisar y gestionar la solicitud.
 
-   ![[VI-GU-11-figura-14b.png]]
+   ![Figura 14b](../assets/figuras/VI-GU-11/figura-14b.png)
    *Figura 14 (en doc ref. Figura 14b)- Enviar solicitud*
 
 2. El sistema genera un mensaje de confirmación de envío.  

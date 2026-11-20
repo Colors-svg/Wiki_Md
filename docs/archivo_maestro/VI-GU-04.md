@@ -16,6 +16,8 @@ tags:
   - "proyectos"
   - "cierre"
   - "compromisos"
+search:
+  boost: 0.35
 ---
 
 # GUÍA PARA EL CIERRE DE PROYECTOS EN SIIU
@@ -29,12 +31,12 @@ tags:
 
 ## Contenido
 
-1. [Definición](#1-definición)
+1. [Definición](#1-definicion)
 2. [Contenido](#2-contenido)
    - 2.1. [Requisitos para el cierre](#21-requisitos-para-el-cierre)
    - 2.2. [Usuarios que intervienen en el proceso](#22-usuarios-que-intervienen-en-el-proceso)
    - 2.3. [Ingreso al SIIU](#23-ingreso-al-siiu)
-   - 2.4. [Proceso Gestión de compromisos](#24-proceso-gestión-de-compromisos)
+   - 2.4. [Proceso Gestión de compromisos](#24-proceso-gestion-de-compromisos)
    - 2.5. [Cerrar un proyecto](#25-cerrar-un-proyecto)
 3. [Nota de cambio](#3-nota-de-cambio)
 

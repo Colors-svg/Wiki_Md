@@ -1,12 +1,17 @@
+---
+search:
+  boost: 2.5
+---
+
 # Convocatorias, Fondos CODI y Circulares de Investigación
 
 El financiamiento interno de la investigación en la Universidad de Antioquia es administrado por el **Comité para el Desarrollo de la Investigación (CODI)** y ejecutado operativamente a través del **SIIU** bajo la coordinación de la **Vicerrectoría de Investigación (VRI)**. Esta guía integra las líneas de financiación interna vigentes, las condiciones de los fondos especiales y las circulares informativas clave emitidas entre 2021 y 2026.
 
 ```mermaid
 flowchart TD
-    classDef central fill:#026937,stroke:#35944B,stroke-width:2px,color:#FFFFFF;
-    classDef fondo fill:#111722,stroke:#137598,stroke-width:1.5px,color:#FFFFFF;
-    classDef accion fill:#111722,stroke:#8DC63F,stroke-width:1.5px,color:#FFFFFF;
+    classDef central fill:#026937,stroke:#8DC63F,stroke-width:2px,color:#FFFFFF;
+    classDef fondo fill:#0E7774,stroke:#3EBDAC,stroke-width:1.5px,color:#FFFFFF;
+    classDef accion fill:#137598,stroke:#8DC63F,stroke-width:2px,color:#FFFFFF;
 
     CODI["<b>CODI / Vicerrectoría de Investigación</b><br/>Financiamiento Interno y Fondos Especiales"]:::central
 

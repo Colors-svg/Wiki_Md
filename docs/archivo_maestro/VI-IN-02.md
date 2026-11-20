@@ -19,6 +19,8 @@ tags:
   - "historial_de_proyectos"
   - "consulta"
   - "exportar_excel"
+search:
+  boost: 0.35
 ---
 
 # INSTRUCTIVO PARA GENERAR REPORTE HISTORIAL DE PROYECTOS
@@ -32,7 +34,7 @@ tags:
 
 ## Contenido
 
-1. [Definición](#1-definición)
+1. [Definición](#1-definicion)
 2. [Contenido](#2-contenido)
    - 2.1. [Ingresar al SIIU](#21-ingresar-al-siiu)
    - 2.2. [Reporte historial de proyectos](#22-reporte-historial-de-proyectos)
