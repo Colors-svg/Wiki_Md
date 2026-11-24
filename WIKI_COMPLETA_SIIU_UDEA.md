@@ -803,9 +803,10 @@ La Universidad de Antioquia y el CODI convocan a los grupos de investigación in
 - **Operación en SIIU:** Las propuestas se radican en el módulo de convocatorias del SIIU, adjuntando el aval del Centro de Investigación correspondiente y los compromisos de producción científica asociados a la vigencia.
 
 ### B. Fondo de Apoyo al Primer Proyecto
-Mecanismo diseñado para impulsar la trayectoria investigativa de profesores vinculados que formulan su primer proyecto ante el Sistema Universitario de Investigación (SUI).
+Mecanismo permanente diseñado para impulsar la trayectoria investigativa de profesores vinculados por concurso de méritos o doctores retornados que formulan su primer proyecto ante el Sistema Universitario de Investigación (SUI).
 
-- **Normativa operativa:** Regulado originalmente mediante la [Circular N°1 del 3 de marzo de 2021](https://www.udea.edu.co/wps/wcm/connect/udea/a110d1cf-be4f-4adc-8007-ee5cd72819f4/Circular+1+de+2021+-+Fondo+Primer+Proyecto.pdf?MOD=AJPERES&CVID=nwsEvwY) y actualizado respecto a su estado de ejecución en la [Circular informativa 01 de 2025](https://www.udea.edu.co/wps/wcm/connect/udea/71323081-1d07-4e42-95b7-5083ec5e3e91/Circular012025_estado-ejecucion-fondo-apoyo-PPInvestigacion.pdf?MOD=AJPERES&CVID=pnnOY0k).
+- **Términos de Referencia (Sesión CODI Nro. 833):** Consulta la ficha completa de cuantías (\$25M pregrado / \$40M maestría), requisitos de ventana de 2 años, reglas de evaluación ($\ge 80/100$), compromisos y libertad de cambios de rubro en [**Fondo de Apoyo al Primer Proyecto (TR CODI 833)**](../07_INVESTIGACION_CENTRAL_UDEA/fondo_primer_proyecto.md) o lee el texto normativo en [TR-CODI-833-Primer-Proyecto](../archivo_maestro/TR-CODI-833-Primer-Proyecto.md).
+- **Normativa y circulares complementarias:** Regulado originalmente mediante la [Circular N°1 del 3 de marzo de 2021](https://www.udea.edu.co/wps/wcm/connect/udea/a110d1cf-be4f-4adc-8007-ee5cd72819f4/Circular+1+de+2021+-+Fondo+Primer+Proyecto.pdf?MOD=AJPERES&CVID=nwsEvwY) y actualizado respecto a su estado de ejecución en la [Circular informativa 01 de 2025](https://www.udea.edu.co/wps/wcm/connect/udea/71323081-1d07-4e42-95b7-5083ec5e3e91/Circular012025_estado-ejecucion-fondo-apoyo-PPInvestigacion.pdf?MOD=AJPERES&CVID=pnnOY0k).
 
 ### C. Fondos de Comunicación Pública de la Ciencia (CPC) y Apropiación Social del Conocimiento (ASC)
 El CODI dispone de fondos especiales orientados a fomentar la socialización, publicación de resultados, realización de eventos científicos y transferencia hacia públicos no especializados.
@@ -2634,6 +2635,10 @@ El fondo tiene como objetivo financiar la realización de productos en torno a l
 
 ## Contenido Principal
 Mediante estos Fondos, el CODI apoya el desarrollo de la actividad investigativa en la Universidad de Antioquia a través de fondos especiales que fomenten la realización de proyectos, la socialización y publicación de resultados y la realización de eventos científicos.
+
+### Fondos Especiales Documentados
+- [**Fondo de Apoyo al Primer Proyecto de Profesores (TR CODI 833)**](fondo_primer_proyecto.md): Financiación hasta \$25M (pregrado) o \$40M (maestría) para profesores recién vinculados o doctores retornados.
+- **Fondos CPC y ASC:** Apoyo para productos de Comunicación Pública de la Ciencia y Apropiación Social del Conocimiento.
 ## Puntos de Contacto y Referencias
 ### Contacto
 - Vicerrectoría de Investigación — Universidad de Antioquia
@@ -2642,6 +2647,117 @@ Mediante estos Fondos, el CODI apoya el desarrollo de la actividad investigativa
 
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/convocatorias-fondos-etiqueta/fondos-investigacion)
+
+------------------------------------------------------------
+## [DOCUMENTO]: fondo_primer_proyecto.md
+*Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/fondo_primer_proyecto.md`*
+------------------------------------------------------------
+
+# Fondo de Apoyo al Primer Proyecto de Profesores
+
+Mecanismo permanente del **Comité para el Desarrollo de la Investigación (CODI)** orientado a impulsar el inicio de la carrera investigativa de profesores recién vinculados por concurso de méritos o docentes que culminan sus estudios doctorales, garantizándoles financiación inicial sin competir en las convocatorias tradicionales de menor y mediana cuantía.
+
+!!! info "Base Normativa y Guía Técnica"
+    - **Términos de Referencia (TR):** Aprobados en la **Sesión Nro. 833 del CODI** (convocatoria permanente formalizada desde la Sesión 630 de 2012). Consulta el texto normativo estructurado en [TR-CODI-833-Primer-Proyecto](../archivo_maestro/TR-CODI-833-Primer-Proyecto.md).
+    - **Instructivo SIIU:** Para el diligenciamiento paso a paso en plataforma, consulta la guía oficial [VI-GU-17: Matrícula de Primer Proyecto en el SIIU](../archivo_maestro/VI-GU-17.md).
+
+---
+
+## 1. Cuantías y Topes de Financiación
+
+Los recursos se asignan con cargo al presupuesto del CODI en **orden de aprobación por el jurado final hasta agotar la disponibilidad presupuestal** de la vigencia:
+
+| Modalidad de Estudiante Vinculado | Tope Máximo Financiable | Condición del Estudiante |
+| :--- | :--- | :--- |
+| **Estudiante de Pregrado** | **Hasta \$25.000.000** | Bajo la modalidad y requisitos del **Programa de Jóvenes Investigadores CODI UdeA**. |
+| **Estudiante de Maestría** | **Hasta \$40.000.000** | No haber cursado más del **50%** del programa al inicio y permanecer al menos **50%** del tiempo del proyecto. |
+
+---
+
+## 2. Requisitos Mínimos y Ventana de Postulación
+
+Para ser elegible, el profesor postulante debe cumplir simultáneamente con las siguientes condiciones:
+
+1. **Ventana de 2 años:** Presentar el proyecto ante el Centro de Investigación dentro de los **dos (2) primeros años** contados desde su vinculación mediante concurso de méritos o desde la culminación de sus estudios de doctorado.
+   - *Doctores retornados:* Deben certificar ante el Centro la fecha de terminación de estudios, la comisión correspondiente y la fecha de graduación.
+2. **Estado en SIIU:** El proyecto debe encontrarse registrado en el SIIU en estado **`Matriculado`** para que el Centro pueda analizarlo.
+3. **Exclusividad como Investigador Principal (IP):** Al momento de presentar la propuesta al Centro, el profesor **no puede estar participando como Investigador Principal** en otros proyectos de investigación registrados en el SUI.
+4. **Pertinencia académica:** Declarar antecedentes e intención de iniciar o dar continuidad a un programa, agenda o línea de investigación, preferiblemente con aval de un grupo de investigación UdeA.
+5. **Avales institucionales obligatorios:**
+   - **Comité Técnico del Centro de Investigación:** Respaldo sobre la importancia del proyecto conforme al concurso de méritos o plan de formación docente.
+   - **Consejo de Facultad, Escuela o Instituto:** Aval de **asignación de horas en el plan de trabajo** del profesor.
+
+!!! warning "Plazo máximo de gestión en los Centros (6 meses)"
+    Los Centros de Investigación tienen un límite máximo de **seis (6) meses**, contados desde que reciben el proyecto en el SIIU por parte del IP, para emitir sus avales y presentarlo ante la Vicerrectoría de Investigación.
+
+---
+
+## 3. Flujo de Evaluación, Aprobación e Inicio Formal
+
+```mermaid
+flowchart TD
+    IP["1. Investigador Principal<br/>Matricula en SIIU (Ventana de 2 años)"] --> CENTRO["2. Centro de Investigación<br/>Revisión y Avales (Máx. 6 meses)"]
+    CENTRO --> PARES["3. Evaluación por 2 Pares Académicos<br/>(Al menos 1 externo a la UdeA)"]
+    PARES --> PUNTAJE{"¿Promedio >= 80/100?"}
+    PUNTAJE -- "Sí" --> JURADO["4. Jurado Final del Fondo (CODI)<br/>Aprobación y asignación hasta agotar recursos"]
+    PUNTAJE -- "Discrepancia*" --> TERCER["Tercer Evaluador<br/>(*1 aprueba >= 80, 1 rechaza, dif >= 30 pts)"]
+    TERCER --> JURADO
+    PUNTAJE -- "No" --> RECHAZO["No recomendado"]
+    JURADO --> INICIO["5. Inicio Formal (Máx. 2 meses)<br/>Acta de Acuerdo (PI) y ejecución hasta 18 meses"]
+
+    classDef main fill:#026937,stroke:#35944B,color:#ffffff,stroke-width:2px;
+    classDef step fill:#111722,stroke:#3EBDAC,color:#ffffff,stroke-width:1px;
+    classDef warn fill:#35944B,stroke:#8DC63F,color:#ffffff,stroke-width:2px;
+    class IP,JURADO main;
+    class CENTRO,PARES,TERCER,INICIO,RECHAZO step;
+    class PUNTAJE warn;
+```
+
+### Reglas críticas de inicio y duración
+- **Plazo para iniciar:** Máximo **dos (2) meses** desde la aprobación. **No hay prórrogas de inicio automáticas.** Si vence el plazo sin iniciar, se pierde el derecho a la financiación.
+  - *Excepción:* Antes de cumplirse los 2 meses, se puede tramitar ante el CODI (con aval del Comité Técnico del Centro) una **única prórroga de inicio por máximo 6 meses**.
+- **Duración de ejecución:** Hasta **18 meses** contados desde la fecha de inicio consignada en el **Acta de Acuerdo** (Estatuto de Propiedad Intelectual).
+- **Prórrogas de ejecución:**
+  - *Primera prórroga:* Hasta **6 meses**, aprobada por el **Comité Técnico del Centro**.
+  - *Segunda prórroga:* Hasta **6 meses**, aprobada por el **CODI** previo aval del Comité Técnico.
+
+---
+
+## 4. Rubros Financiables y Flexibilidad Presupuestal
+
+### Rubros autorizados
+- **Personal:** Incluye el estímulo económico al estudiante en formación.
+  - El estudiante **no tiene que estar definido para iniciar** el proyecto, pero debe permanecer vinculado al menos la mitad del tiempo del proyecto (**9 meses**).
+  - *Convenios de pasantía en pregrado (Jóvenes Investigadores):* Mínimo **9 meses** si se financia con recursos del proyecto, o **12 meses** si se financia con recursos de la Convocatoria Jóvenes Investigadores CODI UdeA.
+- **Otros rubros:** Servicios técnicos, edición y traducción de materiales publicables, material fungible, equipos, seguros de equipos, telecomunicaciones, trabajo de campo, software, publicaciones, bibliografía, servicios de apoyo para laboratorios, viajes y administración.
+
+### Política de cambios de rubro (Autorregulación Vigilada)
+El Investigador Principal puede realizar **libremente cambios de rubro en cualquier momento** de la ejecución, siempre que:
+1. Sean necesarios, según su criterio, para cumplir los fines de la investigación.
+2. Se efectúen dentro del tiempo de ejecución vigente del proyecto.
+3. Se informe oportunamente al Centro de Investigación administrador.
+
+!!! tip "Responsabilidad financiera del IP"
+    Esta flexibilidad responde a los principios de buena fe y eficiencia del CODI. No obstante, el IP debe rendir cuentas comprobadas de su gestión y **reintegrar a la Universidad** los dineros no utilizados o no aplicados a los compromisos adquiridos.
+
+---
+
+## 5. Compromisos Obligatorios y Opcionales
+
+| Categoría | Requisito Exigible | Criterio de Cumplimiento |
+| :--- | :--- | :--- |
+| **Obligatorio 1** | **Proyecto a entidad externa** | Presentación de un proyecto de investigación a una entidad externa a la UdeA por un monto **superior** al financiado en esta modalidad. |
+| **Obligatorio 2** | **Producto de nuevo conocimiento** | Artículo en revista científica, libro o capítulo de libro resultado de investigación. Se cumple con la **carta de aceptación** de la revista (preferiblemente Acceso Abierto). |
+| **Obligatorio 3** | **Estudiante en formación** | Vinculación efectiva de un estudiante de pregrado (Jóvenes Investigadores CODI UdeA) o maestría según el monto financiado. |
+| **Opcional (Elegir 1)** | **Producto derivado de investigación** | Una vez seleccionado por el IP, adquiere carácter **obligatorio**:<br>• Artículo en revista de divulgación<br>• Obra artística resultado de investigación<br>• Ponencia en evento académico nacional o internacional<br>• Organización de evento académico con pares nacionales o internacionales<br>• Otro compromiso equivalente propuesto por el IP |
+
+---
+
+## 6. Enlaces Operativos Relacionados
+- [Matrícula de Proyectos en el SIIU](../02_PROCESOS_CLAVE/Matricula_Proyectos.md)
+- [Guía Técnica VI-GU-17 (Paso a paso en SIIU)](../archivo_maestro/VI-GU-17.md)
+- [Convocatorias y Fondos CODI](../02_PROCESOS_CLAVE/Convocatorias_y_Fondos_CODI.md)
+- [Programa Jóvenes Investigadores](../02_PROCESOS_CLAVE/Programa_Joven_Investigador.md)
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: programa_jovenes_investigadores.md
@@ -10258,7 +10374,7 @@ Antes de someter una prórroga o plazo en el SIIU:
 - **MOC Central de Legalidad:** [MOC_Marco_Normativo](../00_INICIO_Y_MOCS/MOC_Marco_Normativo.md)
 
 ================================================================================
-# 8. ARCHIVO MAESTRO FIDEDIGNO: 31 GUÍAS E INSTRUCTIVOS OFICIALES
+# 8. ARCHIVO MAESTRO FIDEDIGNO: 31 GUÍAS E INSTRUCTIVOS OFICIALES Y TÉRMINOS DE REFERENCIA
 ================================================================================
 
 
@@ -18693,6 +18809,144 @@ Valide que el proyecto quede en estado **Pendiente de actualización**, realizan
 | **Revisó** | Kerlin Yohana Bedoya Agudelo | Analista de Procesos, División de Arquitectura de Procesos | 04-ABR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 12-ABR-2024 |
 
+------------------------------------------------------------
+## [DOCUMENTO]: TR-CODI-833-Primer-Proyecto.md
+*Ruta canónica original: `archivo_maestro/TR-CODI-833-Primer-Proyecto.md`*
+------------------------------------------------------------
+
+# Términos de Referencia: Fondo de Apoyo al Primer Proyecto de Profesores (CODI — Sesión Nro. 833)
+
+> [!NOTE] Información Institucional de Control
+> **Entidad Emisora:** Comité para el Desarrollo de la Investigación (CODI) / Vicerrectoría de Investigación — Universidad de Antioquia  
+> **Aprobación:** Sesión Nro. 833 del CODI  
+> **Antecedentes Normativos:** Acuerdo Superior Universitario (ASU) 153 de 1990; Acuerdo Superior Universitario (ASU) 204 de 2001; Sesiones CODI 604 y 605 (mayo-junio de 2011); Sesión CODI 630 (8 de mayo de 2012, formalización como convocatoria permanente).  
+> **Sede Vicerrectoría de Investigación:** Calle 67 No. 53–108, Bloque 16-210 | Conmutador: (604) 219 8332 / 219 5190 | `viceinvestigacion@udea.edu.co`
+
+---
+
+## Contexto y Antecedentes Institucionales
+
+Como parte de su política de fomento a la carrera investigativa docente, la Universidad de Antioquia instauró desde el Reglamento de Investigación de 1990 (ASU 153 de 1990) el instrumento de proyectos de menor cuantía, ratificado posteriormente en el Reglamento de Investigación de 2001 (ASU 204 de 2001). Con el fin de focalizar el apoyo hacia profesores recién vinculados por concurso de méritos o docentes que culminan estudios doctorales —quienes por su fecha de ingreso o graduación no podían acceder a las convocatorias tradicionales de menor y mediana cuantía—, el CODI aprobó en 2011 (sesiones 604 y 605) la primera convocatoria bajo la modalidad de apoyo al primer proyecto. Tras la evaluación del primer año, en la sesión 630 (8 de mayo de 2012) se formalizó como **convocatoria permanente**, reglamentada mediante estos Términos de Referencia aprobados en la **sesión Nro. 833 del CODI**, en articulación con la Vicerrectoría de Docencia y las dependencias académicas.
+
+---
+
+## 1. Objetivo
+
+Apoyar proyectos de investigación formulados por profesores que se vinculen a la Universidad de Antioquia mediante concurso de méritos o que concluyan sus estudios de doctorado.
+
+---
+
+## 2. Cuantía por Proyecto
+
+Los proyectos financiables cuentan con los siguientes topes presupuestales según el nivel del estudiante en formación vinculado:
+
+- **a. Hasta \$25.000.000 (25 millones de pesos):** Para proyectos que vinculen, como estudiante en formación, a un **estudiante de pregrado**.
+- **b. Hasta \$40.000.000 (40 millones de pesos):** Para proyectos que vinculen, como estudiante en formación, a un **estudiante de maestría**.
+
+**Regla de asignación:** Los recursos provienen del presupuesto del CODI de la vigencia correspondiente. Las propuestas son evaluadas y aprobadas por el **jurado final del Fondo**, asignándose la financiación en estricto orden de aprobación hasta agotar la disponibilidad presupuestal.
+
+---
+
+## 3. Requisitos Mínimos
+
+- **a. Ventana de postulación y registro en SIIU:** La presentación ante el Centro de Investigación debe realizarse dentro de los **dos (2) primeros años** contados a partir de la fecha de vinculación del profesor o de la culminación de sus estudios doctorales, según corresponda. Los Centros únicamente analizarán proyectos registrados en el SIIU en estado **`Matriculado`**.
+  - **Plazo para los Centros:** Los Centros de Investigación disponen de un límite máximo de **seis (6) meses**, contados desde la fecha de recepción del proyecto en el SIIU por parte del Investigador Principal, para presentar ante la Vicerrectoría los proyectos avalados.
+- **b. Pertinencia y respaldo de grupo:** El proyecto debe explicitar su pertinencia, antecedentes y el propósito de iniciar o dar continuidad a un programa, agenda o línea de investigación, preferiblemente con el aval de un grupo de investigación de la Universidad de Antioquia.
+- **c. Exclusividad como Investigador Principal:** Al momento de radicar la propuesta ante el Centro, el postulante **no puede estar participando como Investigador Principal** en otros proyectos de investigación registrados en el Sistema Universitario de Investigación (SUI).
+- **d. Aval del Comité Técnico del Centro:** Respaldo formal del Comité Técnico del Centro de Investigación de la dependencia académica del profesor, destacando la importancia del proyecto conforme al concurso de méritos o plan de formación docente y su articulación con las líneas de pregrado, posgrado o extensión.
+- **e. Aval de descarga horaria:** Asignación de horas en el plan de trabajo otorgada por el Consejo de Facultad, Escuela o Instituto (o instancia equivalente).
+- **f. Vinculación de estudiante en formación:** Inclusión obligatoria de al menos un estudiante bajo dirección y asesoría del IP:
+  - *Pregrado:* Debe cumplir todas las condiciones del Programa de Jóvenes Investigadores CODI UdeA.
+  - *Posgrado (maestría o doctorado):* Al inicio del proyecto no puede haber cursado más del **50%** de su programa académico y debe permanecer vinculado al proyecto al menos la **mitad del tiempo de duración** de este.
+- **g. Certificación de doctores:** Los profesores que se reincorporan tras culminar estudios doctorales deben certificar ante el Centro la fecha de terminación de estudios, la comisión correspondiente y la fecha de graduación.
+
+---
+
+## 4. Duración del Proyecto
+
+- **Plazo de ejecución:** Hasta **18 meses**, contados desde la fecha de inicio consignada en el **Acta de Acuerdo** (Estatuto de Propiedad Intelectual).
+
+---
+
+## 5. Rubros Financiables
+
+- **a. Personal:** Se permite presupuestar pago de personal, incluido el estímulo económico al estudiante en formación (en pregrado bajo modalidad del Programa de Jóvenes Investigadores CODI UdeA).
+  - El estudiante no requiere estar definido al momento de iniciar el proyecto, pero debe permanecer en él como mínimo la mitad de su duración (**9 meses**).
+  - Para trámites de convenio de pasantía en pregrado (modalidad Jóvenes Investigadores), la duración mínima es de **9 meses** si se financia con recursos del proyecto, y de **12 meses** si se financia con recursos de la Convocatoria Jóvenes Investigadores CODI UdeA.
+- **b. Otros rubros autorizados:** Servicios técnicos, edición y traducción de materiales publicables, material fungible, equipos, seguros de equipos, telecomunicaciones, trabajo de campo, software, publicaciones, bibliografía, servicios de apoyo para el funcionamiento de laboratorios, viajes y Administración.
+
+---
+
+## 6. Cambios de Rubro y Ejecución Presupuestal
+
+El Investigador Principal podrá efectuar libremente cambios de rubro en cualquier momento de la ejecución, sujeto a tres condiciones:
+1. Que sean necesarios, a su criterio, para cumplir los fines de la investigación.
+2. Que se realicen dentro del término de ejecución vigente.
+3. Que se informe oportunamente al Centro de Investigación administrador del proyecto.
+
+- **Parágrafo 1 (Autorregulación vigilada):** Esta flexibilidad desarrolla los principios constitucionales y estatutarios de buena fe, eficiencia, eficacia, descentralización, autonomía y economía. El IP es responsable de la correcta aplicación de los recursos públicos a los fines de la convocatoria, debiendo rendir cuentas comprobadas y reintegrar a la Universidad los dineros no utilizados o no aplicados a los compromisos adquiridos.
+- **Parágrafo 2 (Límite temporal de ejecución y prórrogas):** Solo se pueden ejecutar recursos dentro de la duración vigente del proyecto, incluyendo prórrogas debidamente avaladas:
+  - *Primera prórroga de ejecución:* Hasta por **seis (6) meses**, aprobada por el **Comité Técnico del Centro**.
+  - *Segunda prórroga de ejecución:* Hasta por **seis (6) meses**, aprobada por el **CODI**, previo aval del Comité Técnico.
+
+---
+
+## 7. Compromisos del Proyecto
+
+### Compromisos de obligatorio cumplimiento
+- **a. Proyecto externo:** Presentar un proyecto de investigación ante una entidad externa a la Universidad de Antioquia por un monto superior al financiado en esta modalidad.
+- **b. Producto de nuevo conocimiento:** Artículo en revista científica, libro o capítulo de libro resultado de investigación. Se acredita mediante carta de aceptación para publicación de la revista, preferiblemente en **Acceso Abierto**.
+- **c. Vinculación estudiantil:** Vinculación de un estudiante de pregrado (modalidad Jóvenes Investigadores CODI UdeA) o de maestría, acorde con el monto financiado.
+
+### Compromisos opcionales (seleccionar al menos uno obligatorio tras su elección)
+El IP debe escoger una de las siguientes opciones, la cual adquirirá carácter obligatorio una vez seleccionada:
+- **a.** Producto de divulgación sobre los resultados (artículo en revista de divulgación).
+- **b.** Obras artísticas resultado de la investigación.
+- **c.** Participación con ponencia en evento académico nacional o internacional.
+- **d.** Organización de evento académico con participación de investigadores nacionales o internacionales.
+- **e.** Otro compromiso equivalente propuesto por el Investigador Principal.
+
+---
+
+## 8. Evaluación y Aprobación de los Proyectos
+
+1. **Evaluación por pares:** Los Centros de Investigación someten la propuesta a evaluación por **dos (2) pares académicos**, de los cuales al menos uno debe ser **externo a la Universidad**.
+2. **Puntaje mínimo:** Las propuestas con calificación promedio igual o superior a **80 puntos sobre 100** pasan a evaluación por jurados.
+3. **Regla de tercer evaluador:** Se designará un tercer par cuando un evaluador rechace la propuesta y el otro la apruebe, siempre que la evaluación favorable supere los **80 puntos** y exista una diferencia de al menos **30 puntos** entre ambas calificaciones. El Comité Técnico podrá remitir hasta tres evaluaciones al CODI.
+4. **Aprobación final:** Los proyectos recomendados por los Comités Técnicos de los Centros se presentan ante la Vicerrectoría de Investigación para aprobación definitiva por el **jurado del fondo** designado por el CODI.
+
+---
+
+## 9. Inicio del Proyecto
+
+- **Plazo límite:** El proyecto debe iniciar en máximo **dos (2) meses** contados a partir de su aprobación. **No existen prórrogas de inicio automáticas.**
+- **Consecuencia por vencimiento:** Si transcurre el plazo sin iniciar formalmente, se perderá el derecho a la financiación.
+- **Prórroga excepcional de inicio:** Antes de cumplirse los dos (2) meses, podrá tramitarse ante el CODI —previo aval del Comité Técnico del Centro— una única prórroga de inicio por máximo **seis (6) meses**.
+
+---
+
+## 10. Situaciones No Previstas
+
+Las situaciones no previstas y la interpretación oficial de estos Términos de Referencia serán resueltas directamente por el **CODI**.
+
+---
+
+## 11. Medios Probatorios
+
+La Universidad de Antioquia se reserva el derecho de verificar, mediante cualquier medio probatorio válido a su alcance, toda la información y documentación suministrada por los investigadores en formatos, formularios y anexos.
+
+---
+
+## 12. Incumplimientos
+
+El incumplimiento de los compromisos o las obligaciones adquiridas por investigadores, grupos de investigación o sus integrantes será sancionado conforme a las normas legales y estatutarias vigentes.
+
+---
+
+## 13. Información y Apoyo Administrativo
+
+El **Centro de Investigación** es la unidad encargada de brindar apoyo y asesoría en primera instancia al investigador desde la formulación hasta la finalización del proyecto, previo análisis interno con los representantes de la comunidad científica en el CODI.
+
 ================================================================================
 # 9. ARCHIVO MAESTRO FIDEDIGNO: 21 NORMAS INSTITUCIONALES COMPLETAS
 ================================================================================
@@ -21588,10 +21842,11 @@ Secretario General
 
 ---
 
-## Las 4 fichas
+## Las 5 fichas legales y operativas
 
 | Ficha | Qué resuelve | Ir a |
 |---|---|---|
+| Políticas de Uso y Aclaraciones | Aclaración de no oficialidad, fines educativos y deslinde | [Políticas](politicas-y-aclaraciones.md) |
 | Términos de uso de la Wiki | Qué puedes esperar de esta guía y qué no es | [Términos](terminos.md) |
 | Privacidad y datos | Qué datos trata el SIIU/MARES y quién los ve | [Privacidad](privacidad.md) |
 | Cookies y sesión | Por qué falla el guardado y los pop-ups | [Cookies](cookies.md) |
