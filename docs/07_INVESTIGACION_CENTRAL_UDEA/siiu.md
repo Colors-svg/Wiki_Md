@@ -29,7 +29,7 @@ Haz clic sobre el nombre del manual para acceder y descargar.
 
 | Manual | Proceso | Perfil | Módulo |
 | --- | --- | --- | --- |
-| VI-GU-05 Guía para el registro de proyectos en el proceso de avales Institucionales  en el SIIU | Avales institucionales | Investigador principal | Convocatorias |
+| [VI-GU-05 Guía para el registro de proyectos en el proceso de avales Institucionales en el SIIU](../archivo_maestro/VI-GU-05.md) | Avales institucionales | Investigador principal | Convocatorias |
 | VI-GU-17 Guía para la matrícula de primer proyecto en el SIIU | Primer proyecto | Investigador principal | Convocatorias |
 | VI-GU-16 Guía para la información complementaria de los proyectos en el SIIU | Información complementaria | Investigador principal | Convocatorias |
 | VI-GU-24 Guía para la matrícula de proyectos en convocatoria en el SIIU | Matricula proyectos | Investigador principal | Convocatorias |
@@ -101,4 +101,7 @@ Haz clic sobre el nombre del manual para acceder y descargar.
 
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/gestion-investigacion/Contenido/asContenidosMenu/siiu)
-- [PDF: VI-GU-05 Guía para el registro de proyectos en el proceso de avales Institucionales  en el SIIU](https://www.udea.edu.co/wps/wcm/connect/udea/4338af16-b70b-46a7-a2e1-0f7b5b648ad3/Manual+Matricula+de+cupo+para+JI+2026+%2813%29.pdf?MOD=AJPERES&CVID=pW9A-yd)
+- [Guía VI-GU-05: Manual Registro de Proyecto Proceso Avales Institucionales](../archivo_maestro/VI-GU-05.md)
+- [Procedimiento de Inscripción de Proyectos al SUI (CODI)](../archivo_maestro/PROC-CODI-INSCRIPCION-SUI.md)
+- [Lineamientos sobre Grupos de Investigación en la Universidad de Antioquia (CODI 2024-2025)](../archivo_maestro/legalidad/LEG-CODI-LINEAMIENTOS-GRUPOS-2025.md)
+- [Minuta Acta de Inicio y Compromisos CODI](../archivo_maestro/TR-CODI-ACTA-CONSOLIDACION-GRUPOS.md)

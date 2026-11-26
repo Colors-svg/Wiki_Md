@@ -52,6 +52,13 @@ Antes de tramitar el acta de inicio formal en el SIIU, se deben consolidar los s
    - Amparo de Calidad de los Bienes o Servicios.
 3. **Contratos o Convenios Interinstitucionales:** En proyectos con financiación externa o convenios marco entre universidades o empresas.
 4. **Aval Ético Definitivo:** Certificación expedida por el Comité de Ética de la Investigación (humana o animal) correspondiente.
+5. **Certificaciones de Paz y Salvo Previas (CODI):** En convocatorias institucionales (fondos especiales, consolidación de grupos o apoyo a proyectos), el Centro de Investigación debe certificar formalmente que los profesores y el grupo se encuentran a paz y salvo con compromisos de proyectos SUI previos a la firma del acta (Ver minuta oficial: [TR-CODI-ACTA-CONSOLIDACION-GRUPOS](../archivo_maestro/TR-CODI-ACTA-CONSOLIDACION-GRUPOS.md)).
+
+!!! important "Reglas Contractuales de Oro del Acta de Inicio CODI"
+    - **Fórmula de Créditos Institucionales Obligatoria:** En todos los productos científicos (artículos, ponencias, libros) es mandatario dar crédito bajo la denominación exacta: **"Universidad de Antioquia UdeA"**.
+    - **Vigencia Efectiva:** La fecha contractual de inicio del proyecto es exactamente la fecha de la suscripción formal del Acta de Inicio (no se reconocen compromisos con fechas anteriores a la vigencia pactada).
+    - **Reconocimiento Editorial:** Los artículos científicos se reconocen como hito cumplido a partir de la comunicación formal de aceptación por parte del comité editorial de la revista.
+    - **Informe al 50%:** Todo proyecto financiado por el CODI debe presentar informe de avance técnico y financiero al alcanzar el 50% del cronograma de ejecución.
 
 ---
 

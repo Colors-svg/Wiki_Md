@@ -68,6 +68,17 @@ flowchart TD
 - **Particularidad:** Requiere adjuntar la carta formal de asignación de recursos o contrato del ente financiador externo.
 - :material-book: Guía oficial: [VI-GU-18](../archivo_maestro/VI-GU-18.md)
 
+### Proceso Solicitud Avales Institucionales (Convocatorias Externas)
+- **Aplica para:** Proyectos que se presentarán a convocatorias externas (nacionales o internacionales) y que demandan el **aval institucional previo** de la Vicerrectoría de Investigación de la Universidad de Antioquia para la obtención de recursos.
+- **Ruta SIIU:** `Convocatorias >> Nuevos proyectos >> Proceso de selección: Proceso Solicitud Avales Institucionales`
+- **Requisitos Habilitantes Obligatorios:**
+  - Descarga horaria aprobada por el Consejo de Facultad, Escuela o Instituto.
+  - Propuesta completa estructurada en la plataforma del financiador o en los formatos de los TdR.
+  - Certificaciones de contrapartida de grupos y cofinanciadores (efectivo y especie).
+  - Aval ético o bioético institucional (si aplica).
+  - Carta de respaldo de profesor de planta si el Investigador Principal es ocasional.
+- :material-book: Guía oficial: [VI-GU-05](../archivo_maestro/VI-GU-05.md)
+
 ### Primer Proyecto
 - **Aplica para:** Profesores o investigadores que postulan su primera propuesta en el sistema SIIU y no cuentan con registro histórico previo.
 - **Ruta SIIU:** `Convocatorias >> Inscripción >> Primer proyecto`
@@ -75,7 +86,22 @@ flowchart TD
 
 ---
 
-## 2. Las 8 Pestañas del Formulario de Matrícula
+## 2. Criterios Normativos de Inscripción al SUI (CODI)
+
+Conforme al **[Procedimiento de Inscripción de Proyectos al SUI](../archivo_maestro/PROC-CODI-INSCRIPCION-SUI.md)** (Aprobado CODI Sesión 718):
+
+!!! note "Excepciones: ¿Qué proyectos NO se inscriben al SUI?"
+    1. **Extensión Pura:** Actividades de extensión contempladas en el Estatuto de Extensión (Acuerdo Superior 124 de 1997) sin componente investigativo.
+    2. **Tesis o Trabajos Estudiantiles Puros:** Proyectos de estudiantes de pregrado o posgrado, **excepto cuando el estudiante de posgrado es profesor vinculado** a la Universidad.
+    *Nota de Extensión:* Los proyectos de extensión con componente de investigación y derechos de propiedad intelectual compartida sí se inscriben, aportando el porcentaje del Art. 47 del AS 124/1997.
+
+!!! tip "Evaluación y Compromisos Mínimos"
+    - **Compromiso Mínimo:** Todo proyecto inscrito debe pactar al menos: 1) Vincular a un estudiante en formación (pregrado o posgrado UdeA), o 2) Generar un producto de nuevo conocimiento.
+    - **Evaluación de Pares:** Las evaluaciones tramitadas por los Comités Técnicos deben superar los **80 puntos** y tienen una **vigencia de 24 meses** para formalizar la inscripción en el SUI.
+
+---
+
+## 3. Las 8 Pestañas del Formulario de Matrícula
 
 ### Pestaña 1: Información General
 - Título del proyecto (claro y conciso).

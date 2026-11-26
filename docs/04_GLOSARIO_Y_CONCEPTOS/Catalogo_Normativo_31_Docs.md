@@ -3,18 +3,19 @@ search:
   boost: 1.8
 ---
 
-# Catálogo Normativo Indexado: 31 Documentos Oficiales
+# Catálogo Normativo Indexado: Guías, Instructivos y Normas Oficiales
 
-Este catálogo relaciona de forma exhaustiva los **31 documentos normativos y operativos** de la Vicerrectoría de Investigación y la Vicerrectoría de Extensión de la Universidad de Antioquia, vinculando la fuente fidedigna en `archivo_maestro/` con los módulos didácticos de la Wiki.
+Este catálogo relaciona de forma exhaustiva los **documentos normativos y operativos** de la Vicerrectoría de Investigación y la Vicerrectoría de Extensión de la Universidad de Antioquia, vinculando la fuente fidedigna en `archivo_maestro/` con los módulos didácticos de la Wiki.
 
 ---
 
-## 1. Guías Operativas (21 Guías `VI-GU-*`)
+## 1. Guías Operativas (22 Guías `VI-GU-*`)
 
 | Código | Título Oficial | Figuras | Versión / Fecha | Archivo Fidedigno (1 a 1) | Módulo Didáctico en Wiki |
 | :---: | :--- | :---: | :---: | :--- | :--- |
 | **VI-GU-01** | Guía para cambiar el responsable del proyecto | 14 | V01 / 13-MAR-2024 | [VI-GU-01](../archivo_maestro/VI-GU-01.md) | [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md#cambio-de-responsable) |
 | **VI-GU-04** | Guía para el cierre de proyectos en SIIU | 18 | V01 / 01-ABR-2024 | [VI-GU-04](../archivo_maestro/VI-GU-04.md) | [Cierre y Liquidacion](../02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md) |
+| **VI-GU-05** | Guía para el registro de proyectos en el proceso de avales institucionales | 51 | V2.0 / 30-AGO-2023 | [VI-GU-05](../archivo_maestro/VI-GU-05.md) | [Matricula Proyectos](../02_PROCESOS_CLAVE/Matricula_Proyectos.md#proceso-solicitud-avales-institucionales-convocatorias-externas) |
 | **VI-GU-06** | Guía para la asignación de evaluadores en SIIU | 24 | V01 / 01-ABR-2024 | [VI-GU-06](../archivo_maestro/VI-GU-06.md) | [Evaluacion y Aval](../02_PROCESOS_CLAVE/Evaluacion_y_Aval.md#asignacion-evaluadores) |
 | **VI-GU-07** | Guía para la configuración de la convocatoria | 43 | V01 / 01-ABR-2024 | [VI-GU-07](../archivo_maestro/VI-GU-07.md) | [Evaluacion y Aval](../02_PROCESOS_CLAVE/Evaluacion_y_Aval.md#configuracion-convocatorias) |
 | **VI-GU-08** | Guía para la evaluación técnica y aval del proyecto | 48 | V01 / 01-ABR-2024 | [VI-GU-08](../archivo_maestro/VI-GU-08.md) | [Evaluacion y Aval](../02_PROCESOS_CLAVE/Evaluacion_y_Aval.md#evaluacion-tecnica-de-centro) |

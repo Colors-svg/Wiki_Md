@@ -59,6 +59,20 @@ El Centro de Investigación o Extensión revisa el cumplimiento de los Términos
   - `No aplica`
 - :material-book: Guía oficial: [VI-GU-08](../archivo_maestro/VI-GU-08.md)
 
+### Aval Institucional para Convocatorias Externas (Minciencias, Regalías, Internacionales)
+Cuando el proyecto se postula a convocatorias externas que exigen el respaldo de la Universidad de Antioquia como entidad proponente o coejecutora:
+- **Ruta del Investigador:** `Convocatorias >> Nuevos proyectos >> Proceso Solicitud Avales Institucionales` (Guía oficial: [VI-GU-05](../archivo_maestro/VI-GU-05.md)).
+- **Ruta del Centro:** `Convocatorias >> Proyectos en evaluación >> Avales institucionales` (Guía oficial: [VI-GU-02](../archivo_maestro/VI-GU-02.md)).
+- **Revisión del Centro de Investigación:**
+  1. Verifica que la propuesta técnica cumpla con los Términos de Referencia externos.
+  2. Valida la asignación horaria docente aprobada por el Consejo de Facultad.
+  3. Comprueba las cartas de contrapartida de grupos y cofinanciadores (efectivo y especie).
+  4. Si hay inconsistencias, emite devolución a estado **Pendiente Actualización** habilitando pestañas puntuales (Guía [VI-GU-05](../archivo_maestro/VI-GU-05.md#5-proyecto-devuelto-para-ajustes)).
+  5. Una vez subsanado, emite el **Aval de Centro** y escala a la Vicerrectoría de Investigación para la expedición de la carta de aval rectoral/institucional.
+
+!!! info "Regla de Evaluadores Pares para Proyectos SUI (CODI)"
+    Conforme al **[Procedimiento de Inscripción SUI](../archivo_maestro/PROC-CODI-INSCRIPCION-SUI.md)**, los proyectos con financiación externa o propia que deseen inscribirse en el SUI deben contar con evaluaciones tramitadas por el Comité Técnico (un par interno y uno externo o dos externos), requiriendo un **puntaje promedio superior a 80 puntos** (válido por 24 meses). En proyectos adjudicados en convocatorias públicas competitivas externas, basta con el contrato o convenio legalizado.
+
 ---
 
 ## 2. Devolución para Ajustes (Rol Centro)

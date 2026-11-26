@@ -34,6 +34,20 @@ La investigación en la Facultad de Ciencias Económicas representa uno de los n
 
 ---
 
+### 1.1 Régimen Jurídico y Lineamientos Institucionales Vigentes (CODI 2024-2025)
+
+Todos los grupos de investigación de la Facultad de Ciencias Económicas se rigen por la **Segunda Versión de los Lineamientos sobre Grupos de Investigación de la Universidad de Antioquia** (Aprobados mediante Actas CODI 906-911 de 2024 y actualizados mediante **Acta CODI 934 del 28 de octubre de 2025**; ver texto completo en [LEG-CODI-LINEAMIENTOS-GRUPOS-2025](../archivo_maestro/legalidad/LEG-CODI-LINEAMIENTOS-GRUPOS-2025.md)):
+
+!!! important "Reglas Clave de Gobernanza y Operación"
+    1. **Conformación Mínima:** Iniciativa de dos (2) o más profesores de la Universidad, de los cuales **al menos uno debe ser profesor de carrera** escalafonado.
+    2. **Coordinación Docente:** El coordinador debe poseer título de pregrado y maestría o doctorado. Cuando sea **profesor ocasional o de cátedra**, debe contar con el **respaldo formal de un profesor de carrera** del grupo, avalado expresamente por el Consejo de Facultad.
+    3. **Producción Mínima Institucional:** Para mantener el reconocimiento activo en la UdeA, los grupos deben generar en el transcurso de **dos (2) años al menos un producto** de nuevo conocimiento, desarrollo tecnológico, apropiación social, divulgación, formación de talento humano o postulación de proyectos a convocatorias.
+    4. **Causal Objetiva de Inactivación (5 Años):** Un grupo de investigación **sale del SIIU si luego de cinco (5) años consecutivos no ha generado productos ni ejecutado proyectos**. En tal caso, debe restituir la infraestructura física, equipos inventariados y activos intangibles a la Facultad.
+    5. **Reactivación:** Procede ante la Vicerrectoría de Investigación, a través del Centro (CIC), demostrando haber generado al menos un producto en los últimos 5 años registrado en GrupLAC y SIIU.
+    6. **Filiación Canónica:** Todos los integrantes tienen el deber de consignar la filiación: **"Universidad de Antioquia"** o **"Universidad de Antioquia UdeA"**.
+
+---
+
 ### 2. Caracterización Detallada Grupo por Grupo
 
 #### 2.1. Comportamiento Humano Organizacional - COMPHOR
