@@ -3,10 +3,214 @@
 
 > **Documento Consolidado Monolítico (All-in-One)**  
 > **Propósito:** Archivo único diseñado para ingesta directa de contexto completo por Agentes Inteligentes (Gemini, Claude, GPT), modelos LLM locales, auditoría documental exhaustiva y lectura offline sin dependencias externas.  
-> **Contenido Integrado:** Manuales de roles, 9 macroprocesos operativos, 31 guías e instructivos fidedignos transcritos íntegramente, 21 normas institucionales (síntesis y textos íntegros), gobernanza CODI y Cronograma 2026, catálogo de 18 formatos descargables, 66 circulares oficiales de la Vicerrectoría, arquitectura de la Facultad de Ciencias Económicas y CIC con sus 9 grupos MinCiencias, 20 comités, semilleros y revistas científicas.
+> **Contenido Integrado:** Manuales de roles, 9 macroprocesos operativos, 35 guías, instructivos oficiales, actas de consolidación y términos CODI fidedignos transcritos íntegramente (incluyendo VI-GU-05 con 51 figuras), 22 normas institucionales y lineamientos CODI 2025 (síntesis didáctica y textos íntegros), Manual Legal de Prórrogas y Plazos para SCMP, gobernanza CODI y Cronograma 2026, catálogo de 18 formatos descargables, 66 circulares oficiales de la Vicerrectoría, arquitectura de la Facultad de Ciencias Económicas y CIC con sus 9 grupos MinCiencias, 20 comités, semilleros y revistas científicas.
 
 ---
 
+
+
+================================================================================
+# 0. PÓRTICO Y ARQUITECTURA DE NAVEGACIÓN GENERAL
+================================================================================
+
+
+
+------------------------------------------------------------
+## [DOCUMENTO]: index.md
+*Ruta canónica original: `docs/index.md`*
+------------------------------------------------------------
+
+# Wiki Operativa del SIIU — Universidad de Antioquia
+
+<div class="wiki-hero" markdown="1">
+<span class="wiki-badge">Guía Comunitaria No Oficial · Apoyo SIIU UdeA</span>
+
+## Todo el ciclo de tus proyectos de investigación, en un solo lugar
+
+Consulta paso a paso cómo formular, avalar, ejecutar, modificar y liquidar proyectos en el **Sistema de Información para la Investigación Universitaria (SIIU)**, con acceso directo a **formatos oficiales, cronogramas CODI, comités de ética y normativa vigente**.
+
+<div class="wiki-actions">
+  <a class="wiki-btn wiki-btn--primary" href="inicio-rapido/">Empieza aquí en 5 minutos</a>
+  <a class="wiki-btn wiki-btn--secondary" href="03_GUIAS_RAPIDAS_CHEAT_SHEETS/Catalogo_Formatos_Oficiales/">Formatos Descargables</a>
+  <a class="wiki-btn wiki-btn--secondary" href="legal/politicas-y-aclaraciones/">Políticas y Aclaraciones</a>
+  <a class="wiki-btn wiki-btn--secondary" href="faq/">Preguntas Frecuentes</a>
+</div>
+</div>
+
+---
+
+## ¿Qué necesitas hacer hoy?
+
+<div class="wiki-grid">
+  <a class="wiki-card" href="02_PROCESOS_CLAVE/Matricula_Proyectos/">
+    <div class="wiki-card__title">1. Inscribir un proyecto</div>
+    <p class="wiki-card__desc">Cómo formular y radicar propuestas en convocatorias internas, financiación externa o Primer Proyecto.</p>
+  </a>
+  <a class="wiki-card" href="02_PROCESOS_CLAVE/Evaluacion_y_Aval/">
+    <div class="wiki-card__title">2. Evaluación y subsanación</div>
+    <p class="wiki-card__desc">Qué hacer cuando el Centro devuelve tu proyecto ("Pendiente Actualización") y cómo obtener el aval.</p>
+  </a>
+  <a class="wiki-card" href="02_PROCESOS_CLAVE/Convocatorias_y_Fondos_CODI/">
+    <div class="wiki-card__title">3. Fondos y convocatorias CODI</div>
+    <p class="wiki-card__desc">Estrategia de Sostenibilidad 2026, Primer Proyecto, fondos CPC/ASC y circulares vigentes de la VRI.</p>
+  </a>
+  <a class="wiki-card" href="02_PROCESOS_CLAVE/Inicio_Formal/">
+    <div class="wiki-card__title">4. Iniciar formalmente</div>
+    <p class="wiki-card__desc">Pólizas, actas de inicio, centro de costos y requisitos antes de ejecutar el primer peso.</p>
+  </a>
+  <a class="wiki-card" href="02_PROCESOS_CLAVE/Modificaciones_y_Tramites/">
+    <div class="wiki-card__title">5. Prórrogas y cambios de rubro</div>
+    <p class="wiki-card__desc">Cómo solicitar más tiempo, trasladar presupuesto entre rubros o cambiar participantes.</p>
+  </a>
+  <a class="wiki-card" href="02_PROCESOS_CLAVE/Gestion_Compromisos/">
+    <div class="wiki-card__title">6. Entregar compromisos</div>
+    <p class="wiki-card__desc">Cargue de productos académicos, informes y solicitud de plazo adicional para compromisos.</p>
+  </a>
+  <a class="wiki-card" href="02_PROCESOS_CLAVE/Programa_Joven_Investigador/">
+    <div class="wiki-card__title">7. Jóvenes Investigadores</div>
+    <p class="wiki-card__desc">Matrícula de cupos, vinculación de hoja de vida, cuentas bancarias válidas y prórrogas.</p>
+  </a>
+  <a class="wiki-card" href="02_PROCESOS_CLAVE/Cierre_y_Liquidacion/">
+    <div class="wiki-card__title">8. Cerrar y liquidar</div>
+    <p class="wiki-card__desc">Paz y salvo presupuestal, acta de cierre y liquidación financiera definitiva del proyecto.</p>
+  </a>
+  <a class="wiki-card" href="02_PROCESOS_CLAVE/Reportes_y_Certificaciones/">
+    <div class="wiki-card__title">9. Descargar certificados</div>
+    <p class="wiki-card__desc">Constancias de participación, evaluador, grupo e historial (recuerda habilitar pop-ups).</p>
+  </a>
+</div>
+
+---
+
+## Elige tu perfil en el SIIU
+
+<div class="wiki-grid">
+  <a class="wiki-card" href="01_ROLES/Rol_Investigador/">
+    <div class="wiki-card__title">Investigador Principal / Tutor</div>
+    <p class="wiki-card__desc">Formula propuestas, radica novedades, vincula jóvenes investigadores y reporta compromisos.</p>
+  </a>
+  <a class="wiki-card" href="01_ROLES/Rol_Centro_Investigacion/">
+    <div class="wiki-card__title">Centro de Investigación / Extensión</div>
+    <p class="wiki-card__desc">Revisa requisitos, asigna evaluadores pares, emite aval técnico y aprueba trámites.</p>
+  </a>
+  <a class="wiki-card" href="01_ROLES/Rol_Vicerrectoria/">
+    <div class="wiki-card__title">Vicerrectoría de Investigación</div>
+    <p class="wiki-card__desc">Configura convocatorias, avala instancias CODI y aplica novedades mayores o liquidaciones.</p>
+  </a>
+  <a class="wiki-card" href="01_ROLES/Ecosistema_Comites_Gobernanza/">
+    <div class="wiki-card__title">Comités, Ética y Permisos</div>
+    <p class="wiki-card__desc">CODI, Consejos de Facultad, Comité Central de Ética, CICUA, colecta biológica y FCOI.</p>
+  </a>
+</div>
+
+---
+
+## Herramientas y Atajos de Consulta
+
+<div class="wiki-grid">
+  <a class="wiki-card" href="faq/">
+    <div class="wiki-card__title">Preguntas Frecuentes (FAQ)</div>
+    <p class="wiki-card__desc">Respuestas directas en 2 minutos para los errores y dudas más comunes del sistema.</p>
+  </a>
+  <a class="wiki-card" href="03_GUIAS_RAPIDAS_CHEAT_SHEETS/Catalogo_Formatos_Oficiales/">
+    <div class="wiki-card__title">Formatos Descargables</div>
+    <p class="wiki-card__desc">Enlaces directos a minutas, actas, listas de chequeo y plantillas oficiales de la UdeA.</p>
+  </a>
+  <a class="wiki-card" href="03_GUIAS_RAPIDAS_CHEAT_SHEETS/Reglas_Oro_SIIU/">
+    <div class="wiki-card__title">Reglas de Oro del SIIU</div>
+    <p class="wiki-card__desc">PDFs válidos, uso de CKEditor (Ctrl+Shift+V), pop-ups y cuentas bancarias aceptadas.</p>
+  </a>
+  <a class="wiki-card" href="04_GLOSARIO_Y_CONCEPTOS/Glosario_Terminos_SIIU/">
+    <div class="wiki-card__title">Glosario y Estados</div>
+    <p class="wiki-card__desc">Qué significa cada estado del proyecto y la diferencia entre Solicitud y Novedad.</p>
+  </a>
+  <a class="wiki-card" href="00_INICIO_Y_MOCS/MOC_Marco_Normativo/">
+    <div class="wiki-card__title">Marco Normativo (21 Normas)</div>
+    <p class="wiki-card__desc">Síntesis didáctica de estatutos financieros, contratación, propiedad intelectual y ética.</p>
+  </a>
+  <a class="wiki-card" href="legal/">
+    <div class="wiki-card__title">Módulo Legal Simple</div>
+    <p class="wiki-card__desc">Términos de uso, privacidad, cookies y licencias explicados sin jerga jurídica.</p>
+  </a>
+</div>
+
+---
+
+## Mapa General de Navegación
+
+```mermaid
+flowchart TD
+    HOME(["HOME: Wiki SIIU"])
+    HOME --> MOC_ROLES["MOC por Roles<br><i>(Investigador, Centro, Vicerrectoría)</i>"]
+    HOME --> MOC_CICLO["MOC Ciclo de Vida<br><i>(Matrícula → Evaluación → Inicio → Cierre)</i>"]
+    HOME --> MOC_TRAMITES["MOC Trámites Administrativos<br><i>(Prórrogas, Rubros, Participantes)</i>"]
+    HOME --> MOC_REPORTES["MOC Reportes y Constancias<br><i>(Participación, Evaluadores, Historial)</i>"]
+    HOME --> MOC_LEGAL["MOC Marco Normativo<br><i>(21 Leyes, Estatutos y Resoluciones)</i>"]
+    HOME --> CHEAT["Guías Rápidas & Formatos<br><i>(Rutas express, plantillas y reglas de oro)</i>"]
+```
+
+
+------------------------------------------------------------
+## [DOCUMENTO]: HOME.md
+*Ruta canónica original: `docs/00_INICIO_Y_MOCS/HOME.md`*
+------------------------------------------------------------
+
+# Base de Conocimiento y Wiki Operativa del SIIU
+### Sistema de Información para la Investigación Universitaria — Universidad de Antioquia
+
+Bienvenido al centro de navegación y documentación interactiva del **Sistema de Información para la Investigación Universitaria (SIIU)**, administrado por la **Vicerrectoría de Investigación** y la **Vicerrectoría de Extensión** de la Universidad de Antioquia.
+
+Esta Wiki sintetiza de forma didáctica, estructurada y modular los **31 procedimientos oficiales** (21 Guías operativas y 10 Instructivos técnicos) contenidos íntegramente en el [Archivo Maestro Fidedigno](../04_GLOSARIO_Y_CONCEPTOS/Catalogo_Normativo_31_Docs.md).
+
+---
+
+## Mapas de Contenido (MOC - Maps of Content)
+
+Para explorar la base de conocimiento según tus necesidades, selecciona una de las siguientes rutas de navegación:
+
+```mermaid
+flowchart TD
+    HOME(["HOME: Wiki SIIU"])
+    
+    HOME --> MOC_ROLES["MOC por Roles<br><i>(Investigador, Centro, Vicerrectoría)</i>"]
+    HOME --> MOC_CICLO["MOC Ciclo de Vida<br><i>(Matrícula → Evaluación → Inicio → Cierre)</i>"]
+    HOME --> MOC_TRAMITES["MOC Trámites Administrativos<br><i>(Prórrogas, Rubros, Participantes)</i>"]
+    HOME --> MOC_REPORTES["MOC Reportes y Constancias<br><i>(Participación, Evaluadores, Historial)</i>"]
+    HOME --> MOC_LEGAL["MOC Marco Normativo<br><i>(21 Leyes, Estatutos y Resoluciones)</i>"]
+    HOME --> CHEAT["Guías Rápidas & Cheat Sheets<br><i>(Rutas express y reglas de oro)</i>"]
+
+                    ```
+
+---
+
+## :material-compass: Vías de Acceso Rápido
+
+### 1. ¿Quién eres? (Navegación por Perfil)
+- **[Investigador Principal / Tutor](../01_ROLES/Rol_Investigador.md):** Matrícula de propuestas, cupos de Joven Investigador, solicitudes de prórroga, cambios de rubro y reporte de compromisos.
+- **[Centro de Investigación / Extensión](../01_ROLES/Rol_Centro_Investigacion.md):** Evaluación técnica formal, devolución para ajustes, aval institucional, aprobación de trámites y asignación de evaluadores.
+- **[Vicerrectoría de Investigación](../01_ROLES/Rol_Vicerrectoria.md):** Configuración de convocatorias, flujos de trámites, aval de instancias superiores (CODI) y aplicación definitiva de novedades.
+
+### 2. ¿Qué necesitas hacer hoy? (Procesos Clave)
+- **Inscribir un proyecto:** [Matricula Proyectos](../02_PROCESOS_CLAVE/Matricula_Proyectos.md) *(Convocatoria interna, Inscrito con financiación externa o Primer Proyecto)*.
+- **Atender observaciones del Centro:** [Subsanación de proyectos devueltos](../02_PROCESOS_CLAVE/Evaluacion_y_Aval.md#subsanacion-y-ajustes-de-proyectos-devueltos).
+- **Iniciar formalmente mi proyecto:** [Inicio Formal](../02_PROCESOS_CLAVE/Inicio_Formal.md) *(Pólizas, contratos, compromisos y centro de costos)*.
+- **Solicitar más tiempo o recursos:** [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md) *(Prórroga de inicio, prórroga de ejecución y cambio de rubro)*.
+- **Gestionar Jóvenes Investigadores:** [Programa Joven Investigador](../02_PROCESOS_CLAVE/Programa_Joven_Investigador.md) *(Matrícula de cupos, vinculación de hoja de vida y prórroga)*.
+- **Finalizar y liquidar proyecto:** [Cierre y Liquidacion](../02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md) *(Compromisos, acta de cierre y paz y salvo presupuestal)*.
+- **Obtener certificados o constancias:** [Reportes y Certificaciones](../02_PROCESOS_CLAVE/Reportes_y_Certificaciones.md) *(Participación en proyectos, constancia de evaluador, historial)*.
+
+### 3. Herramientas y Apoyo Operativo
+- **[Ficha Rápida del Investigador](../03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Investigador.md):** Pasos clave y rutas directas.
+- **[Ficha Rápida para Centros](../03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Centro.md):** Criterios de validación y control.
+- **[Reglas de Oro del SIIU](../03_GUIAS_RAPIDAS_CHEAT_SHEETS/Reglas_Oro_SIIU.md):** Requisitos de adjuntos, ventanas emergentes, navegadores y limitaciones de cuentas bancarias.
+- **[Glosario de Términos del SIIU](../04_GLOSARIO_Y_CONCEPTOS/Glosario_Terminos_SIIU.md):** Conceptos clave (*Solicitud vs Novedad*, estados de proyectos, rubros).
+- **[Catálogo Normativo (31 Documentos)](../04_GLOSARIO_Y_CONCEPTOS/Catalogo_Normativo_31_Docs.md):** Índice con vínculos directos a las 21 Guías y 10 Instructivos del archivo maestro.
+- **[Marco Normativo e Institucional (21 Documentos)](MOC_Marco_Normativo.md):** Mapa maestro de las 21 leyes, estatutos y resoluciones rectorales que sustentan la investigación en la UdeA y el SIIU.
+
+---
+
+!!! tip "Consejo de navegación en Obsidian"
+    Esta wiki utiliza enlaces nativos bidireccionales `**Wikilinks**`. Puedes abrir el **Graph View** (Vista de Grafo) de Obsidian para ver visualmente cómo se interconectan los roles, las convocatorias y las solicitudes administrativas.
 
 
 ================================================================================
@@ -91,6 +295,7 @@ flowchart TD
 - [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md): Cómo tramitar prórrogas y cambios de presupuesto.
 - [CheatSheet Investigador](../03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Investigador.md): Ficha de referencia rápida y rutas express.
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: Rol_Centro_Investigacion.md
 *Ruta canónica original: `docs/01_ROLES/Rol_Centro_Investigacion.md`*
@@ -165,6 +370,7 @@ Cuando un proyecto no cumple con todas las condiciones formales en la revisión 
 - [Cierre y Liquidacion](../02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md): Protocolo de verificación de compromisos y trámite de cierre.
 - [CheatSheet Centro](../03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Centro.md): Ficha de referencia rápida y criterios de control.
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: Rol_Vicerrectoria.md
 *Ruta canónica original: `docs/01_ROLES/Rol_Vicerrectoria.md`*
@@ -236,6 +442,7 @@ flowchart LR
 - [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md#aplicacion-en-vicerrectoria): Aval y aplicación de trámites administrativos.
 - [Cierre y Liquidacion](../02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md#liquidacion-en-vicerrectoria): Liquidación institucional.
 - [Catalogo Normativo 31 Docs](../04_GLOSARIO_Y_CONCEPTOS/Catalogo_Normativo_31_Docs.md): Relación completa con los 31 documentos fuente.
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: Ecosistema_Comites_Gobernanza.md
@@ -382,6 +589,7 @@ En proyectos financiados por entes externos nacionales o internacionales (incluy
 - Consulta el **[Rol del Centro de Investigación](Rol_Centro_Investigacion.md)** para el trámite de revisiones y avales.
 - Consulta el **[Acuerdo Superior 204 de 2001](../05_MARCO_NORMATIVO/AS_204_2001_Sistema_Universitario_Investigacion.md)** para la estructura jurídica completa del SUI.
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: Caso_Aplicado_Centro_Facultad.md
 *Ruta canónica original: `docs/01_ROLES/Caso_Aplicado_Centro_Facultad.md`*
@@ -470,6 +678,7 @@ Para facilitar el cumplimiento de los compromisos académicos registrados en el 
 - **[Ecosistema de Comités y Gobernanza](Ecosistema_Comites_Gobernanza.md):** Cómo interactúa el Comité Técnico del Centro con el Consejo de Facultad y el CODI.
 - **[Gestión de Compromisos en SIIU](../02_PROCESOS_CLAVE/Gestion_Compromisos.md):** Registro de productos bibliográficos y entregas finales.
 
+
 ================================================================================
 # 2. PROCESOS CLAVE DEL CICLO DE VIDA DEL SIIU
 ================================================================================
@@ -546,6 +755,17 @@ flowchart TD
 - **Particularidad:** Requiere adjuntar la carta formal de asignación de recursos o contrato del ente financiador externo.
 - :material-book: Guía oficial: [VI-GU-18](../archivo_maestro/VI-GU-18.md)
 
+### Proceso Solicitud Avales Institucionales (Convocatorias Externas)
+- **Aplica para:** Proyectos que se presentarán a convocatorias externas (nacionales o internacionales) y que demandan el **aval institucional previo** de la Vicerrectoría de Investigación de la Universidad de Antioquia para la obtención de recursos.
+- **Ruta SIIU:** `Convocatorias >> Nuevos proyectos >> Proceso de selección: Proceso Solicitud Avales Institucionales`
+- **Requisitos Habilitantes Obligatorios:**
+  - Descarga horaria aprobada por el Consejo de Facultad, Escuela o Instituto.
+  - Propuesta completa estructurada en la plataforma del financiador o en los formatos de los TdR.
+  - Certificaciones de contrapartida de grupos y cofinanciadores (efectivo y especie).
+  - Aval ético o bioético institucional (si aplica).
+  - Carta de respaldo de profesor de planta si el Investigador Principal es ocasional.
+- :material-book: Guía oficial: [VI-GU-05](../archivo_maestro/VI-GU-05.md)
+
 ### Primer Proyecto
 - **Aplica para:** Profesores o investigadores que postulan su primera propuesta en el sistema SIIU y no cuentan con registro histórico previo.
 - **Ruta SIIU:** `Convocatorias >> Inscripción >> Primer proyecto`
@@ -553,7 +773,22 @@ flowchart TD
 
 ---
 
-## 2. Las 8 Pestañas del Formulario de Matrícula
+## 2. Criterios Normativos de Inscripción al SUI (CODI)
+
+Conforme al **[Procedimiento de Inscripción de Proyectos al SUI](../archivo_maestro/PROC-CODI-INSCRIPCION-SUI.md)** (Aprobado CODI Sesión 718):
+
+!!! note "Excepciones: ¿Qué proyectos NO se inscriben al SUI?"
+    1. **Extensión Pura:** Actividades de extensión contempladas en el Estatuto de Extensión (Acuerdo Superior 124 de 1997) sin componente investigativo.
+    2. **Tesis o Trabajos Estudiantiles Puros:** Proyectos de estudiantes de pregrado o posgrado, **excepto cuando el estudiante de posgrado es profesor vinculado** a la Universidad.
+    *Nota de Extensión:* Los proyectos de extensión con componente de investigación y derechos de propiedad intelectual compartida sí se inscriben, aportando el porcentaje del Art. 47 del AS 124/1997.
+
+!!! tip "Evaluación y Compromisos Mínimos"
+    - **Compromiso Mínimo:** Todo proyecto inscrito debe pactar al menos: 1) Vincular a un estudiante en formación (pregrado o posgrado UdeA), o 2) Generar un producto de nuevo conocimiento.
+    - **Evaluación de Pares:** Las evaluaciones tramitadas por los Comités Técnicos deben superar los **80 puntos** y tienen una **vigencia de 24 meses** para formalizar la inscripción en el SUI.
+
+---
+
+## 3. Las 8 Pestañas del Formulario de Matrícula
 
 ### Pestaña 1: Información General
 - Título del proyecto (claro y conciso).
@@ -634,6 +869,7 @@ flowchart LR
 Una vez enviado el proyecto, el Centro de Investigación realizará la revisión habilitante:
 Consulta **[Evaluacion y Aval](../02_PROCESOS_CLAVE/Evaluacion_y_Aval.md)**.
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: Evaluacion_y_Aval.md
 *Ruta canónica original: `docs/02_PROCESOS_CLAVE/Evaluacion_y_Aval.md`*
@@ -694,6 +930,20 @@ El Centro de Investigación o Extensión revisa el cumplimiento de los Términos
   - `No cumple`
   - `No aplica`
 - :material-book: Guía oficial: [VI-GU-08](../archivo_maestro/VI-GU-08.md)
+
+### Aval Institucional para Convocatorias Externas (Minciencias, Regalías, Internacionales)
+Cuando el proyecto se postula a convocatorias externas que exigen el respaldo de la Universidad de Antioquia como entidad proponente o coejecutora:
+- **Ruta del Investigador:** `Convocatorias >> Nuevos proyectos >> Proceso Solicitud Avales Institucionales` (Guía oficial: [VI-GU-05](../archivo_maestro/VI-GU-05.md)).
+- **Ruta del Centro:** `Convocatorias >> Proyectos en evaluación >> Avales institucionales` (Guía oficial: [VI-GU-02](../archivo_maestro/VI-GU-02.md)).
+- **Revisión del Centro de Investigación:**
+  1. Verifica que la propuesta técnica cumpla con los Términos de Referencia externos.
+  2. Valida la asignación horaria docente aprobada por el Consejo de Facultad.
+  3. Comprueba las cartas de contrapartida de grupos y cofinanciadores (efectivo y especie).
+  4. Si hay inconsistencias, emite devolución a estado **Pendiente Actualización** habilitando pestañas puntuales (Guía [VI-GU-05](../archivo_maestro/VI-GU-05.md#5-proyecto-devuelto-para-ajustes)).
+  5. Una vez subsanado, emite el **Aval de Centro** y escala a la Vicerrectoría de Investigación para la expedición de la carta de aval rectoral/institucional.
+
+!!! info "Regla de Evaluadores Pares para Proyectos SUI (CODI)"
+    Conforme al **[Procedimiento de Inscripción SUI](../archivo_maestro/PROC-CODI-INSCRIPCION-SUI.md)**, los proyectos con financiación externa o propia que deseen inscribirse en el SUI deben contar con evaluaciones tramitadas por el Comité Técnico (un par interno y uno externo o dos externos), requiriendo un **puntaje promedio superior a 80 puntos** (válido por 24 meses). En proyectos adjudicados en convocatorias públicas competitivas externas, basta con el contrato o convenio legalizado.
 
 ---
 
@@ -758,6 +1008,7 @@ La Vicerrectoría de Investigación es la responsable de parametrizar las reglas
 ## :material-link: Próximo Paso en el Flujo
 Una vez aprobado el proyecto por el Comité o CODI:
 Consulta **[Inicio Formal](../02_PROCESOS_CLAVE/Inicio_Formal.md)**.
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: Convocatorias_y_Fondos_CODI.md
@@ -855,6 +1106,7 @@ Las siguientes circulares oficiales emitidas por la Vicerrectoría de Investigac
 - **[Programa Joven Investigador](Programa_Joven_Investigador.md):** Registro de cupos, vinculación y prórrogas en el SIIU.
 - **[Catálogo Maestro de Formatos Oficiales](../03_GUIAS_RAPIDAS_CHEAT_SHEETS/Catalogo_Formatos_Oficiales.md):** Descarga directa de minutas, listas de chequeo y plantillas de seguimiento.
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: Inicio_Formal.md
 *Ruta canónica original: `docs/02_PROCESOS_CLAVE/Inicio_Formal.md`*
@@ -909,6 +1161,13 @@ Antes de tramitar el acta de inicio formal en el SIIU, se deben consolidar los s
    - Amparo de Calidad de los Bienes o Servicios.
 3. **Contratos o Convenios Interinstitucionales:** En proyectos con financiación externa o convenios marco entre universidades o empresas.
 4. **Aval Ético Definitivo:** Certificación expedida por el Comité de Ética de la Investigación (humana o animal) correspondiente.
+5. **Certificaciones de Paz y Salvo Previas (CODI):** En convocatorias institucionales (fondos especiales, consolidación de grupos o apoyo a proyectos), el Centro de Investigación debe certificar formalmente que los profesores y el grupo se encuentran a paz y salvo con compromisos de proyectos SUI previos a la firma del acta (Ver minuta oficial: [TR-CODI-ACTA-CONSOLIDACION-GRUPOS](../archivo_maestro/TR-CODI-ACTA-CONSOLIDACION-GRUPOS.md)).
+
+!!! important "Reglas Contractuales de Oro del Acta de Inicio CODI"
+    - **Fórmula de Créditos Institucionales Obligatoria:** En todos los productos científicos (artículos, ponencias, libros) es mandatario dar crédito bajo la denominación exacta: **"Universidad de Antioquia UdeA"**.
+    - **Vigencia Efectiva:** La fecha contractual de inicio del proyecto es exactamente la fecha de la suscripción formal del Acta de Inicio (no se reconocen compromisos con fechas anteriores a la vigencia pactada).
+    - **Reconocimiento Editorial:** Los artículos científicos se reconocen como hito cumplido a partir de la comunicación formal de aceptación por parte del comité editorial de la revista.
+    - **Informe al 50%:** Todo proyecto financiado por el CODI debe presentar informe de avance técnico y financiero al alcanzar el 50% del cronograma de ejecución.
 
 ---
 
@@ -946,6 +1205,7 @@ Antes de tramitar el acta de inicio formal en el SIIU, se deben consolidar los s
 ## :material-link: Próximo Paso en el Flujo
 Con el proyecto **En ejecución**, se habilitan las compras, contrataciones, solicitudes de cambio de presupuesto y adición de tiempo:
 Consulta **[Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md)** y **[Gestion Compromisos](../02_PROCESOS_CLAVE/Gestion_Compromisos.md)**.
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: Modificaciones_y_Tramites.md
@@ -1055,6 +1315,7 @@ Permite a la Vicerrectoría definir qué instancias deben intervenir para cada t
 Para coordinar el cumplimiento de compromisos y plazos de entrega:
 Consulta **[Gestion Compromisos](../02_PROCESOS_CLAVE/Gestion_Compromisos.md)**.
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: Gestion_Compromisos.md
 *Ruta canónica original: `docs/02_PROCESOS_CLAVE/Gestion_Compromisos.md`*
@@ -1154,6 +1415,7 @@ Cuando por razones metodológicas o demoras editoriales no es posible entregar u
 ## :material-link: Próximo Paso en el Flujo
 Una vez aprobados el 100% de los compromisos e informes, el proyecto queda habilitado para el cierre definitivo:
 Consulta **[Cierre y Liquidacion](../02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md)**.
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: Programa_Joven_Investigador.md
@@ -1264,6 +1526,7 @@ Si por razones justificadas en el plan de investigación se requiere extender el
   - Aval del tutor del proyecto.
 - :material-book: Guía oficial: [VI-GU-11](../archivo_maestro/VI-GU-11.md)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: Cierre_y_Liquidacion.md
 *Ruta canónica original: `docs/02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md`*
@@ -1368,6 +1631,7 @@ Para que el SIIU permita iniciar el trámite de cierre, se deben cumplir cuatro 
 ## :material-link: Próximo Paso en el Flujo
 Para expedir certificados de finalización o paz y salvos institucionales:
 Consulta **[Reportes y Certificaciones](../02_PROCESOS_CLAVE/Reportes_y_Certificaciones.md)**.
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: Reportes_y_Certificaciones.md
@@ -1480,6 +1744,7 @@ El reporte más completo y exhaustivo del sistema SIIU:
     3. Seleccione: **"Permitir siempre ventanas emergentes y redirecciones de https://ayudame2.udea.edu.co"**.
     4. Presione **Listo** y vuelva a generar la consulta.
 
+
 ================================================================================
 # 3. GUÍAS RÁPIDAS Y REGLAS DE ORO
 ================================================================================
@@ -1553,6 +1818,7 @@ El SIIU interactúa intensamente con ventanas modales y descargas automáticas d
 - El SIIU cuenta con un temporizador de seguridad de sesión.
 - Si estás redactando un texto largo en el **CKEditor**, redacta previamente en un procesador de texto local, luego copia y pega como **texto sin formato** (`Ctrl + Shift + V`), dale formato rápido y presiona **GUARDAR** de inmediato.
 - Evita dejar pestañas del SIIU abiertas e inactivas durante más de 15 minutos.
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: Catalogo_Formatos_Oficiales.md
@@ -1641,6 +1907,7 @@ Para vincular estudiantes mediante recursos propios de proyectos (cubriendo el 1
 - **[Modificaciones y Trámites en Ejecución](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md)**
 - **[Cierre y Liquidación de Proyectos](../02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md)**
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: CheatSheet_Investigador.md
 *Ruta canónica original: `docs/03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Investigador.md`*
@@ -1708,6 +1975,7 @@ Guía de consulta veloz para resolver las situaciones operativas más frecuentes
 ### ¿Puedo cambiar el Investigador Principal yo mismo en el sistema?
 > No. El cambio de responsable institucional es una solicitud administrativa especial que debe ser autorizada por el Centro de Investigación y aplicada formalmente por la **Vicerrectoría de Investigación**. Consulta [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md#cambio-de-responsable).
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: CheatSheet_Centro.md
 *Ruta canónica original: `docs/03_GUIAS_RAPIDAS_CHEAT_SHEETS/CheatSheet_Centro.md`*
@@ -1765,6 +2033,7 @@ Guía de consulta ágil para Jefes de Centro, Coordinadores y Analistas de Proce
 3. **Control de evaluadores pares:** Procura asignar pares sin conflicto de interés (que no pertenezcan al mismo grupo de investigación ni sean coautores frecuentes del IP).
 4. **Verificación de compromisos antes de cerrar:** El botón de `Cierre de proyecto` se bloqueará si existe al menos un compromiso sin aprobar.
 5. **No abuses del filtro "TODOS":** Al generar reportes consolidados, delimita siempre por año de convocatoria o estado para no sobrecargar el servidor.
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: inicio-rapido.md
@@ -1843,6 +2112,7 @@ flowchart LR
 
 !!! tip "¿Siguiente paso?"
     Ya sabes el mapa. Profundiza en tu [proceso clave](02_PROCESOS_CLAVE/Matricula_Proyectos.md) o pregunta en la [FAQ](faq.md).
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: faq.md
@@ -1964,6 +2234,7 @@ Si buscas el texto legal literal, ve directo al **[Módulo Legal](legal/index.md
 !!! tip "¿No encontraste tu duda?"
     Usa el buscador arriba (lupa) con una palabra clave: `prórroga`, `pop-up`, `Nequi`, `spin-off`, `hechos cumplidos`, `formato`, `APC`, `permiso marco`. Si vienes de un error del sistema, copia el mensaje exacto del error en el buscador.
 
+
 ================================================================================
 # 4. INVESTIGACIÓN CENTRAL UDEA — CODI Y VICERRECTORÍA
 ================================================================================
@@ -2018,6 +2289,7 @@ Documentación oficial del portal central de la **Vicerrectoría de Investigaci�
 
 - **Órganos de Dirección y Operación:** [Vicerrectoría de Investigación](vicerrectoria.md) · [Sede de Investigación Universitaria (SIU)](siu.md) · [Portal SIIU](siiu.md) · [Procedimientos y Formatos](procedimientos_formatos.md) · [Atención al Ciudadano](atencion_ciudadano.md).
 - **Normativa y Cumplimiento:** [Reglamento de Investigación](reglamento_investigacion.md) · [Permisos para Hacer Investigación](permisos_investigacion.md) · [Propiedad Intelectual](propiedad_intelectual.md) · [Política de Acceso Abierto](acceso_abierto.md) · [Conflicto de Intereses Financieros (FCOI)](conflicto_intereses_financieros.md).
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: codi.md
@@ -2107,6 +2379,7 @@ Accede a las actas de las sesiones aquí
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/investigacion-udea/Contenido/asMenuLateral/CODI)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: catalogo_formatos_descargables.md
 *Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/catalogo_formatos_descargables.md`*
@@ -2121,12 +2394,12 @@ Inventario exhaustivo y clasificado de los **18 formatos, actas, manuales y plan
 
 | Categoría / Etapa del Proyecto | Nombre del Formato o Procedimiento | Tipo | Enlace Directo de Descarga |
 | --- | --- | --- | --- |
-| Procedimientos | **Manual Registro Proyectos Avales Institucionales** | `PDF` | [Descargar PDF](https://www.udea.edu.co/wps/wcm/connect/udea/df3e1692-559e-460d-8df8-e849481eaf8b/Manual+Registro+Proyectos+Avales+Institucionales_IP_V2_Ago2023.pdf?MOD=AJPERES&CVID=oIlYRsO) |
-| Procedimientos | **Procedimiento para inscribir proyectos en el SUI** | `PDF` | [Descargar PDF](https://www.udea.edu.co/wps/wcm/connect/udea/ede17d51-513a-4aa4-8fe0-0ccbfdfcc98a/procedimiento-inscripcion-proyectos+%282%29+%281%29.pdf?MOD=AJPERES&CVID=oUk69uM) |
+| Procedimientos | **Manual Registro Proyectos Avales Institucionales (VI-GU-05)** | `PDF / Wiki` | [Ver Transcripción](../archivo_maestro/VI-GU-05.md) · [Descargar PDF](https://www.udea.edu.co/wps/wcm/connect/udea/df3e1692-559e-460d-8df8-e849481eaf8b/Manual+Registro+Proyectos+Avales+Institucionales_IP_V2_Ago2023.pdf?MOD=AJPERES&CVID=oIlYRsO) |
+| Procedimientos | **Procedimiento para inscribir proyectos en el SUI (CODI)** | `PDF / Wiki` | [Ver Procedimiento](../archivo_maestro/PROC-CODI-INSCRIPCION-SUI.md) · [Descargar PDF](https://www.udea.edu.co/wps/wcm/connect/udea/ede17d51-513a-4aa4-8fe0-0ccbfdfcc98a/procedimiento-inscripcion-proyectos+%282%29+%281%29.pdf?MOD=AJPERES&CVID=oUk69uM) |
 | Formatos | **acta de registro y de propiedad intelectual** | `Word` | [Descargar Word](https://www.udea.edu.co/wps/wcm/connect/udea/a96da2e0-2e75-4698-8599-bc06809fabc4/acta+de+registro+y+de+propiedad+intelectual.docx?MOD=AJPERES&CVID=oo3lieD) |
 | Formatos | **Acta de finalización proyectos de investigación** | `Word` | [Descargar Word](https://www.udea.edu.co/wps/wcm/connect/udea/dd799871-6bb9-4bd7-84b9-0bd647cc3a3f/acta_finalizaci%C3%B3n1.docx?MOD=AJPERES&CVID=nmULgfn) |
 | Formatos | **Modificación acta de inicio proyectos de investigación (adenda)** | `Word` | [Descargar Word](https://www.udea.edu.co/wps/wcm/connect/udea/6f10f178-a131-44e5-bcc0-0e7149943869/modif_acta_inicio.doc.docx?MOD=AJPERES&CVID=l.--V9r) |
-| Formatos | **Acta de inicio y compromiso Estrategia de Consolidación 2018-2019** | `Word` | [Descargar Word](https://www.udea.edu.co/wps/wcm/connect/udea/d9891a14-a7ea-4fed-9161-5b812c1abb93/formato-acta-inicio-consolidacion2018-2019.docx?MOD=AJPERES&CVID=mGfAEbL&attachment=true&id=1557237049978) |
+| Formatos | **Acta de inicio y compromiso Estrategia de Consolidación (CODI)** | `Word / Wiki` | [Ver Minuta](../archivo_maestro/TR-CODI-ACTA-CONSOLIDACION-GRUPOS.md) · [Descargar Word](https://www.udea.edu.co/wps/wcm/connect/udea/d9891a14-a7ea-4fed-9161-5b812c1abb93/formato-acta-inicio-consolidacion2018-2019.docx?MOD=AJPERES&CVID=mGfAEbL&attachment=true&id=1557237049978) |
 | Formatos | **Acta de inicio y compromiso Estrategia de Sostenibilidad 2020-2021** | `PDF` | [Descargar PDF](https://www.udea.edu.co/wps/wcm/connect/udea/7fcd0cc9-fd1d-4eb1-bf4c-68b70f86a9ad/formato-acta-de-inicio-2020-estrategia-sostenibiliadd2021.pdf?MOD=AJPERES&CVID=nvfSkvN) |
 | Formatos | **Evaluación de proyectos de investigación** | `Excel` | [Descargar Excel](https://www.udea.edu.co/wps/wcm/connect/udea/9e7d74a3-9e2a-410b-89b4-56f97ce0b02f/Formato-Evaluaci%C3%B3n-Proyectos-2022.xlsx?MOD=AJPERES&CVID=okiq539) |
 | Formatos | **Lista de chequeo de proyectos** | `Word` | [Descargar Word](https://www.udea.edu.co/wps/wcm/connect/udea/ae2f8824-c9fc-45d0-b89e-cd2344329438/listachequeo1.docx?MOD=AJPERES&CVID=nmUQlE8) |
@@ -2148,6 +2421,7 @@ Inventario exhaustivo y clasificado de los **18 formatos, actas, manuales y plan
 
 ### Enlaces clave
 - [Página oficial de Procedimientos y Formatos](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/gestion-investigacion/Contenido/asContenidosMenu/procedimientos-formatos)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: circulares_vicerrectoria.md
@@ -2340,6 +2614,7 @@ Circular 06 de 2012 Convocatoria Colciencias de Reconocimiento de Grupos de Inve
 - [PDF: Recomendaciones actividades académicas período de vacaciones colectivas](https://www.udea.edu.co/wps/wcm/connect/udea/fd62135c-cccc-4fa0-8306-bc6d0f906012/Circular_ARL_2023.pdf?MOD=AJPERES&CVID=oxYPsAy)
 - [PDF: Circular N°1 del 3 de marzo de 2021](https://www.udea.edu.co/wps/wcm/connect/udea/a110d1cf-be4f-4adc-8007-ee5cd72819f4/Circular+1+de+2021+-+Fondo+Primer+Proyecto.pdf?MOD=AJPERES&CVID=nwsEvwY)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: vicerrectoria.md
 *Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/vicerrectoria.md`*
@@ -2389,6 +2664,7 @@ Ubicada en el Campus Medellín, Ciudad Universitaria Bloque 16-210.
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/investigacion-udea/Contenido/asMenuLateral/vicerrectoria)
 - [PDF: Estatuto General](http://secretariageneral.udea.edu.co/doc/a0001-1994.pdf)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: siu.md
 *Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/siu.md`*
@@ -2428,6 +2704,7 @@ La Universidad apoya financieramente la investigación asignando anualmente recu
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/investigacion-udea/Contenido/asMenuLateral/siu)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: siiu.md
 *Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/siiu.md`*
@@ -2451,7 +2728,7 @@ Haz clic sobre el nombre del manual para acceder y descargar.
 
 | Manual | Proceso | Perfil | Módulo |
 | --- | --- | --- | --- |
-| VI-GU-05 Guía para el registro de proyectos en el proceso de avales Institucionales  en el SIIU | Avales institucionales | Investigador principal | Convocatorias |
+| [VI-GU-05 Guía para el registro de proyectos en el proceso de avales Institucionales en el SIIU](../archivo_maestro/VI-GU-05.md) | Avales institucionales | Investigador principal | Convocatorias |
 | VI-GU-17 Guía para la matrícula de primer proyecto en el SIIU | Primer proyecto | Investigador principal | Convocatorias |
 | VI-GU-16 Guía para la información complementaria de los proyectos en el SIIU | Información complementaria | Investigador principal | Convocatorias |
 | VI-GU-24 Guía para la matrícula de proyectos en convocatoria en el SIIU | Matricula proyectos | Investigador principal | Convocatorias |
@@ -2523,7 +2800,11 @@ Haz clic sobre el nombre del manual para acceder y descargar.
 
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/gestion-investigacion/Contenido/asContenidosMenu/siiu)
-- [PDF: VI-GU-05 Guía para el registro de proyectos en el proceso de avales Institucionales  en el SIIU](https://www.udea.edu.co/wps/wcm/connect/udea/4338af16-b70b-46a7-a2e1-0f7b5b648ad3/Manual+Matricula+de+cupo+para+JI+2026+%2813%29.pdf?MOD=AJPERES&CVID=pW9A-yd)
+- [Guía VI-GU-05: Manual Registro de Proyecto Proceso Avales Institucionales](../archivo_maestro/VI-GU-05.md)
+- [Procedimiento de Inscripción de Proyectos al SUI (CODI)](../archivo_maestro/PROC-CODI-INSCRIPCION-SUI.md)
+- [Lineamientos sobre Grupos de Investigación en la Universidad de Antioquia (CODI 2024-2025)](../archivo_maestro/legalidad/LEG-CODI-LINEAMIENTOS-GRUPOS-2025.md)
+- [Minuta Acta de Inicio y Compromisos CODI](../archivo_maestro/TR-CODI-ACTA-CONSOLIDACION-GRUPOS.md)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: comite_central_etica.md
@@ -2573,6 +2854,7 @@ direccionsiu@udea.edu.co
 - [PDF: Descargar manual](https://www.udea.edu.co/wps/wcm/connect/udea/8598ab50-c33d-45cf-be1c-b105a884743b/Manual+operativo_Segundaversi%C3%B3n.Ajustada.pdf?MOD=AJPERES&CVID=oUqU4v2)
 - [PDF: Descargar Circular](https://www.udea.edu.co/wps/wcm/connect/udea/52644c75-4996-42c2-8572-c14c2e321ccc/Circular+%C3%9Anica+CCEI+-+FINAL.+Sept29.pdf?MOD=AJPERES&CVID=oeesmid)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: convocatorias_codi.md
 *Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/convocatorias_codi.md`*
@@ -2597,6 +2879,7 @@ El CODI financia programas y proyectos de investigación a través de convocator
 
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/convocatorias-fondos-etiqueta/convocatorias-codi/)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: convocatorias_externas.md
@@ -2623,6 +2906,7 @@ La Vicerrectoría de Investigación acompaña a los grupos de investigación en 
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/convocatorias-fondos-etiqueta/convocatorias-externas)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: fondos_investigacion.md
 *Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/fondos_investigacion.md`*
@@ -2647,6 +2931,7 @@ Mediante estos Fondos, el CODI apoya el desarrollo de la actividad investigativa
 
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/convocatorias-fondos-etiqueta/fondos-investigacion)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: fondo_primer_proyecto.md
@@ -2759,6 +3044,7 @@ El Investigador Principal puede realizar **libremente cambios de rubro en cualqu
 - [Convocatorias y Fondos CODI](../02_PROCESOS_CLAVE/Convocatorias_y_Fondos_CODI.md)
 - [Programa Jóvenes Investigadores](../02_PROCESOS_CLAVE/Programa_Joven_Investigador.md)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: programa_jovenes_investigadores.md
 *Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/programa_jovenes_investigadores.md`*
@@ -2815,6 +3101,7 @@ Diana Patricia Diaz Quiroz Auxiliar Administrativa apoyo.vin@udea.edu.co Teléfo
 - [Excel: Plantilla para la solicitud de convenios](https://www.udea.edu.co/wps/wcm/connect/udea/05ea8f62-18f1-4f3f-86c1-994d64afa9a6/plantilla+para+solicitar+ji+x+proyecto.xlsx?MOD=AJPERES&CVID=nMTN-9K)
 - [PDF: Leer circular](https://www.udea.edu.co/wps/wcm/connect/udea/3c9af606-ebae-4aa9-bd4f-b1f052c56bee/Circular+01+del+2026_CronogramaJI.pdf?MOD=AJPERES&CVID=pL.E-QC)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: procedimientos_formatos.md
 *Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/procedimientos_formatos.md`*
@@ -2846,6 +3133,7 @@ Procedimientos Procedimiento para solicitud de aval institucional para convocato
 - [Word: Lista de chequeo de proyectos](https://www.udea.edu.co/wps/wcm/connect/udea/ae2f8824-c9fc-45d0-b89e-cd2344329438/listachequeo1.docx?MOD=AJPERES&CVID=nmUQlE8)
 - [Excel: Solicitud de prórroga](https://www.udea.edu.co/wps/wcm/connect/udea/7a6fabd6-8ad3-42bc-b4ee-869441706b22/pr%C3%B3rroga.xlsx?MOD=AJPERES&CVID=l.--IeT)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: reglamento_investigacion.md
 *Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/reglamento_investigacion.md`*
@@ -2870,6 +3158,7 @@ Para consultar el Acuerdo Superior 204 del 6 de noviembre de 2001 y el Acuerd
 
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/gestion-investigacion/Contenido/asContenidosMenu/reglamento)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: propiedad_intelectual.md
@@ -2896,6 +3185,7 @@ Más de 80 desarrollos listos para procesos de transferencia, licenciamiento com
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/produccion-cientifica/propiedad-intelectual)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: acceso_abierto.md
 *Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/acceso_abierto.md`*
@@ -2921,6 +3211,7 @@ Acuerdo superior 451: Política Institucional de Acceso Abierto
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/gestion-investigacion/Contenido/asContenidosMenu/acceso-abierto)
 - [PDF: Acuerdo superior 451: Política Institucional de Acceso Abierto](https://www.udea.edu.co/wps/wcm/connect/udea/e1796949-5363-404c-94c6-6b75ce5ace52/AS-openacces451.PDF?MOD=AJPERES&CVID=meWlyUD)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: conflicto_intereses_financieros.md
@@ -2966,6 +3257,7 @@ DESCARGA el Formato de Declaración de Situaciones de Conflicto de Intereses
 - [PDF: I nglés](https://www.udea.edu.co/wps/wcm/connect/udea/34613f70-f760-4415-b8ec-32464b59cbc6/12350_Target_Resolu_Rectoral_nov_2022_rev.pdf?MOD=AJPERES&CVID=oje059K)
 - [Word: DESCARGA el Formato de Declaración de Situaciones de Conflicto de Intereses](https://www.udea.edu.co/wps/wcm/connect/udea/3a7e9c6f-94a3-4661-beed-e6bccbd7d52b/Formato+DECLARACIO%CC%81N+DE+SITUACIONES+DE+CONFLICTO+DE+INTERESES+VerDic20.docx?MOD=AJPERES&CVID=okQM-1u)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: permisos_investigacion.md
 *Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/permisos_investigacion.md`*
@@ -2997,6 +3289,7 @@ Aquellos docentes regulares que no estén incorporados al "Permiso Marco de Reco
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/gestion-investigacion/Contenido/asContenidosMenu/permisos-investigacion/permisos-investigacion)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: atencion_ciudadano.md
 *Ruta canónica original: `docs/07_INVESTIGACION_CENTRAL_UDEA/atencion_ciudadano.md`*
@@ -3021,6 +3314,7 @@ La Universidad de Antioquia se compromete a brindar mecanismos de atención al c
 
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/investigacion-udea/Contenido/asMenuLateral/atencion-ciudadano)
+
 
 ================================================================================
 # 5. ECOSISTEMA FACULTAD DE CIENCIAS ECONÓMICAS Y CIC
@@ -3077,6 +3371,305 @@ Esta sección consolida la **arquitectura funcional, grupos de investigación ac
 - **Semilleros de Investigación:** [Panorama General](semilleros/semilleros-general.md) · [Ángelo (Macroeconomía)](semilleros/angelo-macroeconomia.md) · [COMPHOR](semilleros/comphor.md) · [Financiero (GICCO)](semilleros/financiero-gicco.md) · [GESTOR](semilleros/gestor.md) · [IMARK](semilleros/imark.md) · [Innovación FCE (GICCO)](semilleros/innovacion-fce-gicco.md) · [SIFI (GIFI)](semilleros/sifi-gifi.md) · [SILES (GICCO)](semilleros/siles-gicco.md).
 - **Revistas y Documentos de Trabajo:** [Publicaciones FCE](publicaciones/publicaciones-general.md) · [Borradores Depto. Economía](publicaciones/borradores-departamento-economia.md) · [Lecturas de Economía](publicaciones/revista-lecturas-economia.md) · [Contaduría UdeA](publicaciones/revista-contaduria.md) · [Perfil de Coyuntura](publicaciones/revista-perfil-coyuntura.md) · [Adversia](publicaciones/revista-adversia.md) · [Conexiones](publicaciones/revista-conexiones.md) · [Oikos](publicaciones/revista-oikos.md).
 - **Infraestructura Académica:** [Departamentos Académicos](departamentos.md) · [Centro de Documentación FCE](centro_documentacion.md).
+
+
+------------------------------------------------------------
+## [DOCUMENTO]: Manual_Legal_Prorrogas_Plazos_Semaforo.md
+*Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/Manual_Legal_Prorrogas_Plazos_Semaforo.md`*
+------------------------------------------------------------
+
+# SUSTENTO JURÍDICO-NORMATIVO DEL SISTEMA DE CONTROL Y MONITOREO DE PROYECTOS (SCMP)
+## Manual Canónico de Prórrogas, Plazos de Compromisos, Gobernanza por Comités y Calibración del Semáforo
+**Centro de Investigaciones y Consultorías (CIC) — Facultad de Ciencias Económicas**  
+**Universidad de Antioquia**
+
+---
+
+> ### RESUMEN EJECUTIVO Y PROPÓSITO
+> Este documento constituye el **soporte legal exhaustivo** del Sistema de Control y Monitoreo de Proyectos (SCMP) de la Facultad de Ciencias Económicas. Su propósito es respaldar normativamente cada campo, cálculo, plazo y estado visual del semáforo implementado en SharePoint (`Proyectos_Activos_CIC` e `Historial_Novedades_CIC`), así como orientar la actuación jurídica y administrativa del Comité Técnico del CIC, los Directores de Departamento, los Investigadores Principales (IP) y el Gestor del Sistema ante el CODI y la Vicerrectoría de Investigación.
+
+---
+
+## 1. MARCO NORMATIVO INSTITUCIONAL APLICABLE
+
+La gestión de tiempos, modificaciones de cronograma, prórrogas y compromisos de investigación en la Universidad de Antioquia se encuentra regulada por un sistema jerárquico integrado:
+
+1. **Resolución Rectoral 00968 del 30 de septiembre de 2026:**
+   *Norma Matriz Especializada.* Reglamenta de manera unificada el trámite de prórrogas de ejecución, el otorgamiento de plazos adicionales para el cumplimiento de compromisos y las consecuencias del vencimiento e incumplimiento.
+2. **Acuerdo Superior 204 del 6 de noviembre de 2001:**
+   *Estatuto del Sistema Universitario de Investigación (SUI).* Define los principios de la investigación universitaria, la estructura descentralizada de los Centros de Investigación, las funciones de los Comités Técnicos (Art. 10) y las competencias de los Consejos de Facultad (Art. 12).
+3. **Acuerdo Superior 083 del 29 de julio de 1996:**
+   *Estatuto Profesoral de la Universidad de Antioquia.* Regula la dedicación de los profesores universitarios a las actividades de investigación a través de su plan de trabajo concertado (Art. 21 y concordantes).
+4. **Acuerdo Superior 01 del 1 de agosto de 1994:**
+   *Estatuto General de la Universidad de Antioquia.* Fija el principio de prevalencia de la investigación como función misional, el carácter de servidor público del docente y las responsabilidades por la custodia y administración diligente de los recursos públicos institucionales (Arts. 40 a 46).
+5. **Acuerdo Superior 466 de 2020 y Acuerdo Superior 121 de 1997:**
+   *Estatutos Presupuestal y Financiero.* Regulan el principio de anualidad presupuestal, los cierres de vigencia fiscal y las reservas presupuestales en proyectos de investigación.
+6. **Guías Operativas del SIIU:**
+   * **`VI-GU-23`:** *Guía para la solicitud de prórroga de proyectos en el SIIU* (Prórroga de Inicio y Prórroga de Ejecución).
+   * **`VI-GU-22`:** *Guía para la solicitud de plazo en la entrega de compromisos en el SIIU*.
+   * **`VI-GU-09` & `VI-IN-09`:** *Guía de seguimiento a proyectos y entrega de compromisos académicos* y *Procedimiento para el cierre formal y liquidación*.
+
+---
+
+## 2. DIFERENCIACIÓN JURÍDICA CANÓNICA ENTRE FIGURAS DE TIEMPO
+
+Uno de los errores conceptuales más frecuentes en la gestión de proyectos es confundir la ampliación del tiempo de ejecución con la ampliación del plazo para entregar productos. La **Resolución Rectoral 00968 de 2026 (Art. 2)** establece una distinción tajante con efectos presupuestales, contractuales y de plan de trabajo docente diametralmente distintos:
+
+```mermaid
+flowchart TD
+    classDef tiempo fill:#081810,stroke:#35944B,stroke-width:1.5px,color:#E1EFE6,rx:6px,ry:6px;
+    classDef prorrog fill:#026937,stroke:#8DC63F,stroke-width:2px,color:#FFFFFF,rx:6px,ry:6px;
+    classDef plazo fill:#0D2115,stroke:#3EBDAC,stroke-width:2px,color:#FFFFFF,rx:6px,ry:6px;
+
+    ROOT["Figuras de Extensión Temporal en la UdeA"]:::tiempo
+
+    ROOT --> FIG1["1. Prórroga de Ejecución<br>(Art. 2b, 3, 7 RR 00968)"]:::prorrog
+    ROOT --> FIG2["2. Plazo de Compromisos<br>(Art. 2c, 12 RR 00968)"]:::plazo
+    ROOT --> FIG3["3. Prórroga de Inicio<br>(Guía VI-GU-23)"]:::tiempo
+
+    FIG1 --> EFF1["• Amplía horizonte contractual activo.<br>• Mantiene vigentes contratos y compras.<br>• Exige horas en Plan de Trabajo docente.<br>• Límite: Máx 50% acumulado (100% extraordinario)."]
+    FIG2 --> EFF2["• Exclusivo para hechos de TERCEROS.<br>• NO reabre presupuesto ($0 compras).<br>• NO asigna horas en Plan de Trabajo.<br>• Límite: Hasta 1 año (Máx 2 años CODI)."]
+    FIG3 --> EFF3["• Para proyectos en estado APROBADO.<br>• Evita cancelación antes del Acta de Inicio.<br>• Trámite previo a la ejecución."]
+```
+
+### Tabla Comparativa Exegética
+
+| Criterio Diferenciador | Prórroga de Ejecución (Art. 2b, 3, 7) | Plazo Cumplimiento Compromisos (Art. 2c, 12) |
+| :--- | :--- | :--- |
+| **Naturaleza Jurídica** | Extraordinaria y excepcional para ajustar el cronograma de actividades directas del equipo investigador. | Especialísima y residual, otorgada únicamente cuando el cumplimiento depende **exclusivamente de un tercero**. |
+| **Causal Habilitante** | Circunstancias sobrevinientes técnicas, científicas, logísticas o de fuerza mayor que impidieron culminar las pruebas o análisis. | Sometimiento de manuscrito a revista indexada en revisión por pares (peer-review), trámite de concesión de patente ante la SIC, etc. |
+| **Ejecución Presupuestal** | **Permitida:** Se mantienen activos los centros de costos y se pueden seguir ejecutando saldos en rubros aprobados. | **Prohibida:** No implica la reapertura de la ejecución presupuestal ni habilita la asignación de nuevos recursos. |
+| **Plan de Trabajo Docente** | **Obligatoria:** Requiere autorización previa del Consejo de Facultad para la dedicación horaria del profesor (Art. 5). | **No Procede:** No implica asignación de actividades ni descarga horaria en el plan de trabajo profesoral (Art. 12). |
+| **Límite Temporal Ordinario** | Hasta el **50% del plazo original** sumadas todas las prórrogas concedidas. | Hasta **un (1) año** calendario aprobado por el CODI previo aval del Centro. |
+| **Límite Temporal Extraordinario** | Hasta el **100% del plazo original** (únicamente por fuerza mayor comprobada y avalada). | Hasta **dos (2) años** en total como tope infranqueable absoluto (Parágrafo 1, Art. 12). |
+| **Instancia Aprobatoria** | CODI, previo aval del Comité Técnico del Centro y autorización horaria del Consejo de Facultad. | CODI, previo concepto y aval del Comité Técnico del Centro. |
+| **Estatus en el SIIU** | Sigue en estado `En Ejecución` (con nueva fecha de vigencia contractual). | Pasa al estado formal: `Con plazo adicional autorizado para cumplimiento de compromisos` (Art. 12 Par. 2). |
+
+---
+
+## 3. LÍMITES TEMPORALES, ANTELACIÓN Y VENTANA DE ORO
+
+### A. La Regla de los Dos (2) Meses de Antelación (Art. 6 RR 00968/2026)
+La norma establece una carga perentoria de oportunidad:
+> *"La solicitud de prórroga deberá presentarse al Comité Técnico de la respectiva dependencia o de la instancia que haga sus veces, **con una antelación mínima de dos (2) meses respecto de la fecha de finalización** prevista en el cronograma vigente del proyecto."*
+
+* **Interpretación Operativa:** Dado que el mes legalmente se computa a 30 días, el límite mínimo para que un investigador radique su solicitud de prórroga formal sin incurrir en extemporaneidad es cuando faltan **60 días calendario** para vencer el proyecto.
+* **Excepción de Extemporaneidad (Parágrafo Art. 6):** Si el hecho ocurre dentro de los últimos 60 días, el investigador está obligado a **acreditar y probar por qué no fue posible preverlo con anterioridad**. El Comité Técnico del Centro tiene el deber de emitir un pronunciamiento formal expreso sobre la *"razonabilidad del momento de radicación"*.
+
+### B. Prohibición de Prórrogas Retroactivas
+> *"En todos los casos, la solicitud de prórroga deberá radicarse **antes del vencimiento del plazo** fijado para la ejecución del proyecto."* (Art. 6 Parágrafo in fine).
+
+Un proyecto que llega a `DiasVencimiento = 0` sin una solicitud radicada en el SIIU **pierde la viabilidad legal de ser prorrogado en su ejecución**. Ninguna autoridad universitaria (ni el Jefe de Centro, ni el Decano, ni el CODI) posee facultades reglamentarias para revivir un plazo de ejecución ya fenecido.
+
+### C. Límites Máximos Acumulados (Art. 7 RR 00968/2026)
+* Para un proyecto con duración inicial de **12 meses**:
+  - La prórroga ordinaria acumulada máxima es de **6 meses** (50%).
+  - La prórroga extraordinaria acumulada máxima es de **12 meses** (100%).
+* Para un proyecto con duración inicial de **24 meses**:
+  - La prórroga ordinaria acumulada máxima es de **12 meses** (50%).
+  - La prórroga extraordinaria acumulada máxima es de **24 meses** (100%).
+* **Cómputo en el SCMP:** El campo `NumeroConsecutivo` y `MesesOtorgados` en la lista `Historial_Novedades_CIC` permite auditar la sumatoria acumulada para bloquear solicitudes que pretendan superar el 50% sin concepto de fuerza mayor.
+
+---
+
+## 4. ECOSISTEMA DE GOBERNANZA: RUTA DE DECISIÓN POR COMITÉS
+
+La decisión de prorrogar o conceder plazos no recae en un funcionario unipersonal. Involucra una cadena colegiada de gobernanza universitaria regulada por el **Acuerdo Superior 204 de 2001** y la **Resolución Rectoral 00968 de 2026**:
+
+```mermaid
+sequenceDiagram
+    autonumber
+    actor IP as Investigador Principal (IP)
+    participant DPTO as Departamento Académico (Jefe)
+    participant CF as Consejo de Facultad (FCE)
+    participant CIC as Comité Técnico del CIC
+    participant VRI as Vicerrectoría de Investigación
+    participant CODI as Comité Desarrollo Investigación (CODI)
+    participant SIIU as Sistema SIIU (Base de Datos)
+
+    Note over IP,SIIU: Ventana: 61 - 90 días antes del vencimiento
+    IP->>DPTO: Concerta disponibilidad y ajuste en Plan de Trabajo docente
+    DPTO->>CF: Solicita aprobación de dedicación horaria para prórroga
+    CF->>IP: Expide aval / extracto de acta de dedicación horaria (AS 083/1996, AS 204/2001)
+
+    IP->>SIIU: Radica solicitud formal (Informe avance + balance financiero + cronograma + acta CF)
+    SIIU->>CIC: Llega solicitud al buzón de novedades del Centro (VI-GU-23)
+
+    Note over CIC: Sesión Ordinaria Comité Técnico
+    CIC->>CIC: Evalúa: 1. Pertinencia justificación, 2. Ejecución financiera, 3. Viabilidad técnica (Art. 5)
+    alt Concepto Favorable
+        CIC->>VRI: Emite AVAL DE CENTRO y proyecta adenda
+    else Desfavorable / Incompleto
+        CIC->>IP: Devuelve para subsanación o rechaza formalmente
+    end
+
+    VRI->>VRI: Control de legalidad documental y verificación de topes (Art. 9)
+    VRI->>CODI: Presenta caso en agenda de sesión ordinaria CODI
+
+    Note over CODI: Sesión Oficial del CODI
+    alt Aprobación CODI
+        CODI->>SIIU: Registra aprobación formal en Acta CODI
+        VRI->>SIIU: Aplica novedad (Botón APLICAR - VI-GU-13)
+        SIIU-->>IP: Notifica nueva fecha vigente contractual
+        Note over SIIU: El motor de datos actualiza FechaFinalVigente
+    else Negación CODI
+        CODI->>IP: Notifica negación motivada. Se conmina al cierre en fecha original
+    end
+```
+
+### Competencias Detalladas por Instancia:
+
+1. **Investigador Principal (IP):**
+   - Radicar oportunamente a través del SIIU adjuntando: a) Solicitud suscrita, b) Justificación causal, c) Informe técnico y financiero de avance, d) Cronograma ajustado, e) Aval horario del Consejo de Facultad.
+2. **Consejo de Facultad (FCE):**
+   - Competencia exclusiva para autorizar la **dedicación de tiempo lectivo/investigativo** de los profesores adscritos a sus departamentos durante el tiempo que durará la prórroga (AS 204/2001 Art. 12 literal e, AS 083/1996 Art. 21). Sin este soporte, el Comité Técnico no puede expedir aval.
+3. **Comité Técnico del Centro (CIC FCE):**
+   - Órgano colegiado de la unidad académica mayor. Verifica que el proyecto no supere los topes legales, que la ejecución presupuestal sea concordante con el avance físico, y emite el **Concepto Favorable o Aval de Centro** (AS 204/2001 Art. 10 literal k, RR 00968 Art. 5).
+4. **Vicerrectoría de Investigación:**
+   - Realiza la revisión técnica e institucional de cumplimiento de requisitos formales y consolida los expedientes para decisión central.
+5. **Comité para el Desarrollo de la Investigación (CODI):**
+   - Máxima autoridad investigativa de la Universidad. **Es la única instancia que aprueba o niega definitivamente las prórrogas y plazos adicionales de proyectos con recursos institucionales** (RR 00968 Art. 9 y 12).
+
+---
+
+## 5. SUSTENTO LEGAL DETALLADO DE CADA BANDA DEL SEMÁFORO SCMP
+
+El semáforo visual programado en SharePoint mediante fórmulas de columna calculada `[$DiasVencimiento] = [FechaFinalVigente] - TODAY()` no es una mera convención cromática; **cada franja representa un estado procesal regido por la normativa universitaria:**
+
+```text
+  +-------------------------------------------------------------------------------------------------+
+  |                                LÍNEA DE TIEMPO LEGAL DEL PROYECTO                               |
+  +-------------------------------------------------------------------------------------------------+
+           > 90 días           61 a 90 días             1 a 60 días           0 días       < 0 días
+       [  VERDE 🟢  ]       [  ÁMBAR 🟡  ]          [  ROJO SUAVE 🔴  ]      [ NEGRO ⚫ ] [ ROJO ALARMA 🚨 ]
+       Vigente Normal     Ventana de Radicación     Término Extemporáneo     Vence Hoy      Incumplimiento
+       (Arts. 1-4)         Oportuna (Art. 6)        Excepcional (Par. Art 6)   (Art. 2)        (Art. 13)
+```
+
+---
+
+### 🟢 Banda Verde: `> 90 días`
+* **Definición en SCMP:** Proyecto en ejecución normal y regular.
+* **Fundamento Legal:**
+  - **RR 00968/2026 (Art. 1, 2a y 4):** El proyecto se encuentra dentro del plazo contractual inicialmente aprobado o prorrogado formalmente. Goza de presunción de normalidad técnica y presupuestal.
+  - **AS 204/2001 (Art. 4b):** Preeminencia del trabajo por proyectos conforme al cronograma vigente.
+* **Efectos Jurídicos:** El IP tiene plena autonomía para ejecutar rubros y adelantar compromisos. No se requiere intervención coercitiva del Centro de Investigaciones.
+* **Acción del Gestor SCMP:** Monitoreo pasivo y verificación de carga regular de informes de avance programados en los términos de la convocatoria.
+
+---
+
+### 🟡 Banda Ámbar: `61 a 90 días` (La Ventana de Oro)
+* **Definición en SCMP:** Alerta preventiva institucional de vencimiento próximo. Ventana reglamentaria para radicar prórroga o plazo de compromisos.
+* **Fundamento Legal:**
+  - **RR 00968/2026 (Artículo 6 — Oportunidad):**
+    > *"La solicitud de prórroga deberá presentarse al Comité Técnico de la respectiva dependencia [...] con una **antelación mínima de dos (2) meses (60 días)** respecto de la fecha de finalización prevista en el cronograma vigente del proyecto."*
+* **Razón de Ser del Rango 61 a 90 días:** Dado que a los 60 días exactos fenece el plazo ordinario de presentación, este mes intermedio (entre el día 90 y el día 61) es el **único momento oportuno** en que el IP puede:
+  1. Tramitar con el Departamento y el Consejo de Facultad la aprobación del ajuste al Plan de Trabajo docente.
+  2. Compilar el balance presupuestal y justificación técnica.
+  3. Radicar formalmente en el SIIU para que el Comité Técnico del CIC lo incluya en el orden del día y emita su concepto antes de entrar a la zona crítica.
+* **Efectos Jurídicos:** Es el periodo de máxima seguridad jurídica. Las prórrogas radicadas en esta banda no requieren justificar extemporaneidad ni son sospechosas de falta de planeación.
+* **Acción del Gestor SCMP (Automatización Power Automate):**
+  - Disparar la **Notificación Preventiva Nivel 1** al IP, notificándole los días exactos restantes y citando textualmente el Artículo 6 de la RR 00968.
+
+---
+
+### 🔴 Banda Rojo Suave: `1 a 60 días` (Zona Crítica de Extemporaneidad)
+* **Definición en SCMP:** Término legal ordinario de solicitud de prórroga vencido. Zona de alto riesgo operativo.
+* **Fundamento Legal:**
+  - **RR 00968/2026 (Artículo 6, Parágrafo):**
+    > *"Cuando la circunstancia que motiva la solicitud solo se haga evidente dentro de los dos (2) meses anteriores al vencimiento del plazo, la solicitud podrá presentarse tan pronto se conozca la misma. En todo caso, **el investigador deberá indicar y soportar expresamente la razón por la cual no fue posible anticiparla**, y el Comité Técnico deberá pronunciarse sobre la razonabilidad del momento de radicación como parte de su concepto."*
+  - **RR 00968/2026 (Artículo 3):**
+    > *"En ningún caso la prórroga podrá utilizarse para subsanar deficiencias de planeación, incumplimientos injustificados o retrasos atribuibles exclusivamente a la falta de gestión del equipo investigador."*
+* **Efectos Jurídicos:**
+  1. Si el IP radica prórroga en esta banda, la solicitud se tramita bajo **régimen excepcional y restrictivo**.
+  2. Si no demuestra documentalmente la fuerza mayor o la imposibilidad de anticiparla, el Comité Técnico del CIC tiene la obligación jurídica de **negar el aval**.
+  3. Si el IP no va a pedir prórroga de ejecución, este lapso es perentorio para consolidar el Informe Final de Investigación y radicar los productos en el SIIU.
+  4. Si los productos dependen de un tercero (ej. artículo en revista), es la última oportunidad para solicitar formalmente el **Plazo para Cumplimiento de Compromisos (Art. 12)** antes de que el proyecto fenezca.
+* **Acción del Gestor SCMP:**
+  - Disparar la **Notificación Crítica Nivel 2** al IP y con copia al Jefe de Departamento, conminándolo a la radicación inmediata de justificación extraordinaria de prórroga o a la entrega del informe final.
+
+---
+
+### ⚫ Banda Negro Puro: `0 días` (Día del Vencimiento)
+* **Definición en SCMP:** El proyecto cumple hoy su fecha contractual final vigente.
+* **Fundamento Legal:**
+  - **RR 00968/2026 (Art. 2a y Art. 6 Parágrafo in fine):** Fenecimiento total del término de ejecución acordado. A partir de las 23:59 horas de este día se extingue la facultad legal de radicar prórrogas de ejecución en el SIIU.
+  - **AS 121/1997 y AS 466/2020:** Cierre de la capacidad de imputación presupuestal directa del proyecto.
+* **Efectos Jurídicos:** Se congela la ejecución operativa. A partir de mañana el proyecto queda desprovisto de cobertura contractual activa a menos que exista un trámite debidamente aprobado por CODI en firme.
+* **Acción del Gestor SCMP:** Verificar si existe solicitud en trámite en SIIU o si se procede con el protocolo de cierre técnico.
+
+---
+
+### 🚨 Banda Rojo Chilloso / Alarma: `< 0 días` (Vencido en Mora)
+* **Definición en SCMP:** Proyecto vencido formalmente sin prórroga autorizada ni cierre ejecutado.
+* **Fundamento Legal:**
+  - **RR 00968/2026 (Artículo 13 — Vencimiento e Incumplimiento):**
+    > *"Vencido el plazo de ejecución, incluida(s) la(s) prórroga(s) aprobada(s), sin evidencia del cumplimiento de los compromisos y sin que se haya autorizado plazo(s) de cumplimiento de compromisos conforme a la presente resolución, **el proyecto se calificará como 'incumplido' en los sistemas de información institucionales** dispuestos para dicho fin, y **se darán los traslados correspondientes ante las instancias competentes por el incumplimiento advertido**."*
+  - **Acuerdo Superior 01 de 1994 (Estatuto General, Arts. 40 a 46):**
+    Responsabilidad de los servidores públicos sobre los fondos universitarios. La omisión injustificada en la entrega de compromisos de investigación acarrea investigaciones administrativas, disciplinarias y eventual responsabilidad fiscal.
+  - **Acuerdo Superior 083 de 1996 (Estatuto Profesoral):**
+    Incumplimiento de las obligaciones funcionales derivadas del plan de trabajo profesoral concertado.
+* **Efectos Jurídicos:**
+  1. El IP queda administrativamente bloqueado para presentarse a nuevas convocatorias internas del CODI como investigador principal o coinvestigador.
+  2. Imposibilidad de tramitar adiciones, traslados o prórrogas ordinarias en el SIIU.
+  3. El Centro de Investigaciones queda facultado para emitir requerimiento de descargos y remitir el expediente a la Vicerrectoría de Investigación y a la Dirección de Asesoría Jurídica de la Universidad.
+* **Acción del Gestor SCMP:**
+  - Emisión de informe especial al Decano y al Comité Técnico del CIC para definir si procede intimación previa al IP o inicio formal del proceso de declaratoria de incumplimiento.
+
+---
+
+### ⚪ Banda Gris Neutro: `Finalizado` / `Con Plazo de Compromisos`
+* **Definición en SCMP:** Proyecto culminado y cerrado, o amparado bajo el régimen especial de cumplimiento.
+* **Fundamento Legal:**
+  - **RR 00968/2026 (Art. 12 Parágrafo 2):**
+    > *"Mientras se encuentre vigente un plazo para el cumplimiento de compromisos debidamente aprobado, **el proyecto se registrará en el estado de 'con plazo adicional autorizado para cumplimiento de compromisos' y no se calificará como atrasado**."*
+  - **Guía VI-IN-09 y VI-GU-09:** Aprobación del informe final por el Comité Técnico del CIC y firma de acta de liquidación / paz y salvo con la Decanatura.
+* **Efectos Jurídicos:** Seguridad jurídica total, liberación de las horas en el plan de trabajo docente del IP y paz y salvo investigativo institucional.
+
+---
+
+## 6. SÍNTESIS DE ARTICULACIÓN MATEMÁTICA Y LEGAL PARA AUTOMATIZACIONES
+
+| Código de Color | Rango Matemático (`DiasVencimiento`) | Estado de Negocio | Articulado Rectoral Invocable | Plantilla Automática Aplicable en Power Automate |
+| :---: | :---: | :---: | :---: | :---: |
+| 🟢 `#2e7d32` | $> 90$ | Ejecución Regular | RR 00968 Art. 1-4; AS 204 Art. 4 | *Sin notificación activa (Estado OK).* |
+| 🟡 `#f57c00` | $61 \leq x \leq 90$ | Alerta Oportuna (Ventana Oro) | **RR 00968 Art. 6 (Oportunidad 2 meses)** | **Plantilla Nivel 1:** *Invitación formal a radicación de prórroga con antelación reglamentaria.* |
+| 🔴 `#e57373` | $1 \leq x \leq 60$ | Riesgo Crítico / Fenece Plazo | **RR 00968 Art. 6 Par. y Art. 3** | **Plantilla Nivel 2:** *Alerta crítica de extemporaneidad y conminación a informe final / Art. 12.* |
+| ⚫ `#000000` | $0$ | Vencimiento Efectivo Hoy | **RR 00968 Art. 2a y 6 Par.** | **Plantilla Nivel 3:** *Notificación de cierre de ventana operativa y congelamiento de plazos.* |
+| 🚨 `#b71c1c` | $< 0$ | Proyecto Vencido en Mora | **RR 00968 Art. 13; AS 01 Arts. 40-46** | **Plantilla Nivel 4:** *Requerimiento formal previo a calificación de "Incumplido" y traslado legal.* |
+| ⚪ `#605e5c` | *Finalizado* | Cerrado / Plazo Art. 12 | **RR 00968 Art. 12 Par. 2; VI-IN-09** | *Registro histórico y paz y salvo.* |
+
+---
+
+## 7. CLÁUSULAS JURÍDICAS MODELO PARA LAS NOTIFICACIONES (POWER AUTOMATE)
+
+Para dar estricto blindaje al actuar de la Facultad de Ciencias Económicas y evitar alegaciones de violación al debido proceso, las plantillas HTML de correo que disparará Power Automate deben incorporar los siguientes textos jurídicos estandarizados:
+
+### Modelo A: Para la Banda Ámbar (61 a 90 días)
+> *"Estimado(a) Investigador(a) Principal:*  
+> *Le informamos que a su proyecto de investigación identificado con código SIIU **`@{items('Proyectos')?['CodigoProyecto']}`** le restan **`@{items('Proyectos')?['DiasVencimiento']}` días calendario** para cumplir su fecha final vigente de ejecución (**`@{items('Proyectos')?['FechaFinalVigente']}`**).*  
+> *De conformidad con el **Artículo 6 de la Resolución Rectoral 00968 de 2026**, toda solicitud de prórroga debe radicarse a través del SIIU con una **antelación mínima de dos (2) meses (60 días)** ante el Comité Técnico del Centro, acompañada del aval de dedicación horaria otorgado por el Consejo de Facultad (Art. 5).*  
+> *Le invitamos a ingresar al SIIU y gestionar oportunamente la novedad o preparar el informe final para evitar incurrir en extemporaneidad."*
+
+### Modelo B: Para la Banda Roja Suave (1 a 60 días)
+> *"ADVERTENCIA DE VENCIMIENTO INMINENTE — CÓDIGO SIIU: `@{items('Proyectos')?['CodigoProyecto']}`*  
+> *Se notifica al Investigador Principal que el proyecto cuenta únicamente con **`@{items('Proyectos')?['DiasVencimiento']}` días de vigencia**.*  
+> *Se advierte formalmente que, de acuerdo con el **Parágrafo del Artículo 6 de la Resolución Rectoral 00968 de 2026**, el término ordinario de dos meses para solicitar prórrogas ha fenecido. Cualquier solicitud que se radique en esta fecha tendrá carácter extemporáneo y obligará a acreditar formalmente motivos de fuerza mayor o circunstancias no imputables al equipo investigador, los cuales serán evaluados restrictivamente por el Comité Técnico del CIC y el CODI.*  
+> *En caso de que las actividades técnicas hayan culminado y se esté únicamente a la espera de productos a cargo de terceros (ej. arbitraje de revistas o patentes), deberá tramitar formalmente la solicitud de **Plazo para Cumplimiento de Compromisos** regulada en el **Artículo 12** de la misma norma."*
+
+### Modelo C: Para la Banda Roja Alarma (< 0 días)
+> *"REQUERIMIENTO POR VENCIMIENTO DE TÉRMINOS — PROYECTO SIIU `@{items('Proyectos')?['CodigoProyecto']}`*  
+> *Habiendo transcurrido la fecha final de vigencia sin que en los sistemas institucionales se registre prórroga aprobada por el CODI ni acta de informe final avalada, se pone en su conocimiento que, en cumplimiento del **Artículo 13 de la Resolución Rectoral 00968 de 2026**, el proyecto se encuentra en causal objetiva para ser calificado formalmente como **'INCUMPLIDO'** en el Sistema Integrado de Información Universitaria (SIIU).*  
+> *Esta calificación genera inhabilidad para participar en nuevas convocatorias internas y da lugar a los traslados correspondientes ante las autoridades institucionales competentes de conformidad con los artículos 40 a 46 del Acuerdo Superior 01 de 1994 (Estatuto General).*  
+> *Dispone de tres (3) días hábiles para allegar ante el Centro de Investigaciones y Consultorías (CIC) el estado de situación y soportes respectivos."*
+
+---
+
+## 8. REGISTRO Y CONTROL DEL DOCUMENTO
+* **Elaborado por:** Centro de Investigaciones y Consultorías (CIC) — Facultad de Ciencias Económicas.
+* **Fundamento Primario:** Resolución Rectoral 00968 de 2026 / Acuerdo Superior 204 de 2001 / Guías SIIU VI-GU-22 y VI-GU-23.
+* **Destino Operativo:** Sistema SCMP, SharePoint Listas `Proyectos_Activos_CIC` e `Historial_Novedades_CIC`, y Flujos de Notificación Institucional.
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: arquitectura_funcional.md
@@ -3231,6 +3824,7 @@ Bajo la óptica implacable de la ingeniería de software y la arquitectura de la
 ## 6. Conclusión
 El Centro de Investigaciones y Consultorías posee una masa crítica de excelencia investigativa (9 grupos categorizados, 6 revistas consolidadas, medio siglo de trayectoria del CIE). No obstante, su infraestructura digital requería esta auditoría profunda y la extracción limpia a Markdown para habilitar una base de conocimiento moderna, desacoplada y lista para integraciones de alta velocidad.
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: centro_investigacion.md
 *Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/centro_investigacion.md`*
@@ -3264,6 +3858,7 @@ Por su parte, la consultoría profesional de la Facultad ha tenido una sólida t
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/centro-investigacion)
 - [PDF: Guía consultoría](https://www.udea.edu.co/wps/wcm/connect/udea/56c32b22-108c-46d6-8020-69cd0012fd3b/guia-consultoria.pdf?MOD=AJPERES&CVID=lQufJnZ)
 - [PDF: Guía investigación](https://www.udea.edu.co/wps/wcm/connect/udea/e9ee9d70-5409-4611-94a7-4691d1c9a99e/guia-investigacion.pdf?MOD=AJPERES&CVID=lQufRjO)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: departamentos.md
@@ -3302,6 +3897,7 @@ Estructura organizativa encargada de la docencia, investigación y extensión di
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/departamentos)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: grupos_investigacion_activos.md
 *Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/grupos_investigacion_activos.md`*
@@ -3329,6 +3925,20 @@ La investigación en la Facultad de Ciencias Económicas representa uno de los n
 | **GIFI** | [Grupo de Investigación en Finanzas - GIFI](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/gifi) | Departamento de Ciencias Administrativas | Categoría A (MinCiencias) | 2013 | **Claudia Inés Sepúlveda Rivillas** | Semillero SIFI (Finanzas) |
 | **MACROECONOMIA** | [Grupo de Macroeconomía Aplicada](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/macroeconomia-aplicada) | Departamento de Economía | Categoría A (MinCiencias) | 1984 | **Wilman Arturo Gómez Muñoz** | Semilleros Ángelo, Economía Clásica y Computacional |
 | **MICROECONOMIA** | [Grupo de Microeconomía Aplicada](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-sociales/microeconomia-aplicada) | Departamento de Economía | Categoría A (MinCiencias) | 1999 | **Carlos Andrés Vasco Correa** | Semillero de Microeconomía Aplicada |
+
+---
+
+### 1.1 Régimen Jurídico y Lineamientos Institucionales Vigentes (CODI 2024-2025)
+
+Todos los grupos de investigación de la Facultad de Ciencias Económicas se rigen por la **Segunda Versión de los Lineamientos sobre Grupos de Investigación de la Universidad de Antioquia** (Aprobados mediante Actas CODI 906-911 de 2024 y actualizados mediante **Acta CODI 934 del 28 de octubre de 2025**; ver texto completo en [LEG-CODI-LINEAMIENTOS-GRUPOS-2025](../archivo_maestro/legalidad/LEG-CODI-LINEAMIENTOS-GRUPOS-2025.md)):
+
+!!! important "Reglas Clave de Gobernanza y Operación"
+    1. **Conformación Mínima:** Iniciativa de dos (2) o más profesores de la Universidad, de los cuales **al menos uno debe ser profesor de carrera** escalafonado.
+    2. **Coordinación Docente:** El coordinador debe poseer título de pregrado y maestría o doctorado. Cuando sea **profesor ocasional o de cátedra**, debe contar con el **respaldo formal de un profesor de carrera** del grupo, avalado expresamente por el Consejo de Facultad.
+    3. **Producción Mínima Institucional:** Para mantener el reconocimiento activo en la UdeA, los grupos deben generar en el transcurso de **dos (2) años al menos un producto** de nuevo conocimiento, desarrollo tecnológico, apropiación social, divulgación, formación de talento humano o postulación de proyectos a convocatorias.
+    4. **Causal Objetiva de Inactivación (5 Años):** Un grupo de investigación **sale del SIIU si luego de cinco (5) años consecutivos no ha generado productos ni ejecutado proyectos**. En tal caso, debe restituir la infraestructura física, equipos inventariados y activos intangibles a la Facultad.
+    5. **Reactivación:** Procede ante la Vicerrectoría de Investigación, a través del Centro (CIC), demostrando haber generado al menos un producto en los últimos 5 años registrado en GrupLAC y SIIU.
+    6. **Filiación Canónica:** Todos los integrantes tienen el deber de consignar la filiación: **"Universidad de Antioquia"** o **"Universidad de Antioquia UdeA"**.
 
 ---
 
@@ -5596,6 +6206,7 @@ El grupo ampara la formación temprana de investigadores de pregrado y posgrado 
 - [Centro de Investigaciones y Consultorías - CIC](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/centro-investigacion)
 - [Sistema de Revistas Científicas UdeA](https://revistas.udea.edu.co/)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: matriz_conformacion_comites.md
 *Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/matriz_conformacion_comites.md`*
@@ -5946,6 +6557,7 @@ Documento consolidado de alta densidad de información que recopila la conformac
 
 ### Enlaces clave
 - [Portal Central de Consejos y Comités](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: directorio_administrativo.md
@@ -6621,6 +7233,7 @@ lucia.echavarria@udea.edu.co
 ### Enlaces clave
 - [Página oficial de origen](https://tsone.udea.edu.co/php_directorio_telefonico/?app=consulta&codigo=FCE)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: asesorias_consultorias.md
 *Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/asesorias_consultorias.md`*
@@ -6642,6 +7255,7 @@ Edificio de Extensión Universitaria Calle 70 No. 52-72 Piso 4, Oficina 408. Cor
 
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/servicios-extension/asesorias-consultorias)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: centro_documentacion.md
@@ -6750,6 +7364,7 @@ De interés Historia El Centro de Documentación, creado en 1970, se constituyó
 - [PDF: Documento](https://www.udea.edu.co/wps/wcm/connect/udea/91de7676-17e0-428f-aee8-adc9411bd249/RECURSOS+ACAD%C3%89MICOS_ADMON+DEF.pdf?MOD=AJPERES&CVID=p45iC6c&attachment=true&id=1722371168216)
 - [PDF: Documento](https://www.udea.edu.co/wps/wcm/connect/udea/0e37cd0c-1cc7-49a8-be9c-4df0650bcd02/RECURSOS+ACAD%C3%89MICOS_ECO.pdf?MOD=AJPERES&CVID=p45iZ7b&attachment=true&id=1722372250941)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: comite-administrativo.md
 *Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-administrativo.md`*
@@ -6788,6 +7403,7 @@ De interés Historia El Centro de Documentación, creado en 1970, se constituyó
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-administrativo)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: comite-aseguramiento-calidad.md
 *Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-aseguramiento-calidad.md`*
@@ -6823,6 +7439,7 @@ De interés Historia El Centro de Documentación, creado en 1970, se constituyó
 
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-aseguramiento-calidad)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: comite-asuntos-estudiantiles.md
@@ -6860,6 +7477,7 @@ De interés Historia El Centro de Documentación, creado en 1970, se constituyó
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-asuntos-estudiantiles)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: comite-carrera-departamento-ciencias-administrativas.md
 *Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-carrera-departamento-ciencias-administrativas.md`*
@@ -6894,6 +7512,7 @@ De interés Historia El Centro de Documentación, creado en 1970, se constituyó
 
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-carrera-departamento-ciencias-administrativas)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: comite-carrera-departamento-economia.md
@@ -6932,6 +7551,7 @@ De interés Historia El Centro de Documentación, creado en 1970, se constituyó
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-carrera-departamento-economia)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: comite-carrera.md
 *Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-carrera.md`*
@@ -6965,6 +7585,7 @@ De interés Historia El Centro de Documentación, creado en 1970, se constituyó
 
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-carrera)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: comite-clima.md
@@ -7004,6 +7625,7 @@ De interés Historia El Centro de Documentación, creado en 1970, se constituyó
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-clima)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: comite-curriculo.md
 *Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-curriculo.md`*
@@ -7034,6 +7656,7 @@ De interés Historia El Centro de Documentación, creado en 1970, se constituyó
 
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-curriculo)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: comite-egresados.md
@@ -7067,6 +7690,7 @@ De interés Historia El Centro de Documentación, creado en 1970, se constituyó
 
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-egresados)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: comite-emergencias.md
@@ -7106,6 +7730,7 @@ De interés Historia El Centro de Documentación, creado en 1970, se constituyó
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-emergencias)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: comite-evaluacion-profesoral.md
 *Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-evaluacion-profesoral.md`*
@@ -7138,6 +7763,7 @@ De interés Historia El Centro de Documentación, creado en 1970, se constituyó
 
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-evaluacion-profesoral)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: comite-genero.md
@@ -7175,6 +7801,7 @@ De interés Historia El Centro de Documentación, creado en 1970, se constituyó
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-genero)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: comite-investigaciones-departamento-ciencias-administrativas.md
 *Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-investigaciones-departamento-ciencias-administrativas.md`*
@@ -7208,6 +7835,7 @@ De interés Historia El Centro de Documentación, creado en 1970, se constituyó
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-investigaciones-departamento-ciencias-administrativas)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: comite-investigaciones-departamento-ciencias-contables.md
 *Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-investigaciones-departamento-ciencias-contables.md`*
@@ -7239,6 +7867,7 @@ De interés Historia El Centro de Documentación, creado en 1970, se constituyó
 
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-investigaciones-departamento-ciencias-contables)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: comite-posgrados.md
@@ -7276,6 +7905,7 @@ De interés Historia El Centro de Documentación, creado en 1970, se constituyó
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-posgrados)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: comite-practicas.md
 *Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-practicas.md`*
@@ -7308,6 +7938,7 @@ De interés Historia El Centro de Documentación, creado en 1970, se constituyó
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-practicas)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: comite-revistas-departamento-ciencias-contables.md
 *Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/comites/comite-revistas-departamento-ciencias-contables.md`*
@@ -7339,6 +7970,7 @@ De interés Historia El Centro de Documentación, creado en 1970, se constituyó
 
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-revistas-departamento-ciencias-contables)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: comite-tecnico.md
@@ -7374,6 +8006,7 @@ De interés Historia El Centro de Documentación, creado en 1970, se constituyó
 
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comite-tecnico)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: comites-programas-posgrados-departamentos.md
@@ -7417,6 +8050,7 @@ De interés Historia El Centro de Documentación, creado en 1970, se constituyó
 
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/acerca-facultad/consejos-comites/Contenido/asMenuLateral/comites-programas-posgrados-departamentos)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: consejo-facultad.md
@@ -7469,6 +8103,7 @@ De interés Historia El Centro de Documentación, creado en 1970, se constituyó
 - [Carpeta de Actas](https://drive.google.com/drive/folders/1Sey3MyLps3efcbg47ZcSqbEx0x4IiNxx?usp=drive_link)
 - [Carpeta de Acuerdos](https://drive.google.com/drive/folders/1v6_E0rP58nE0-RtHE0PPjDqjH5Nj36Zr?usp=drive_link)
 - [Comunicados](https://drive.google.com/drive/folders/1v2t7cksmYp0wXqWKoVsO82yE1FUGZcw2?usp=sharing)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: angelo-macroeconomia.md
@@ -7529,6 +8164,7 @@ mariaa.puerta@udea.edu.co yennifer.celin@udea.edu.co danny.garcia@udea.edu.co da
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/semilleros/Contenido/asMenuLateral/SemilleroAngelodeInvestigacionEconomicaMACRO)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: comphor.md
 *Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/semilleros/comphor.md`*
@@ -7572,6 +8208,7 @@ Abordamos la investigación desde un énfasis contrahegemónico con distintas pr
 
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/semilleros/Contenido/asMenuLateral/comphor)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: financiero-gicco.md
@@ -7626,6 +8263,7 @@ La metodología del Semillero Financiero se centra en fomentar la investigación
 
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/semilleros/Contenido/asMenuLateral/SemilleroFinanciero-GICCO)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: gestor.md
@@ -7686,6 +8324,7 @@ Cristina López González Coordinadora del Semillero Correo: cristina.lopezg@ude
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/semilleros/Contenido/asMenuLateral/gestor)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: imark.md
 *Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/semilleros/imark.md`*
@@ -7745,6 +8384,7 @@ Coordinador del Semillero Beatriz Londoño-Giraldo beatriz.londonog@udea.edu.co
 
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/semilleros/Contenido/asMenuLateral/imark)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: innovacion-fce-gicco.md
@@ -7810,6 +8450,7 @@ Paula Liliana Naranjo Castaño. innovacioneconomicas@udea.edu.co
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/semilleros/Contenido/asMenuLateral/SemillerodeInnovacionFCE-GICCO)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: semilleros-general.md
 *Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/semilleros/semilleros-general.md`*
@@ -7870,6 +8511,7 @@ César Augusto Giraldo Prieto cesar.giraldop@udea.edu.co
 
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/semilleros)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: sifi-gifi.md
@@ -7932,6 +8574,7 @@ César Augusto Giraldo Prieto cesar.giraldop@udea.edu.co
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/semilleros/Contenido/asMenuLateral/gifi)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: siles-gicco.md
 *Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/semilleros/siles-gicco.md`*
@@ -7987,6 +8630,7 @@ La dinámica de trabajo permitirá reconocer todo acto humano como un resultado 
 
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/investigacion/semilleros/Contenido/asMenuLateral/SemillerodeInvestigacionLecturayEscritura-SILES-GICCO)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: borradores-departamento-economia.md
@@ -8129,6 +8773,7 @@ Es una serie de documentos de trabajo mediante los cuales se dan a conocer y se 
 - [PDF: Sector informal como amortiguador del ciclo económico: el papel de la aversión a la pérdida](https://bibliotecadigital.udea.edu.co/bitstream/10495/42876/1/GomezWilman_2024_SectorInformalCiclo.pdf)
 - [PDF: La interacción gráfica en Python como herramienta para mejorar el aprendizaje en microeconomía y mac](https://bibliotecadigital.udea.edu.co/bitstream/10495/42877/1/PalacioCarlos_2024_PhytonAprendizajeMicroeconom%c3%ada.pdf)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: publicaciones-general.md
 *Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/publicaciones/publicaciones-general.md`*
@@ -8270,6 +8915,7 @@ Es una serie de documentos de trabajo mediante los cuales se dan a conocer y se 
 - [PDF: Sector informal como amortiguador del ciclo económico: el papel de la aversión a la pérdida](https://bibliotecadigital.udea.edu.co/bitstream/10495/42876/1/GomezWilman_2024_SectorInformalCiclo.pdf)
 - [PDF: La interacción gráfica en Python como herramienta para mejorar el aprendizaje en microeconomía y mac](https://bibliotecadigital.udea.edu.co/bitstream/10495/42877/1/PalacioCarlos_2024_PhytonAprendizajeMicroeconom%c3%ada.pdf)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: revista-adversia.md
 *Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/publicaciones/revista-adversia.md`*
@@ -8297,6 +8943,7 @@ _Sin contenido textual específico listado en el contenedor principal._
 - [PDF: PDF](https://revistas.udea.edu.co/index.php/adversia/article/view/362606/20820085)
 - [PDF: PDF](https://revistas.udea.edu.co/index.php/adversia/article/view/362607/20820086)
 - [PDF: PDF](https://revistas.udea.edu.co/index.php/adversia/article/view/362608/20820807)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: revista-conexiones.md
@@ -8326,6 +8973,7 @@ Germán Darío Mira Álvarez Coordinador Programa de Movilidad german.mira@udea.
 ### Enlaces clave
 - [Página oficial de origen](https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ciencias-economicas/movilidad/revista-conexiones)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: revista-contaduria.md
 *Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/publicaciones/revista-contaduria.md`*
@@ -8353,6 +9001,7 @@ _Sin contenido textual específico listado en el contenedor principal._
 - [PDF: PDF](https://revistas.udea.edu.co/index.php/cont/article/view/364962/20821298)
 - [PDF: PDF](https://revistas.udea.edu.co/index.php/cont/article/view/366269/20821940)
 - [PDF: PDF](https://revistas.udea.edu.co/index.php/cont/article/view/357472/20821939)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: revista-lecturas-economia.md
@@ -8382,6 +9031,7 @@ _Sin contenido textual específico listado en el contenedor principal._
 - [PDF: PDF](https://revistas.udea.edu.co/index.php/lecturasdeeconomia/article/view/360735/20822280)
 - [PDF: PDF (English)](https://revistas.udea.edu.co/index.php/lecturasdeeconomia/article/view/359932/20822281)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: revista-oikos.md
 *Ruta canónica original: `docs/06_CIENCIAS_ECONOMICAS_CIC/publicaciones/revista-oikos.md`*
@@ -8403,6 +9053,7 @@ _Sin contenido textual específico listado en el contenedor principal._
 
 ### Enlaces clave
 - [Página oficial de origen](https://revistas.udea.edu.co/index.php/oikos)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: revista-perfil-coyuntura.md
@@ -8431,6 +9082,7 @@ _Sin contenido textual específico listado en el contenedor principal._
 - [PDF: PDF](https://revistas.udea.edu.co/index.php/coyuntura/article/view/327744/20784798)
 - [PDF: PDF](https://revistas.udea.edu.co/index.php/coyuntura/article/view/327745/20784799)
 - [PDF: PDF](https://revistas.udea.edu.co/index.php/coyuntura/article/view/327746/20784800)
+
 
 ================================================================================
 # 6. MAPAS DE CONTENIDO (MOC) Y CONCEPTOS
@@ -8581,6 +9233,7 @@ Fase final donde se rinden cuentas y se emite el paz y salvo definitivo.
 - **Generación de Constancias y Certificados Oficiales:**  
   Instructivos: [VI-IN-01](../archivo_maestro/VI-IN-01.md), [VI-IN-07](../archivo_maestro/VI-IN-07.md), [VI-IN-08](../archivo_maestro/VI-IN-08.md) | Síntesis: [Reportes y Certificaciones](../02_PROCESOS_CLAVE/Reportes_y_Certificaciones.md)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: MOC_Por_Roles.md
 *Ruta canónica original: `docs/00_INICIO_Y_MOCS/MOC_Por_Roles.md`*
@@ -8691,6 +9344,7 @@ Consulta la **[Guía Detallada del Centro](../01_ROLES/Rol_Centro_Investigacion.
 
 Consulta la **[Guía Detallada de la Vicerrectoría](../01_ROLES/Rol_Vicerrectoria.md)**.
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: MOC_Tramites_y_Solicitudes.md
 *Ruta canónica original: `docs/00_INICIO_Y_MOCS/MOC_Tramites_y_Solicitudes.md`*
@@ -8775,6 +9429,7 @@ Una de las distinciones operativas más críticas en el SIIU es la fuente de fin
 
 Consulta la sección integral: **[Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md)**.
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: MOC_Reportes_y_Constancias.md
 *Ruta canónica original: `docs/00_INICIO_Y_MOCS/MOC_Reportes_y_Constancias.md`*
@@ -8835,6 +9490,7 @@ Herramientas para auditar la cartera de proyectos, verificar estados, vigencias 
 
 !!! tip "Recomendación de rendimiento en reportes"
     Al consultar en el SIIU, **evite seleccionar la opción "TODOS"** en todos los filtros de búsqueda simultáneamente. Esto genera consultas muy pesadas a la base de datos y puede ocasionar lentitud o bloqueo de sesión. Delimite siempre por año, centro o estado.
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: MOC_Marco_Normativo.md
@@ -8967,6 +9623,7 @@ flowchart LR
 - :material-chart-bar: **MOC de Certificaciones y Reportes:** [MOC_Reportes_y_Constancias](MOC_Reportes_y_Constancias.md)
 - :material-book-open: **Glosario Oficial del SIIU:** [Glosario_Terminos_SIIU](../04_GLOSARIO_Y_CONCEPTOS/Glosario_Terminos_SIIU.md)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: Glosario_Terminos_SIIU.md
 *Ruta canónica original: `docs/04_GLOSARIO_Y_CONCEPTOS/Glosario_Terminos_SIIU.md`*
@@ -9042,23 +9699,25 @@ Traslado presupuestal entre cuentas contables del proyecto. Exige que el rubro o
 - **Joven Investigador (JI):** Estudiante o recién graduado beneficiario de un estímulo económico para realizar una pasantía de investigación guiada por un tutor.
 - **MARES:** Sistema central de administración académica y estudiantil de la Universidad de Antioquia, interconectado con el SIIU.
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: Catalogo_Normativo_31_Docs.md
 *Ruta canónica original: `docs/04_GLOSARIO_Y_CONCEPTOS/Catalogo_Normativo_31_Docs.md`*
 ------------------------------------------------------------
 
-# Catálogo Normativo Indexado: 31 Documentos Oficiales
+# Catálogo Normativo Indexado: Guías, Instructivos y Normas Oficiales
 
-Este catálogo relaciona de forma exhaustiva los **31 documentos normativos y operativos** de la Vicerrectoría de Investigación y la Vicerrectoría de Extensión de la Universidad de Antioquia, vinculando la fuente fidedigna en `archivo_maestro/` con los módulos didácticos de la Wiki.
+Este catálogo relaciona de forma exhaustiva los **documentos normativos y operativos** de la Vicerrectoría de Investigación y la Vicerrectoría de Extensión de la Universidad de Antioquia, vinculando la fuente fidedigna en `archivo_maestro/` con los módulos didácticos de la Wiki.
 
 ---
 
-## 1. Guías Operativas (21 Guías `VI-GU-*`)
+## 1. Guías Operativas (22 Guías `VI-GU-*`)
 
 | Código | Título Oficial | Figuras | Versión / Fecha | Archivo Fidedigno (1 a 1) | Módulo Didáctico en Wiki |
 | :---: | :--- | :---: | :---: | :--- | :--- |
 | **VI-GU-01** | Guía para cambiar el responsable del proyecto | 14 | V01 / 13-MAR-2024 | [VI-GU-01](../archivo_maestro/VI-GU-01.md) | [Modificaciones y Tramites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md#cambio-de-responsable) |
 | **VI-GU-04** | Guía para el cierre de proyectos en SIIU | 18 | V01 / 01-ABR-2024 | [VI-GU-04](../archivo_maestro/VI-GU-04.md) | [Cierre y Liquidacion](../02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md) |
+| **VI-GU-05** | Guía para el registro de proyectos en el proceso de avales institucionales | 51 | V2.0 / 30-AGO-2023 | [VI-GU-05](../archivo_maestro/VI-GU-05.md) | [Matricula Proyectos](../02_PROCESOS_CLAVE/Matricula_Proyectos.md#proceso-solicitud-avales-institucionales-convocatorias-externas) |
 | **VI-GU-06** | Guía para la asignación de evaluadores en SIIU | 24 | V01 / 01-ABR-2024 | [VI-GU-06](../archivo_maestro/VI-GU-06.md) | [Evaluacion y Aval](../02_PROCESOS_CLAVE/Evaluacion_y_Aval.md#asignacion-evaluadores) |
 | **VI-GU-07** | Guía para la configuración de la convocatoria | 43 | V01 / 01-ABR-2024 | [VI-GU-07](../archivo_maestro/VI-GU-07.md) | [Evaluacion y Aval](../02_PROCESOS_CLAVE/Evaluacion_y_Aval.md#configuracion-convocatorias) |
 | **VI-GU-08** | Guía para la evaluación técnica y aval del proyecto | 48 | V01 / 01-ABR-2024 | [VI-GU-08](../archivo_maestro/VI-GU-08.md) | [Evaluacion y Aval](../02_PROCESOS_CLAVE/Evaluacion_y_Aval.md#evaluacion-tecnica-de-centro) |
@@ -9103,6 +9762,7 @@ Este catálogo relaciona de forma exhaustiva los **31 documentos normativos y op
 - **Total Documentos Oficiales:** 31 documentos procesados (100%).
 - **Total Figuras y Capturas Indexadas:** 658 figuras archivadas con identificadores normalizados `!**VI-XX-YY-figura-ZZ.png**`.
 - **Compatibilidad de la Wiki:** Totalmente operable en **Obsidian** (con soporte de wikilinks y graph view), renderizable en **GitHub** y exportable a sitios estáticos (**Quartz 4.0** o **MkDocs Material**).
+
 
 ================================================================================
 # 7. SÍNTESIS DEL MARCO NORMATIVO INSTITUCIONAL (21 NORMAS)
@@ -9223,6 +9883,7 @@ El Estatuto General es la matriz de habilitación de todas las normas reglamenta
 - **Mapa de Contenido:** [MOC_Marco_Normativo](../00_INICIO_Y_MOCS/MOC_Marco_Normativo.md)
 - **Estructura de Roles:** [Rol del Investigador Principal](../01_ROLES/Rol_Investigador.md) | [Rol del Centro de Investigación](../01_ROLES/Rol_Centro_Investigacion.md) | [Rol de la Vicerrectoría](../01_ROLES/Rol_Vicerrectoria.md)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: AS_083_1996_Estatuto_Profesoral.md
 *Ruta canónica original: `docs/05_MARCO_NORMATIVO/AS_083_1996_Estatuto_Profesoral.md`*
@@ -9262,6 +9923,7 @@ flowchart TD
 | **Propiedad Intelectual Docente** | **Art. 30 num. 4:** Derecho a disponer y beneficiarse de patentes y producción académica. | [Acuerdo Superior 086 de 1996](AS_086_1996_Profesores_Catedra_Proyectos.md) |
 | **Filiación Institucional Obligatoria** | **Art. 31 num. 13:** Obligación de acreditarse formalmente como profesor UdeA en toda publicación científica. | [Gestión de Compromisos](../02_PROCESOS_CLAVE/Gestion_Compromisos.md) |
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: AS_086_1996_Profesores_Catedra_Proyectos.md
 *Ruta canónica original: `docs/05_MARCO_NORMATIVO/AS_086_1996_Profesores_Catedra_Proyectos.md`*
@@ -9291,6 +9953,7 @@ Este acuerdo faculta a las directivas universitarias para aplicar condiciones es
   - Al formular el presupuesto en el rubro de *Personal* y asignar dedicación a docentes de cátedra con tarifas especiales, se debe contar con el soporte de la autorización respectiva.
 - **Modificaciones de Personal ([Modificaciones y Trámites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md)):**
   - Al tramitar inclusiones o cambios de dedicación horaria mediante solicitud administrativa en SIIU, la norma sustenta la justificación académica y financiera.
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: AS_121_1997_Estatuto_Presupuestal.md
@@ -9331,6 +9994,7 @@ flowchart TD
 | **Art. 43 (CDP y RP)** | Requisito indispensable para contratar personal, adquirir equipos o ejecutar traslados presupuestales en SIIU. | [Modificaciones y Trámites](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md) |
 | **Art. 47 (Ordenación del Gasto)** | Define la potestad delegada a Decanos y Directores para firmar contratos y autorizar desembolsos de proyectos. | [Rol Centro Investigación](../01_ROLES/Rol_Centro_Investigacion.md) |
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: AS_124_1997_Estatuto_Extension.md
 *Ruta canónica original: `docs/05_MARCO_NORMATIVO/AS_124_1997_Estatuto_Extension.md`*
@@ -9368,6 +10032,7 @@ flowchart TD
 | **Distribución de Ingresos y Overheads (Art. 47)** | 3% directo del ingreso bruto o 30% del overhead pactado se transfiere a la Vicerrectoría de Investigación. | Alimenta las bolsas presupuestales de las convocatorias internas en el SIIU. |
 | **Consultoría e Interventoría (Art. 19)** | Clasifica asesorías, consultorías, asistencia técnica, interventorías y veedurías. | Define la tipología jurídica de proyectos inscritos con entidades externas. |
 | **Centros de Extensión (Art. 36-37)** | Establece las atribuciones de los Centros de Extensión en articulación con los Centros de Investigación. | Evaluación de pertinencia social e impacto territorial. |
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: AS_204_2001_Sistema_Universitario_Investigacion.md
@@ -9414,6 +10079,7 @@ flowchart TD
 | **Art. 33: Pares Evaluadores** | Asignación confidencial de evaluadores externos independientes e imparciales para garantizar rigor. | [Guía VI-GU-06 (Asignación Evaluadores)](../archivo_maestro/VI-GU-06.md) e [Instructivo VI-IN-08](../archivo_maestro/VI-IN-08.md) |
 | **Art. 40: Regla de Paz y Salvo para Concursar** | No se puede radicar nuevo proyecto si el grupo o IP tiene compromisos vencidos o pendientes en proyectos previos. | [Guía VI-GU-09 (Gestión Compromisos)](../archivo_maestro/VI-GU-09.md) y [Reglas de Oro del SIIU](../03_GUIAS_RAPIDAS_CHEAT_SHEETS/Reglas_Oro_SIIU.md) |
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: AS_253_2003_Docentes_Catedra_Ocasionales.md
 *Ruta canónica original: `docs/05_MARCO_NORMATIVO/AS_253_2003_Docentes_Catedra_Ocasionales.md`*
@@ -9453,6 +10119,7 @@ flowchart LR
 | **Comisiones de Servicio (Art. 34.f)** | Profesores de cátedra hasta 8 días; profesores ocasionales hasta 30 días (y hasta 60 días para pasantías de posgrado/convenio). | Habilita salidas de campo y estancias en proyectos sin suspender el contrato. |
 | **Contratación de Jubilados (Art. 3)** | Jubilados pueden ser vinculados como investigadores principales o co-investigadores mediante cátedra. | [Guía VI-GU-19 (Cambio de Participante)](../archivo_maestro/VI-GU-19.md) |
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: AS_284_2004_Gestion_Tecnologica.md
 *Ruta canónica original: `docs/05_MARCO_NORMATIVO/AS_284_2004_Gestion_Tecnologica.md`*
@@ -9490,6 +10157,7 @@ flowchart TD
 | **Gestores Tecnológicos (Art. 15)** | Figura de enlace en cada facultad entre los grupos de investigación y el PGT. | Articulación con los Centros de Investigación al evaluar componentes de innovación. |
 | **Proyectos con Empresas (Art. 18)** | Regula formulación técnico-económica, negociación contractual y entrega de informes finales a empresas aliadas. | Aplica para la tipología de proyectos inscritos con financiación de contraparte privada. |
 | **Estímulos a Docentes (Art. 19)** | Faculta la reglamentación de incentivos económicos a investigadores derivados de la explotación comercial de su tecnología. | Articulado con la Ley 1838 de 2017 y el Estatuto de Propiedad Intelectual. |
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: RR_21231_2005_Estatuto_Propiedad_Intelectual.md
@@ -9533,6 +10201,7 @@ flowchart TD
 | **Cuaderno de Laboratorio (Art. 38)** | Toda investigación experimental debe llevar un cuaderno foliado y cronológico que no puede ser retirado del laboratorio. | Garantiza la trazabilidad y la fecha cierta para la solicitud de patentes nacionales e internacionales. |
 | **Prohibición de Divulgación Previa (Art. 34.2)** | No se pueden publicar artículos, ponencias ni tesis mientras se tramite la solicitud de patente o registro (máx. 1 año). | Evita la pérdida de novedad de las invenciones generadas en proyectos de SIIU. |
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: AS_350_2007_Estatuto_Financiero.md
 *Ruta canónica original: `docs/05_MARCO_NORMATIVO/AS_350_2007_Estatuto_Financiero.md`*
@@ -9572,6 +10241,7 @@ flowchart TD
 | **Centralidad de Tesorería** | **Art. 37** | No existen cuentas bancarias descentralizadas de proyectos; todo el recaudo y desembolso es gestionado por la Tesorería General. |
 | **Cajas Menores y Avances** | **Art. 48** | Los gastos operativos menores de campo se gestionan por fondos fijos reembolsables de acuerdo con la normatividad de cajas menores. |
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: AS_418_2014_Politica_Practicas.md
 *Ruta canónica original: `docs/05_MARCO_NORMATIVO/AS_418_2014_Politica_Practicas.md`*
@@ -9609,6 +10279,7 @@ flowchart TD
 | **Formalización Jurídica** | **Art. 51** | Toda vinculación de estudiantes en escenarios de práctica externos requiere convenio marco/específico, acta de inicio o contrato formal. |
 | **Pólizas y Cobertura de Riesgos** | **Art. 57** | Obligatoriedad institucional de pólizas de accidentes estudiantiles y responsabilidad civil extracontractual para salidas de campo y laboratorios. |
 | **Dedicación Docente a Tutorías** | **Art. 42-43** | El acompañamiento docente a estudiantes en proyectos formativos se reconoce expresamente en el plan de trabajo profesoral. |
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: AS_419_2014_Estatuto_Contratacion.md
@@ -9649,6 +10320,7 @@ flowchart TD
 | **Límite de Adición Presupuestal (Art. 21)** | Los contratos solo pueden adicionarse en valor hasta en un **50% del monto inicial**. | Todo contrato o prestación de servicios de investigación debe formularse con previsión adecuada para evitar superar el tope legal. |
 | **Pólizas y Garantías (Art. 23)** | Se exige constitución de garantías de cumplimiento, salarios y calidad de bienes de acuerdo con el riesgo. | En el [Inicio Formal de Proyectos](../02_PROCESOS_CLAVE/Inicio_Formal.md), el cargue de pólizas aprobadas es condición previa al acta de inicio. |
 | **Liquidación Oportuna (Art. 26)** | Todo contrato o convenio debe liquidarse de común acuerdo a más tardar dentro de los **seis (6) meses** siguientes a su finalización. | Condición ineludible para el [Cierre y Liquidación de Proyectos](../02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md) en SIIU. |
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: RR_39475_2014_Reglamento_Contratacion.md
@@ -9766,6 +10438,7 @@ Cuando el contrato o la orden de servicio supera los 50 SMMLV o involucra antici
 - **Procedimientos SIIU:** [Modificaciones y Trámites Administrativos](../02_PROCESOS_CLAVE/Modificaciones_y_Tramites.md)
 - **Mapa Normativo Central:** [MOC_Marco_Normativo](../00_INICIO_Y_MOCS/MOC_Marco_Normativo.md)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: RR_39477_2014_Referente_Etico.md
 *Ruta canónica original: `docs/05_MARCO_NORMATIVO/RR_39477_2014_Referente_Etico.md`*
@@ -9872,6 +10545,7 @@ En consonancia con el **Acuerdo Superior 395 de 2011** y la **RR 39477 de 2014**
 - **Manual de Interventoría:** [DJ-MA-02](DJ_MA_02_Manual_Interventoria.md)
 - **MOC Central:** [MOC_Marco_Normativo](../00_INICIO_Y_MOCS/MOC_Marco_Normativo.md)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: DJ_MA_02_Manual_Interventoria.md
 *Ruta canónica original: `docs/05_MARCO_NORMATIVO/DJ_MA_02_Manual_Interventoria.md`*
@@ -9920,6 +10594,7 @@ flowchart TD
 - **DJ-FO-007:** Acta de Aprobación de Pólizas Contractuales.
 - **DJ-FO-010:** Recibo a Satisfacción de Bienes y Servicios (requisito previo para desembolso por Tesorería).
 - **DJ-FO-005:** Acta de Liquidación Final del Contrato.
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: Ley_1838_2017_Spinoffs.md
@@ -9973,6 +10648,7 @@ flowchart LR
 3. **Rol del Investigador ([Rol Investigador](../01_ROLES/Rol_Investigador.md)):**
    - Permite al docente universitario transitar de la investigación pura al emprendimiento de base científica con total blindaje jurídico.
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: AS_451_2018_Politica_Acceso_Abierto.md
 *Ruta canónica original: `docs/05_MARCO_NORMATIVO/AS_451_2018_Politica_Acceso_Abierto.md`*
@@ -10011,6 +10687,7 @@ flowchart LR
 | **Interoperabilidad de Sistemas (Art. 6.b)** | Mandato para que el sistema de información de proyectos (SIIU) intercambie metadatos con el Repositorio Institucional. | Permite validar compromisos académicos sin duplicar cargas documentales para los investigadores. |
 | **Filiación Institucional Obligatoria** | Los productos deben registrar explícitamente a la *Universidad de Antioquia* como entidad de adscripción de los autores. | Requisito indispensable para la aprobación técnica de informes finales y paz y salvos en SIIU. |
 | **Tesis y Trabajos de Grado (Art. 4 Par. 2)** | Los trabajos de investigación de maestría y doctorado vinculados a proyectos deben depositarse en acceso abierto. | Verificado en el [Cierre y Liquidación de Proyectos](../02_PROCESOS_CLAVE/Cierre_y_Liquidacion.md). |
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: AS_466_2020_Estatuto_Financiero_Vigente.md
@@ -10060,6 +10737,7 @@ flowchart TD
 | **Devolución de IVA en Proyectos (Art. 21)** | Los ordenadores del gasto de proyectos con recursos Minciencias pueden tramitar bimestralmente la devolución del IVA ante la Vicerrectoría Administrativa. | Representa recursos adicionales recuperados para la ejecución de las investigaciones. |
 | **Reservas Presupuestales y Cuentas por Pagar (Art. 38-40)** | Las apropiaciones expiran a 31 de diciembre; solo los compromisos perfeccionados con CRP pasan como reservas presupuestales o cuentas por pagar a la siguiente vigencia. | Justifica la necesidad de tramitar prórrogas y adiciones con suficiente anticipación en SIIU. |
 | **Activos Intangibles (Art. 57)** | El software, algoritmos y patentes desarrollados en proyectos se reconocen formalmente en los estados financieros de la Universidad. | Articulado con la política de propiedad intelectual y los compromisos tecnológicos. |
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: RR_49544_2022_Nuevo_Estatuto_PI.md
@@ -10190,6 +10868,7 @@ sequenceDiagram
 - **Gestión de Transferencia:** [Programa de Gestión Tecnológica (AS 284 de 2004)](AS_284_2004_Gestion_Tecnologica.md)
 - **Mapa Central:** [MOC_Marco_Normativo](../00_INICIO_Y_MOCS/MOC_Marco_Normativo.md)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: RR_51525_2024_Ajustes_SIIU.md
 *Ruta canónica original: `docs/05_MARCO_NORMATIVO/RR_51525_2024_Ajustes_SIIU.md`*
@@ -10267,6 +10946,7 @@ Antes de someter una solicitud de desembolso o compra en el SIIU:
 - **Reglamento Contractual:** [Resolución Rectoral 39475 de 2014](RR_39475_2014_Reglamento_Contratacion.md)
 - **Manual de Interventoría:** [DJ-MA-02](DJ_MA_02_Manual_Interventoria.md)
 - **Mapa Normativo Central:** [MOC_Marco_Normativo](../00_INICIO_Y_MOCS/MOC_Marco_Normativo.md)
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: RR_00968_2026_Modernizacion.md
@@ -10373,8 +11053,9 @@ Antes de someter una prórroga o plazo en el SIIU:
 - **Estatuto de Propiedad Intelectual Vigente:** [Resolución Rectoral 49544 de 2022](RR_49544_2022_Nuevo_Estatuto_PI.md)
 - **MOC Central de Legalidad:** [MOC_Marco_Normativo](../00_INICIO_Y_MOCS/MOC_Marco_Normativo.md)
 
+
 ================================================================================
-# 8. ARCHIVO MAESTRO FIDEDIGNO: 31 GUÍAS E INSTRUCTIVOS OFICIALES Y TÉRMINOS DE REFERENCIA
+# 8. ARCHIVO MAESTRO FIDEDIGNO: 35 GUÍAS, INSTRUCTIVOS OFICIALES, PROCEDIMIENTOS Y ACTAS DE INICIO
 ================================================================================
 
 
@@ -10540,6 +11221,7 @@ El sistema despliega una pantalla con la información histórica del proyecto:
 | **Revisó** | Kerlin Yohana Bedoya Agudelo | Analista de Procesos, División de Arquitectura de Procesos | 12-MAR-2024 |
 | **Revisó** | Julio César García Castrillón | Analista de Procesos, División de Arquitectura de Procesos | 12-MAR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 13-MAR-2024 |
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-GU-04.md
@@ -10748,6 +11430,393 @@ Cuando el proyecto se encuentra en estado **Finalizado**, se puede proceder con 
 | **Revisó** | Kerlin Yohana Bedoya Agudelo | Analista de Procesos, División de Arquitectura de Procesos | 12-MAR-2024 |
 | **Revisó** | Julio César García Castrillón | Analista de Procesos, División de Arquitectura de Procesos | 12-MAR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 13-MAR-2024 |
+
+
+------------------------------------------------------------
+## [DOCUMENTO]: VI-GU-05.md
+*Ruta canónica original: `archivo_maestro/VI-GU-05.md`*
+------------------------------------------------------------
+
+# GUÍA PARA EL REGISTRO DE PROYECTOS EN EL PROCESO DE AVALES INSTITUCIONALES EN EL SIIU
+
+> [!NOTE] Información de Control Documental
+> **Código**: VI-GU-05  
+> **Versión**: 2.0 / 30-AGOSTO-2023  
+> *Aviso legal institucional*: La impresión o copia magnética de este documento se considera "COPIA NO CONTROLADA". Solo se garantiza la actualización de la documentación en el sitio oficial `http://www.udea.edu.co`.
+
+---
+
+## Contenido
+
+1. [Características del manual](#1-características-del-manual)
+   - 1.1. [Requisitos](#11-requisitos)
+   - 1.2. [Usuarios que intervienen](#12-usuarios-que-intervienen)
+2. [Ingresar a la aplicación SIIU](#2-ingresar-a-la-aplicación-siiu)
+3. [Ingresar proyecto para el aval institucional](#3-ingresar-proyecto-para-el-aval-institucional)
+   - 3.1. [Información general](#31-información-general)
+   - 3.2. [Descripción - Cronograma](#32-descripción---cronograma)
+     - 3.2.1. [Pestaña Descripción](#321-pestaña-descripción)
+     - 3.2.2. [Pestaña Cronograma](#322-pestaña-cronograma)
+   - 3.3. [Presupuestal](#33-presupuestal)
+     - 3.3.1. [Pestaña (Co) Financiadores](#331-pestaña-co-financiadores)
+     - 3.3.2. [Pestaña Presupuesto](#332-pestaña-presupuesto)
+   - 3.4. [Participantes](#34-participantes)
+     - 3.4.1. [Agregar participante nuevo en el sistema](#341-agregar-participante-nuevo-en-el-sistema)
+   - 3.5. [Compromisos y condiciones](#35-compromisos-y-condiciones)
+     - 3.5.1. [Pestaña Compromisos](#351-pestaña-compromisos)
+     - 3.5.2. [Pestaña Condiciones formales](#352-pestaña-condiciones-formales)
+   - 3.6. [Documentos soporte](#36-documentos-soporte)
+   - 3.7. [Enviar a centro](#37-enviar-a-centro)
+4. [Verificación](#4-verificación)
+5. [Proyecto devuelto para ajustes](#5-proyecto-devuelto-para-ajustes)
+
+---
+
+## 1. Características del manual
+
+Este manual se ha elaborado con el fin de ayudar y capacitar a las personas que deben registrar en el Sistema de Información para la Investigación Universitaria: Investigación y Extensión – SIIU un proyecto que obtuvo el aval institucional de la Vicerrectoría de Investigación para ser presentado a una convocatoria externa de investigación y resultó financiado por la convocatoria. Dado lo anterior se aclara que este manual no hace parte de la normativa universitaria y solamente se utiliza como un paso a paso para utilizar el aplicativo.
+
+### 1.1 Requisitos
+
+Para registro del proyecto en el Sistema Universitario de Investigación se debe tener en cuenta los términos de referencia de la convocatoria o políticas de las entidades financiadoras. Como mínimo deberán anexar:
+
+- Descarga horaria aprobada por el Consejo de Facultad, Escuela o Instituto.
+- Propuesta presentada al ente financiador que fue aprobada; generada por la plataforma del financiador o en el formato exigido en los términos de la convocatoria.
+- Contrato de financiación del proyecto.
+- Certificados de contrapartida del grupo y entidades cofinanciadores.
+- Aval del comité de ética/bioética (si aplica).
+
+### 1.2 Usuarios que intervienen
+
+- **Investigador principal del proyecto**: es quien se encarga de la matrícula del proyecto en el Sistema de Información para la Investigación Universitaria ya sea para Investigación o Extensión – SIIU, el investigador envía al centro de investigación el proyecto matriculado.
+- **Centro de investigación**: tiene como función administrar su proyecto por medio del SIIU, es así como el centro revisa, avala y envía el proyecto a la Vicerrectoría de Investigación para la aprobación.
+- **Vicerrectoría de investigación**: se encarga de aprobar el proyecto para luego comenzar los procesos administrativos correspondientes.
+
+---
+
+## 2. Ingresar a la aplicación SIIU
+
+El investigador principal debe autenticarse con su usuario en el portal de la Universidad de Antioquia, `http://www.udea.edu.co`, buscar la opción aplicaciones y entre ellas elegir el SIIU, así:
+
+1. Ingrese al portal de la Universidad: `http://www.udea.edu.co`, en el encabezado seleccione **Ingresar >> Iniciar sesión** (Ver figura 1).
+
+![Figura 1](docs/assets/figuras/VI-GU-05/figura-01.png)
+*Figura 1. Ingreso al portal de la Universidad de Antioquia.*
+
+2. Aparece la pantalla para iniciar sesión como usuario del portal, ingrese su usuario y contraseña y presione clic en el botón **CONECTAR** (Ver figura 2).
+
+![Figura 2](docs/assets/figuras/VI-GU-05/figura-02.png)
+*Figura 2. Iniciar sesión en el portal de la Universidad de Antioquia.*
+
+3. Se abrirá una ventana con su nombre en la parte izquierda de la página, seleccione **Enlaces de interés >> Mis aplicaciones** (Ver figura 3).
+
+![Figura 3](docs/assets/figuras/VI-GU-05/figura-03.png)
+*Figura 3. Información de usuario registrado en el portal.*
+
+4. Se abrirá una ventana con las aplicaciones de la Universidad; seleccione **SIIU** (Ver figura 4).
+
+![Figura 4](docs/assets/figuras/VI-GU-05/figura-04.png)
+*Figura 4. Pantalla de aplicaciones disponibles para usuario.*
+
+> [!NOTE] Ventanas emergentes
+> Se debe abrir una nueva ventana con la aplicación SIIU en la que podrá iniciar el registro del proyecto. Si la ventana no abre inmediatamente, es necesaria la configuración de ventanas emergentes en el navegador y seleccionar la opción que autorice el SIIU.
+
+---
+
+## 3. Ingresar proyecto para el aval institucional
+
+Una vez en la aplicación del SIIU, verá la ventana principal, ingrese por el menú: **Convocatorias >> Nuevos proyectos** (Ver figura 5).
+
+![Figura 5](docs/assets/figuras/VI-GU-05/figura-05.png)
+*Figura 5. Pestaña Convocatorias, nuevos proyectos.*
+
+El sistema abrirá una ventana con la información general para diligenciar, teniendo en cuenta que para matricular el proyecto debe seleccionar la opción **Proceso de selección >> Proceso Solicitud Avales Institucionales** (Ver figura 6).
+
+![Figura 6](docs/assets/figuras/VI-GU-05/figura-06.png)
+*Figura 6. Ventana para registrar el proyecto para aval.*
+
+### 3.1 Información general
+
+Diligencie los campos teniendo en cuenta la siguiente descripción:
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Matrícula de** | Seleccione `Proyecto`. |
+| **Clase de proyecto** | Seleccione `Proyecto`. |
+| **Tipo de Proyecto** | Seleccione `Investigación`. |
+| **Clasificación** | Seleccione `Básica` o `Aplicada` según el tipo de investigación. |
+| **Centro Administrativo** | Seleccione del listado el centro de investigación que administrará su Proyecto. |
+| **Requiere Comité de bioética** | Active esta opción si requiere comité de bioética, y seleccione el comité de ética que avaló el proyecto. |
+| **Nombre Corto** | Ingrese el nombre corto con que identificará su proyecto durante toda su ejecución en el SIIU. |
+| **Nombre Completo** | Ingrese el nombre exacto de su proyecto, tal como fue presentado a la entidad financiadora. |
+| **Palabras claves** | Indique palabras para acelerar la búsqueda del proyecto en el sistema. |
+| **Seccional** | Si su proyecto pertenece a una seccional de la Universidad de Antioquia, elija de la lista desplegable la seccional correspondiente. |
+| **Lugar de ejecución** | Indique el lugar físico donde se va a desarrollar el proyecto. |
+| **Duración** | Indique el tiempo que dura el proyecto en meses. |
+
+Una vez todos los campos estén diligenciados de acuerdo a la descripción anterior, presione el botón **GUARDAR**, automáticamente el sistema le asignará el código SIIU y le mostrará las pestañas **Descripción** y **Cronograma** que deberá diligenciar (Ver figura 7).
+
+![Figura 7](docs/assets/figuras/VI-GU-05/figura-07.png)
+*Figura 7. Asignación de código y estado de proyecto (en elaboración).*
+
+> [!TIP] Guardado y Retorno
+> Si se sale del aplicativo o el SIIU se cierra por inactividad, podrá volver a ingresar al proyecto y retomar el registro fácilmente por partes. Presione clic en el menú **Convocatorias >> Proyectos en proceso** (Ver figura 8). Al ingresar, aparecerá el listado de todos los proyectos en proceso. Puede agilizar la búsqueda utilizando el código SIIU, palabras clave, o filtrando por `Estado >> En elaboración` y presionando el botón **Consultar** (Ver figura 9).
+
+![Figura 8](docs/assets/figuras/VI-GU-05/figura-08.png)
+*Figura 8. Pantalla de acceso a proyectos guardados.*
+
+![Figura 9](docs/assets/figuras/VI-GU-05/figura-09.png)
+*Figura 9. Filtro de búsqueda para el proyecto.*
+
+Seleccione el proyecto de la lista haciendo clic en los tres puntos (`...`) al lado izquierdo y presione la opción **Editar proyecto** (Ver figura 10).
+
+![Figura 10](docs/assets/figuras/VI-GU-05/figura-10.png)
+*Figura 10. Editar proyecto.*
+
+---
+
+### 3.2 Descripción - Cronograma
+
+#### 3.2.1. Pestaña Descripción
+El sistema presenta las pestañas de acuerdo con la información que se va guardando. Para ingresar la descripción del proyecto presione clic en el botón de edición (icono lápiz) (Ver figura 11).
+
+![Figura 11](docs/assets/figuras/VI-GU-05/figura-11.png)
+*Figura 11. Editar descripción.*
+
+El sistema le presentará un editor de texto enriquecido (CKEditor) en el que podrá digitar o copiar y pegar el texto correspondiente a: Resumen, Planteamiento del problema, Justificación, Marco teórico, Objetivos y Metodología. Presione el botón **GUARDAR** para registrar la información (Ver figura 12).
+
+![Figura 12](docs/assets/figuras/VI-GU-05/figura-12.png)
+*Figura 12. Agregar descripción.*
+
+Al presionar Guardar, el sistema presenta mensaje de confirmación. Presione **Aceptar** para salir y continuar con el cronograma (Ver figura 13).
+
+![Figura 13](docs/assets/figuras/VI-GU-05/figura-13.png)
+*Figura 13. Guardar para salir.*
+
+#### 3.2.2. Pestaña Cronograma
+Para ingresar las actividades del proyecto seleccione la pestaña **Cronograma** y presione el botón **Agregar actividad** (Ver figura 14).
+
+![Figura 14](docs/assets/figuras/VI-GU-05/figura-14.png)
+*Figura 14. Cronograma / Agregar actividad.*
+
+El sistema abre un nuevo formulario para ingresar: Nombre de la actividad, Descripción, Fecha de inicio y Fecha de finalización según el horizonte del proyecto. Presione el botón **GUARDAR** (Ver figura 15).
+
+![Figura 15](docs/assets/figuras/VI-GU-05/figura-15.png)
+*Figura 15. Agregar actividad al cronograma.*
+
+El sistema genera la visualización tabular y la gráfica de Gantt de las actividades registradas. Podrá editar o eliminar actividades mediante el menú de acciones (`...`) (Ver figura 16).
+
+![Figura 16](docs/assets/figuras/VI-GU-05/figura-16.png)
+*Figura 16. Visualización de actividades y diagrama.*
+
+---
+
+### 3.3 Presupuestal
+
+Al completar descripción y cronograma, el sistema habilita el botón **Presupuestal** en el encabezado (Ver figura 17).
+
+![Figura 17](docs/assets/figuras/VI-GU-05/figura-17.png)
+*Figura 17. Pestaña presupuestal.*
+
+#### 3.3.1. Pestaña (Co) Financiadores
+En esta pestaña se registran todas las entidades que aportan recursos financieros o en especie al proyecto.
+
+1. **Buscar y seleccionar la entidad financiadora externa:** Ingrese el NIT o razón social en el cuadro de búsqueda (Ver figura 18).
+
+![Figura 18](docs/assets/figuras/VI-GU-05/figura-18.png)
+*Figura 18. Cuadro de búsqueda de Instituciones.*
+
+2. **Si el financiador no existe en el catálogo institucional:** El sistema le notificará que no se encontraron coincidencias (Ver figura 19). Presione el botón **Agregar financiador** (Ver figura 20) y diligencie los datos requeridos (NIT, Razón social, Representante legal, País, Ciudad, Tipo de entidad) para solicitar su creación (Ver figura 21).
+
+![Figura 19](docs/assets/figuras/VI-GU-05/figura-19.png)
+*Figura 19. Financiador no existe.*
+
+![Figura 20](docs/assets/figuras/VI-GU-05/figura-20.png)
+*Figura 20. Agregar financiador.*
+
+![Figura 21](docs/assets/figuras/VI-GU-05/figura-21.png)
+*Figura 21. Registrar financiador.*
+
+3. **Agregar Grupo de Investigación UdeA:** Presione el botón **Agregar grupo** (Ver figura 22), busque el grupo por código o nombre y agréguelo como entidad aportante (Ver figura 23).
+
+![Figura 22](docs/assets/figuras/VI-GU-05/figura-22.png)
+*Figura 22. Botón Agregar grupo.*
+
+![Figura 23](docs/assets/figuras/VI-GU-05/figura-23.png)
+*Figura 23. Grupo de investigación.*
+
+4. **Definir tipo de aporte por entidad:** Seleccione para cada institución si aporta recursos en **Efectivo (recursos frescos)** o en **Especie (contrapartida)** y presione **GUARDAR** (Ver figura 24).
+
+![Figura 24](docs/assets/figuras/VI-GU-05/figura-24.png)
+*Figura 24. Tipo de financiador.*
+
+#### 3.3.2. Pestaña Presupuesto
+Una vez creados los financiadores, ingrese a la pestaña **Presupuesto** para discriminar los rubros (Ver figura 25).
+
+![Figura 25](docs/assets/figuras/VI-GU-05/figura-25.png)
+*Figura 25. Pestaña presupuesto.*
+
+Presione el botón **Agregar rubro** (Ver figura 26). Seleccione el rubro (Personal, Materiales, Equipos, Salidas de campo, etc.), el financiador que lo cubre, la fuente de recurso (Efectivo/Especie) y el valor presupuestado (Ver figura 27).
+
+![Figura 26](docs/assets/figuras/VI-GU-05/figura-26.png)
+*Figura 26. Agregar rubro.*
+
+![Figura 27](docs/assets/figuras/VI-GU-05/figura-27.png)
+*Figura 27. Presupuesto del proyecto.*
+
+> [!IMPORTANT] Rubro Personal
+> Tenga en cuenta que para el caso del rubro "Personal" el valor corresponde a las horas semanales valoradas según la categoría y dedicación del docente o personal de apoyo. Para rubros que requieran desglose específico, podrá añadir subrubros detallados (Ver figura 28).
+
+![Figura 28](docs/assets/figuras/VI-GU-05/figura-28.png)
+*Figura 28. Subrubro.*
+
+---
+
+### 3.4 Participantes
+
+Al guardar el presupuesto, presione el botón **Participantes** para registrar el equipo de investigación (Ver figura 29).
+
+![Figura 29](docs/assets/figuras/VI-GU-05/figura-29.png)
+*Figura 29. Pestaña participantes.*
+
+El sistema permite vincular dos tipos de participantes:
+- **Participante determinado (Persona natural con cédula):** Docentes, estudiantes o externos identificados.
+- **Participante indeterminado (Cupos por contratar):** Auxiliares de investigación, jóvenes investigadores o técnicos que se vincularán durante la ejecución (Ver figura 30).
+
+![Figura 30](docs/assets/figuras/VI-GU-05/figura-30.png)
+*Figura 30. Participante indeterminado.*
+
+#### 3.4.1. Agregar participante nuevo en el sistema
+Para persona natural, seleccione tipo de documento y número de cédula (Ver figura 31 y 32). Presione **Buscar**. Si la persona ya está en el sistema institucional, se cargarán sus datos básicos; en caso contrario, presione **Agregar participante** (Ver figura 33).
+
+![Figura 31](docs/assets/figuras/VI-GU-05/figura-31.png)
+*Figura 31. Selección persona natural.*
+
+![Figura 32](docs/assets/figuras/VI-GU-05/figura-32.png)
+*Figura 32. Búsqueda de participante.*
+
+![Figura 33](docs/assets/figuras/VI-GU-05/figura-33.png)
+*Figura 33. Agregar participante.*
+
+Defina el **Tipo de Vínculo** (Docente de planta, Ocasional, Cátedra, Estudiante, Externo), el **Rol en el proyecto** (Investigador Principal, Coinvestigador, Asesor) y las **Horas semanales de dedicación** (Ver figura 34). Si el participante pertenece a una institución externa, selecciónela del listado (Ver figura 35).
+
+![Figura 34](docs/assets/figuras/VI-GU-05/figura-34.png)
+*Figura 34. Vínculo y rol.*
+
+![Figura 35](docs/assets/figuras/VI-GU-05/figura-35.png)
+*Figura 35. Seleccionar institución.*
+
+Al presionar **GUARDAR**, el participante se listará en la tabla resumen con sus horas semanales y datos de contacto (Ver figura 36 y 37).
+
+![Figura 36](docs/assets/figuras/VI-GU-05/figura-36.png)
+*Figura 36. Resumen de participantes.*
+
+![Figura 37](docs/assets/figuras/VI-GU-05/figura-37.png)
+*Figura 37. Información del participante.*
+
+---
+
+### 3.5 Compromisos y condiciones
+
+#### 3.5.1. Pestaña Compromisos
+Presione la pestaña **Compromisos** y luego el botón **Agregar compromiso** (Ver figura 38).
+
+![Figura 38](docs/assets/figuras/VI-GU-05/figura-38.png)
+*Figura 38. Botón agregar compromiso.*
+
+Seleccione el tipo de compromiso según la tipología oficial de Minciencias (Artículos en revistas indexadas, Libros, Capítulos, Ponencias, Formación de talento humano en pregrado/posgrado, Productos tecnológicos o de apropiación social). Ingrese la descripción detallada y la fecha esperada de entrega (Ver figura 39). Podrá editar o eliminar los compromisos agregados si hubo error en su registro (Ver figura 40).
+
+![Figura 39](docs/assets/figuras/VI-GU-05/figura-39.png)
+*Figura 39. Formulario agregar compromiso.*
+
+![Figura 40](docs/assets/figuras/VI-GU-05/figura-40.png)
+*Figura 40. Editar compromiso.*
+
+#### 3.5.2. Pestaña Condiciones formales
+Revise y marque la aceptación de las condiciones institucionales de propiedad intelectual, principios éticos y rendición de cuentas según las políticas de la Universidad de Antioquia (Ver figura 41).
+
+![Figura 41](docs/assets/figuras/VI-GU-05/figura-41.png)
+*Figura 41. Condiciones formales.*
+
+---
+
+### 3.6 Documentos soporte
+
+En esta pestaña es obligatorio adjuntar en formato PDF todos los documentos habilitantes exigidos por la convocatoria y las políticas institucionales (Ver figura 42 y 43).
+
+![Figura 42](docs/assets/figuras/VI-GU-05/figura-42.png)
+*Figura 42. Documento soporte.*
+
+![Figura 43](docs/assets/figuras/VI-GU-05/figura-43.png)
+*Figura 43. Documento soporte.*
+
+Los soportes mínimos obligatorios son:
+1. Carta de aprobación de descarga horaria del Consejo de Facultad.
+2. Contrato o convenio formal de financiación externa suscrito con la entidad convocante.
+3. Propuesta técnica definitiva aprobada por el financiador externo.
+4. Cartas de contrapartida de grupos y cofinanciadores.
+5. Aval del Comité de Ética o Bioética institucional (si aplica).
+
+Al guardar el archivo, el sistema listará el documento con su fecha y tamaño (Ver figura 44). Podrá editarlo o eliminarlo a través del menú de acciones (`...`) (Ver figuras 45 y 46).
+
+![Figura 44](docs/assets/figuras/VI-GU-05/figura-44.png)
+*Figura 44. Resumen documento adjunto.*
+
+![Figura 45](docs/assets/figuras/VI-GU-05/figura-45.png)
+*Figura 45. Eliminar documento.*
+
+![Figura 46](docs/assets/figuras/VI-GU-05/figura-46.png)
+*Figura 46. Mensaje de confirmación eliminar documento.*
+
+---
+
+### 3.7 Enviar a centro
+
+Una vez completadas todas las secciones y adjuntos los soportes, diríjase a la última pestaña **Enviar** y presione el botón **Enviar a Centro** (Ver figura 47).
+
+![Figura 47](docs/assets/figuras/VI-GU-05/figura-47.png)
+*Figura 47. Enviar a centro.*
+
+El sistema desplegará un cuadro de diálogo solicitando la confirmación del envío formal (Ver figura 48). Al presionar **Aceptar**, el sistema confirmará la radicación y el proyecto cambiará automáticamente a estado **Matriculado** (Ver figura 49).
+
+![Figura 48](docs/assets/figuras/VI-GU-05/figura-48.png)
+*Figura 48. Alerta de confirmación de envío al centro.*
+
+![Figura 49](docs/assets/figuras/VI-GU-05/figura-49.png)
+*Figura 49. Confirmación proyecto enviado a centro.*
+
+> [!WARNING] Alerta de Proyecto Incompleto
+> Si alguna pestaña contiene campos obligatorios vacíos o inconsistencias de presupuesto/participantes, el sistema bloqueará el envío y le indicará en rojo la pestaña que presenta el inconveniente para que realice el ajuste correspondiente (Ver figura 50).
+
+![Figura 50](docs/assets/figuras/VI-GU-05/figura-50.png)
+*Figura 50. Ejemplo de proyecto incompleto.*
+
+---
+
+## 4. Verificación
+
+Para verificar que el trámite concluyó de manera exitosa:
+1. Ingrese nuevamente al menú **Convocatorias >> Proyectos en proceso**.
+2. Ubique su proyecto en la lista.
+3. Valide que en la columna **Estado** figure con el valor **Matriculado** (Ver figura 51).
+
+![Figura 51](docs/assets/figuras/VI-GU-05/figura-51.png)
+*Figura 51. Confirmación proyecto matriculado.*
+
+> [!CAUTION] Garantía de Envío
+> Si el proyecto aparece con un estado diferente a **Matriculado** (por ejemplo, en estado *En elaboración*), su propuesta **NO** ha sido enviada al Centro de Investigación y por tanto las instancias institucionales no podrán tramitar su aval ni iniciar los procesos contractuales.
+
+---
+
+## 5. Proyecto devuelto para ajustes
+
+Cuando el proyecto es revisado por el Centro de Investigación, el gestor del Centro puede emitir observaciones o solicitar subsanación formal de inconsistencias.
+
+En tal caso:
+1. El proyecto pasará al estado **Pendiente Actualización**.
+2. El sistema enviará una notificación al correo electrónico del Investigador Principal con el detalle de las observaciones y las pestañas que han sido habilitadas para edición.
+3. El IP dispondrá de un término fijado por el Centro para ingresar nuevamente al SIIU, subsanar las observaciones requeridas en las secciones autorizadas y presionar nuevamente el botón **Enviar a Centro**.
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-GU-06.md
@@ -11003,6 +12072,7 @@ Ingrese toda la información requerida (Identificación, Tipo de documento, Fech
 | **Revisó** | Kerlin Yohana Bedoya Agudelo | Analista de Procesos, División de Arquitectura de Procesos | 12-MAR-2024 |
 | **Revisó** | Julio César García Castrillón | Analista de Procesos, División de Arquitectura de Procesos | 12-MAR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 13-MAR-2024 |
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-GU-07.md
@@ -11444,6 +12514,7 @@ La convocatoria pasa a estado **Publicado** y permite vincular los proyectos que
 | **Revisó** | Julio César García Castrillón | Analista de Procesos, División de Arquitectura de Procesos | 12-MAR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 13-MAR-2024 |
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-GU-08.md
 *Ruta canónica original: `archivo_maestro/VI-GU-08.md`*
@@ -11854,6 +12925,7 @@ Luego de revisar que el proyecto cumple con todos los requisitos y validar la in
 | **Revisó** | Julio César García Castrillón | Analista de Procesos, División de Arquitectura de Procesos | 12-MAR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 13-MAR-2024 |
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-GU-09.md
 *Ruta canónica original: `archivo_maestro/VI-GU-09.md`*
@@ -12056,6 +13128,7 @@ En la opción cumplimiento el jefe de centro podrá asignar la fecha real del cu
 | **Revisó** | Kerlin Yohana Bedoya Agudelo | Analista de Procesos, División de Arquitectura de Procesos | 12-MAR-2024 |
 | **Revisó** | Julio César García Castrillón | Analista de Procesos, División de Arquitectura de Procesos | 12-MAR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 13-MAR-2024 |
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-GU-10.md
@@ -12496,6 +13569,7 @@ Presione el botón **GUARDAR** y luego **SIGUIENTE**.
 | **Revisó** | Julio César García Castrillón | Analista de Procesos, División de Arquitectura de Procesos | 12-MAR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 13-MAR-2024 |
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-GU-11.md
 *Ruta canónica original: `archivo_maestro/VI-GU-11.md`*
@@ -12718,6 +13792,7 @@ Antes de enviar la solicitud administrativa, se puede editar cuando se cierra el
 | **Revisó** | Kerlin Yohana Bedoya Agudelo | Analista de Procesos, División de Arquitectura de Procesos | 12-MAR-2024 |
 | **Revisó** | Julio César García Castrillón | Analista de Procesos, División de Arquitectura de Procesos | 12-MAR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 13-MAR-2024 |
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-GU-12.md
@@ -12957,6 +14032,7 @@ En esta pestaña puede adjuntar los documentos de soporte que requiera la Vicerr
 | **Elaboró** | Sandra Patricia Zabala Orrego | Contratista, Vicerrectoría Investigación | 16-FEB-2024 |
 | **Revisó** | Kerlin Yohana Bedoya Agudelo | Analista de Procesos, División de Arquitectura de Procesos | 29-ABR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 29-ABR-2024 |
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-GU-13.md
@@ -13320,6 +14396,7 @@ Para consultar y verificar los trámites ya aplicados:
 | **Revisó** | Kerlin Yohana Bedoya Agudelo | Analista de Procesos, División de Arquitectura de Procesos | 29-ABR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 29-ABR-2024 |
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-GU-14.md
 *Ruta canónica original: `archivo_maestro/VI-GU-14.md`*
@@ -13677,6 +14754,7 @@ Una vez terminado el proceso de configuración del trámite administrativo, el i
 | **Elaboró** | Sandra Patricia Zabala Orrego | Contratista, Vicerrectoría Investigación | 16-FEB-2024 |
 | **Revisó** | Kerlin Yohana Bedoya Agudelo | Analista de Procesos, División de Arquitectura de Procesos | 29-ABR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 29-ABR-2024 |
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-GU-15.md
@@ -14225,6 +15303,7 @@ El Jefe de Centro podrá validar que el proyecto ya inició formalmente:
 | **Revisó** | Julio César García Castrillón | Analista de Procesos, División de Arquitectura de Procesos | 29-ABR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 29-ABR-2024 |
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-GU-16.md
 *Ruta canónica original: `archivo_maestro/VI-GU-16.md`*
@@ -14466,6 +15545,7 @@ Una vez haya seleccionado cada ítem:
 | **Elaboró** | Sandra Patricia Zabala Orrego | Contratista, Vicerrectoría Investigación | 16-FEB-2024 |
 | **Revisó** | Kerlin Yohana Bedoya Agudelo | Analista de Procesos, División de Arquitectura de Procesos | 29-ABR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 29-ABR-2024 |
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-GU-17.md
@@ -14970,6 +16050,7 @@ Esta última pestaña del tren de datos permite enviar el proyecto formalmente a
 | **Revisó** | Kerlin Yohana Bedoya Agudelo | Analista de Procesos, División de Arquitectura de Procesos | 29-ABR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 29-ABR-2024 |
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-GU-18.md
 *Ruta canónica original: `archivo_maestro/VI-GU-18.md`*
@@ -15411,6 +16492,7 @@ Esta pestaña le permitirá enviar el proyecto al Centro de Investigación para 
 | **Revisó** | Kerlin Yohana Bedoya Agudelo | Analista de Procesos, División de Arquitectura de Procesos | 29-ABR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 29-ABR-2024 |
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-GU-19.md
 *Ruta canónica original: `archivo_maestro/VI-GU-19.md`*
@@ -15747,6 +16829,7 @@ En la pestaña **Condiciones Formales** se validan las condiciones previas del t
 | **Elaboró** | Sandra Patricia Zabala Orrego | Contratista, Vicerrectoría Investigación | 16-FEB-2024 |
 | **Revisó** | Kerlin Yohana Bedoya Agudelo | Analista de Procesos, División de Arquitectura de Procesos | 29-ABR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 29-ABR-2024 |
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-GU-20.md
@@ -16161,6 +17244,7 @@ Antes de enviar la solicitud administrativa, esta puede ser editada en caso de q
 | **Revisó** | Kerlin Yohana Bedoya Agudelo | Analista de Procesos, División de Arquitectura de Procesos | 29-ABR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 29-ABR-2024 |
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-GU-22.md
 *Ruta canónica original: `archivo_maestro/VI-GU-22.md`*
@@ -16432,6 +17516,7 @@ Antes de enviar la solicitud administrativa, esta se puede editar en caso de que
 | **Elaboró** | Mauricio Toro Torres | Profesional 1, Vicerrectoría Investigación | 16-FEB-2024 |
 | **Revisó** | Kerlin Yohana Bedoya Agudelo | Analista de Procesos, División de Arquitectura de Procesos | 29-ABR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 29-ABR-2024 |
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-GU-23.md
@@ -16733,6 +17818,7 @@ Antes de enviar la solicitud administrativa, esta se puede editar en caso de que
 | **Elaboró** | Mauricio Toro Torres | Profesional 1, Vicerrectoría Investigación | 16-FEB-2024 |
 | **Revisó** | Kerlin Yohana Bedoya Agudelo | Analista de Procesos, División de Arquitectura de Procesos | 29-ABR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 29-ABR-2024 |
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-GU-24.md
@@ -17252,6 +18338,7 @@ El Centro de Investigación asume la función de evaluar el proyecto. Si el Comi
 | **Revisó** | Kerlin Yohana Bedoya Agudelo | Analista de Procesos, División de Arquitectura de Procesos | 29-ABR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 29-ABR-2024 |
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-GU-25.md
 *Ruta canónica original: `archivo_maestro/VI-GU-25.md`*
@@ -17453,6 +18540,7 @@ El CKEditor permite incrustar imágenes en las secciones descriptivas de la prop
 | **Revisó** | Julio César García Castrillón | Analista de Procesos, División de Arquitectura de Procesos | 09-JUL-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 12-JUL-2024 |
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-IN-01.md
 *Ruta canónica original: `archivo_maestro/VI-IN-01.md`*
@@ -17594,6 +18682,7 @@ Una vez se encuentre en el SIIU:
 | **Revisó** | Julio César García Castrillón | Analista de Procesos, División de Arquitectura de Procesos | 12-MAR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 13-MAR-2024 |
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-IN-02.md
 *Ruta canónica original: `archivo_maestro/VI-IN-02.md`*
@@ -17728,6 +18817,7 @@ Una vez se encuentre en el SIIU:
 | **Revisó** | Julio César García Castrillón | Analista de Procesos, División de Arquitectura de Procesos | 12-MAR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 13-MAR-2024 |
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-IN-05.md
 *Ruta canónica original: `archivo_maestro/VI-IN-05.md`*
@@ -17860,6 +18950,7 @@ Al momento de aceptar el envío del proyecto, se abrirá una ventana donde se in
 | **Elaboró** | Lina María Ospina Pérez | Product Owner SIIU, Vicerrectoría de Investigación | 16-FEB-2024 |
 | **Revisó** | Kerlin Yohana Bedoya Agudelo | Analista de Procesos, División de Arquitectura de Procesos | 04-ABR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 12-ABR-2024 |
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-IN-06.md
@@ -18012,6 +19103,7 @@ El sistema genera un mensaje de confirmación de la hoja de vida. (Ver figura 14
 | **Revisó** | Kerlin Yohana Bedoya Agudelo | Analista de Procesos, División de Arquitectura de Procesos | 04-ABR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 12-ABR-2024 |
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-IN-07.md
 *Ruta canónica original: `archivo_maestro/VI-IN-07.md`*
@@ -18126,6 +19218,7 @@ El sistema genera constancia como reporte en formato PDF, el cual puede descarga
 | **Revisó** | Kerlin Yohana Bedoya Agudelo | Analista de Procesos, División de Arquitectura de Procesos | 04-ABR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 12-ABR-2024 |
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-IN-08.md
 *Ruta canónica original: `archivo_maestro/VI-IN-08.md`*
@@ -18239,6 +19332,7 @@ El sistema genera constancia como reporte en formato PDF, el cual puede descarga
 | **Elaboró** | Sandra Patricia Zabala Orrego | Contratista, Vicerrectoría Investigación | 16-FEB-2024 |
 | **Revisó** | Kerlin Yohana Bedoya Agudelo | Analista de Procesos, División de Arquitectura de Procesos | 04-ABR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 12-ABR-2024 |
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-IN-09.md
@@ -18406,6 +19500,7 @@ Si requiere los proyectos de una convocatoria específica y conoce el año de la
 | **Revisó** | Kerlin Yohana Bedoya Agudelo | Analista de Procesos, División de Arquitectura de Procesos | 04-ABR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 12-ABR-2024 |
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-IN-10.md
 *Ruta canónica original: `archivo_maestro/VI-IN-10.md`*
@@ -18525,6 +19620,7 @@ En el resultado de búsqueda se habilitan unas opciones las cuales se explican a
 | **Elaboró** | Sandra Patricia Zabala Orrego | Contratista, Vicerrectoría Investigación | 16-FEB-2024 |
 | **Revisó** | Kerlin Yohana Bedoya Agudelo | Analista de Procesos, División de Arquitectura de Procesos | 04-ABR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 12-ABR-2024 |
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-IN-11.md
@@ -18652,6 +19748,7 @@ Se abrirá una nueva ventana con la información de la participación del proyec
 | **Elaboró** | Sandra Patricia Zabala Orrego | Contratista, Vicerrectoría Investigación | 16-FEB-2024 |
 | **Revisó** | Kerlin Yohana Bedoya Agudelo | Analista de Procesos, División de Arquitectura de Procesos | 04-ABR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 12-ABR-2024 |
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: VI-IN-12.md
@@ -18809,6 +19906,194 @@ Valide que el proyecto quede en estado **Pendiente de actualización**, realizan
 | **Revisó** | Kerlin Yohana Bedoya Agudelo | Analista de Procesos, División de Arquitectura de Procesos | 04-ABR-2024 |
 | **Aprobó** | Gloria Valencia Bustamante | Asistente, Vicerrectoría de Investigación | 12-ABR-2024 |
 
+
+------------------------------------------------------------
+## [DOCUMENTO]: PROC-CODI-INSCRIPCION-SUI.md
+*Ruta canónica original: `archivo_maestro/PROC-CODI-INSCRIPCION-SUI.md`*
+------------------------------------------------------------
+
+# PROCEDIMIENTO DE INSCRIPCIÓN DE PROYECTOS EN EL SISTEMA UNIVERSITARIO DE INVESTIGACIÓN – SUI
+
+> [!NOTE] Información de Control Documental
+> **Código**: PROC-CODI-INSCRIPCION-SUI  
+> **Aprobado por**: Comité para el Desarrollo de la Investigación – CODI (Sesión 718 del 16 de febrero de 2016).  
+> **Sistema**: Sistema de Información para la Investigación Universitaria – SIIU.  
+> **Contacto de apoyo**: `apoyoviceinvestigacion@udea.edu.co`.
+
+---
+
+## 1. Introducción y Justificación
+
+Permanentemente se originan en la Universidad proyectos de investigación que no han sido registrados en el Sistema Universitario de Investigación, ya sea porque tienen financiación externa y el trámite de aval fue realizado al interior de una dependencia, o porque se trata de proyectos realizados con recursos propios de los grupos y las dependencias académicas.
+
+El presente procedimiento establece directrices para la inscripción de estos proyectos en el Sistema Universitario de Investigación a través del Sistema de Información para la Investigación Universitaria.
+
+### Justificación Institucional
+Para la Vicerrectoría de Investigación es importante contar con información del desarrollo de los proyectos que involucran recursos de la Universidad (por ejemplo, el tiempo laboral del investigador, uso de instalaciones y equipos, entre otros), de tal forma que se puedan visibilizar, institucionalizar y formalizar, además de rendir informes confiables a la sociedad.
+
+El objetivo de este procedimiento es recopilar la mayor información posible de la actividad investigativa y propiciar un mínimo rigor en la formulación y ejecución de proyectos que involucren recursos de la Universidad, de tal forma que se promueva la gobernabilidad en el Sistema y se pueda dar cuenta de la responsabilidad con la cual se desarrolla la investigación en la Universidad de Antioquia.
+
+Además de contar con información consolidada, los investigadores que inscriben sus proyectos en el Sistema Universitario de Investigación podrán beneficiarse de los diferentes fondos constituidos por el CODI para el fomento de la investigación en la Universidad.
+
+---
+
+## 2. Excepciones: Proyectos que NO se Inscriben al SUI
+
+No se inscriben al Sistema Universitario de Investigación los siguientes tipos de proyectos:
+
+1. **Actividades de Extensión:** Aquellas contempladas en el Estatuto Básico de Extensión (Acuerdo Superior 124 de 1997) sin componente científico.
+2. **Proyectos Estudiantiles Puros:** Proyectos de estudiantes de pregrado y posgrado, **excepto cuando el estudiante de posgrado es un profesor vinculado a la Universidad**.
+
+> [!NOTE] Nota sobre Proyectos de Extensión con Componente Investigativo
+> Se pueden inscribir los proyectos de extensión que tengan componente investigativo, en los cuales la Universidad tenga derechos sobre la propiedad intelectual, y que contemplen compromisos de formación y divulgación científica. Estos proyectos deberán hacer los aportes económicos establecidos por la Universidad, según el Acuerdo Superior 124 de 1997 (artículo 47), lo cual deberá quedar explícito en el acta de inicio del proyecto.
+
+---
+
+## 3. Requisitos Mínimos para la Inscripción
+
+1. **Participación Profesoral:** Se inscriben proyectos de investigación en los que participan profesores vinculados a la Universidad de Antioquia (de planta u ocasional, de tiempo completo o medio tiempo, profesor emérito), en calidad de Investigador Principal (IP) o coinvestigador.
+2. **IP Externo:** En los casos en los cuales el investigador principal es de otra institución, el responsable del proyecto ante la Universidad es el **coinvestigador vinculado a la Universidad de Antioquia**.
+3. **IP Profesor Ocasional:** Cuando el investigador principal sea profesor ocasional, **deberá adjuntar carta de apoyo de un profesor vinculado de planta**, quien se hará cargo del cumplimiento de los compromisos y de la finalización del proyecto en caso del retiro del IP antes de la fecha de culminación, lo cual quedará explícito en el acta de inicio.
+
+---
+
+## 4. Compromisos Mínimos
+
+El proyecto debe pactar como mínimo alguno de los siguientes compromisos:
+- **Vincular un estudiante en formación**, de pregrado o posgrado matriculado en la Universidad de Antioquia, **o**
+- **Generar un producto de nuevo conocimiento** (según tipología Minciencias).
+
+*Proyectos Financiados por Entidades Externas:* Prevalecerán los compromisos acordados con dicha entidad.
+
+---
+
+## 5. Documentación Obligatoria a Adjuntar
+
+a. **Evaluaciones del proyecto tramitadas por el Comité Técnico:**  
+   El Comité Técnico deberá nombrar un evaluador interno y uno externo o dos externos a la Universidad (Acuerdo Superior 395 de 2011 sobre conflicto de intereses).  
+   > *Criterio de Aprobación:* Para su aprobación la evaluación deberá tener un puntaje promedio **superior a los 80 puntos**. En todo caso el Centro conservará el anonimato de los evaluadores. En proyectos financiados por entidad externa, bastará con el convenio/contrato debidamente legalizado.  
+   > *Vigencia:* Las evaluaciones realizadas a proyectos presentados en convocatorias CODI son válidas para inscribir dichos proyectos **hasta por 24 meses**.
+
+b. **Aprobación de horas de dedicación docente** por parte del Consejo de Facultad, Escuela o Instituto al cual pertenecen los investigadores.  
+c. **Aval del Comité Técnico** del Centro de Investigación o quien haga sus veces.  
+d. **Aval del Comité de Ética** (si aplica).  
+e. **Copia del contrato o convenio** suscrito con la entidad externa que aprobó la financiación.  
+f. **Carta de apoyo de un profesor vinculado**, cuando el IP sea profesor ocasional.
+
+---
+
+## 6. Procedimiento Operativo de Trámite en SIIU
+
+```mermaid
+flowchart TD
+    P1["Paso 1: Investigador Principal (IP)<br><small>Registra proyecto en SIIU y sube soportes (antes de iniciar o durante 1er año)</small>"] --> P2["Paso 2: Centro de Investigación<br><small>Verifica cumplimiento de requisitos y remite a Vicerrectoría para aval CODI</small>"]
+    P2 --> P3["Paso 3: Aprobación CODI<br><small>CODI aprueba inscripción oficial en sesión plenaria</small>"]
+    P3 --> P4["Paso 4: Formalización de Inicio<br><small>Generación, firma y carga del Acta de Inicio y Propiedad Intelectual en SIIU</small>"]
+```
+
+- **Paso 1:** El investigador principal registra en el SIIU la información del proyecto y anexa los documentos soporte, preferiblemente antes de iniciar el proyecto o durante el primer año de ejecución.
+- **Paso 2:** El Centro de Investigación verifica el cumplimiento de requisitos y envía el expediente a la Vicerrectoría para aprobación del CODI.
+- **Paso 3:** Una vez efectuada la aprobación del CODI se genera en el SIIU el acta de inicio y acuerdo de propiedad intelectual.
+- **Paso 4:** El acta es impresa, firmada, escaneada y cargada en el SIIU para iniciar formalmente el seguimiento institucional.
+
+---
+
+## 7. Disposiciones Generales
+
+- La ejecución del proyecto debe sujetarse a los lineamientos del SUI en cuanto a presentación de informes de avance, informes finales, prórrogas y modificaciones presupuestales.
+- Los proyectos financiados por entidades externas deberán realizar los trámites de novedades ante cada entidad según lo pactado y posteriormente registrar dichas novedades en el SIIU.
+- Las situaciones no previstas y la interpretación del procedimiento serán resueltas privativamente por el **Comité para el Desarrollo de la Investigación – CODI**.
+
+
+------------------------------------------------------------
+## [DOCUMENTO]: TR-CODI-ACTA-CONSOLIDACION-GRUPOS.md
+*Ruta canónica original: `archivo_maestro/TR-CODI-ACTA-CONSOLIDACION-GRUPOS.md`*
+------------------------------------------------------------
+
+# ESTRATEGIA DE CONSOLIDACIÓN DE LOS GRUPOS DE INVESTIGACIÓN
+## ACTA DE INICIO Y COMPROMISOS (CODI)
+
+> [!NOTE] Información de Control Documental
+> **Código**: TR-CODI-ACTA-CONSOLIDACION-GRUPOS  
+> **Emisor**: Comité para el Desarrollo de la Investigación – CODI –  
+> **Naturaleza**: Minuta Oficial de Compromisos Académicos, Científicos y Administrativos.  
+> **Concordancias**: Acuerdo Superior 083 de 1996 (Estatuto Profesoral), Acuerdo Superior 204 de 2001 (Estatuto del SUI) y Términos de Referencia CODI.
+
+---
+
+### Encabezado Contractual e Identificación
+
+- **Código BUPP n.°**: `____________________`
+- **Declaración:** El suscrito, servidor público, manifiesto que, como coordinador del Grupo beneficiario de los recursos públicos asignados por el CODI en el marco de la convocatoria de la *"Estrategia para Apoyo a los Grupos de Investigación en Proceso de Consolidación"*, me comprometo a cumplir los compromisos académicos-científicos y administrativos, así:
+
+| Centro de Investigación | Datos Institucionales |
+| :--- | :--- |
+| **Centro** | [Nombre del Centro de Investigación de la Unidad] |
+| **Jefe(a) de Centro** | [Nombre completo del Jefe(a)] |
+| **E-mail institucional** | [Correo electrónico institucional] |
+
+| Grupo de Investigación | Datos del Grupo Beneficiario |
+| :--- | :--- |
+| **Nombre del Grupo** | [Denominación oficial registrada en SIIU/GrupLAC] |
+| **Coordinador(a)** | [Nombre del Coordinador(a) responsable] |
+| **E-mail institucional** | [Correo del Coordinador(a)] |
+| **Ubicación física** | [Bloque, oficina o laboratorio] |
+| **Teléfono** | [Extensión institucional] |
+| **Monto aprobado** | `$ [Valor asignado en letras y números]` |
+| **Duración** | `[Número de meses]` |
+| **Fecha de inicio** | `[Fecha efectiva de firma]` |
+| **Fecha de finalización** | `[Fecha límite calculada]` |
+
+---
+
+## 1. Compromisos Académicos-Científicos
+
+1. **Meta Cuantitativa de Puntos:** Al finalizar la Estrategia, presentar resultados en los tres componentes (producción científica, formación y consecución de recurso externo representados en proyectos de investigación), para obtener un puntaje equivalente **al menos al 45% de los puntos con los que se les asignaron recursos**.
+2. **Ponderación Mínima por Componente:** Cada componente representará **al menos un 5% del puntaje total** con que se asume el compromiso. Si este criterio implica obtener recursos externos por valores superiores a los asignados por la Estrategia, el grupo podrá cumplir con, al menos, el mismo valor que se le asignó en la convocatoria.
+3. **Mecanismo Complementario:** La Estrategia de apoyo a grupos en consolidación es una política complementaria, por lo que **los compromisos pueden ser compartidos con otros mecanismos de financiación**.
+4. **Filiación y Créditos Institucionales Obligatorios:** Los productos deberán dar créditos expresos a la Universidad de Antioquia bajo la fórmula canónica obligatoria:  
+   $$	ext{"Universidad de Antioquia UdeA"}$$
+5. **Reconocimiento Editorial de Artículos:** Los artículos científicos se podrán reconocer a partir de la **comunicación formal de aceptación** emitida por la revista indexada.
+6. **Vigencia Temporal de Compromisos:** El cumplimiento de compromisos se considerará a partir de la fecha oficial pactada en la convocatoria. No se aprobarán compromisos con fechas previas.
+7. **Soportes Documentales:** Anexar los soportes necesarios que evidencien el cumplimiento de las condiciones de calidad del producto registradas en la tabla de homologación institucional de productos del CODI.
+8. Los demás establecidos en los términos de referencia específicos de la convocatoria.
+
+---
+
+## 2. Compromisos Administrativos del Coordinador del Grupo
+
+1. Velar por la correcta ejecución, custodia y control de los recursos públicos asignados y el cumplimiento oportuno de los compromisos.
+2. Presentar al Centro de Investigación informes periódicos de avance **al cincuenta por ciento (50%) de la ejecución del cronograma** o cuando sea solicitado por la administración, e informe final exhaustivo de cumplimiento.
+3. Cumplir con las normas de contratación y gasto vigentes en la Universidad de Antioquia.
+
+---
+
+## 3. Obligaciones y Certificaciones del Centro de Investigación
+
+El Centro de Investigación de la respectiva unidad académica asume las siguientes obligaciones funcionales:
+
+1. **Certificación Previa de Paz y Salvo Profesoral:** Certificar que los profesores integrantes del grupo beneficiario **están a paz y salvo con los compromisos asumidos en proyectos de investigación registrados en el SUI a la fecha de la firma del acta de inicio**.
+2. **Certificación de Paz y Salvo de la Convocatoria Anterior:** Certificar que el Grupo está a paz y salvo con las versiones anteriores de la Estrategia de Consolidación a la firma del acta.
+3. **Acompañamiento:** Apoyar y facilitar las actividades administrativas requeridas por el Grupo para el logro de los objetivos.
+4. **Rendición de Cuentas:** Rendir cuentas comprobadas al CODI, a través de la Vicerrectoría de Investigación, sobre la ejecución de los recursos.
+5. **Seguimiento y Control:** Hacer seguimiento periódico del avance y reportar oportunamente cualquier irregularidad, anomalía o riesgo de incumplimiento.
+6. **Liquidación y Paz y Salvo Final:** Tramitar ante las instancias pertinentes la liquidación de los recursos recibidos y la expedición de los paz y salvos respectivos **dentro de los cuatro (4) meses siguientes a la presentación del informe final** por el Grupo beneficiario.
+
+---
+
+## 4. Cláusula de Deberes, Sanciones y Firma
+
+> *"Manifiesto que conozco los deberes para con la Universidad de Antioquia y que su incumplimiento puede ser sancionado conforme lo establece el Estatuto Profesoral (Acuerdo Superior 083 de 1996 y demás normas concordantes y políticas del SUI y del CODI), y sin perjuicio de las demás acciones que puedan iniciar LA UNIVERSIDAD o las autoridades competentes."*
+
+**Fecha de Inicio Efectiva:** La fecha de inicio del proyecto y de la ejecución de los recursos será la fecha de la firma formal del acta.
+
+```text
+_______________________________________          _______________________________________
+Coordinador del Grupo de Investigación            Jefe de Centro de Investigación
+Cédula:                                          Cédula:
+```
+
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: TR-CODI-833-Primer-Proyecto.md
 *Ruta canónica original: `archivo_maestro/TR-CODI-833-Primer-Proyecto.md`*
@@ -18947,10 +20232,153 @@ El incumplimiento de los compromisos o las obligaciones adquiridas por investiga
 
 El **Centro de Investigación** es la unidad encargada de brindar apoyo y asesoría en primera instancia al investigador desde la formulación hasta la finalización del proyecto, previo análisis interno con los representantes de la comunidad científica en el CODI.
 
+
 ================================================================================
-# 9. ARCHIVO MAESTRO FIDEDIGNO: 21 NORMAS INSTITUCIONALES COMPLETAS
+# 9. ARCHIVO MAESTRO FIDEDIGNO: 22 NORMAS INSTITUCIONALES Y LINEAMIENTOS CODI COMPLETOS
 ================================================================================
 
+
+
+------------------------------------------------------------
+## [DOCUMENTO]: LEG-CODI-LINEAMIENTOS-GRUPOS-2025.md
+*Ruta canónica original: `archivo_maestro/legalidad/LEG-CODI-LINEAMIENTOS-GRUPOS-2025.md`*
+------------------------------------------------------------
+
+# LINEAMIENTOS SOBRE GRUPOS DE INVESTIGACIÓN EN LA UNIVERSIDAD DE ANTIOQUIA
+## SEGUNDA VERSIÓN
+
+> [!NOTE] Información de Control Documental
+> **Código**: LEG-CODI-LINEAMIENTOS-GRUPOS-2025  
+> **Aprobación inicial**: Actas CODI No. 906 del 6 de agosto, 907 del 20 de agosto, 909 del 1 de octubre y 911 del 22 de octubre de 2024.  
+> **Actualización vigente**: Acta CODI No. 934 del 28 de octubre de 2025.  
+> **Órgano Emisor**: Comité para el Desarrollo de la Investigación (CODI), en ejercicio de las facultades del parágrafo 2 del artículo 6 del Acuerdo Superior 204 de 2001.
+
+---
+
+### Objetivos de los Lineamientos
+
+- **Orientar** a todos los actores de los procesos de investigación en la Universidad de Antioquia sobre la creación, el funcionamiento y la disolución de grupos de investigación.
+- **Incentivar** la creación de mecanismos de autorregulación de los grupos de investigación.
+- **Articular** la dinámica de los grupos de investigación con el Sistema Universitario de Investigación.
+- **Promover** la gestión de la información y la planeación al interior de los grupos de investigación.
+
+> [!TIP] Principio de Flexibilidad y Autonomía Investigativa
+> Los lineamientos aquí contenidos deberán interpretarse bajo el principio de flexibilidad y autonomía investigativa, permitiendo que los grupos de investigación definan y revisen sus planes, metas y agendas de trabajo en función de su etapa de maduración, sus objetivos académicos, su contexto disciplinar y el marco normativo de investigación, evitando cargas administrativas desproporcionadas que afecten la investigación, la creación, la innovación o la transferencia de conocimiento.
+
+---
+
+## 1. CONFORMACIÓN, ADSCRIPCIÓN Y RECONOCIMIENTO DE LOS GRUPOS DE INVESTIGACIÓN
+
+### a. Conformación
+Los grupos de investigación de la Universidad de Antioquia podrán ser conformados a partir de la iniciativa de **dos o más profesores(as) de la institución**, de uno o más campus, de los cuales **al menos uno deberá ser profesor(a) de carrera**, y con el propósito de desarrollar ideas de investigación, creación, innovación o transferencia de conocimiento.
+
+En coherencia con una visión participativa y flexible de la planeación, los grupos podrán estar integrados por profesores(as) de carrera, ocasionales o de cátedra, así como por estudiantes de pregrado y posgrado, personal administrativo, personal técnico y de apoyo a las labores de investigación, egresados(as) e investigadores(as) externos(as), entre otros. Cada grupo definirá su estructura interna según la naturaleza de sus objetivos y la dinámica de trabajo colectivo, promoviendo la cooperación académica intergeneracional, interdisciplinaria e interinstitucional.
+
+*Parágrafo de Excepción para Sedes Regionales:* En los casos de los grupos de investigación asentados en las regiones, en los cuales no se cumpla con el requisito de contar con al menos un profesor(a) de carrera, podrá solicitarse al CODI la excepción de este requisito, debidamente sustentada y justificada.
+
+### b. Adscripción y reconocimiento
+Los grupos de investigación deberán solicitar su adscripción a una o varias unidades académicas de la Universidad. La solicitud será presentada por los profesores(as) interesados(as), en concordancia con el procedimiento definido por cada unidad, procurando que este permita tanto la formalización de trayectorias consolidadas como el acompañamiento de iniciativas en etapa de formación.
+
+Cuando un grupo esté adscrito a más de una unidad académica **deberá declarar una unidad principal** para los procesos internos, garantizando la coordinación entre las unidades involucradas.
+
+Una vez adscrito y aceptado por la unidad, el grupo solicitará, a través del centro de investigación o quien haga sus veces, el reconocimiento ante la Vicerrectoría de Investigación, entidad encargada de emitir el acto administrativo correspondiente.
+
+### c. Cambio de adscripción
+Un grupo de investigación podrá solicitar el cambio de adscripción de unidad académica, previa concertación entre las unidades involucradas, informando de ello a la Vicerrectoría de Investigación a través del centro de investigación o quien haga sus veces.
+
+### d. Filiación institucional
+Los grupos de investigación reconocidos por la Universidad de Antioquia deberán identificarse en todas sus publicaciones, ponencias, patentes, registros y demás productos de investigación, indicando expresamente la filiación institucional de la siguiente manera: **"Universidad de Antioquia"** o **"Universidad de Antioquia UdeA"**.
+
+### e. Grupos interinstitucionales
+Se podrán conformar grupos de investigación interinstitucionales mediante convenio o acuerdo formal con otras entidades académicas, de investigación, públicas o privadas. En estos casos, se deberá establecer claramente la participación, titularidad de productos, propiedad intelectual y responsabilidades de cada institución.
+
+### f. Actualizaciones o modificaciones en los grupos
+Toda modificación en la estructura básica del grupo (nombre, líneas de investigación, coordinador, adscripción) deberá ser tramitada a través del centro de investigación de la unidad principal y notificada a la Vicerrectoría de Investigación.
+
+### g. Retiro de integrantes de un grupo
+El retiro de un integrante de un grupo de investigación podrá darse por solicitud voluntaria del investigador o por decisión motivada del grupo según sus directrices internas. En cualquier caso se garantizará:
+1. El debido proceso y demás garantías en el trámite de retiro.
+2. Que la salida del investigador no ponga en riesgo el cumplimiento de compromisos adquiridos en proyectos activos.
+3. Información clara y oportuna a las instancias pertinentes de la(s) unidad(es) académica(s) y al SIIU.
+
+### h. Miembros del grupo
+Cada grupo de investigación tendrá dos tipos de miembros: un **coordinador(a)** y uno o más **integrantes**.
+
+### i. Coordinador(a) del grupo
+El coordinador(a) del grupo de investigación fungirá como líder y facilitará la construcción colectiva de agendas de trabajo junto con los integrantes del grupo, promoviendo una planeación participativa.
+
+**Requisitos del Coordinador:**
+1. Tener título de pregrado universitario y título de maestría o doctorado.
+2. Ser profesor(a) de carrera, ocasional o de cátedra conforme lo define el Estatuto Profesoral.
+
+> [!IMPORTANT] Regla Obligatoria para Coordinadores Ocasionales o de Cátedra
+> En los casos en los que el coordinador(a) sea **profesor(a) ocasional o de cátedra**, se deberá contar obligatoriamente con el **respaldo de un profesor(a) de carrera** que sea miembro del grupo de investigación.
+> Dicho respaldo deberá constar en un oficio donde se indique expresamente que el profesor de carrera asumirá las funciones de coordinación en caso de que el coordinador ocasional/cátedra finalice su contrato con la Universidad, mientras el grupo designa el nuevo líder en GrupLAC.
+> Este respaldo **debe contar con el aval del Consejo de la unidad académica** de la cual hace parte el profesor de carrera.
+
+*Concertación de Horas:* El coordinador(a) concertará con su jefe inmediato el número de horas que se destinarán en su plan de trabajo para las actividades en el grupo, conforme al Estatuto Profesoral (AS 083/1996).
+
+*Comisiones:*
+- Cuando un profesor de carrera coordinador sea designado en **comisión administrativa**, si desea continuar en la coordinación deberá suscribir un contrato *ad honorem*, previo aval de la unidad académica.
+- En caso de encontrarse en **comisión de estudios**, deberá delegar formalmente la coordinación en otro integrante del grupo que cumpla los requisitos.
+
+### j. Integrantes del grupo
+Son las personas vinculadas al grupo que cumplen diferentes roles en sus dinámicas (docentes, estudiantes de pregrado/posgrado, jóvenes investigadores, egresados, personal técnico o investigadores ad honorem).
+
+### k. Agenda de trabajo
+Cada grupo de investigación definirá una agenda o plan de trabajo periódica donde proyecte sus líneas, proyectos a postular, formación de talento humano y metas de producción científica o técnica.
+
+### l. Gestión de información
+El grupo mantendrá actualizada su información tanto en el sistema institucional **SIIU** como en la plataforma nacional **GrupLAC** de Minciencias.
+
+### m. Producción mínima
+Aquellos grupos de investigación no reconocidos por el Estado colombiano (Minciencias) que deseen mantener su reconocimiento como grupo por parte de la Universidad de Antioquia **deberán generar en el transcurso de dos (2) años al menos un producto** en alguna de las siguientes categorías:
+- Generación de nuevo conocimiento.
+- Desarrollo tecnológico e innovación.
+- Apropiación social del conocimiento.
+- Divulgación pública de la ciencia.
+- Formación de recurso humano.
+- La presentación de proyectos de investigación a convocatorias internas o externas.
+
+---
+
+## 2. FUNCIONAMIENTO DE LOS GRUPOS DE INVESTIGACIÓN
+
+### a. Directrices internas
+Cada grupo de investigación adoptará de manera participativa sus propias directrices internas de funcionamiento y autorregulación, las cuales deberán ser coherentes con la normativa universitaria.
+
+### b. Contenido de las directrices internas
+Las directrices internas deberán contener como mínimo:
+1. Objetivos del grupo.
+2. Responsabilidades de los miembros, acorde con la agenda de trabajo aprobada.
+3. Línea(s) de investigación o su equivalente.
+4. Criterios de ingreso, permanencia y retiro de miembros.
+5. Mecanismos para la toma de decisiones y resolución de controversias.
+
+### c. Distribución de beneficios
+Los beneficios económicos, incentivos académicos o reconocimientos derivados de la actividad investigativa, contratos de consultoría o licenciamiento de propiedad intelectual se distribuirán de conformidad con el Estatuto de Propiedad Intelectual de la Universidad (Resolución Rectoral 49544 de 2022) y los acuerdos internos del grupo.
+
+### d. Gestión de equipos y otros bienes
+Los equipos de laboratorio, mobiliario, computadores y demás bienes adquiridos con recursos de proyectos ejecutados por el grupo forman parte del patrimonio de la Universidad de Antioquia y estarán inventariados bajo la responsabilidad de la unidad académica correspondiente.
+
+---
+
+## 3. VIGENCIA DEL RECONOCIMIENTO DE LOS GRUPOS DE INVESTIGACIÓN
+
+### a. Vigencia del grupo
+Se considera que un grupo de investigación se encuentra en estado **activo** cuando cumple con las características de conformación y producción establecidas en el Capítulo 1 del presente documento.
+
+### b. Inactivación de un grupo
+Un grupo de investigación **sale del SIIU si luego de cinco (5) años consecutivos no ha generado productos** de generación de nuevo conocimiento, desarrollo tecnológico e innovación, apropiación social de conocimiento, divulgación pública de la ciencia y formación de recurso humano, **ni ejecutado proyectos**.
+
+- La Vicerrectoría de Investigación revisará periódicamente la actividad e inactividad de los grupos para la respectiva exclusión de los procesos de investigación.
+- Los centros de investigación deberán informar a la Vicerrectoría en el momento que un grupo entre en estado de inactividad, se disuelva o se fusione.
+- Los grupos inactivos en el SIIU **deberán entregar a la unidad académica adscrita la infraestructura física asignada, los equipos inventariados y los activos intangibles**.
+
+### c. Reactivación de un grupo
+Un grupo de investigación registrado como inactivo podrá solicitar su reactivación en el SIIU, siempre que demuestre **haber generado, en los últimos cinco (5) años, al menos un producto** de cualquiera de las tipologías reconocidas o ejecutado proyectos, debidamente registrados en GrupLAC y en las plataformas institucionales.
+
+El grupo solicitará su reactivación a la Vicerrectoría de Investigación, a través del centro de investigación o quien haga sus veces.
 
 
 ------------------------------------------------------------
@@ -19158,6 +20586,7 @@ Presidente del CSU
 **ANA LUCÍA HERRERA GÓMEZ**  
 Secretaria General
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: LEG-AS-083-1996.md
 *Ruta canónica original: `archivo_maestro/legalidad/LEG-AS-083-1996.md`*
@@ -19358,6 +20787,7 @@ Presidente
 **LUIS FERNANDO MEJÍA VÉLEZ**  
 Secretario
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: LEG-AS-086-1996.md
 *Ruta canónica original: `archivo_maestro/legalidad/LEG-AS-086-1996.md`*
@@ -19399,6 +20829,7 @@ Presidente
 
 **LUIS FERNANDO MEJÍA VÉLEZ**  
 Secretario
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: LEG-AS-121-1997.md
@@ -19655,6 +21086,7 @@ Secretario
 - **RR 23743/2007, RR 24913/2007:** Gestión y provisión de cartera.
 - **AS 352/2008, RR 25874/2008, AS 381/2010:** Distribución y acceso a recursos por Devolución del IVA.
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: LEG-AS-124-1997.md
 *Ruta canónica original: `archivo_maestro/legalidad/LEG-AS-124-1997.md`*
@@ -19880,6 +21312,7 @@ Presidente
 **LUIS FERNANDO MEJÍA VÉLEZ**  
 Secretario
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: LEG-AS-204-2001.md
 *Ruta canónica original: `archivo_maestro/legalidad/LEG-AS-204-2001.md`*
@@ -20059,6 +21492,7 @@ Presidente
 **MARTA NORA PALACIO ESCOBAR**  
 Secretaria
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: LEG-AS-253-2003.md
 *Ruta canónica original: `archivo_maestro/legalidad/LEG-AS-253-2003.md`*
@@ -20200,6 +21634,7 @@ Presidente
 **LUIS FERNANDO RESTREPO ARAMBURO**  
 Secretario
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: LEG-AS-284-2004.md
 *Ruta canónica original: `archivo_maestro/legalidad/LEG-AS-284-2004.md`*
@@ -20295,6 +21730,7 @@ Presidente
 
 **ANA LUCÍA HERRERA GÓMEZ**  
 Secretaria
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: LEG-AS-350-2007.md
@@ -20416,6 +21852,7 @@ Presidente
 
 **ANA LUCÍA HERRERA GÓMEZ**  
 Secretaria
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: LEG-AS-418-2014.md
@@ -20549,6 +21986,7 @@ Presidenta
 
 **LUQUEGI GIL NEIRA**  
 Secretario
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: LEG-AS-419-2014.md
@@ -20695,6 +22133,7 @@ Presidente
 **LUQUEGI GIL NEIRA**  
 Secretario
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: LEG-AS-451-2018.md
 *Ruta canónica original: `archivo_maestro/legalidad/LEG-AS-451-2018.md`*
@@ -20772,6 +22211,7 @@ Presidente
 
 **CLEMENCIA URIBE RESTREPO**  
 Secretaria General
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: LEG-AS-466-2020.md
@@ -20932,6 +22372,7 @@ Presidenta
 **CLEMENCIA URIBE RESTREPO**  
 Secretaria General
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: LEG-DJ-MA-02.md
 *Ruta canónica original: `archivo_maestro/legalidad/LEG-DJ-MA-02.md`*
@@ -21039,6 +22480,7 @@ Yesica Velásquez O. (Profesional Especializada)
 **Revisó:** Julio César García Castrillón (Profesional Especializado Arquitectura de Procesos)  
 **Aprobó:** José Agustín Vélez Upegui (Director Jurídico)
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: LEG-LEY-1838-2017.md
 *Ruta canónica original: `archivo_maestro/legalidad/LEG-LEY-1838-2017.md`*
@@ -21108,6 +22550,7 @@ La Ministra de Educación Nacional
 
 **CESAR AUGUSTO OCAMPO RODRÍGUEZ**  
 El Director del Departamento Administrativo de Ciencia, Tecnología y Deporte
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: LEG-RR-00968-2026.md
@@ -21215,6 +22658,7 @@ Rector
 
 **LINA CLAUDIA ADARVE CALLE**  
 Secretaria General
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: LEG-RR-21231-2005.md
@@ -21340,6 +22784,7 @@ Rector
 
 **ANA LUCÍA HERRERA GÓMEZ**  
 Secretaria General
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: LEG-RR-39475-2014.md
@@ -21512,6 +22957,7 @@ Rector
 **LUQUEGI GIL NEIRA**  
 Secretario General
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: LEG-RR-39477-2014.md
 *Ruta canónica original: `archivo_maestro/legalidad/LEG-RR-39477-2014.md`*
@@ -21600,6 +23046,7 @@ El Referente Ético se elabora para promover una cultura ética en las actuacion
 - **RESPETO:** Entender la individualidad, considerando la importancia del pensamiento del otro, sin sobreponer el nuestro.
 - **SOLIDARIDAD:** Brindar cooperación y apoyo incondicional al otro ante la adversidad.
 - **LEALTAD:** Sostener convicciones y acuerdos establecidos en una relación ética.
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: LEG-RR-49544-2022.md
@@ -21720,6 +23167,7 @@ Rector
 **WILLIAM FREDY PÉREZ TORO**  
 Secretario General
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: LEG-RR-51525-2024.md
 *Ruta canónica original: `archivo_maestro/legalidad/LEG-RR-51525-2024.md`*
@@ -21814,8 +23262,9 @@ Rector
 **DAVID HERNÁNDEZ GARCÍA**  
 Secretario General
 
+
 ================================================================================
-# 10. TÉRMINOS LEGALES Y CUMPLIMIENTO
+# 10. TÉRMINOS LEGALES, POLÍTICAS Y CUMPLIMIENTO
 ================================================================================
 
 
@@ -21858,6 +23307,70 @@ Secretario General
 - Catálogo de 31 documentos: [Catálogo Normativo](../04_GLOSARIO_Y_CONCEPTOS/Catalogo_Normativo_31_Docs.md)
 - Textos fieles: `docs/archivo_maestro/legalidad/LEG-*.md` (21 archivos)
 
+
+------------------------------------------------------------
+## [DOCUMENTO]: politicas-y-aclaraciones.md
+*Ruta canónica original: `docs/legal/politicas-y-aclaraciones.md`*
+------------------------------------------------------------
+
+# Políticas de Uso y Aclaraciones de No Oficialidad
+
+!!! warning "Aviso importante de no oficialidad"
+    **Este sitio web es una guía independiente, académica y comunitaria.**  
+    **NO** es una página oficial de la Universidad de Antioquia (UdeA), ni de la Vicerrectoría de Investigación, ni de la Vicerrectoría de Extensión. Su único propósito es pedagógico, formativo y de consulta rápida para investigadores, docentes, estudiantes y personal administrativo.
+
+---
+
+## 1. Naturaleza y Propósito del Proyecto
+
+La **Wiki SIIU** es una base de conocimiento estructurada de forma independiente por miembros de la comunidad universitaria. Surge con la intención de organizar, sintetizar y hacer más accesible el aprendizaje sobre el funcionamiento operativo del **Sistema de Información para la Investigación Universitaria (SIIU)**, recopilando manuales públicos, instructivos paso a paso y síntesis normativas institucionales.
+
+- **Carácter del contenido:** Informativo, ilustrativo, didáctico y de divulgación académica.
+- **Acceso:** Libre, abierto y gratuito para toda la comunidad académica y el público en general.
+- **Sin afiliación directa:** Este proyecto no representa la posición oficial de los órganos directivos, comités estatutarios ni dependencias administrativas de la Universidad de Antioquia.
+
+---
+
+## 2. Deslinde de Responsabilidad (Disclaimer Legal)
+
+1. **Inexistencia de facultades administrativas:** Esta plataforma **no tiene potestad** para radicar proyectos, avalar propuestas, expedir certificaciones, autorizar desembolsos, aprobar prórrogas ni gestionar novedades contractuales o financieras. Todo trámite legal o administrativo debe ejecutarse indefectiblemente en las plataformas oficiales de la Universidad (como el portal web institucional y los módulos autenticados del SIIU y MARES).
+2. **Prevalencia de los actos oficiales:** En caso de discrepancia, contradicción o actualización entre los contenidos explicativos de esta wiki y los reglamentos vigentes, prevalecerán siempre y en todo momento:
+   - Los **Acuerdos del Consejo Superior Universitario**.
+   - Los **Acuerdos del Consejo Académico**.
+   - Las **Resoluciones Rectorales** y resoluciones de Vicerrectorías o Decanaturas.
+   - Las **Circulares y Términos de Referencia** de cada convocatoria formalmente publicada por la Universidad de Antioquia en sus canales oficiales.
+3. **Exención de responsabilidad por decisiones operativas:** Los autores y colaboradores de esta wiki no asumen responsabilidad civil, administrativa o disciplinaria por errores de interpretación, plazos vencidos, postulaciones no radicadas a tiempo o inconsistencias derivadas del uso de la información aquí expuesta. Es deber de cada investigador y usuario validar las fechas y requisitos en la convocatoria oficial respectiva.
+
+---
+
+## 3. Propiedad Intelectual, Marcas y Signos Distintivos
+
+- **Titularidad institucional:** Los nombres *"Universidad de Antioquia"*, *"UdeA"*, *"SIIU"*, *"CODI"*, así como los logotipos institucionales, escudos, tipografías corporativas y manuales originales son propiedad exclusiva y patrimonio de la **Universidad de Antioquia**.
+- **Uso con fines referenciales y educativos:** La mención de marcas, emblemas y la adaptación de diagramas o capturas de pantalla de los sistemas universitarios se realiza al amparo del **derecho de cita, divulgación cultural y fines exclusivamente académicos y no comerciales** (conforme a la Decisión Andina 351 de 1993 y la Ley 23 de 1982 de la República de Colombia).
+- **Código abierto de la plataforma:** La arquitectura técnica de esta wiki (plantillas, hojas de estilo CSS y scripts de automatización) se distribuye bajo licencias de código abierto con fines de estudio e investigación en el repositorio público de GitHub.
+
+---
+
+## 4. Políticas de Uso Aceptable y Buenas Prácticas
+
+Al consultar y utilizar esta wiki, el usuario se compromete a:
+
+1. **Gestión segura de credenciales:** No ingresar contraseñas, tokens de autenticación ni datos sensibles institucionales en formularios que no pertenezcan al dominio oficial `*.udea.edu.co`. Esta wiki es un sitio estático de lectura y nunca solicitará credenciales personales.
+2. **Uso ético de la información:** Respetar los derechos de autor al citar material de esta plataforma e incentivar el cumplimiento riguroso de los comités de ética (humanos, animales, bioseguridad) y normativas de conflicto de interés institucional.
+3. **Colaboración y reporte de inconsistencias:** Cualquier error tipográfico, enlace desactualizado o sugerencia de mejora puede ser reportado de manera constructiva a través de los canales de contribución comunitaria del repositorio en GitHub.
+
+---
+
+## 5. Canales Institucionales Oficiales
+
+Para trámites vinculantes, consultas directas y radicación de solicitudes formales, dirígete exclusivamente a los canales institucionales de la Universidad:
+
+- **Portal Institucional UdeA:** [https://www.udea.edu.co/](https://www.udea.edu.co/)
+- **Vicerrectoría de Investigación:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion)
+- **Vicerrectoría de Extensión:** [https://www.udea.edu.co/wps/portal/udea/web/inicio/extension](https://www.udea.edu.co/wps/portal/udea/web/inicio/extension)
+- **Acceso Autenticado al SIIU:** A través del Portal Universitario UdeA con usuario y contraseña institucional.
+
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: terminos.md
 *Ruta canónica original: `docs/legal/terminos.md`*
@@ -21888,6 +23401,7 @@ Secretario General
 - Textos fieles: `docs/archivo_maestro/legalidad/` (21 normas).
 - Síntesis didácticas: [Marco Normativo](../05_MARCO_NORMATIVO/AS_01_1994_Estatuto_General.md) y [MOC Marco Normativo](../00_INICIO_Y_MOCS/MOC_Marco_Normativo.md).
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: privacidad.md
 *Ruta canónica original: `docs/legal/privacidad.md`*
@@ -21916,6 +23430,7 @@ Secretario General
 
 Ver también: [Cookies](cookies.md) (sesión y guardado) y [Reportes y Certificaciones](../02_PROCESOS_CLAVE/Reportes_y_Certificaciones.md).
 
+
 ------------------------------------------------------------
 ## [DOCUMENTO]: licencias.md
 *Ruta canónica original: `docs/legal/licencias.md`*
@@ -21940,6 +23455,7 @@ Ver también: [Cookies](cookies.md) (sesión y guardado) y [Reportes y Certifica
 - Guía: *VI-GU-24 (texto fiel VI-GU-24.md)*
 
 Ver catálogo: [Catálogo Normativo](../04_GLOSARIO_Y_CONCEPTOS/Catalogo_Normativo_31_Docs.md).
+
 
 ------------------------------------------------------------
 ## [DOCUMENTO]: cookies.md
